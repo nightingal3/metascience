@@ -6,6 +6,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
+import seaborn
 from sklearn.manifold import TSNE
 
 
@@ -25,15 +26,26 @@ def select_subset(vecs_filepath: str, labels_filepath: str, out_vec_filepath: st
                 labels_writer.writerow(label_row)
 
 
-def plot_tsne(vecs: np.ndarray) -> None:
+def plot_tsne(vecs: np.ndarray, years: np.ndarray, out_filename: str = "papers_tsne") -> None:
     # Hyperparams determined through some trial and error in embedding projector...
-    tsne = TSNE(n_components=300, perplexity=5, learning_rate=20, n_iter=10000, n_iter_without_progress=500)
+    tsne = TSNE(n_components=2, perplexity=10, learning_rate=10, n_iter=10000, n_iter_without_progress=500)
     tsne_res = tsne.fit_transform(vecs)
 
+    years = years.astype(np.int64)
+    seaborn.scatterplot(tsne_res[:, 0], tsne_res[:, 1], hue=years, hue_norm=matplotlib.colors.Normalize(vmin=min(years), vmax=max(years)))
+
+    plt.savefig(out_filename + ".png")
+    plt.savefig(out_filename + ".eps")
+
+
 if __name__ == "__main__":
-    select_subset(
+    """select_subset(
         "hinton_paper_vectors.csv",
         "hinton_papers.csv",
         "hinton_vecs_selected.csv",
         "hinton_titles_selected.csv",
-        lambda s: len(s.split(" ")) <= 7)
+        lambda s: len(s.split(" ")) <= 7)"""
+    data = np.genfromtxt("./data/hinton_vecs.tsv", delimiter="\t")
+    years = np.genfromtxt("./data/hinton_papers.tsv", delimiter="\t", skip_header=1, usecols=(0))
+    print(data, years)
+    plot_tsne(data, years)
