@@ -8,6 +8,7 @@ def rank_by_date(in_filename: str, out_filename: str = "../../data/ordered_by_da
         df = read_csv(in_filename)
         all_years = sorted(df.groupby(df.columns[0]).groups.keys())
         timesteps = {all_years[i]: i for i in range(len(all_years))}
+        print(timesteps)
         df = df.replace(timesteps)
         df.to_csv(out_filename, index=False)
 
