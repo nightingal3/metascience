@@ -112,6 +112,7 @@ def get_emergence_order(emergence_filename: str) -> dict:
 
 
 def get_random(emerged: List, unemerged: List) -> List:
+    random.seed()
     random.shuffle(unemerged)
     return unemerged
 
@@ -151,11 +152,12 @@ def predict_seq(
 
         for paper_vec in curr_papers:
             predicted_order = ranking_func(last_papers, available_papers)
-            rank_err += error_func(predicted_order, next_papers)
+            prediction_error = error_func(predicted_order, next_papers)
+            rank_err += prediction_error
            
             random_order = get_random(last_papers, available_papers)
             random_rank_err = error_func(random_order, next_papers)
-            rank_diff_per_timestep.append(random_rank_err - rank_err)
+            rank_diff_per_timestep.append(random_rank_err - prediction_error)
 
         rank_err = rank_err / len(
             curr_papers
@@ -192,7 +194,7 @@ def get_rank_score_worst(predicted: np.ndarray, actual: List) -> int:
 
 
 # Returns (p value, upper 95% confidence interval, lower confidence interval)
-def shuffle_test(n_iter: int, target_val: int, emergence_order: dict) -> tuple:
+def shuffle_test(n_iter: int, target_val: int, emergence_order: dict, return_raw_counts: bool = False) -> tuple:
     higher = 0
     lower = 0
     cumulative_rank_diffs = []
@@ -207,6 +209,7 @@ def shuffle_test(n_iter: int, target_val: int, emergence_order: dict) -> tuple:
         rand_val, rank_diff_at_timestep = predict_seq(
             attested_order, emergence_order, get_random, get_rank_score_avg
         )
+       
         cumulative_rank_diffs.append(rand_val - target_val)
 
         if trial_timestep_rank_diff == None:
@@ -225,13 +228,16 @@ def shuffle_test(n_iter: int, target_val: int, emergence_order: dict) -> tuple:
     upper_conf_interval, lower_conf_interval = sms.DescrStatsW(
         cumulative_rank_diffs
     ).tconfint_mean()
-    return (
-        float(lower) / n_iter,
-        avg_rank_diff,
-        upper_conf_interval,
-        lower_conf_interval,
-        avg_rank_diff_timesteps
-    )
+    if return_raw_counts:
+        return [lower, higher]
+    else:
+        return (
+            float(lower) / n_iter,
+            avg_rank_diff,
+            upper_conf_interval,
+            lower_conf_interval,
+            avg_rank_diff_timesteps
+        )
 
 
 if __name__ == "__main__":
