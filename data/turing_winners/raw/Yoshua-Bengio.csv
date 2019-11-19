@@ -1,0 +1,688 @@
+2019,Equivalence of Equilibrium Propagation and Recurrent Backpropagation.
+2019,Gated Orthogonal Recurrent Units: On Learning to Forget.
+2019,Depth with nonlinearity creates no bad local minima in ResNets.
+2019,Towards Non-Saturating Recurrent Units for Modelling Long-Term Dependencies.
+2019,Combined Reinforcement Learning via Abstract Representations.
+2019,Do Neural Dialog Systems Use the Conversation History Effectively? An Empirical Study.
+2019,Interpolated Adversarial Training: Achieving Robust Neural Networks Without Sacrificing Too Much Accuracy.
+2019,How Transferable Are Features in Convolutional Neural Network Acoustic Models across Languages?
+2019,A Highly Adaptive Acoustic Model for Accurate Multi-dialect Speech Recognition.
+2019,Representation Mixing for TTS Synthesis.
+2019,The Pytorch-kaldi Speech Recognition Toolkit.
+2019,BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning.
+2019,Adversarial Domain Adaptation for Stable Brain-Machine Interfaces.
+2019,Recall Traces: Backtracking Models for Efficient Reinforcement Learning.
+2019,InfoBot: Transfer and Exploration via the Information Bottleneck.
+2019,Learning deep representations by mutual information estimation and maximization.
+2019,On the Relation Between the Sharpest Directions of DNN Loss and the SGD Step Length.
+2019,h-detach: Modifying the LSTM Gradient Towards Better Optimization.
+2019,Modeling the Long Term Future in Model-Based Reinforcement Learning.
+2019,Quaternion Recurrent Neural Networks.
+2019,Probabilistic Planning with Sequential Monte Carlo methods.
+2019,An Empirical Study of Example Forgetting during Deep Neural Network Learning.
+2019,Deep Graph Infomax.
+2019,Perceptual Generative Autoencoders.
+2019,State-Reification Networks: Improving Generalization by Modeling the Distribution of Hidden Representations.
+2019,GMNN: Graph Markov Neural Networks.
+2019,On the Spectral Bias of Neural Networks.
+2019,Manifold Mixup: Better Representations by Interpolating Hidden States.
+2019,A Data-Efficient Framework for Training and Sim-to-Real Transfer of Navigation Policies.
+2019,Interpolation Consistency Training for Semi-supervised Learning.
+2019,InfoMask: Masked Variational Latent Representation to Localize Chest Disease.
+2019,The Benefits of Over-parameterization at Initialization in Deep ReLU Networks.
+2019,Maximum Entropy Generators for Energy-Based Models.
+2019,InfoBot: Transfer and Exploration via the Information Bottleneck.
+2019,A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms.
+2019,Towards Non-saturating Recurrent Units for Modelling Long-term Dependencies.
+2019,Hyperbolic Discounting and Learning over Multiple Horizons.
+2019,Learning Dynamics Model in Reinforcement Learning by Incorporating the Long Term Future.
+2019,Interpolation Consistency Training for Semi-Supervised Learning.
+2019,Online continual learning with no task boundaries.
+2019,InfoMask: Masked Variational Latent Representation to Localize Chest Disease.
+2019,Wasserstein Dependency Measure for Representation Learning.
+2019,Towards Standardization of Data Licenses: The Montreal Data License.
+2019,Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks.
+2019,Reinforced Imitation in Heterogeneous Action Space.
+2019,Speech Model Pre-training for End-to-End Spoken Language Understanding.
+2019,GradMask: Reduce Overfitting by Regularizing Saliency.
+2019,Compositional generalization in a deep seq2seq model by separating syntax and semantics.
+2019,Visualizing the Consequences of Climate Change Using Cycle-Consistent Adversarial Networks.
+2019,GMNN: Graph Markov Neural Networks.
+2019,The Journey is the Reward: Unsupervised Learning of Influential Trajectories.
+2019,N-BEATS: Neural basis expansion analysis for interpretable time series forecasting.
+2019,State-Reification Networks: Improving Generalization by Modeling the Distribution of Hidden Representations.
+2019,Non-normal Recurrent Neural Network (nnRNN): learning long time dependencies while improving expressivity with transient dynamics.
+2019,Attention Based Pruning for Shift Networks.
+2019,Updates of Equilibrium Prop Match Gradients of Backprop Through Time in an RNN with Static Input.
+2019,Do Neural Dialog Systems Use the Conversation History Effectively? An Empirical Study.
+2019,How to Initialize your Network? Robust Initialization for WeightNorm & ResNets.
+2019,Learning Powerful Policies by Using Consistent Dynamics Model.
+2019,Tackling Climate Change with Machine Learning.
+2019,Conditional Computation for Continual Learning.
+2019,Interpolated Adversarial Training: Achieving Robust Neural Networks without Sacrificing Accuracy.
+2019,Information matrices and generalization.
+2019,Unsupervised State Representation Learning in Atari.
+2019,Perceptual Generative Autoencoders.
+2019,Reinforcement Learning with Competitive Ensembles of Information-Constrained Primitives.
+2019,Learning the Arrow of Time.
+2019,Weakly-supervised Knowledge Graph Alignment with Adversarial Learning.
+2019,Learning Fixed Points in Generative Adversarial Networks: From Image-to-Image Translation to Disease Detection and Localization.
+2019,Interactive Language Learning by Question Answering.
+2019,Data-Driven Approach to Encoding and Decoding 3-D Crystal Structures.
+2019,Torchmeta: A Meta-Learning library for PyTorch.
+2019,Recurrent Independent Mechanisms.
+2019,Avoidance Learning Using Observational Reinforcement Learning.
+2019,GraphMix: Regularized Training of Graph Neural Networks for Semi-Supervised Learning.
+2019,Underwhelming Generalization Improvements From Controlling Feature Attribution.
+2019,Variational Temporal Abstraction.
+2019,Learning Neural Causal Models from Unknown Interventions.
+2019,MelGAN: Generative Adversarial Networks for Conditional Waveform Synthesis.
+2019,Predicting ice flow using machine learning.
+2019,Icentia11K: An Unsupervised Representation Learning Dataset for Arrhythmia Subtype Discovery.
+2019,Establishing an Evaluation Metric to Quantify Climate Change Image Realism.
+2019,Small-GAN: Speeding Up GAN Training Using Core-sets.
+2018,Deep convolutional networks for quality assessment of protein folds.
+2018,Fine-grained attention mechanism for neural machine translation.
+2018,Learning normalized inputs for iterative estimation in medical image segmentation.
+2018,Dynamic Neural Turing Machine with Continuous and Discrete Addressing Schemes.
+2018,Drawing and Recognizing Chinese Characters with Recurrent Neural Network.
+2018,Light Gated Recurrent Units for Speech Recognition.
+2018,Gated Orthogonal Recurrent Units: On Learning to Forget.
+2018,Neural Models for Key Phrase Extraction and Question Generation.
+2018,Straight to the Tree: Constituency Parsing with Neural Syntactic Distance.
+2018,On the Iterative Refinement of Densely Connected Representation Levels for Semantic Segmentation.
+2018,"HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering."
+2018,Width of Minima Reached by Stochastic Gradient Descent is Influenced by Learning Rate to Batch Size Ratio.
+2018,Monaural Singing Voice Separation with Skip-Filtering Connections and Recurrent Inference of Time-Frequency Mask.
+2018,Dynamic Frame Skipping for Fast Speech Recognition in Recurrent Neural Network Based Acoustic Models.
+2018,Towards End-to-end Spoken Language Understanding.
+2018,Boundary Seeking GANs.
+2018,Residual Connections Encourage Iterative Inference.
+2018,Finding Flatter Minima with SGD.
+2018,FigureQA: An Annotated Figure Dataset for Visual Reasoning.
+2018,Universal Successor Representations for Transfer Reinforcement Learning.
+2018,Extending the Framework of Equilibrium Propagation to General Dynamics.
+2018,Twin Networks: Matching the Future for Sequence Generation.
+2018,ChatPainter: Improving Text to Image Generation using Dialogue.
+2018,Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning.
+2018,Deep Complex Networks.
+2018,Graph Attention Networks.
+2018,Fraternal Dropout.
+2018,Mutual Information Neural Estimation.
+2018,Focused Hierarchical RNNs for Conditional Sequence Processing.
+2018,MaD TwinNet: Masker-Denoiser Architecture with Twin Networks for Monaural Sound Source Separation.
+2018,Quaternion Convolutional Neural Networks for End-to-End Automatic Speech Recognition.
+2018,Twin Regularization for Online Speech Recognition.
+2018,Image-to-image translation for cross-domain disentanglement.
+2018,MetaGAN: An Adversarial Approach to Few-Shot Learning.
+2018,Bayesian Model-Agnostic Meta-Learning.
+2018,Sparse Attentive Backtracking: Temporal Credit Assignment Through Reminding.
+2018,Dendritic cortical microcircuits approximate the backpropagation algorithm.
+2018,Learning Hierarchical Structures On-The-Fly with a Recurrent-Recursive Model for Sequences.
+2018,Speaker Recognition from Raw Waveform with SincNet.
+2018,Dendritic error backpropagation in deep cortical microcircuits.
+2018,ObamaNet: Photo-realistic lip-sync from text.
+2018,A3T: Adversarially Augmented Adversarial Training.
+2018,A Deep Reinforcement Learning Chatbot (Short Version).
+2018,MaD TwinNet: Masker-Denoiser Architecture with Twin Networks for Monaural Sound Source Separation.
+2018,Generalization in Machine Learning via Analytical Learning Theory.
+2018,ChatPainter: Improving Text to Image Generation using Dialogue.
+2018,Towards end-to-end spoken language understanding.
+2018,A Walk with SGD.
+2018,Learning Anonymized Representations with Adversarial Neural Networks.
+2018,Disentangling the independently controllable factors of variation by interacting with the world.
+2018,Light Gated Recurrent Units for Speech Recognition.
+2018,Fine-Grained Attention Mechanism for Neural Machine Translation.
+2018,Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning.
+2018,Recall Traces: Backtracking Models for Efficient Reinforcement Learning.
+2018,Fortified Networks: Improving the Robustness of Deep Networks by Modeling the Manifold of Hidden Representations.
+2018,Universal Successor Representations for Transfer Reinforcement Learning.
+2018,Twin Regularization for online speech recognition.
+2018,Commonsense mining as knowledge base completion? A study on the impact of novelty.
+2018,Low-memory convolutional neural networks through incremental depth-first processing.
+2018,On the iterative refinement of densely connected representation levels for semantic segmentation.
+2018,Image-to-image translation for cross-domain disentanglement.
+2018,Learning to rank for censored survival data.
+2018,Bayesian Model-Agnostic Meta-Learning.
+2018,Straight to the Tree: Constituency Parsing with Neural Syntactic Distance.
+2018,Focused Hierarchical RNNs for Conditional Sequence Processing.
+2018,Quaternion Recurrent Neural Networks.
+2018,Manifold Mixup: Encouraging Meaningful On-Manifold Interpolation as a Regularizer.
+2018,Modularity Matters: Learning Invariant Relational Reasoning Tasks.
+2018,Towards Gene Expression Convolutions using Gene Interaction Graphs.
+2018,Quaternion Convolutional Neural Networks for End-to-End Automatic Speech Recognition.
+2018,On the Spectral Bias of Deep Neural Networks.
+2018,The Bottleneck Simulator: A Model-based Deep Reinforcement Learning Approach.
+2018,DNN's Sharpest Directions Along the SGD Trajectory.
+2018,Predicting Solution Summaries to Integer Linear Programs under Imperfect Information with Machine Learning.
+2018,Speaker Recognition from raw waveform with SincNet.
+2018,Generalization of Equilibrium Propagation to Vector Field Dynamics.
+2018,Learning deep representations by mutual information estimation and maximization.
+2018,Sparse Attentive Backtracking: Temporal CreditAssignment Through Reminding.
+2018,Combined Reinforcement Learning via Abstract Representations.
+2018,On the Learning Dynamics of Deep Neural Networks.
+2018,"HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering."
+2018,Deep Graph Infomax.
+2018,Adversarial Domain Adaptation for Stable Brain-Machine Interfaces.
+2018,h-detach: Modifying the LSTM Gradient Towards Better Optimization.
+2018,Towards the Latent Transcriptome.
+2018,A Data-Efficient Framework for Training and Sim-to-Real Transfer of Navigation Policies.
+2018,BabyAI: First Steps Towards Grounded Language Learning With a Human In the Loop.
+2018,How can deep learning advance computational modeling of sensory information processing?
+2018,Depth with Nonlinearity Creates No Bad Local Minima in ResNets.
+2018,Dendritic cortical microcircuits approximate the backpropagation algorithm.
+2018,Machine Learning for Combinatorial Optimization: a Methodological Tour d'Horizon.
+2018,On Training Recurrent Neural Networks for Lifelong Learning.
+2018,Representation Mixing for TTS Synthesis.
+2018,The PyTorch-Kaldi Speech Recognition Toolkit.
+2018,Interpretable Convolutional Filters with SincNet.
+2018,DEFactor: Differentiable Edge Factorization-based Probabilistic Graph Generation.
+2018,Keep Drawing It: Iterative language-based image generation and editing.
+2018,Learning Speaker Representations with Mutual Information.
+2018,The effects of negative adaptation in Model-Agnostic Meta-Learning.
+2018,An Empirical Study of Example Forgetting during Deep Neural Network Learning.
+2018,Speech and Speaker Recognition from Raw Waveform with SincNet.
+2018,Quantized Guided Pruning for Efficient Hardware Implementations of Convolutional Neural Networks.
+2017,On integrating a language model into neural machine translation.
+2017,Context-dependent word representation for neural machine translation.
+2017,"Multi-way, multilingual neural machine translation."
+2017,Equilibrium Propagation: Bridging the Gap between Energy-Based Models and Backpropagation.
+2017,Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations.
+2017,Brain tumor segmentation with Deep Neural Networks.
+2017,The representational geometry of word meanings acquired by neural machine translation models.
+2017,STDP-Compatible Approximation of Backpropagation in an Energy-Based Model.
+2017,Online and offline handwritten Chinese character recognition: A comprehensive study and new benchmark.
+2017,End-to-End Online Writer Identification With Recurrent Neural Network.
+2017,Denoising Criterion for Variational Auto-Encoding Framework.
+2017,Multiresolution Recurrent Neural Networks: An Application to Dialogue Response Generation.
+2017,A Hierarchical Latent Variable Encoder-Decoder Model for Generating Dialogues.
+2017,Towards an Automatic Turing Test: Learning to Evaluate Dialogue Responses.
+2017,The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation.
+2017,Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space.
+2017,On random weights for texture generation in one layer CNNS.
+2017,A network of deep neural networks for Distant Speech Recognition.
+2017,Count-ception: Counting by Fully Convolutional Redundant Counting.
+2017,Understanding intermediate layers using linear classifier probes.
+2017,An Actor-Critic Algorithm for Sequence Prediction.
+2017,Mode Regularized Generative Adversarial Networks.
+2017,Hierarchical Multiscale Recurrent Neural Networks.
+2017,Mollifying Networks.
+2017,Zoneout: Regularizing RNNs by Randomly Preserving Hidden Activations.
+2017,A Structured Self-Attentive Sentence Embedding.
+2017,Towards an automatic Turing test: Learning to evaluate dialogue responses.
+2017,SampleRNN: An Unconditional End-to-End Neural Audio Generation Model.
+2017,Generalizable Features From Unsupervised Learning.
+2017,Diet Networks: Thin Parameters for Fat Genomics.
+2017,Char2Wav: End-to-End Speech Synthesis.
+2017,Improving Generative Adversarial Networks with Denoising Feature Matching.
+2017,A Closer Look at Memorization in Deep Networks.
+2017,Sharp Minima Can Generalize For Deep Nets.
+2017,A robust adaptive stochastic gradient method for deep learning.
+2017,Improving Speech Recognition by Revising Gated Recurrent Units.
+2017,Dynamic Layer Normalization for Adaptive Neural Acoustic Modeling in Speech Recognition.
+2017,Towards more hardware-friendly deep learning.
+2017,Variational Walkback: Learning a Transition Operator as a Stochastic Recurrent Net.
+2017,GibbsNet: Iterative Adversarial Inference for Deep Graphical Models.
+2017,"Plan, Attend, Generate: Planning for Sequence-to-Sequence Models."
+2017,Z-Forcing: Training Stochastic Recurrent Networks.
+2017,"Plan, Attend, Generate: Character-Level Neural Machine Translation with Planning."
+2017,Towards End-to-End Speech Recognition with Deep Convolutional Neural Networks.
+2017,Memory Augmented Neural Networks with Wormhole Connections.
+2017,Learning Normalized Inputs for Iterative Estimation in Medical Image Segmentation.
+2017,Maximum-Likelihood Augmented Discrete Generative Adversarial Networks.
+2017,Boundary-Seeking Generative Adversarial Networks.
+2017,A Robust Adaptive Stochastic Gradient Method for Deep Learning.
+2017,A Structured Self-attentive Sentence Embedding.
+2017,Sharp Minima Can Generalize For Deep Nets.
+2017,Independently Controllable Features.
+2017,A network of deep neural networks for distant speech recognition.
+2017,Batch-normalized joint training for DNN-based distant speech recognition.
+2017,Count-ception: Counting by Fully Convolutional Redundant Counting.
+2017,Image Segmentation by Iterative Inference from Conditional Score Estimation.
+2017,Deep Complex Networks.
+2017,Deep Learning for Patient-Specific Kidney Graft Survival Analysis.
+2017,Learning to Compute Word Embeddings On the Fly.
+2017,Gated Orthogonal Recurrent Units: On Learning to Forget.
+2017,"Plan, Attend, Generate: Character-level Neural Machine Translation with Planning in the Decoder."
+2017,A Closer Look at Memorization in Deep Networks.
+2017,Multiscale sequence modeling with a learned dictionary.
+2017,Dynamic Layer Normalization for Adaptive Neural Acoustic Modeling in Speech Recognition.
+2017,Independently Controllable Factors.
+2017,Twin Networks: Using the Future as a Regularizer.
+2017,Towards an Automatic Turing Test: Learning to Evaluate Dialogue Responses.
+2017,A Deep Reinforcement Learning Chatbot.
+2017,The Consciousness Prior.
+2017,Improving speech recognition by revising gated recurrent units.
+2017,Residual Connections Encourage Iterative Inference.
+2017,Generalization in Deep Learning.
+2017,FigureQA: An Annotated Figure Dataset for Visual Reasoning.
+2017,Graph Attention Networks.
+2017,Fraternal Dropout.
+2017,Monaural Singing Voice Separation with Skip-Filtering Connections and Recurrent Inference of Time-Frequency Mask.
+2017,Variational Walkback: Learning a Transition Operator as a Stochastic Recurrent Net.
+2017,Sparse Attentive Backtracking: Long-Range Credit Assignment in Recurrent Networks.
+2017,Three Factors Influencing Minima in SGD.
+2017,ACtuAL: Actor-Critic Under Adversarial Learning.
+2017,Z-Forcing: Training Stochastic Recurrent Networks.
+2017,Variational Bi-LSTMs.
+2017,Equivalence of Equilibrium Propagation and Recurrent Backpropagation.
+2017,"Plan, Attend, Generate: Planning for Sequence-to-Sequence Models."
+2017,Measuring the tendency of CNNs to Learn Surface Statistical Regularities.
+2017,GibbsNet: Iterative Adversarial Inference for Deep Graphical Models.
+2016,Deep Learning.
+2016,Knowledge Matters: Importance of Prior Information for Optimization.
+2016,EmoNets: Multimodal deep learning approaches for emotion recognition in video.
+2016,Big Data: Theoretical Aspects [Scanning the Issue].
+2016,Learning to Understand Phrases by Embedding the Dictionary.
+2016,Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models.
+2016,A Character-level Decoder without Explicit Segmentation for Neural Machine Translation.
+2016,Pointing the Unknown Words.
+2016,Generating Factoid Questions With Recurrent Neural Networks: The 30M Factoid Question-Answer Corpus.
+2016,Oracle Performance for Visual Captioning.
+2016,ReSeg: A Recurrent Neural Network-Based Model for Semantic Segmentation.
+2016,Batch normalized recurrent neural networks.
+2016,End-to-end attention-based large vocabulary speech recognition.
+2016,Unitary Evolution Recurrent Neural Networks.
+2016,Deconstructing the Ladder Network Architecture.
+2016,Bidirectional Helmholtz Machines.
+2016,Noisy Activation Functions.
+2016,Towards End-to-End Speech Recognition with Deep Convolutional Neural Networks.
+2016,HeMIS: Hetero-Modal Image Segmentation.
+2016,"Multi-Way, Multilingual Neural Machine Translation with a Shared Attention Mechanism."
+2016,Architectural Complexity Measures of Recurrent Neural Networks.
+2016,On Multiplicative Integration with Recurrent Neural Networks.
+2016,Binarized Neural Networks.
+2016,Professor Forcing: A New Algorithm for Training Recurrent Networks.
+2016,Batch-normalized joint training for DNN-based distant speech recognition.
+2016,NYU-MILA Neural Machine Translation Systems for WMT'16.
+2016,Neural Networks with Few Multiplications.
+2016,"4th International Conference on Learning Representations, ICLR 2016, San Juan, Puerto Rico, May 2-4, 2016, Conference Track Proceedings."
+2016,"Multi-Way, Multilingual Neural Machine Translation with a Shared Attention Mechanism."
+2016,BinaryNet: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1.
+2016,Towards a Biologically Plausible Backprop.
+2016,Architectural Complexity Measures of Recurrent Neural Networks.
+2016,Noisy Activation Functions.
+2016,A Character-level Decoder without Explicit Segmentation for Neural Machine Translation.
+2016,Generating Factoid Questions With Recurrent Neural Networks: The 30M Factoid Question-Answer Corpus.
+2016,Pointing the Unknown Words.
+2016,Theano: A Python framework for fast computation of mathematical expressions.
+2016,A Hierarchical Latent Variable Encoder-Decoder Model for Generating Dialogues.
+2016,Hierarchical Memory Networks.
+2016,Multiresolution Recurrent Neural Networks: An Application to Dialogue Response Generation.
+2016,Zoneout: Regularizing RNNs by Randomly Preserving Hidden Activations.
+2016,Feedforward Initialization for Fast Inference of Deep Generative Networks is biologically plausible.
+2016,Iterative Alternating Neural Attention for Machine Reading.
+2016,Deep Directed Generative Models with Energy-Based Probability Estimation.
+2016,Online and Offline Handwritten Chinese Character Recognition: A Comprehensive Study and New Benchmark.
+2016,Drawing and Recognizing Chinese Characters with Recurrent Neural Network.
+2016,On Multiplicative Integration with Recurrent Neural Networks.
+2016,Dynamic Neural Turing Machine with Soft and Hard Addressing Schemes.
+2016,Context-Dependent Word Representation for Neural Machine Translation.
+2016,HeMIS: Hetero-Modal Image Segmentation.
+2016,An Actor-Critic Algorithm for Sequence Prediction.
+2016,A Neural Knowledge Language Model.
+2016,Mollifying Networks.
+2016,Recurrent Neural Networks With Limited Numerical Precision.
+2016,Hierarchical Multiscale Recurrent Neural Networks.
+2016,Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations.
+2016,Understanding intermediate layers using linear classifier probes.
+2016,Professor Forcing: A New Algorithm for Training Recurrent Networks.
+2016,Recurrent Neural Networks With Limited Numerical Precision.
+2016,The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation.
+2016,Diet Networks: Thin Parameters for Fat Genomic.
+2016,Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space.
+2016,Invariant Representations for Noisy Speech Recognition.
+2016,Mode Regularized Generative Adversarial Networks.
+2016,Generalizable Features From Unsupervised Learning.
+2016,On Random Weights for Texture Generation in One Layer Neural Networks.
+2016,SampleRNN: An Unconditional End-to-End Neural Audio Generation Model.
+2015,Deep learning.
+2015,Editorial introduction to the Neural Networks special issue on Deep Learning of Representations.
+2015,Challenges in representation learning: A report on three machine learning contests.
+2015,Using Recurrent Neural Networks for Slot Filling in Spoken Language Understanding.
+2015,Describing Multimedia Content Using Attention-Based Encoder-Decoder Networks.
+2015,On Using Very Large Target Vocabulary for Neural Machine Translation.
+2015,IAPR keynote lecture IV: Deep learning.
+2015,A Hierarchical Recurrent Encoder-Decoder for Generative Context-Aware Query Suggestion.
+2015,BilBOWA: Fast Bilingual Distributed Representations without Word Alignments.
+2015,"Show, Attend and Tell: Neural Image Caption Generation with Visual Attention."
+2015,Gated Feedback Recurrent Neural Networks.
+2015,Attention-Based Models for Speech Recognition.
+2015,Equilibrated adaptive learning rates for non-convex optimization.
+2015,A Recurrent Latent Variable Model for Sequential Data.
+2015,BinaryConnect: Training Deep Neural Networks with binary weights during propagations.
+2015,Artificial Neural Networks Applied to Taxi Destination Prediction.
+2015,Difference Target Propagation.
+2015,Montreal Neural Machine Translation Systems for WMT'15.
+2015,Neural Machine Translation by Jointly Learning to Align and Translate.
+2015,Reweighted Wake-Sleep.
+2015,Low precision arithmetic for deep learning.
+2015,NICE: Non-linear Independent Components Estimation.
+2015,Embedding Word Similarity with Neural Machine Translation.
+2015,Target Propagation.
+2015,Ensemble of Generative and Discriminative Techniques for Sentiment Analysis of Movie Reviews.
+2015,FitNets: Hints for Thin Deep Nets.
+2015,"3rd International Conference on Learning Representations, ICLR 2015, San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings."
+2015,"3rd International Conference on Learning Representations, ICLR 2015, San Diego, CA, USA, May 7-9, 2015, Workshop Track Proceedings."
+2015,Gated Feedback Recurrent Neural Networks.
+2015,"Show, Attend and Tell: Neural Image Caption Generation with Visual Attention."
+2015,Towards Biologically Plausible Deep Learning.
+2015,RMSProp and equilibrated adaptive learning rates for non-convex optimization.
+2015,EmoNets: Multimodal deep learning approaches for emotion recognition in video.
+2015,On Using Monolingual Corpora in Neural Machine Translation.
+2015,GSNs : Generative Stochastic Networks.
+2015,Learning to Understand Phrases by Embedding the Dictionary.
+2015,ReNet: A Recurrent Neural Network Based Alternative to Convolutional Networks.
+2015,Brain Tumor Segmentation with Deep Neural Networks.
+2015,Blocks and Fuel: Frameworks for deep learning.
+2015,A Recurrent Latent Variable Model for Sequential Data.
+2015,Training opposing directed models using geometric mean matching.
+2015,Attention-Based Models for Speech Recognition.
+2015,Describing Multimedia Content using Attention-based Encoder-Decoder Networks.
+2015,A Hierarchical Recurrent Encoder-Decoder For Generative Context-Aware Query Suggestion.
+2015,Hierarchical Neural Network Generative Models for Movie Dialogues.
+2015,Artificial Neural Networks Applied to Taxi Destination Prediction.
+2015,End-to-End Attention-based Large Vocabulary Speech Recognition.
+2015,An objective function for STDP.
+2015,Batch Normalized Recurrent Neural Networks.
+2015,Early Inference in Energy-Based Models Approximates Back-Propagation.
+2015,BinaryConnect: Training Deep Neural Networks with binary weights during propagations.
+2015,Trainable performance upper bounds for image and video captioning.
+2015,Denoising Criterion for Variational Auto-Encoding Framework.
+2015,Deconstructing the Ladder Network Architecture.
+2015,Task Loss Estimation for Sequence Prediction.
+2015,Unitary Evolution Recurrent Neural Networks.
+2015,Variance Reduction in SGD by Distributed Importance Sampling.
+2015,ReSeg: A Recurrent Neural Network for Object Segmentation.
+2014,Conditioning and time representation in long short-term memory networks.
+2014,What regularized auto-encoders learn from the data-generating distribution.
+2014,A semantic matching energy function for learning with multi-relational data - Application to word-sense disambiguation.
+2014,Learning semantic representations of objects and their parts.
+2014,The Spike-and-Slab RBM and Extensions to Discrete and Sparse Data Distributions.
+2014,On the Challenges of Physical Implementations of RBMs.
+2014,Learning Concept Embeddings for Query Expansion by Quantum Entropy Minimization.
+2014,Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation.
+2014,Deep learning and cultural evolution.
+2014,Deep Generative Stochastic Networks Trainable by Backprop.
+2014,Marginalized Denoising Auto-encoders for Nonlinear Representations.
+2014,Scaling up deep learning.
+2014,Iterative Neural Autoregressive Distribution Estimator NADE-k.
+2014,Generative Adversarial Nets.
+2014,On the Number of Linear Regions of Deep Neural Networks.
+2014,Identifying and attacking the saddle point problem in high-dimensional non-convex optimization.
+2014,How transferable are features in deep neural networks?
+2014,On the Equivalence between Deep NADE and Generative Stochastic Networks.
+2014,Learned-Norm Pooling for Deep Feedforward and Recurrent Neural Networks.
+2014,Overcoming the Curse of Sentence Length for Neural Machine Translation using Automatic Segmentation.
+2014,On the Properties of Neural Machine Translation: Encoder-Decoder Approaches.
+2014,Bounding the Test Log-Likelihood of Generative Models.
+2014,An Empirical Investigation of Catastrophic Forgeting in Gradient-Based Neural Networks.
+2014,Multimodal Transitions for Generative Stochastic Networks.
+2014,How to Construct Deep Recurrent Neural Networks.
+2014,On the number of inference regions of deep feed forward networks with piece-wise linear activations.
+2014,An empirical analysis of dropout in piecewise linear networks.
+2014,Revisiting Natural Gradient for Deep Networks.
+2014,Evolving Culture Versus Local Minima.
+2014,"2nd International Conference on Learning Representations, ICLR 2014, Banff, AB, Canada, April 14-16, 2014, Conference Track Proceedings."
+2014,"2nd International Conference on Learning Representations, ICLR 2014, Banff, AB, Canada, April 14-16, 2014, Workshop Track Proceedings."
+2014,On the Number of Linear Regions of Deep Neural Networks.
+2014,On the saddle point problem for non-convex optimization.
+2014,Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation.
+2014,Iterative Neural Autoregressive Distribution Estimator (NADE-k).
+2014,Identifying and attacking the saddle point problem in high-dimensional non-convex optimization.
+2014,Generative Adversarial Networks.
+2014,Exponentially Increasing the Capacity-to-Computation Ratio for Conditional Computation in Deep Learning.
+2014,How Auto-Encoders Could Provide Credit Assignment in Deep Networks via Target Propagation.
+2014,On the Equivalence Between Deep NADE and Generative Stochastic Networks.
+2014,Overcoming the Curse of Sentence Length for Neural Machine Translation using Automatic Segmentation.
+2014,On the Properties of Neural Machine Translation: Encoder-Decoder Approaches.
+2014,Deep Tempering.
+2014,Deep Directed Generative Autoencoders.
+2014,Not All Neural Embeddings are Born Equal.
+2014,BilBOWA: Fast Bilingual Distributed Representations without Word Alignments.
+2014,How transferable are features in deep neural networks?
+2014,End-to-end Continuous Speech Recognition using Attention-based Recurrent NN: First Results.
+2014,On Using Very Large Target Vocabulary for Neural Machine Translation.
+2014,Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling.
+2014,ADASECANT: Robust Adaptive Secant Method for Stochastic Gradient.
+2013,Learning Deep Physiological Models of Affect.
+2013,Representation Learning: A Review and New Perspectives.
+2013,Scaling Up Spike-and-Slab Models for Unsupervised Feature Learning.
+2013,Texture Modeling with Convolutional Spike-and-Slab RBMs and Deep Extensions.
+2013,Stacked calibration of off-policy policy evaluation for video game matchmaking.
+2013,High-dimensional sequence transduction.
+2013,Advances in optimizing recurrent networks.
+2013,Combining modality specific deep neural networks for emotion recognition in video.
+2013,Better Mixing via Deep Representations.
+2013,On the difficulty of training recurrent neural networks.
+2013,Maxout Networks.
+2013,Challenges in Representation Learning: A Report on Three Machine Learning Contests.
+2013,Unsupervised Learning of Semantics of Object Detections for Scene Categorization.
+2013,Unsupervised and Transfer Learning under Uncertainty - From Object Detections to Scene Categorization.
+2013,Investigation of recurrent-neural-network architectures and learning methods for spoken language understanding.
+2013,Audio Chord Recognition with Recurrent Neural Networks.
+2013,Multi-Prediction Deep Boltzmann Machines.
+2013,Generalized Denoising Auto-Encoders as Generative Models.
+2013,Stochastic Ratio Matching of RBMs for Sparse High-Dimensional Inputs.
+2013,Modeling term dependencies with quantum language models for IR.
+2013,Deep Learning of Representations: Looking Forward.
+2013,Regularized Auto-Encoders Estimate Local Statistics.
+2013,A Semantic Matching Energy Function for Learning with Multi-relational Data.
+2013,Metric-Free Natural Gradient for Joint-Training of Boltzmann Machines.
+2013,Joint Training Deep Boltzmann Machines for Classification.
+2013,Big Neural Networks Waste Capacity.
+2013,Natural Gradient Revisited.
+2013,Knowledge Matters: Importance of Prior Information for Optimization.
+2013,Deep Learning of Representations.
+2013,"1st International Conference on Learning Representations, ICLR 2013, Scottsdale, Arizona, USA, May 2-4, 2013, Conference Track Proceedings."
+2013,"1st International Conference on Learning Representations, ICLR 2013, Scottsdale, Arizona, USA, May 2-4, 2013, Workshop Track Proceedings."
+2013,Maxout Networks.
+2013,Deep Learning of Representations: Looking Forward.
+2013,Estimating or Propagating Gradients Through Stochastic Neurons.
+2013,Generalized Denoising Auto-Encoders as Generative Models.
+2013,Deep Generative Stochastic Networks Trainable by Backprop.
+2013,Challenges in Representation Learning: A report on three machine learning contests.
+2013,Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation.
+2013,Pylearn2: a machine learning research library.
+2013,Learned-norm pooling for deep neural networks.
+2013,On the Challenges of Physical Implementations of RBMs.
+2012,Detonation Classification from acoustic Signature with the Restricted Boltzmann Machine.
+2012,Random Search for Hyper-Parameter Optimization.
+2012,Learning Algorithms for the Classification Restricted Boltzmann Machine.
+2012,Beyond Skill Rating: Advanced Matchmaking in Ghost Recon Online.
+2012,Deep Learning for NLP (without Magic).
+2012,Disentangling Factors of Variation for Facial Expression Recognition.
+2012,Modeling Temporal Dependencies in High-Dimensional Sequences: Application to Polyphonic Music Generation and Transcription.
+2012,Large-Scale Feature Learning With Spike-and-Slab Sparse Coding.
+2012,A Generative Process for Contractive Auto-Encoders.
+2012,Discriminative Non-negative Matrix Factorization for Multiple Pitch Estimation.
+2012,Building Musically-relevant Audio Features through Multiple Timescale Representations.
+2012,Deep Learning of Representations for Unsupervised and Transfer Learning.
+2012,Unsupervised and Transfer Learning Challenge: a Deep Learning Approach.
+2012,Joint Learning of Words and Meaning Representations for Open-Text Semantic Parsing.
+2012,Practical Recommendations for Gradient-Based Training of Deep Architectures.
+2012,Spike-and-Slab Sparse Coding for Unsupervised Feature Discovery.
+2012,Evolving Culture vs Local Minima.
+2012,On Training Deep Boltzmann Machines.
+2012,Practical recommendations for gradient-based training of deep architectures.
+2012,Unsupervised Feature Learning and Deep Learning: A Review and New Perspectives.
+2012,Implicit Density Estimation by Local Moment Matching to Sample from Auto-Encoders.
+2012,Better Mixing via Deep Representations.
+2012,Efficient EM Training of Gaussian Mixtures with Missing Data.
+2012,Disentangling Factors of Variation via Generative Entangling.
+2012,Understanding the exploding gradient problem.
+2012,Theano: new features and speed improvements.
+2012,Texture Modeling with Convolutional Spike-and-Slab RBMs and Deep Extensions.
+2012,Advances in Optimizing Recurrent Networks.
+2012,High-dimensional sequence transduction.
+2012,Joint Training of Deep Boltzmann Machines.
+2011,Suitability of V1 Energy Models for Object Classification.
+2011,Quickly Generating Representative Samples from an RBM-Derived Process.
+2011,Contextual tag inference.
+2011,Learning Structured Embeddings of Knowledge Bases.
+2011,On the Expressive Power of Deep Architectures.
+2011,On the Expressive Power of Deep Architectures.
+2011,Domain Adaptation for Large-Scale Sentiment Classification: A Deep Learning Approach.
+2011,Contractive Auto-Encoders: Explicit Invariance During Feature Extraction.
+2011,Large-Scale Learning of Embeddings with Reconstruction Sampling.
+2011,Unsupervised Models of Images by Spikeand-Slab RBMs.
+2011,Temporal Pooling and Multiscale Learning for Automatic Annotation and Ranking of Music Audio.
+2011,On learning distributed representations of semantics.
+2011,Shallow vs. Deep Sum-Product Networks.
+2011,The Manifold Tangent Classifier.
+2011,On Tracking The Partition Function.
+2011,Algorithms for Hyper-Parameter Optimization.
+2011,Higher Order Contractive Auto-Encoder.
+2011,"Discussion of ""The Neural Autoregressive Distribution Estimator""."
+2011,Deep Learners Benefit More from Out-of-Distribution Examples.
+2011,A Spike and Slab Restricted Boltzmann Machine.
+2011,Deep Sparse Rectifier Neural Networks.
+2011,Autotagging music with conditional restricted Boltzmann machines.
+2011,Adding noise to the input of a model trained with a regularized objective.
+2011,Learning invariant features through local space contraction.
+2011,Towards Open-Text Semantic Parsing via Multi-Task Learning of Structured Embeddings.
+2011,"The Statistical Inefficiency of Sparse Coding for Images (or, One Gabor to Rule them All)."
+2010,Decision trees do not generalize to new variations.
+2010,Alternative time representation in dopamine models.
+2010,Why Does Unsupervised Pre-training Help Deep Learning?
+2010,Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion.
+2010,Deep Belief Networks Are Compact Universal Approximators.
+2010,Tractable Multivariate Binary Density Estimation and the Restricted Boltzmann Forest.
+2010,Word Representations: A Simple and General Method for Semi-Supervised Learning.
+2010,Learning Tags that Vary Within a Song.
+2010,Tempered Markov Chain Monte Carlo for training of Restricted Boltzmann Machines.
+2010,Why Does Unsupervised Pre-training Help Deep Learning?
+2010,Understanding the difficulty of training deep feedforward neural networks.
+2010,Deep Self-Taught Learning for Handwritten Character Recognition.
+2010,Adaptive Parallel Tempering for Stochastic Maximum Likelihood Learning of RBMs.
+2009,Learning Deep Architectures for AI.
+2009,Exploring Strategies for Training Deep Neural Networks.
+2009,Incorporating Functional Knowledge in Neural Networks.
+2009,Justifying and Generalizing Contrastive Divergence.
+2009,A Hybrid Pareto Mixture for Conditional Asymmetric Fat-Tailed Distributions.
+2009,Workshop summary: Workshop on learning feature hierarchies.
+2009,Curriculum learning.
+2009,Quadratic Features and Deep Architectures for Chunking.
+2009,"Slow, Decorrelated Features for Pretraining Complex Cell-like Networks."
+2009,An Infinite Factor Model Hierarchy Via a Noisy-Or Mechanism.
+2009,The Difficulty of Training Deep Architectures and the Effect of Unsupervised Pre-Training.
+2009,"Advances in Neural Information Processing Systems 21, Proceedings of the Twenty-Second Annual Conference on Neural Information Processing Systems, Vancouver, British Columbia, Canada, December 8-11, 2008."
+2009,"Advances in Neural Information Processing Systems 22: 23rd Annual Conference on Neural Information Processing Systems 2009. Proceedings of a meeting held 7-10 December 2009, Vancouver, British Columbia, Canada."
+2008,Representational Power of Restricted Boltzmann Machines and Deep Belief Networks.
+2008,Neural net language models.
+2008,Adaptive Importance Sampling to Accelerate Training of a Neural Probabilistic Language Model.
+2008,Zero-data Learning of New Tasks.
+2008,Classification using discriminative restricted Boltzmann machines.
+2008,Extracting and composing robust features with denoising autoencoders.
+2007,Noisy K Best-Paths for Approximate Dynamic Programming with Application to Portfolio Optimization.
+2007,An empirical evaluation of deep architectures on problems with many factors of variation.
+2007,Augmented Functional Time Series Representation and Forecasting with Gaussian Processes.
+2007,Learning the 2-D Topology of Images.
+2007,Topmoumoute Online Natural Gradient Algorithm.
+2007,A Hybrid Pareto Model for Conditional Density Estimation of Asymmetric Fat-Tail Data.
+2007,Continuous Neural Networks.
+2006,Collaborative Filtering on a Family of Biological Targets.
+2006,Nonlocal Estimation of Manifold Structure.
+2006,The K Best-Paths Approach to Approximate Dynamic Programming with Application to Portfolio Optimization.
+2006,Greedy Layer-Wise Training of Deep Networks.
+2006,Entropy Regularization.
+2006,Label Propagation and Quadratic Criterion.
+2006,Large-Scale Algorithms.
+2006,Spectral Dimensionality Reduction.
+2005,Efficient Non-Parametric Function Induction in Semi-Supervised Learning.
+2005,Hierarchical Probabilistic Neural Network Language Model.
+2005,Greedy Spectral Embedding.
+2005,Semi-supervised Learning by Entropy Minimization.
+2005,The Curse of Highly Variable Functions for Local Kernel Machines.
+2005,Non-Local Manifold Parzen Windows.
+2005,Convex Neural Networks.
+2004,Locally Linear Embedding for dimensionality reduction in QSAR.
+2004,No Unbiased Estimator of the Variance of K-Fold Cross-Validation.
+2004,Learning Eigenfunctions Links Spectral Embedding and Kernel PCA.
+2004,Unsupervised Sense Disambiguation Using Bilingual Probabilistic Models.
+2004,Non-Local Manifold Tangent Learning.
+2004,Semi-supervised Learning by Entropy Minimization.
+2004,Brain Inspired Reinforcement Learning.
+2003,Scaling Large Learning Problems with Hard Parallel Mixtures.
+2003,A Neural Probabilistic Language Model.
+2003,Extensions to Metric-Based Model Selection.
+2003,Inference for the Generalization Error.
+2003,"Bias learning, knowledge sharing."
+2003,Quick Training of Probabilistic Neural Nets by Importance Sampling.
+2003,"Out-of-Sample Extensions for LLE, Isomap, MDS, Eigenmaps, and Spectral Clustering."
+2003,No Unbiased Estimator of the Variance of K-Fold Cross-Validation.
+2002,Guest Introduction: Special Issue on New Methods for Model Selection and Model Combination.
+2002,Model Selection for Small Sample Regression.
+2002,Kernel Matching Pursuit.
+2002,A Parallel Mixture of SVMs for Very Large Scale Problems.
+2002,Robust Regression with Asymmetric Heavy-Tail Noise Distributions.
+2002,Manifold Parzen Windows.
+2002,Metric-based model selection for time-series forecasting.
+2002,Scaling Large Learning Problems with Hard Parallel Mixtures.
+2001,Experiments on the application of IOHMMs to model financial returns series.
+2001,Cost functions and model combination for VaR-based asset allocation using neural networks.
+2001,A Parallel Mixture of SVMs for Very Large Scale Problems.
+2001,K-Local Hyperplane and Convex Distance Nearest Neighbor Algorithms.
+2001,Estimating Car Insurance Premia: a Case Study in High-Dimensional Data Inference.
+2001,Topic Segmentation : A First Stage to Dialog-Based Information Extraction.
+2000,Boosting Neural Networks.
+2000,Gradient-Based Optimization of Hyperparameters.
+2000,Taking on the curse of dimensionality in joint distributions using neural networks.
+2000,"Bias Learning, Knowledge Sharing."
+2000,Probabilistic Neural Network Models for Sequential Data.
+2000,A Neural Support Vector Network Architecture with Adaptive Kernels.
+2000,Continuous Optimization of Hyper-Parameters.
+2000,Incorporating Second-Order Functional Knowledge for Better Option Pricing.
+2000,A Neural Probabilistic Language Model.
+1999,Stochastic Learning of Strategic Equilibria for Auctions.
+1999,Binary Pseudowavelets and Applications to Bilevel Image Processing.
+1999,Inference for the Generalization Error.
+1999,Modeling High-Dimensional Discrete Data with Multi-Layer Neural Networks.
+1999,Object Recognition with Gradient-Based Learning.
+1998,Gaussian Mixture Densities for Classification of Nuclear Power Plant Data.
+1998,"High quality document image compression with ""DjVu""."
+1998,Browsing through High Quality Document Images with DjVu.
+1998,The Z-Coder Adaptive Binary Coder.
+1998,A Memory-Efficient Adaptive Huffman Coding Algorthm for Very Large Sets of Symbols.
+1998,Support vector machines for improving the classification of brain PET images.
+1997,Using a Financial Training Criterion Rather than a Prediction Criterion.
+1997,Global Training of Document Processing Systems Using Graph Transformer Networks.
+1997,AdaBoosting Neural Networks: Application to on-line Character Recognition.
+1997,Reading checks with multilayer graph transformer networks.
+1997,Discriminative feature and model design for automatic speech recognition.
+1997,Shared Context Probabilistic Transducers.
+1997,Training Methods for Adaptive Boosting of Neural Networks.
+1996,Input-output HMMs for sequence processing.
+1996,Multi-Task Learning for Stock Selection.
+1995,Diffusion of Context and Credit Information in Markovian Models.
+1995,LeRec: a NN/HMM hybrid for on-line handwriting recognition.
+1995,On the search for new learning rules for ANNs.
+1995,Recurrent Neural Networks for Missing or Asynchronous Data.
+1995,Hierarchical Recurrent Neural Networks for Long-Term Dependencies.
+1995,Diffusion of Context and Credit Information in Markovian Models.
+1994,Learning long-term dependencies with gradient descent is difficult.
+1994,Use of Genetic Programming for the Search of a New Learning Rule for Neural Networks.
+1994,Word-level training of a handwritten word recognizer based on convolutional neural networks.
+1994,An EM approach to grammatical inference: input/output HMMs.
+1994,Word normalization for online handwritten word recognition.
+1994,An Input Output HMM Architecture.
+1994,Diffusion of Credit in Markovian Models.
+1994,Convergence Properties of the K-Means Algorithms.
+1993,A Connectionist Approach to Speech Recognition.
+1993,The problem of learning long-term dependencies in recurrent networks.
+1993,Credit Assignment through Time: Alternatives to Backpropagation.
+1993,"Globally Trained Handwritten Word Recognizer Using Spatial Representation, Convolutional Neural Networks, and Hidden Markov Models."
+1992,Learning the dynamic nature of speech with back-propagation for sequences.
+1992,Phonetically motivated acoustic parameters for continuous speech recognition using artificial neural networks.
+1992,Global optimization of a neural network-hidden Markov model hybrid.
+1991,Phonetically motivated acoustic parameters for continuous speech recognition using artificial neural networks.
+1991,A comparative study on hybrid acoustic phonetic decoders based on artificial neural networks.
+1991,Neural Network - Gaussian Mixture Hybrid for Speech Recognition or Density Estimation.
+1990,Efficient recognition of immunoglobulin domains from amino acid sequences using a neural network.
+1990,Phonetically-based multi-layered neural networks for vowel classification.
+1989,Programmable Execution of Multi-Layered Networks for Automatic Speech Recognition.
+1989,On the Generalization Capability of Multi-Layered Networks in the Extraction of Speech Properties.
+1989,Speaker Independent Speech Recognition with Neural Networks and Speech Knowledge.
+1989,A Neural Network to Detect Homologies in Proteins.
+1988,Data-Driven Execution of Multi-Layered Networks for Automatic Speech Recognition.
+1988,Use of Multi-Layered Networks for Coding Speech with Phonetic Features.

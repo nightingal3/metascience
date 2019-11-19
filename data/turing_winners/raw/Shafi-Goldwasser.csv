@@ -1,0 +1,210 @@
+2019,Fine-grained Complexity Meets IP = PSPACE.
+2019,Probabilistic encryption & how to play mental poker keeping secret all partial information.
+2019,The knowledge complexity of interactive proof-systems.
+2019,How to construct random functions.
+2019,"A ""paradoxical"" solution to the signature problem."
+2019,Completeness theorems for non-cryptographic fault-tolerant distributed computation.
+2019,Multi-prover interactive proofs: how to remove intractability assumptions.
+2019,Doubly-Efficient Pseudo-Deterministic Proofs.
+2019,Doubly-Efficient Pseudo-Deterministic Proofs.
+2019,Homomorphic Encryption Standard.
+2018,Pseudo-Deterministic Proofs.
+2018,Population Stability: Regulating Size in the Presence of an Adversary.
+2018,Practical Accountability of Secret Processes.
+2018,Population stability: regulating size in the presence of an adversary.
+2018,Fine-grained Complexity Meets IP = PSPACE.
+2018,Public Accountability vs. Secret Laws: Can They Coexist?
+2018,Practical Accountability of Secret Processes.
+2017,The Hunting of the SNARK.
+2017,Bipartite Perfect Matching in Pseudo-Deterministic NC.
+2017,The Complexity of Problems in P Given Correlated Instances.
+2017,Splinter: Practical Private Queries on Public Data.
+2017,The Edited Truth.
+2017,Public Accountability vs. Secret Laws: Can They Coexist?: A Cryptographic Proposal.
+2017,Pseudo-deterministic Proofs.
+2017,Pseudo-Deterministic Proofs.
+2017,Delegating Computation: Interactive Proofs for Muggles.
+2017,The Edited Truth.
+2016,How to Incentivize Data-Driven Collaboration Among Competing Parties.
+2016,Time-Lock Puzzles from Randomized Encodings.
+2016,Cryptographic Assumptions: A Position Paper.
+2016,How to Incentivize Data-Driven Collaboration Among Competing Parties.
+2016,On the Fine Grained Complexity of Polynomial Time Problems Given Correlated Instances.
+2016,Splinter: Practical Private Queries on Public Data.
+2015,Delegating Computation: Interactive Proofs for Muggles.
+2015,How to Compute in the Presence of Leakage.
+2015,"Adaptively Secure Coin-Flipping, Revisited."
+2015,The Hidden Graph Model: Communication Locality and Optimal Resiliency with Adaptive Faults.
+2015,The Computational Benefit of Correlated Instances.
+2015,Machine Learning Classification over Encrypted Data.
+2015,Aggregate Pseudorandom Functions and Connections to Learning.
+2015,Adaptively Secure Two-Party Computation from Indistinguishability Obfuscation.
+2015,"Adaptively Secure Coin-Flipping, Revisited."
+2015,Aggregate Pseudorandom Functions and Connections to Learning.
+2015,Perfect Bipartite Matching in Pseudo-Deterministic RNC.
+2015,Aggregatable Pseudorandom Functions and Connections to Learning.
+2015,How to Incentivize Data-Driven Collaboration Among Competing Parties.
+2015,"Adaptively Secure Coin-Flipping, Revisited."
+2015,Time-Lock Puzzles from Randomized Encodings.
+2015,Cryptographic Assumptions: A Position Paper.
+2014,Leakage-resilient coin tossing.
+2014,On Best-Possible Obfuscation.
+2014,Introduction to the Special Issue on Innovations in Theoretical Computer Science 2012 - Part II.
+2014,The Impossibility of Obfuscation with Auxiliary Input or a Universal Simulator.
+2014,Multi-input Functional Encryption.
+2014,Functional Signatures and Pseudorandom Functions.
+2014,The impossibility of obfuscation with a universal simulator.
+2014,The Computational Benefit of Correlated Instances.
+2014,Machine Learning Classification over Encrypted Data.
+2014,The Hunting of the SNARK.
+2014,Optimally Resilient and Adaptively Secure Multi-Party Computation with Low Communication Locality.
+2014,Adaptively Secure Two-party Computation From Indistinguishability Obfuscation.
+2013,Introduction to the special issue on innovations in theoretical computer science 2012.
+2013,How to Run Turing Machines on Encrypted Data.
+2013,On the possibilities and limitations of pseudodeterministic algorithms.
+2013,Reusable garbled circuits and succinct functional encryption.
+2013,Communication Locality in Secure Multi-party Computation - How to Run Sublinear Algorithms in a Distributed Setting.
+2013,Overcoming the Worst-Case Curse for Cryptographic Constructions.
+2013,Functional Signatures and Pseudorandom Functions.
+2013,A Note on the Impossibility of Obfuscation with Auxiliary Input.
+2013,Multi-Input Functional Encryption.
+2012,How to Compute in the Presence of Leakage.
+2012,Distributed public key schemes secure against continual leakage.
+2012,Pseudo-deterministic Algorithms (Invited Talk).
+2012,Multiparty computation secure against continual memory leakage.
+2012,Bounded-Collusion IBE from Key Homomorphism.
+2012,"Innovations in Theoretical Computer Science 2012, Cambridge, MA, USA, January 8-10, 2012."
+2012,How to Compute in the Presence of Leakage.
+2012,On the possibilities and limitations of pseudodeterministic algorithms.
+2012,Succinct Functional Encryption and Applications: Reusable Garbled Circuits and Beyond.
+2011,Program Obfuscation with Leaky Hardware.
+2011,Black-Box Circular-Secure Encryption beyond Affine Functions.
+2011,Leakage-Resilient Coin Tossing.
+2011,Collision-Free Hashing from Lattice Problems.
+2011,Probabilistic Search Algorithms with Unique Answers and Their Cryptographic Applications.
+2011,Leakage-Resilient Coin Tossing.
+2011,Delegation of Computation without Rejection Problem from Designated Verifier CS-Proofs.
+2011,Program Obfuscation with Leaky Hardware.
+2010,On the Implementation of Huge Random Objects.
+2010,Circular and Leakage Resilient Public-Key Encryption under Subgroup Indistinguishability - (or: Quadratic Residuosity Strikes Back).
+2010,Securing Computation against Continuous Leakage.
+2010,Robustness of the Learning with Errors Assumption.
+2010,Erratum for: on basing one-way functions on NP-hardness.
+2010,Public-Key Encryption Schemes with Auxiliary Inputs.
+2010,Circular and Leakage Resilient Public-Key Encryption Under Subgroup Indistinguishability (or: Quadratic Residuosity Strikes Back).
+2009,Cryptography without (Hardly Any) Secrets ?
+2009,Athena lecture: Controlling Access to Programs?
+2009,Simultaneous Hardcore Bits and Cryptography against Memory Attacks.
+2009,Weak Verifiable Random Functions.
+2009,Black-Box Circular-Secure Encryption Beyond Affine Functions.
+2008,One-Time Programs.
+2008,Program Obfuscation and One-Time Programs.
+2008,How to Protect Yourself without Perfect Shredding.
+2008,Delegating computation: interactive proofs for muggles.
+2008,A (de)constructive approach to program checking.
+2008,"Theoretical Foundations of Practical Information Security, 30.11. - 05.12.2008."
+2008,08491 Abstracts Collection - Theoretical Foundations of Practical Information Security.
+2008,08491 Executive Summary - Theoretical Foundations of Practical Information Security.
+2008,How to Protect Yourself without Perfect Shredding.
+2007,Secure Computation from Random Error Correcting Codes.
+2007,Verifying and decoding in constant depth.
+2007,On Best-Possible Obfuscation.
+2007,A (De)constructive Approach to Program Checking.
+2006,Fault-Tolerant Distributed Computing in Full-Information Networks.
+2006,On basing one-way functions on NP-hardness.
+2005,Secure Multi-Party Computation without Agreement.
+2005,On the Impossibility of Obfuscation with Auxiliary Input.
+2005,Proof of Plaintext Knowledge for the Ajtai-Dwork Cryptosystem.
+2005,Distributed Computing with Imperfect Randomness.
+2004,Transformation of Digital Signature Schemes into Designated Confirmer Signature Schemes.
+2003,On the Implementation of Huge Random Objects.
+2003,On the (In)security of the Fiat-Shamir Paradigm.
+2003,Proving Hard-Core Predicates Using List Decoding.
+2003,On the (In)security of the Fiat-Shamir Paradigm.
+2003,On the Implementation of Huge Random Objects.
+2003,On the (In)security of the Fiat-Shamir Paradigm.
+2002,Complexity of lattice problems - a cryptograhic perspective.
+2002,Secure Computation without Agreement.
+2002,Secure Computation Without Agreement.
+2001,Identification Protocols Secure against Reset Attacks.
+2001,Resettably-Sound Zero-Knowledge and its Applications.
+2001,Resettably-Sound Zero-Knowledge and its Applications.
+2000,Testing Monotonicity.
+2000,On the Limits of Nonapproximability of Lattice Problems.
+2000,Resettable zero-knowledge (extended abstract).
+2000,Identification Protocols Secure Against Reset Attacks.
+1999,Primality Testing Using Elliptic Curves.
+1999,An Efficient Threshold Public Key Cryptosystem Secure Against Adaptive Chosen Ciphertext Attack.
+1999,Interleaved Zero-Knowledge in the Public-Key Model.
+1999,Resettable Zero-Knowledge.
+1999,Interleaved Zero-Knowledge in the Public-Key Model.
+1999,Resettable Zero-Knowledge.
+1998,Property Testing and its Connection to Learning and Approximation.
+1998,Fault-Tolerant Computation in the Full Information Model.
+1998,Introduction to Special Section on Probabilistic Proof Systems.
+1998,Testing Monotonicity.
+1998,A Random Server Model for Private Information Retrieval or How to Achieve Information Theoretic PIR Avoiding Database Replication.
+1998,On the Limits of Non-Approximability of Lattice Problems.
+1998,On the possibility of basing Cryptography on the assumption that P ≠ NP.
+1998,A Random Server Model for Private Information Retrieval (or How to Achieve Information Theoretic PIR Avoiding Data Replication).
+1997,Verifiable Partial Key Escrow.
+1997,Eliminating Decryption Errors in the Ajtai-Dwork Cryptosystem.
+1997,Public-Key Cryptosystems from Lattice Reduction Problems.
+1997,"""Pseudo-Random"" Number Generation Within Cryptographic Algorithms: The DDS Case."
+1997,New Directions in Cryptography: Twenty Some Years Later.
+1997,Multi-Party Computations: Past and Present.
+1997,Eliminating Decryption Errors in the Ajtai-Dwork Cryptosystem.
+1997,On the Limits of Non-Approximability of Lattice Problems.
+1996,Interactive Proofs and the Hardness of Approximating Cliques.
+1996,Property Testing and Its Connection to Learning and Approximation.
+1996,Collision-Free Hashing from Lattice Problems.
+1996,Public-Key Cryptosystems from Lattice Reduction Problems.
+1996,Property Testing and its connection to Learning and Approximation.
+1996,Collision-Free Hashing from Lattice Problems.
+1996,Verifiable Partial Key Escrow.
+1996,Public-Key Cryptosystems from Lattice Reduction Problems.
+1995,Probabilistically Checkable Proofs and Applications.
+1995,Incremental cryptography and application to virus protection.
+1994,The Complexity of Decision Versus Search.
+1994,Incremental Cryptography: The Case of Hashing and Signing.
+1994,Efficient probabilistic checkable proofs and applications to approximation.
+1993,Randomness in Interactive Proofs.
+1993,Efficient Interactive Proofs and Applications to Approximation.
+1993,Efficient probabilistically checkable proofs and applications to approximations.
+1992,Invariant Signatures and Non-Interactive Zero-Knowledge Proofs are Equivalent (Extended Abstract).
+1991,Approximating Clique is Almost NP-Complete (Preliminary Version).
+1991,Languages that Are Easier than their Proofs.
+1991,Fault-tolerant Computation in the Full Information Model (Extended Abstract).
+1990,On the power of interaction.
+1990,Fair Computation of General Functions in Presence of Immoral Majority.
+1990,Randomness in Interactive Proofs.
+1990,"Advances in Cryptology - CRYPTO '88, 8th Annual International Cryptology Conference, Santa Barbara, California, USA, August 21-25, 1988, Proceedings."
+1989,Private Coins versus Public Coins in Interactive Proof Systems.
+1989,The Knowledge Complexity of Interactive Proof Systems.
+1989,New Paradigms for Digital Signatures and Message Authentication Based on Non-Interative Zero Knowledge Proofs.
+1989,Efficient Identification Schemes Using Two Prover Interactive Proofs.
+1989,Multiparty Computation with Faulty Majority.
+1989,On the Structure of Secret Key Exchange Protocols.
+1989,On the Structure of Secret Key Exchange Protocols.
+1989,Multiparty Computation with Faulty Majority (Extended Announcement).
+1988,A Digital Signature Scheme Secure Against Adaptive Chosen-Message Attacks.
+1988,Everything Provable is Provable in Zero-Knowledge.
+1988,Completeness Theorems for Non-Cryptographic Fault-Tolerant Distributed Computation (Extended Abstract).
+1988,Multi-Prover Interactive Proofs: How to Remove Intractability Assumptions.
+1986,How to construct random functions.
+1986,On the Power of Interaction.
+1986,Private Coins versus Public Coins in Interactive Proof Systems.
+1986,Almost All Primes Can Be Quickly Certified.
+1985,The Bit Security of Modular Squaring Given Partial Factorization of the Modulos.
+1985,Verifiable Secret Sharing and Achieving Simultaneity in the Presence of Faults (Extended Abstract).
+1985,The Knowledge Complexity of Interactive Proof-Systems (Extended Abstract).
+1984,Probabilistic Encryption.
+1984,On the Cryptographic Applications of Random Functions.
+1984,An Efficient Probabilistic Public-Key Encryption Scheme Which Hides All Partial Information.
+1984,"A ""Paradoxical'""Solution to the Signature Problem (Abstract)."
+1984,"A ""Paradoxical"" Solution to the Signature Problem (Extended Abstract)."
+1984,How to Construct Random Functions (Extended Abstract).
+1983,Strong Signature Schemes.
+1982,On Signatures and Authentication.
+1982,Why and How to Establish a Private Code on a Public Network (Extended Abstract).
+1982,Probabilistic Encryption and How to Play Mental Poker Keeping Secret All Partial Information.

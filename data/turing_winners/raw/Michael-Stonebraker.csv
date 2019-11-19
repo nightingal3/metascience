@@ -1,0 +1,376 @@
+2019,Kyrix: Interactive Pan/Zoom Visualizations at Scale.
+2019,Rethinking Database High Availability with RDMA Networks.
+2019,Data Civilizer 2.0: A Holistic Framework for Data Preparation and Analytics.
+2019,Choosing A Cloud DBMS: Architectures and Tradeoffs.
+2019,Smile: A System to Support Machine Learning on EEG Data at Scale.
+2019,Kyrix: Interactive Visual Data Exploration at Scale.
+2019,Unsupervised String Transformation Learning for Entity Consolidation.
+2019,How I Learned to Stop Worrying and Love Re-optimization.
+2019,Towards an End-to-End Human-Centric Data Cleaning Framework.
+2019,Raha: A Configuration-Free Error Detection System.
+2019,ANMAT: Automatic Knowledge Discovery and Error Detection through Pattern Functional Dependencies.
+2019,SchengenDB: A Data Protection Database Proposal.
+2019,WIP - SKOD: A Framework for Situational Knowledge on Demand.
+2019,The land sharks are on the squawk box.
+2019,How to start a company in five (not so) easy steps.
+2019,Where good ideas come from and how to exploit them.
+2019,Where we have failed.
+2019,"OLTP through the looking glass, and what we found there."
+2019,"""One size fits all"": an idea whose time has come and gone."
+2019,The end of an architectural era: it's time for a complete rewrite.
+2019,C-store: a column-oriented DBMS.
+2019,The implementation of POSTGRES.
+2019,The design and implementation of INGRES.
+2019,"Heterogeneous Data Management, Polystores, and Analytics for Healthcare - VLDB 2018 Workshops, Poly and DMAH, Rio de Janeiro, Brazil, August 31, 2018, Revised Selected Papers."
+2019,"Heterogeneous Data Management, Polystores, and Analytics for Healthcare - VLDB 2019 Workshops, Poly and DMAH, Los Angeles, CA, USA, August 30, 2019, Revised Selected Papers."
+2019,How I Learned to Stop Worrying and Love Re-optimization.
+2019,Kyrix: Interactive Visual Data Exploration at Scale.
+2019,Technical Report: Optimizing Human Involvement for Entity Matching and Consolidation.
+2018,Data Integration: The Current Status and the Way Forward.
+2018,Beagle: Automated Extraction and Interpretation of Visualizations from the Web.
+2018,TabulaROSA: Tabular Operating System Architecture for Massively Parallel Heterogeneous Compute Engines.
+2018,My Top Ten Fears about the DBMS Field.
+2018,Seeping Semantics: Linking Datasets Using Word Embeddings for Data Discovery.
+2018,Aurum: A Data Discovery System.
+2018,Building Data Civilizer Pipelines with an Advanced Workflow Engine.
+2018,P-Store: An Elastic Database System with Predictive Provisioning.
+2018,FastDAWG: Improving Data Migration in the BigDAWG Polystore System.
+2018,Stream Processing.
+2018,TabulaROSA: Tabular Operating System Architecture for Massively Parallel Heterogeneous Compute Engines.
+2017,What to do about database decay.
+2017,An Evaluation of Distributed Concurrency Control.
+2017,SilkMoth: An Efficient Method for Finding Related Sets with Maximum Matching Constraints.
+2017,Exploring big volume sensor data with Vroom.
+2017,Approximate String Joins with Abbreviations.
+2017,The Data Civilizer System.
+2017,Position statement: The case for a visualization performance benchmark.
+2017,BigDAWG version 0.1.
+2017,Database engine integration and performance analysis of the BigDAWG polystore system.
+2017,A Demo of the Data Civilizer System.
+2017,BigDAWG Polystore Release and Demonstration.
+2017,SILKMOTH: An Efficient Method for Finding Related Sets with Maximum Matching Constraints.
+2017,Version 0.1 of the BigDAWG Polystore System.
+2017,Entity Consolidation: The Golden Record Problem.
+2017,Beagle: Automated Extraction and Interpretation of Visualizations from the Web.
+2016,The land sharks are on the squawk box.
+2016,The Beckman report on database research.
+2016,Detecting Data Errors: Where are we and what needs to be done?
+2016,Clay: Fine-Grained Adaptive Partitioning for General Database Schemas.
+2016,Database decay and how to avoid it.
+2016,STeP: Scalable Tenant Placement for Managing Database-as-a-Service Deployments.
+2016,The BigDawg monitoring framework.
+2016,Data transformation and migration in polystores.
+2016,The BigDAWG polystore system and architecture.
+2016,Cross-engine query execution in federated database systems.
+2016,DataXFormer: A robust transformation discovery system.
+2016,Towards large-scale data discovery: position paper.
+2016,Dynamic Prefetching of Data Tiles for Interactive Visualization.
+2016,The Aurora and Borealis Stream Processing Engines.
+2016,The BigDAWG Architecture.
+2016,The BigDAWG Polystore System and Architecture.
+2015,"A valuable lesson, and whither Hadoop?"
+2015,How men can help women in CS; winning 'computing's Nobel prize'.
+2015,"Handling Shared, Mutable State in Stream Processing with Correctness Guarantees."
+2015,A Demonstration of the BigDAWG Polystore System.
+2015,S-Store: Streaming Meets Transaction Processing.
+2015,Temporal Rules Discovery for Web Data Cleaning.
+2015,The BigDAWG Polystore System.
+2015,Dataxformer: Leveraging the Web for Semantic Transformations.
+2015,By their fruits shall ye know them: A Data Analyst's Perspective on Massively Parallel System Design.
+2015,Turing Lecture.
+2015,Skew-Aware Join Optimization for Array Databases.
+2015,DataXFormer: An Interactive Data Transformation Tool.
+2015,"Readings in Database Systems, 5th Edition."
+2015,S-Store: Streaming Meets Transaction Processing.
+2014,S-Store: A Streaming NewSQL System for Big Velocity Applications.
+2014,VERTEXICA: Your Relational Friend for Graph Analytics!
+2014,Staring into the Abyss: An Evaluation of Concurrency Control with One Thousand Cores.
+2014,E-Store: Fine-Grained Elastic Partitioning for Distributed Transaction Processing.
+2014,The Beckman Report on Database Research.
+2014,Large-scale Semantic Profile Extraction.
+2014,Enterprise Database Applications and the Cloud: A Difficult Road Ahead.
+2014,Rethinking main memory OLTP recovery.
+2014,Text and structured data fusion in data tamer at scale.
+2014,GenBase: a complex analytics genomics benchmark.
+2014,Incremental elasticity for array databases.
+2014,A Prolegomenon on OLTP Database Systems for Non-Volatile Memory.
+2014,Standards for Graph Algorithm Primitives.
+2013,Big data is 'buzzword du jour;' CS academics 'have the best job'.
+2013,SciDB: A Database Management System for Applications with Complex Analytics.
+2013,The VoltDB Main Memory DBMS.
+2013,SciDB DBMS Research at M.I.T.
+2013,Anti-Caching: A New Approach to Database Management System Architecture.
+2013,"Intel ""big data"" science and technology center vision and execution plan."
+2013,Dynamic reduction of query result sets for interactive visualizaton.
+2013,We are Under Attack; by the least publishable unit.
+2013,Data Curation at Scale: The Data Tamer System.
+2013,Standards for graph algorithm primitives.
+2013,SubZero: A fine-grained lineage system for scientific databases.
+2013,We are drowning in a sea of least publishable units (LPUs).
+2012,Researchers' big data crisis; understanding design and functionality.
+2012,New opportunities for New SQL.
+2012,A Demonstration of DBWipes: Clean as You Query.
+2012,EarthDB: scalable analysis of MODIS data using SciDB.
+2012,The Future of Scientific Data Bases.
+2012,Efficient Versioning for Scientific Array Databases.
+2012,SciDB: An Open-Source DBMS for Scientific Data.
+2011,Stonebraker on data warehouses.
+2011,10 rules for scalable performance in 'simple operation' datastores.
+2011,Stonebraker on NoSQL and enterprises.
+2011,The Architecture of SciDB.
+2010,MapReduce and parallel DBMSs: friends or foes?
+2010,SQL databases v. NoSQL databases.
+2010,In search of database consistency.
+2009,The Claremont report on database research.
+2009,"Saying good-bye to DBMSs, designing effective interfaces."
+2009,A Demonstration of SciDB: A Science-Oriented DBMS.
+2009,Requirements for Science Data Bases and SciDB.
+2009,A comparison of approaches to large-scale data analysis.
+2009,A New Direction for TPC?
+2009,Stream Processing.
+2008,A tribute to Jim Gray.
+2008,Technical perspective - One size fits all: an idea whose time has come and gone.
+2008,"H-store: a high-performance, distributed main memory transaction processing system."
+2008,Why did Jim Gray win the Turing Award?
+2008,The Claremont report on database research.
+2008,Fault-tolerance in the borealis distributed stream processing system.
+2008,"OLTP through the looking glass, and what we found there."
+2007,Architecture of a Database System.
+2007,One Size Fits All? Part 2: Benchmarking Studies.
+2007,The End of an Architectural Era (It's Time for a Complete Rewrite).
+2006,Data integration through transform reuse in the Morpheus project.
+2005,The Lowell database research self-assessment.
+2005,The 8 requirements of real-time stream processing.
+2005,"""One Size Fits All"": An Idea Whose Time Has Come and Gone (Abstract)."
+2005,THALIA: Test Harness for the Assessment of Legacy Information Integration Approaches.
+2005,High-Availability Algorithms for Distributed Stream Processing.
+2005,Fault-tolerance in the Borealis distributed stream processing system.
+2005,C-Store: A Column-oriented DBMS.
+2005,"Readings in Database Systems, 4th Edition."
+2004,Retrospective on Aurora.
+2004,Outrageous Ideas and/or Thoughts While Shaving.
+2004,Contract-Based Load Management in Federated Distributed Systems.
+2004,Load Management and High Availability in the Medusa Distributed Stream Processing System.
+2004,Linear Road: A Stream Data Management Benchmark.
+2003,The Aurora and Medusa Projects.
+2003,Aurora: a new model and architecture for data stream management.
+2003,Visionary: A Next Generation Visualization System for Databases.
+2003,Aurora: A Data Stream Management System.
+2003,The Lowell Report.
+2003,Load Shedding in a Data Stream Manager.
+2003,Operator Scheduling in a Data Stream Manager.
+2003,The Lowell Database Research Self Assessment.
+2002,Too Much Middleware.
+2002,Monitoring Streams - A New Class of Data Management Applications.
+2001,DataSplash: A Direct Manipulation Environment for Programming Semantic Zoom Visualizations of Tabular Data.
+2001,"The Semantic Web As ""Perfection Seeking"": A View from Drug Terminology."
+2001,"The Semantic Web as ""Perfection Seeking"": A View from Drug Terminology."
+2001,Content Integration for E-Business.
+2000,On XML and Databases: Where's the Beef? (Panel Abstract).
+1999,"Independent, Open Enterprise Data Integration."
+1999,VIDA: (Visual Information Density Adjuster).
+1998,"Object-Relational DBMSs, Second Edition."
+1998,"Interoperability, Distributed Applications and Distributed Databases: The Virtual Table Interface."
+1998,The Asilomar Report on Database Research.
+1998,Constant information density in zoomable interfaces.
+1998,Goal-directed zoom.
+1998,Are We Working On the Right Problems? (Panel).
+1998,DataSplash.
+1998,Constant Density Visualizations of Non-Uniform Distributions of Data.
+1998,VIQING: Visual Interactive Querying.
+1998,"Readings in Database Systems, Third Edition."
+1998,The Asilomar Report on Database Research.
+1997,Supporting Fine-grained Data Lineage in a Database Visualization Environment.
+1997,ESMDIS: Earth System Model Data Information System.
+1996,Object-Relational DBMSs: The Next Great Wave.
+1996,Query Processing in a Parallel Object-Relational Database System.
+1996,Database Research: Achievements and Opportunities Into the 21st Century.
+1996,Mariposa: A Wide-Area Distributed Database System.
+1996,"Database Research: Lead, Follow, or Get Out of the Way? - Panel Abstract."
+1996,Tioga-2: A Direct Manipulation Database Visualization Environment.
+1996,Data Replication in Mariposa.
+1996,Reordering Query Execution in Tertiary Memory Databases.
+1996,The POSTGRES Rules System.
+1995,"Migrating Legacy Systems: Gateways, Interfaces, and the Incremental Approach."
+1995,Chabot: Retrieval from a Relational Database of Images.
+1995,An Overview of the Sequoia 2000 Project.
+1995,The Tioga-2 Database Visualization Environment.
+1995,Navigation and Coordination Primitives for Multidimensional Visual Browsers.
+1995,Buffering of Intermediate Results in Dataflow Diagrams.
+1995,Metrics for Accessing Heterogeneous Data: Is There Any Hope? (Panel).
+1995,BigSur: A System For the Management of Earth Science Data.
+1994,In Memory of Bob Kooi (1951-1993).
+1994,The Impact of Database Research on Industrial Products (Panel Summary).
+1994,SEQUOIA 2000 Metadata Schema for Satellite Images.
+1994,Mariposa: A New Architecture for Distributed Data.
+1994,Implementing Calendars and Temporal Rules in Next Generation Databases.
+1994,Efficient Organization of Large Multidimensional Arrays.
+1994,Sequoia 2000: A Next-Generation Information System for the Study of Global Change.
+1994,Objects and Databases (Panel).
+1994,An Economic Paradigm for Query Processing and Data Migration in Mariposa.
+1994,Legacy Systems - the Achilles Heel of Downsizing (Panel).
+1994,SEQUOIA 2000: A Reflection of the First Three Years.
+1994,Zooming and Tunneling in Tioga: Supporting Navigation in Multimedia Space.
+1994,"Readings in Database Systems, Second Edition."
+1993,The SEQUOIA 2000 project.
+1993,Optimization of Parallel Query Execution Plans in XPRS.
+1993,Large Object Support in POSTGRES.
+1993,Are We Polishing a Round Ball? (Panel Abstract).
+1993,HighLight: a file system for tertiary storage.
+1993,The Sequoia 2000 Benchmark.
+1993,Predicate Migration: Optimizing Queries with Expensive Predicates.
+1993,The Miro DBMS.
+1993,The SEQUOIA 2000 Project.
+1993,HighLight: Using a Log-structured File System for Tertiary Storage Management.
+1993,Tioga: A Database-Oriented Visualization Tool.
+1993,Tioga: Providing Data Management Support for Scientific Visualization Applications.
+1993,DBMS Research at a Crossroads: The Vienna Update.
+1993,DARWIN: On the Incremental Migration of Legacy Information Systems.
+1992,The Integration of Rule Systems and Database Systems.
+1992,"Proceedings of the 1992 ACM SIGMOD International Conference on Management of Data, San Diego, California, USA, June 2-5, 1992."
+1991,The Postgres Next Generation Database Management System.
+1991,Database Systems: Achievements and Opportunities.
+1991,Read Optimized File System Designs: A Performance Evaluation.
+1991,Optimization of Parallel Query Execution Plans in XPRS.
+1991,Managing Persistent Objects in a Multi-Level Store.
+1991,Segment Indexes: Dynamic Indexing Techniques for Multi-Dimensional Interval Data.
+1991,Using Write Protected Data Structures To Improve Software Fault Tolerance in Highly Available Database Management Systems.
+1991,Object Management in Postgres using Procedures.
+1990,Architecture of Future Data Base Systems.
+1990,Third-Generation Database System Manifesto - The Committee for Advanced DBMS Function.
+1990,"Database Systems: Achievements and Opportunities - The ""Lagunita"" Report of the NSF Invitational Workshop on the Future of Database System Research held in Palo Alto, California, February 22-23, 1990."
+1990,Data Base Research at Berkeley.
+1990,The Implementation of Postgres.
+1990,The Third-Generation Database Manifesto: A Brief Retrospection.
+1990,Third-Generation Database System Manifesto - The Committee for Advanced DBMS Function.
+1990,Alternatives in Complex Object Representation: A Performance Perspective.
+1990,Distributed RAID - A New Multiple Copy Algorithm.
+1990,"On Rules, Procedures, Caching and Views in Data Base Systems."
+1990,The Postgres DBMS.
+1990,"""The Committee for Advanced DBMS Function"": Third Generation Data Base System Manifesto."
+1990,Transaction Support in Read Optimizied and Write Optimized File Systems.
+1990,Highly Redundant Management of Distributed Data.
+1990,The POSTGRES Data Model.
+1990,Introduction to the Special Issue on Database Prototype Systems.
+1989,Future Directions in DBMS Research - The Laguna Beach Participants.
+1989,A Commentary on the POSTGRES Rule System.
+1989,The Case for Partial Indexes.
+1989,Future Trends in Database Systems.
+1989,Performance Considerations for an Operating System Transaction Manager.
+1989,Indexing Techniques for Historical Databases.
+1988,A Project on High Performance I/O Subsystems.
+1988,The POSTGRES Rule Manager.
+1988,Future Trends in Expert Data Base Systems.
+1988,Knowledge Management - Panel Report.
+1988,Future Trends in Data Base Systems.
+1988,A Performance Comparison of Two Architectures for Fast Transaction Processing.
+1988,Semantics Based Transaction Management Techniques for Replicated Data.
+1988,Extended User-Defined Indexing with Application to Textual Databases.
+1988,The Design of XPRS.
+1988,"Readings in Database Systems, First Edition."
+1987,Extendability in POSTGRES.
+1987,The Effect of Join Selectivities on Optimal Nesting Order.
+1987,Extending a Database System with Procedures.
+1987,Performance Issues in High Performance Transaction Processing Architectures.
+1987,The Design of the Postgres Rules System.
+1987,The POSTGRES Data Model.
+1987,The Design of the POSTGRES Storage System.
+1987,Performance Evaluation of an Operating System Transaction Manager.
+1986,The Case for Shared Nothing.
+1986,Operating System Support for Data Management.
+1986,Object Management in a Relational Data Base System.
+1986,An Analysis of Rule Indexing Implementations in Data Base Systems.
+1986,Inclusion of New Types in Relational Data Base Systems.
+1986,Object Management in Postgres Using Procedures.
+1986,The Design of Postgres.
+1986,Design of Relational Systems (Introduction to Section 1).
+1986,The Commercial INGRES Epilogue.
+1986,Supporting Studies on Relational Systems (Introduction to Section 2).
+1986,Distributed Database Systems (Introduction to Section 3).
+1986,The Design and Implementation of Distributed INGRES.
+1986,User Interfaces for Database Systems (Introduction to Section 4).
+1986,Extended Semantics for the Relational Model (Introduction to Section 5).
+1986,Database Design (Introduction to Section 6).
+1986,The INGRES Papers: Anatomy of a Relational Database System.
+1985,Tips on Benchmarking Data Base Systems.
+1985,Problems in Supporting Data Base Transactions in an Operating System Transaction Manager.
+1985,Architectures for expert-DBMS (Panel).
+1985,Triggers and inference in data base systems.
+1985,Expert database systems/Bases de Données et systèmes experts.
+1985,Triggers and Inference In Database Systems.
+1985,The Case for Shared Nothing.
+1984,Using a Relational Database Management System for Computer Aided Design Data - An Update.
+1984,Performance analysis of distributed data base systems.
+1984,Implementation of Data Abstraction in the Relational Database System Ingres.
+1984,Virtual Memory Transaction Management.
+1984,Heuristic Search in Data Base Systems.
+1984,Implementation Techniques for Main Memory Database Systems.
+1984,Quel as a Data Type.
+1984,Database Portals: A New Application Program Interface.
+1984,The Performance of Concurrency Control Algorithms for Database Management Systems.
+1983,Implementation of Rules in Relational Data Base Systems.
+1983,Chairman's Column.
+1983,Chairman's Column.
+1983,Performance Enhancements to a Relational Database System.
+1983,Document Processing in a Relational Database System.
+1983,A Formal Model of Crash Recovery in a Distributed System.
+1983,Application of Abstract Data Types and Abstract Indices to CAD Data Bases.
+1983,DBMS and AI: Is There any Common Point of View?
+1983,Performance Analysis of Distributed Data Base Systems.
+1983,An Implementation of Hypothetical Relations.
+1982,Observations on the Evolution of a Software System.
+1982,Using a Relational Database Management System for Computer Aided Design Data.
+1982,Performance Analysis of Distributed Data Base Systems.
+1982,Chairman's Column.
+1982,Letter to Peter Denning (Two VLDB Conferences).
+1982,Implementation of a Time Expert in a Data Base System.
+1982,Chairman's Column.
+1982,Chairman's Column.
+1982,Adding Semantic Knowledge to a Relational Database System.
+1982,A Database Perspective.
+1982,A Rules System for a Relational Data Base Management System.
+1982,TIMBER: A Sophisticated Relation Browser (Invited Paper).
+1981,Operating System Support for Database Management.
+1981,Chairman's Column.
+1981,Architecture of Future Data Base Systems.
+1981,Chairman's Column.
+1981,Chaiman's Column.
+1981,Chairman's Column.
+1981,In Memory of Kevin Whitney.
+1981,A Formal Model of Crash Recovery in a Distributed System.
+1981,Hypothetical Data Bases as Views.
+1980,Retrospection on a Database System.
+1980,Embedding Expert Knowledge and Hypothetical Data Bases Into a Data Base System.
+1980,Analysis of Distributed Data Base Processing Strategies.
+1979,Locking Granularity Revisited.
+1979,Concurrency Control and Consistency of Multiple Copies of Data in Distributed INGRES.
+1979,Performance Analysis of a Relational Data Base Management System.
+1979,Muffin: A Distributed Database Machine.
+1978,B-trees Re-examined.
+1978,On B-trees Re-examined - Authors' Response.
+1978,Concurrency Control and Consistency of Multiple Copies of Data in Distributed INGRES.
+1978,Distributed Query Processing in a Relational Data Base System.
+1977,Effects of Locking Granularity in a Database Management System.
+1977,A Distributed Database Version of INGRES.
+1977,GEO-OUEL: a system for the manipulation and display of geographic data.
+1977,A Study of the Effects of Locking Granularity in a Data Base Management System (Abstract).
+1977,Observations on Data Manipulation Languages and Their Embedding in General Purpose Programming Languages.
+1976,The Design and Implementation of INGRES.
+1976,SIGBDP (Paper Session).
+1976,The INGRES protection system.
+1976,SIGMOD (Paper Session).
+1976,Proposal for a Network INGRES.
+1976,The Data Base Management System INGRES.
+1976,A Comparison of the Use of Links and Secondary Indices in a Relational Data Base System.
+1976,Embedding a Relational Data Sublanguage in a General Purpose Programming Language.
+1975,INGRES: A Relational Data Base System.
+1975,"Networks, Hierarchies and Relations in Data Base Management Systems."
+1975,Storage Structures and Access Methods in the Relational Data Base Management System INGRES.
+1975,CUPID - The Friendly Query Language.
+1975,Implementation of Integrity Constraints and Views by Query Modification.
+1975,An Approach to Implementing a Geo-Data System.
+1974,The choice of partial inversions and combined indices.
+1974,Access control in a relational data base management system by query modification.
+1974,A Functional View of Data Independence.
+1972,A Simplification of Forrester's Model of an Urban Area.
+1972,Retrieval Efficiency Using Combined Indexes.

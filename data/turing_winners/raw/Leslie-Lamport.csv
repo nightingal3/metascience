@@ -1,0 +1,153 @@
+2018,"If You're Not Writing a Program, Don't Use a Programming Language."
+2017,Auxiliary Variables in TLA+.
+2017,On the Glitch Phenomenon.
+2015,Who builds a house without drawing blueprints?
+2015,Turing lecture: The computer science of concurrency: the early years.
+2014,Coalescing: Syntactic Abstraction for Reasoning in First-Order Modal Logics.
+2014,An incomplete history of concurrency chapter 1. 1965-1977.
+2014,Coalescing: Syntactic Abstraction for Reasoning in First-Order Modal Logics.
+2013,Adaptive Register Allocation with a Linear Number of Registers.
+2012,TLA + Proofs.
+2012,TLA+ Proofs.
+2011,Euclid Writes an Algorithm: A Fairytale.
+2011,Brief Announcement: Leaderless Byzantine Paxos.
+2011,Byzantizing Paxos by Refinement.
+2010,The mailbox problem.
+2010,Reconfiguring a state machine.
+2010,Computer Science and State Machines.
+2010,Verifying Safety Properties with the TLA+ Proof System.
+2010,The TLA+ Proof System: Building a Heterogeneous Verification Platform.
+2010,Verifying Safety Properties With the TLA+ Proof System.
+2009,Teaching concurrency.
+2009,The PlusCal Algorithm Language.
+2009,"TLA+: Whence, Wherefore, and Whither."
+2009,Vertical paxos and primary-backup replication.
+2008,Implementing dataflow with threads.
+2008,A TLA+ Proof System.
+2008,The Mailbox Problem.
+2008,A TLA+ Proof System.
+2007,Formal specification of a Web services protocol.
+2007,"DISC 20th Anniversary: Invited Talk Time, Clocks, and the Ordering of My Ideas About Distributed Systems."
+2006,Fast Paxos.
+2006,Lower bounds for asynchronous consensus.
+2006,Consensus on transaction commit.
+2006,The +CAL Algorithm Language.
+2006,The +CAL Algorithm Language.
+2006,Checking a Multithreaded Algorithm with +CAL.
+2005,Real-Time Model Checking Is Really Simple.
+2005,How Fast Can Eventual Synchrony Lead to Consensus?.
+2004,Formal Specification of a Web Services Protocol.
+2004,Recent Discoveries from Paxos.
+2004,Cheap Paxos.
+2004,Consensus on Transaction Commit.
+2003,Disk Paxos.
+2003,Arbitration-free synchronization.
+2003,Checking Cache-Coherence Protocols with TLA+.
+2003,Lower Bounds for Asynchronous Consensus.
+2002,"Specifying Systems, The TLA+ Language and Tools for Hardware and Software Engineers."
+2002,High-Level Specifications: Lessons from Industry.
+2002,"Paxos Made Simple, Fast, and Byzantine."
+2002,Specifying and verifying systems with TLA+.
+2000,Fairness and hyperfairness.
+2000,When does a correct mutual exclusion algorithm guarantee mutual exclusion?
+2000,Distributed algorithms in TLA (abstract).
+2000,Disk Paxos.
+1999,Lazy Caching in TLA.
+1999,Should your specification language be typed.
+1999,Model Checking TLA+ Specifications.
+1999,Cache Coherence Verification with TLA+.
+1998,Proving Possibility Properties.
+1998,The Part-Time Parliament.
+1998,Reduction in TLA.
+1997,How to Make a Correct Multiprocess Program Execute Correctly on a Multiprocessor.
+1997,Processes are in the Eye of the Beholder.
+1997,Composition: A Way to Make Proofs Harder.
+1996,Managing Proofs (Abstract).
+1995,Das LaTeX-Handbuch.
+1995,Conjoining Specifications.
+1995,TLA in Pictures.
+1994,"LaTeX - A Document Preparation System: User's Guide and Reference Manual, Second Edition."
+1994,How to Write a Long Formula (Short Communication).
+1994,The Temporal Logic of Actions.
+1994,An Old-Fashined Recipe for Real-Time.
+1994,The RPC-Memory Specification Problem - Problem Statement.
+1994,A TLA Solution to the RPC-Memory Specification Problem.
+1994,TLA in Pictures.
+1994,How good is your specification method?
+1994,Specifying and Verifying Fault-Tolerant Systems.
+1994,Open Systems in TLA.
+1994,Decomposing Specifications of Concurrent Systems.
+1994,TLZ.
+1993,Composing Specifications.
+1993,Verification of a Multiplier: 64 Bits and Beyond.
+1993,Verification and Specifications of Concurrent Programs.
+1992,Critique of the Lake Arrowhead Three.
+1992,Computer-Hindered Verification (Humans Can Do It Too).
+1992,Mechanical Verification of Concurrent Systems with TLA.
+1992,Hybrid Systems in TLA+.
+1992,Mechanical Verification of Concurrent Systems with TLA.
+1991,"Preserving Liveness: Comments on ""Safety and Liveness from a Methodological Point of View""."
+1991,The Existence of Refinement Mappings.
+1991,An Old-Fashioned Recipe for Real Time.
+1990,A Theorem on Atomicity in Distributed Algorithms.
+1990,Concurrent Reading and Writing of Clocks.
+1990,win and sin: Predicate Transformers for Concurrency.
+1990,Distributed Computing: Models and Methods.
+1989,A Simple Approach to Specifying Concurrent Systems.
+1989,Realizable and Unrealizable Specifications of Reactive Systems.
+1989,Composing Specifications.
+1988,Control Predicates are Better than Dummy Variables for Reasoning about Program Control.
+1988,While Waiting for the Millennium: Formal Specification and Verficiation of Concurrent Systems Now (Abstract).
+1988,The Existence of Refinement Mappings.
+1988,A Lattice-Structured Proof of a Minimum Spanning.
+1987,A Fast Mutual Exclusion Algorithm.
+1986,LaTeX: User's Guide & Reference Manual.
+1986,On Interprocess Communication. Part I: Basic Formalism.
+1986,On Interprocess Communication. Part II: Algorithms.
+1986,The mutual exclusion problem: part I - a theory of interprocess communication.
+1986,The mutual exclusion problem: partII - statement and solutions.
+1986,Byzantine Clock Synchronization.
+1985,Synchronizing Clocks in the Presence of Faults.
+1985,"Solved Problems, Unsolved Problems and Non-Problems in Concurrency."
+1985,Distributed Snapshots: Determining Global States of Distributed Systems.
+1985,What It Means for a Concurrent Program to Satisfy a Specification: Why No One Has Specified Priority.
+1985,Constraints: A Uniform Approach to Aliasing and Typing.
+1985,"Distributed Systems: Methods and Tools for Specification, An Advanced Course, April 3-12, 1984 and April 16-25, 1985, Munich, Germany."
+1984,Using Time Instead of Timeout for Fault-Tolerant Distributed Systems.
+1984,"The ""Hoare Logic"" of CSP, and All That."
+1984,Basic Concepts.
+1984,Formal Foundation for Specification and Verification.
+1984,Paradigms for Distributed Programs.
+1984,"Solved Problems, Unsolved Problems and Non-Problems in Concurrency (Invited Address)."
+1984,Byzantine Clock Synchronization.
+1983,The Weak Byzantine Generals Problem.
+1983,Specifying Concurrent Program Modules.
+1983,Problems from the Workshop on the Analysis of Concurrent Systems.
+1983,What Good is Temporal Logic?
+1983,Reasoning About Nonatomic Operations.
+1982,An Assertional Correctness Proof of a Distributed Algorithm.
+1982,The Byzantine Generals Problem.
+1982,Proving Liveness Properties of Concurrent Programs.
+1981,Password Authentification with Insecure Communication.
+1981,TIMESETS -- A New Method for Temporal Reasoning about Programs.
+1981,Program Logics and Program Verification (position paper).
+1980,The 'Hoare Logic' of Concurrent Programs.
+1980,Reaching Agreement in the Presence of Faults.
+1980,"""Sometime"" is Sometimes ""Not Never"" - On the Temporal Logic of Programs."
+1979,On the Proof of Correctness of a Calendar Program.
+1979,How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs.
+1979,A New Approach to Proving the Correctness of Multiprocess Programs.
+1978,"Time, Clocks, and the Ordering of Events in a Distributed System."
+1978,On-the-Fly Garbage Collection: An Exercise in Cooperation.
+1978,The Implementation of Reliable Distributed Multiprocess Systems.
+1978,The specification and proof of correctness of interactive programs.
+1977,Concurrent Reading and Writing.
+1977,Proving the Correctness of Multiprocess Programs.
+1976,The Synchronization of Independent Processes.
+1976,"Comments on ""A Synchronization Anomaly""."
+1975,Multiple Byte Processing with Full-Word Instructions.
+1975,On-the-fly garbage collection: an exercise in cooperation.
+1974,The Parallel Execution of DO Loops.
+1974,A New Solution of Dijkstra's Concurrent Programming Problem.
+1974,The Hyperplane Method for an Array Computer.
+1970,Comment on Bell's quadratic quotient method for hash coded searching.

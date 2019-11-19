@@ -1,0 +1,265 @@
+2019,"The seven tools of causal inference, with reflections on machine learning."
+2019,What is Causal Inference?
+2019,Sensitivity Analysis of Linear Structural Causal Models.
+2019,Unit Selection Based on Counterfactual Logic.
+2018,Estimation with Incomplete Data: The Linear Case.
+2018,Consistent Estimation given Missing Data.
+2018,Theoretical Impediments to Machine Learning With Seven Sparks from the Causal Revolution.
+2018,Theoretical Impediments to Machine Learning With Seven Sparks from the Causal Revolution.
+2017,Counterfactual Data-Fusion for Online Reinforcement Learners.
+2016,Causal inference and the data-fusion problem.
+2016,Preface to the ACM TIST Special Issue on Causal Discovery and Inference.
+2016,Incorporating Knowledge into Structural Equation Models Using Auxiliary Variables.
+2015,Missing Data from a Causal Perspective.
+2015,Bandits with Unobserved Confounders: A Causal Approach.
+2015,Efficient Algorithms for Bayesian Network Parameter Learning from Incomplete Data.
+2015,Missing Data as a Causal and Probabilistic Problem.
+2015,External Validity: From Do-Calculus to Transportability Across Populations.
+2015,Identification by Auxiliary Instrumental Sets in Linear Structural Equation Models.
+2014,Generalizing causal knowledge: theory and algorithms.
+2014,Recovering from Selection Bias in Causal and Statistical Inference.
+2014,Testable Implications of Linear Structural Equation Models.
+2014,Random Bayesian networks with bounded indegree.
+2014,On the Testability of Models with Missing Data.
+2014,Transportability from Multiple Environments with Limited Experiments: Completeness Results.
+2014,Graphical Models for Recovering Probabilistic and Causal Queries from Missing Data.
+2014,Graphical Models for Probabilistic and Causal Reasoning.
+2014,Logarithmic-Time Updates and Queries in Probabilistic Networks.
+2014,Efficient Algorithms for Bayesian Network Parameter Learning from Incomplete Data.
+2013,Structural Counterfactuals: A Brief Introduction.
+2013,Causal Transportability with Limited Experiments.
+2013,Meta-Transportability of Causal Effects: A Formal Approach.
+2013,A simple criterion for controlling selection bias.
+2013,Transportability from Multiple Environments with Limited Experiments.
+2013,Graphical Models for Inference with Missing Data.
+2013,Qualitative MDPs and POMDPs: An Order-Of-Magnitude Approximation.
+2013,Generalized Instrumental Variables.
+2013,On the Testable Implications of Causal Models with Hidden Variables.
+2013,Causes and Explanations: A Structural-Model Approach --- Part 1: Causes.
+2013,Direct and Indirect Effects.
+2013,Causal Discovery from Changes.
+2013,Probabilities of Causation: Bounds and Identification.
+2013,Identifying Independencies in Causal Graphs with Feedback.
+2013,Counterfactuals and Policy Analysis in Structural Models.
+2013,Testing Identifiability of Causal Effects.
+2013,On the Testability of Causal Models with Latent and Instrumental Variables.
+2013,Probabilistic Evaluation of Sequential Plans from Causal Models with Hidden Variables.
+2013,"Counterfactual Probabilities: Computational Methods, Bounds and Applications."
+2013,On Testing Whether an Embedded Bayesian Network Represents a Probability Model.
+2013,A Probabilistic Calculus of Actions.
+2013,From Conditional Oughts to Qualitative Decision Theory.
+2013,Deciding Morality of Graphs is NP-complete.
+2013,Reasoning With Qualitative Probabilities Can Be Tractable.
+2013,An Algorithm for Deciding if a Set of Observed Independencies Has a Causal Explanation.
+2013,On the Equivalence of Causal Models.
+2013,d-Separation: From Theorems to Algorithms.
+2013,Deciding Consistency of Databases Containing Defeasible and Strict Information.
+2013,On the Logic of Causal Models.
+2013,Causal Networks: Semantics and Expressiveness.
+2013,"Do We Need Higher-Order Probabilities and, If So, What Do They Mean?"
+2013,Structuring Causal Tree Models with Continuous Variables.
+2013,The Recovery of Causal Poly-Trees from Statistical Data.
+2013,Distributed Revision of Belief Commitment in Multi-Hypothesis Interpretations.
+2013,Learning Link-Probabilities in Causal Trees.
+2013,A Constraint Propagation Approach to Probabilistic Reasoning.
+2013,A General Algorithm for Deciding Transportability of Experimental Results.
+2012,Transportability of Causal Effects: Completeness Results.
+2012,Human and Machine Intelligence.
+2012,The Do-Calculus Revisited.
+2012,Causal Inference by Surrogate Experiments: z-Identifiability.
+2012,Controlling Selection Bias in Causal Inference.
+2012,On a Class of Bias-Amplifying Variables that Endanger Effect Estimates.
+2012,On Measurement Bias in Causal Inference.
+2012,Confounding Equivalence in Causal Inference.
+2012,Effects of Treatment on the Treated: Identification and Generalization.
+2012,What Counterfactuals Can Be Tested.
+2012,Graphical Condition for Identification in recursive SEM.
+2012,Identification of Conditional Interventional Distributions.
+2012,Robustness of Causal Claims.
+2012,Causal Inference by Surrogate Experiments: z-Identifiability.
+2012,The Do-Calculus Revisited.
+2011,The algorithmization of counterfactuals.
+2011,"Graphical models, potential outcomes and causal inference: Comment on Linquist and Sobel."
+2011,Controlling Selection Bias in Causal Inference.
+2011,Transportability of Causal and Statistical Relations: A Formal Approach.
+2011,The algorithmization of counterfactuals.
+2011,On Counterfactuals and Cognitive Science: Rumlhart Prize Symposium in Honor of Judea Pearl.
+2011,Local Characterizations of Causal Bayesian Networks.
+2011,Transportability of Causal and Statistical Relations: A Formal Approach.
+2011,The mathematics of causal inference.
+2011,Causal Diagrams.
+2010,Belief propagation: technical perspective.
+2010,On a Class of Bias-Amplifying Variables that Endanger Effect Estimates.
+2010,On Measurement Bias in Causal Inference.
+2010,Confounding Equivalence in Causal Inference.
+2010,Causal Inference.
+2009,Effects of Treatment on the Treated: Identification and Generalization.
+2008,Complete Identification Methods for the Causal Hierarchy.
+2008,Dormant Independence.
+2007,Causality and Counterfactuals in the Situation Calculus.
+2007,What Counterfactuals Can Be Tested.
+2006,Identification of Joint Interventional Distributions in Recursive Semi-Markovian Causal Models.
+2006,A Characterization of Interventional Distributions in Semi-Markovian Causal Models.
+2006,Graphical Condition for Identification in recursive SEM.
+2006,Identification of Conditional Interventional Distributions.
+2005,Response to review by Kyburg.
+2005,Influence Diagrams - Historical and Personal Perspectives.
+2005,Identifiability of Path-Specific Effects.
+2004,Robustness of Causal Claims.
+2002,Reasoning with Cause and Effect.
+2002,A Graphical Criterion for the Identification of Causal Effects in Linear Models.
+2002,A General Identification Condition for Causal Effects.
+2002,A New Characterization of the Experimental Implications of Causal Bayesian Networks.
+2002,Qualitative MDPs and POMDPs: An Order-Of-Magnitude Approximation.
+2002,Generalized Instrumental Variables.
+2002,On the Testable Implications of Causal Models with Hidden Variables.
+2002,Causes and Explanations: A Structural-Model Approach. Part II: Explanations.
+2001,On Two Pseudo-Paradoxes in Bayesian Analysis.
+2001,Causes and Explanations: A Structural-Model Approach - Part II: Explanations.
+2001,Causes and Explanations: A Structural-Model Approach: Part 1: Causes.
+2001,Direct and Indirect Effects.
+2001,Causal Discovery from Changes.
+2000,Probabilities of causation: Bounds and identification.
+2000,Probabilities of Causation: Bounds and Identification.
+2000,"Causes and Explanations: A Structural-Model Approach, Part I: Causes."
+1999,Probabilities Of Causation: Three Counterfactual Interpretations And Their Identification.
+1999,Testing regression models with fewer regressors.
+1999,Reasoning with Cause and Effect.
+1997,On the Logic of Iterated Belief Revision.
+1997,The Relevance of Relevance (Editorial).
+1997,Axioms of Causal Relevance.
+1997,Graphical Models for Probabilistic and Causal Reasoning.
+1996,"Qualitative Probabilities for Default Reasoning, Belief Revision, and Causal Modeling."
+1996,Uncovering Trees in Constraint Networks.
+1996,Decision Making Under Uncertainty.
+1996,Logarithmic-Time Updates and Queries in Probabilistic Networks.
+1996,A new characterization of graphs based on interception relations.
+1996,A Clinician's Tool for Analyzing Non-Compliance.
+1996,"Causation, Action and Counterfactuals."
+1996,Identifying Independencies in Causal Graphs with Feedback.
+1996,Logarithmic-Time Updates and Queries in Probabilistic Networks.
+1995,Causal inference from indirect experiments.
+1995,A Causal Calculus for Statistical Research.
+1995,Specificity and Inheritance in Default Reasoning.
+1995,Counterfactuals and Policy Analysis in Structural Models.
+1995,Logarithmic-Time Updates and Queries in Probabilistic Networks.
+1995,Testing Identifiability of Causal Effects.
+1995,On the Testability of Causal Models With Latent and Instrumental Variables.
+1995,Probabilistic evaluation of sequential plans from causal models with hidden variables.
+1994,Probabilistic Evaluation of Counterfactual Queries.
+1994,Symbolic Causal Networks.
+1994,Qualitative Decision Theory.
+1994,"Causation, Action and Counterfactuals."
+1994,Specification and Evaluation of Preferences Under Uncertainty.
+1994,On the Logic of iterated Belief Revision.
+1994,"Counterfactual Probabilities: Computational Methods, Bounds and Applications."
+1994,On Testing Whether an Embedded Bayesian Network Represents a Probability Model.
+1994,A Probabilistic Calculus of Actions.
+1993,Belief Networks Revisited.
+1993,A Maximum Entropy Approach to Nonmonotonic Reasoning.
+1993,From Conditional Oughts to Qualitative Decision Theory.
+1993,Deciding Morality of Graphs is NP-complete.
+1992,On the Consistency of Defeasible Databases.
+1992,Conditional Entailment: Bridging two Approaches to Default Reasoning.
+1992,Structure Identification in Relational Data.
+1992,"Rejoinder to comments on ""reasoning with belief functions: An analysis of compatibility""."
+1992,Empirical Semantics for Defeasible Databases.
+1992,"Rank-based Systems: A Simple Approach to Belief Revision, Belief Update, and Reasoning about Evidence and Actions."
+1992,Reasoning with Qualitative Probabilities Can Be Tractable.
+1992,An Algorithm for Deciding if a Set of Observed Independencies Has a Causal Explanation.
+1991,Temporal Constraint Networks.
+1991,Axioms and Algorithms for Inferences Involving Probabilistic Independence.
+1991,System-Z+: A Formalism for Reasoning with Variable-Strength Defaults.
+1991,Directed Constraint Networks: A Relational Framework for Causal Modeling.
+1991,A Theory of Inferred Causation.
+1990,Logical and algorithmic properties of independence and their application to Bayesian networks.
+1990,Reasoning with belief functions: An analysis of compatibility.
+1990,Identifying independence in bayesian networks.
+1990,Tree Decomposition with Applications to Constraint Processing.
+1990,A Maximum Entropy Approach to Nonmonotonic Reasoning.
+1990,Learning Causal Trees from Dependence Information.
+1990,System Z: A Natural Ordering of Defaults with Tractable Applications to Nonmonotonic Reasoning.
+1990,Equivalence and synthesis of causal models.
+1989,Probabilistic reasoning in intelligent systems - networks of plausible inference.
+1989,Tree Clustering for Constraint Networks.
+1989,Conditional independence and its representations.
+1989,Learning Structure from Data: A Survey.
+1989,Temporal Constraint Networks.
+1989,Probabilistic Semantics for Nonmonotonic Reasoning: A Survey.
+1989,Deciding Consistency of Databases Containing Defeasible and Strict Information.
+1989,d-Separation: From Theorems to Algorithms.
+1988,Embracing Causality in Default Reasoning.
+1988,On logic and probability.
+1988,On probability intervals.
+1988,"Do we need higher-order probabilities, and, if so, what do they mean?"
+1988,The recovery of causal poly-trees from statistical data.
+1988,Tree-Clustering Schemes for Constraint-Processing.
+1988,On the logic of causal models.
+1988,Causal networks: semantics and expressiveness.
+1987,Evidential Reasoning Using Stochastic Simulation of Causal Models.
+1987,Distributed Revision of Composite Beliefs.
+1987,Network-Based Heuristics for Constraint-Satisfaction Problems.
+1987,Convince: A Conversational Inference Consolidation Engine.
+1987,Embracing Causality in Formal Reasoning.
+1987,The Logic of Representing Dependencies by Directed Graphs.
+1987,An Improved Constraint-Propagation Algorithm for Diagnosis.
+1987,The Recovery of Causal Poly-Trees from Statistical Data.
+1987,Structuring Causal Tree Models with Continuous Variables.
+1986,On Evidential Reasoning in a Hierarchy of Hypotheses.
+1986,"Fusion, Propagation, and Structuring in Belief Networks."
+1986,Structuring causal trees.
+1986,On the Logic of Probabilistic Dependencies.
+1986,Comprehension-Driven Generation of Meta-Technical Utterances in Math Tutoring.
+1986,Graphoids: Graph-Based Logic for Reasoning about Relevance Relations or When would x tell you more about y if you already know z?
+1986,Probabilistic reasoning using graphs.
+1986,Distributedrevision of belief commitment in composite explanations.
+1985,Generalized Best-First Search Strategies and the Optimality of A*.
+1985,How to Do with Probabilities What People Say You Can't.
+1985,Learning Hidden Causes from Empirical Data.
+1985,The Anatomy of Easy Problems: A Constraint-Satisfaction Formulation.
+1985,A Constraint-Propagation Approach to Probabilistic Reasoning.
+1984,Heuristics - intelligent search strategies for computer problem solving.
+1984,Some Recent Results in Heuristic Search Theory.
+1983,Knowledge Versus Search: A Quantitative Analysis Using A*.
+1983,On the Nature of Pathology in Game Searching.
+1983,Searching for an Optimal Path in a Tree with Random Costs.
+1983,A Minimax Algorithm Better Than Alpha-Beta? Yes and No.
+1983,On the Discovery and Generation of Certain Heuristics.
+1983,The Optimality of A* Revisited.
+1983,A Computational Model for Causal and Diagnostic Reasoning in Inference Systems.
+1982,The Solution for the Branching Factor of the Alpha-Beta Pruning Algorithm and its Optimality.
+1982,GODDESS: A Goal-Directed Decision Structuring System.
+1982,Studies in Semi-Admissible Heuristics.
+1982,Reverend Bayes on Inference Engines: A Distributed Hierarchical Approach.
+1982,The Utility of Precision in Search Heuristics.
+1981,A Space-Efficient On-Line Method of Computing Quantile Estimates.
+1981,The Solution for the Branching Factor of the Alpha-Beta Pruning Algorithm.
+1981,Heuristic Search Theory: Survey of Recent Results.
+1980,Asymptotic Properties of Minimax Trees and Game-Searching Procedures.
+1980,Probabilistic Analysis of the Complexity of A*.
+1980,Storage space versus validity of answers in probabilistic question-answering systems.
+1980,SCOUT: A Simple Game-Searching Algorithm with Proven Optimal Properties.
+1980,Asymptotic Complexity of Game-Searching Procedures.
+1979,Capacity and Error Estimates for Boolean Classifiers with Limited Complexity.
+1979,Asymptotic Properties of Discrete Unitary Transforms.
+1979,Asymptotic rate-distortion functions for coding precedence relations (Corresp.).
+1979,Bounds on memory versus error trade-offs in question-answering systems.
+1979,Elasticity conditions for storage versus error exchange in question-Answering systems.
+1977,On summarizing data using probabilistic assertions.
+1977,A Framework for Processing Value Judgments.
+1977,An Interactive Program Fo Conversational Elicitation of Decision Structures.
+1977,An Interactive Program for Conversational Elecitation of Decision Structures.
+1976,An application of rate-distortion theory to pattern recognition and classification.
+1976,Memory Versus Error Characteristics for Inexact Representations of Linear Orders.
+1976,On coding precedence relations with a pair-ordering fidelity criterion (Corresp.).
+1976,Theoretical bounds on the complexity of inexact computations.
+1975,On the Complexity of Inexact Computations.
+1975,Optimal Dyadic Models of Time-Invariant Systems.
+1975,On the residual correlation of finite-dimensional discrete Fourier transforms of stationary signals (Corresp.).
+1975,On the Storage Economy of Inferential Question-Answering Systems.
+1975,On The Storage Economy Of Error-Tolerating Question-Answering Systems.
+1973,"Time, frequency, sequency, and their uncertainty relations (Corresp.)."
+1973,On coding and filtering stationary signals by discrete Fourier transforms (Corresp.).
+1972,"Comments on ""Application of Walsh Transform to Statistical Analysis""."
+1971,Basis-restricted transformations and performance measures for spectral representations (Corresp.).
+1971,Application of Walsh Transform to Statistical Analysis.

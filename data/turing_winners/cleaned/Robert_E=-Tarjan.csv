@@ -1,0 +1,322 @@
+2019,randomized concurrent set union generalized wake-up
+2019,simple concurrent labeling algorithm connected component
+2019,new path splay dynamic optimality
+2019,splaying preorders postorders
+2019,zip tree
+2019,splaying preorders postorders
+2019,new path splay dynamic optimality
+2018,zip tree
+2018,simple concurrent labeling algorithm connected component
+2017,minimum-cost flow unit-capacity network
+2017,hollow heap
+2016,amortized rotation cost avl tree
+2016,dominator tree certification divergent spanning tree
+2016,new approach incremental cycle detection related problem
+2016,addendum dominator tree certification divergent spanning tree
+2016,deletion without rebalancing binary search tree
+2016,randomized concurrent algorithm disjoint set union
+2016,randomized concurrent algorithm disjoint set union
+2015,rank-balanced tree
+2015,faster dynamic maximum flow incremental breadth-first search
+2015,hollow heap
+2015,minimum cost flow graph unit capacity
+2015,amortized rotation cost avl tree
+2015,hollow heap
+2015,note fault tolerant reachability directed graph
+2014,efficient maximum flow algorithm
+2014,cb tree practical concurrent self-adjusting search tree
+2014,correction finding dominators via disjoint set union j discrete algorithm 23 2013 2-20
+2014,deletion without rebalancing multiway search tree
+2014,back-to-basics empirical study priority queue
+2014,nested set union
+2014,disjoint set union randomized linking
+2014,better approximation algorithm graph diameter
+2014,loop nesting forest dominators application
+2014,back-to-basics empirical study priority queue
+2014,fibonacci heap revisited
+2013,finding dominators via disjoint set union
+2013,soft heap simplified
+2013,dominator certification independent spanning tree experimental study
+2013,finding dominators via disjoint set union
+2012,optimal dynamic data structure stabbing-semigroup query
+2012,incremental cycle detection topological ordering strong component maintenance
+2012,algorithmic view universe
+2012,weight-scaling algorithm min-cost imperfect matchings bipartite graph
+2012,dominators directed bipolar order independent spanning tree
+2012,strict fibonacci heap
+2012,cbtree practical concurrent self-adjusting search tree
+2012,dominator tree certification independent spanning tree
+2011,rank-pairing heap
+2011,data structure mergeable tree
+2011,maximum flow incremental breadth-first search
+2011,theory v practice design analysis algorithm
+2011,incremental cycle detection topological ordering strong component maintenance
+2011,new approach incremental cycle detection related problem
+2010,note introductory combinatorics reprint 1983 edition
+2010,hp transforms product portfolio management operation research
+2010,deletion without rebalancing balanced binary tree
+2009,shortest-path feasibility algorithm experimental evaluation
+2009,dynamic tree practice
+2009,efficiently generating k-best solution procurement auction
+2009,experimental study minimum mean cycle algorithm
+2009,rank-pairing heap
+2009,deletion without rebalancing multiway search tree
+2009,rank-balanced tree
+2009,heap simplified
+2008,planarity algorithm via pq-trees extended abstract
+2008,finding strongly knit cluster social network
+2008,finding feasible flow strongly connected network
+2008,linear-time algorithm dominators path-evaluation problem
+2008,thin heap thick heap
+2008,shortest path feasibility algorithm experimental evaluation
+2008,faster algorithm incremental topological ordering
+2008,reachability problem directed graph
+2008,fast exact heuristic method role minimization problem
+2008,incremental topological ordering strong component maintenance
+2007,server allocation algorithm tiered system
+2007,clustering social network
+2007,dynamic tree practice
+2007,experimental evaluation parametric max-flow algorithm
+2007,data structure mergeable tree
+2007,finding feasible flow strongly connected network
+2006,finding dominators practice
+2006,melding priority queue
+2006,balancing applied maximum network flow problem
+2006,design data structure mergeable tree
+2006,result problem self-adjusting search tree related data structure
+2005,server allocation algorithm tiered system
+2005,deadline scheduling animation rendering
+2005,dominator tree verification vertex-disjoint path
+2005,self-adjusting top tree
+2005,value-maximizing deadline scheduling application animation rendering
+2004,finding dominators practice
+2004,finding dominators revisited extended abstract
+2004,melding priority queue
+2003,graph clustering minimum cut tree
+2003,dynamic rectangular intersection priority
+2003,piracy problem drm answer
+2002,union-find deletion
+2002,meldable heap boolean union-find
+2002,faster parametric shortest path minimum balance algorithm
+2001,unique maximum matching algorithm
+2001,dynamic self-checking technique improved tamper resistance
+2001,faster kinetic heap use broadcast scheduling
+2000,simple confluently persistent catenable list
+1999,tractability parameterized completion problem chordal strongly chordal proper interval graph
+1999,tight analysis two local load balancing algorithm
+1999,faster simpler algorithm sorting signed permutation reversal
+1999,unique maximum matching algorithm
+1999,proceeding tenth annual acm-siam symposium discrete algorithm 17-19 january 1999 baltimore maryland usa
+1998,culturally induced information impactedness prescription failure software venture
+1998,robustness security digital watermark
+1998,culturally-induced information impactedness prescription failure software venture
+1998,simple confluently persistent catenable list extended abstract
+1997,optimal parallel verification minimum spanning tree logarithmic time
+1997,toward efficient unstructured multigrid preprocessing
+1997,dynamic tree search tree via euler tour applied network simplex algorithm
+1997,faster simpler algorithm sorting signed permutation reversal
+1997,faster simpler algorithm sorting signed permutation reversal
+1996,dominating set planar graph
+1996,parallelism multigrid method much much
+1996,analysis multigrid algorithm massively parallel computer architectural implication
+1996,toward efficient unstructured multigrid preprocessing extended abstract
+1996,finding minimum spanning forest logarithmic time linear work using random sampling
+1996,purely functional representation catenable sorted list
+1995,lazy structure sharing query optimization
+1995,randomized linear-time algorithm find minimum spanning tree
+1995,confluently persistent deques via data-structural bootstrapping
+1995,data-structural bootstrapping linear path compression catenable heap-ordered double-ended queue
+1995,computing minimal spanning subgraphs linear time
+1995,model parallel computation survey synthesis
+1995,persistent list catenation via recursive slow-down
+1995,tight analysis two local load balancing algorithm
+1994,fully persistent list catenation
+1994,faster deterministic maximum flow algorithm
+1994,unique binary-search-tree representation equality testing set sequence
+1994,dynamic perfect hashing upper lower bound
+1994,improved algorithm bipartite network flow
+1994,optimal parallel verification minimum spanning tree logarithmic time
+1994,tractability parameterized completion problem chordal interval graph minimum fill-in physical mapping
+1994,unstructured multigrid strategy massively parallel computer case integrated design
+1994,randomized linear-time algorithm finding minimum spanning tree
+1993,corrigendum maintenance minimum spanning forest dynamic plane graph
+1993,finding minimum-cost maximum flow series-parallel network
+1993,om log n-time algorithm maximal planar subgraph problem
+1993,confluently persistent deques via data structural bootstrapping
+1992,maintaining bridge-connected biconnected component on-line
+1992,linear-time algorithm finding ambitus
+1992,polygon triangulation n log log n time simple data structure
+1992,randomized parallel algorithm trapezoidal diagram
+1992,erratum randomized parallel algorithm trapezoidal diagram
+1992,maintenance minimum spanning forest dynamic plane graph
+1992,finding minimum-cost flow double scaling
+1992,verification sensitivity analysis minimum spanning tree linear time
+1992,short encoding evolving structure
+1992,efficient bottom-up multi-pattern matching tree
+1992,data structural bootstrapping linear path compression catenable heap ordered double ended queue
+1992,computing minimal spanning subgraphs linear time
+1992,faster deterministic maximum flow algorithm
+1991,faster scaling algorithm general graph-matching problem
+1991,transitive compaction parallel via branching
+1991,efficiency primal network simplex algorithm minimum-cost circulation problem
+1991,use dynamic tree network simplex algorithm maximum flow problem
+1991,faster parametric shortest path minimum-balance algorithm
+1991,randomized parallel algorithm trapezoidal diagram
+1991,fully persistent list catenation
+1990,simplified linear-time jordan sorting polygon clipping
+1990,faster algorithm shortest path problem
+1990,finding minimum-cost circulation successive approximation
+1990,efficient bottom-up tree pattern matching
+1990,polygon triangulation log log n time simple data-structures
+1990,maintenance minimum spanning forest dynamic planar graph
+1990,unique binary search tree representation equality-testing set sequence
+1989,fast la vega algorithm triangulating simple polygon
+1989,tight amortized bound path reversal
+1989,parallel algorithm finding blocking flow acyclic network
+1989,finding minimum-cost circulation canceling negative cycle
+1989,making data structure persistent
+1989,amortized analysis algorithm set union backtracking
+1989,fast parametric maximum flow algorithm application
+1989,improved time bound maximum flow problem
+1989,faster scaling algorithm network problem
+1988,relaxed heap alternative fibonacci heap application parallel computation
+1988,linear-time algorithm finding minimum spanning pseudoforest
+1988,new approach maximum-flow problem
+1988,algorithm two bottleneck optimization problem
+1988,one-processor scheduling symmetric earliness tardiness penalty
+1988,log log n-time algorithm triangulating simple polygon
+1988,erratum log log n-time algorithm triangulating simple polygon
+1988,fast la vega algorithm triangulating simple polygon
+1988,dynamic perfect hashing upper lower bound
+1988,finding minimum-cost circulation canceling negative cycle
+1988,almost-optimum speed-ups algorithm bipartite matching related problem
+1987,linear-time algorithm visibility shortest path problem inside triangulated simple polygon
+1987,algorithmic design
+1987,fibonacci heap us improved network optimization algorithm
+1987,three partition refinement algorithm
+1987,correction linear-time algorithm triangulating simple polygon
+1987,solving minimum-cost flow problem successive approximation
+1986,pairing heap new form self-adjusting heap
+1986,locally adaptive data compression scheme
+1986,planar point location using persistent search tree
+1986,efficient algorithm finding minimum spanning tree undirected directed graph
+1986,rectilinear planar layout bipolar orientation planar graph
+1986,sorting jordan sequence linear time using level-linked search tree
+1986,deques heap order
+1986,self-adjusting heap
+1986,linear time algorithm visibility shortest path problem inside simple polygon
+1986,making data structure persistent
+1986,rotation distance triangulation hyperbolic geometry
+1986,new approach maximum flow problem
+1986,linear-time algorithm triangulating simple polygon
+1985,amortized efficiency list update paging rule
+1985,sequential access play tree take linear time
+1985,decomposition clique separator
+1985,self-adjusting binary search tree
+1985,linear-time algorithm special case disjoint set union
+1985,note finding minimum-cost edge-disjoint spanning tree
+1985,strongly connected orientation mixed multigraphs
+1985,addendum simple linear-time algorithm test chordality graph test acyclicity hypergraphs selectively reduce acyclic hypergraphs
+1985,biased search tree
+1985,efficient parallel biconnectivity algorithm
+1985,linear time solution single function coarsest partition problem
+1985,sorting jordan sequence linear time
+1984,worst-case analysis set union algorithm
+1984,efficient algorithm family matroid intersection problem
+1984,gauss code planar hamiltonian graph stack-sortable permutation
+1984,separator theorem graph bounded genus
+1984,quick method finding shortest pair disjoint path
+1984,fast algorithm finding nearest common ancestor
+1984,simple linear-time algorithm test chordality graph test acyclicity hypergraphs selectively reduce acyclic hypergraphs
+1984,finding biconnected component computing tree function logarithmic parallel time extended summary
+1984,fibonacci heap us improved network optimization algorithm
+1984,linear time algorithm solve single function coarsest partition problem
+1984,scaling related technique geometry problem
+1984,amortized efficiency list update rule
+1983,note introductory combinatorics
+1983,data structure network algorithm
+1983,updating balanced search tree o1 rotation
+1983,improved algorithm hierarchical clustering using strong component
+1983,data structure dynamic tree
+1983,space-efficient implementation graph search method
+1983,self-adjusting binary tree
+1983,linear-time algorithm special case disjoint set union
+1982,hierarchical clustering algorithm using strong component
+1982,sensitivity analysis minimum spanning tree shortest path tree
+1982,asymptotically tight bound time-space trade-off pebble game
+1982,symbolic program analysis almost-linear time
+1982,recognition series parallel digraph
+1981,unified approach path problem
+1981,fast algorithm solving path problem
+1981,scheduling unit-time task arbitrary release time deadline
+1981,greedy heuristic complete matching
+1981,data structure dynamic tree
+1980,space complexity pebble game tree
+1980,variation common subexpression problem
+1980,linear expected-time algorithm connectivity problem
+1980,pebbling problem complete polynomial space
+1980,design analysis data structure representing sorted list
+1980,application planar separator theorem
+1980,performance bound level-oriented two-dimensional packing algorithm
+1980,biased 2-3 tree
+1980,prime subprogram parsing program
+1980,linear expected-time algorithm connectivity problem extended abstract
+1979,storing sparse table
+1979,linear-time algorithm testing truth certain quantified boolean formula
+1979,fast merging algorithm
+1979,application path compression balanced tree
+1979,class algorithm require nonlinear time maintain disjoint set
+1979,fast algorithm finding dominators flowgraph
+1979,efficient algorithm simple matroid intersection problem
+1979,recognition series parallel digraph
+1979,pebbling problem complete polynomial space
+1979,upper lower bound time-space tradeoff
+1978,time-space trade-off pebble game
+1978,triangulating simple polygon
+1978,linear-time algorithm finding feedback vertex
+1978,representation linear list movable finger
+1977,space bound game graph
+1977,correction space bound game graph
+1977,finding optimum branching
+1977,finding maximum independent set
+1977,corrigendum computing st-numbering tc 21976339-344
+1977,application planar separator theorem
+1977,time-space trade-off pebble game
+1977,reference machine require non-linear time maintain disjoint set
+1976,edge-disjoint spanning tree depth-first search
+1976,lower bound length node sequence directed graph
+1976,combinatorial problem complete polynomial space
+1976,intersection graph curve plane
+1976,b-matchings tree
+1976,algorithmic aspect vertex elimination graph
+1976,augmentation problem
+1976,planar hamiltonian circuit problem np-complete
+1976,finding minimum spanning tree
+1976,computing  st  -numbering
+1976,space bound game graph
+1975,optimal chain partition tree
+1975,efficiency good linear set union algorithm
+1975,network flow testing graph connectivity
+1975,combinatorial problem complete polynomial space
+1975,algorithmic aspect vertex elimination
+1974,note finding bridge graph
+1974,new algorithm finding weak component
+1974,good algorithm edge-disjoint branching
+1974,efficient planarity testing
+1974,testing flow graph reducibility
+1974,finding dominators directed graph
+1974,testing graph connectivity
+1973,efficient algorithm graph manipulation h algorithm 447
+1973,v log v algorithm isomorphism triconnected planar graph
+1973,time bound selection
+1973,dividing graph triconnected component
+1973,enumeration elementary circuit directed graph
+1973,testing flow graph reducibility
+1972,determining whether groupoid group
+1972,sorting using network queue stack
+1972,depth-first search linear graph algorithm
+1972,isomorphism planar graph
+1972,linear time bound median computation
+1971,v² algorithm determining isomorphism planar graph
+1971,depth-first search linear graph algorithm working paper
+1971,planarity testing v log v step extended abstract

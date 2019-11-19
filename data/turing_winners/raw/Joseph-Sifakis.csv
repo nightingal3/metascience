@@ -1,0 +1,196 @@
+2019,Rigorous design of cyber-physical systems - Linking physicality and computation.
+2019,Can We Trust Autonomous Systems? Boundaries and Risks.
+2019,A Logic-Inspired Approach to Reconfigurable System Modelling.
+2019,Autonomous Systems - An Architectural Characterization.
+2019,Checking Deadlock-Freedom of Parametric Component-Based Systems.
+2019,Structural Invariants for Parametric Verification of Systems with Almost Linear Architectures.
+2019,Local Reasoning about Parametric and Reconfigurable Component-based Systems.
+2018,Early validation of system requirements and design through correctness-by-construction.
+2018,Global and Local Deadlock Freedom in BIP.
+2018,Programming Dynamic Reconfigurable Systems.
+2018,DReAM: Dynamic Reconfigurable Architecture Modeling.
+2018,Four Exercises in Programming Dynamic Reconfigurable Systems: Methodology and Solution in DR-BIP.
+2018,System Design in the Era of IoT - Meeting the Autonomy Challenge.
+2018,DReAM: Dynamic Reconfigurable Architecture Modeling (full paper).
+2018,DesignBIP: A Design Studio for Modeling and Generating Systems with BIP.
+2018,Checking Deadlock-Freedom of Parametric Component-Based Systems.
+2018,Autonomous Systems - An Architectural Characterization.
+2017,Configuration logics: Modeling architecture styles.
+2017,Functional BIP: Embedding connectors in functional programming languages.
+2016,A general framework for architecture composability.
+2016,Component-based verification using incremental design and invariants.
+2016,Parameterized Systems in BIP: Design and Model Checking.
+2016,Architecture-Based Design: A Satellite On-Board Software Case Study.
+2016,Architecture Diagrams: A Graphical Language for Architecture Style Specification.
+2015,System Design Automation: Challenges and Limitations.
+2015,Optimized distributed implementation of multiparty interactions with Restriction.
+2015,A Theory Agenda for Component-Based Design.
+2015,Configuration Logics: Modelling Architecture Styles.
+2014,Architecture internalisation in BIP.
+2014,Toward a System Design Science.
+2014,Keynote talk III: A framework for modeling architectures and their properties.
+2014,Rigorous system design.
+2014,A General Framework for Architecture Composability.
+2013,Rigorous System Design.
+2013,Rigorous implementation of real-time systems - from theory to application.
+2013,Introduction to the special section on rigorous embedded systems design.
+2013,Model-Based Implementation of Parallel Real-Time Systems.
+2013,An Abstract Framework for Deadlock Prevention in BIP.
+2012,A framework for automated distributed implementation of component-based models.
+2012,2010 CAV award announcement.
+2012,"Systems Architecture, Design, Engineering, and Verification - The Practice in Research and Research in Practice."
+2012,Optimized distributed implementation of multiparty interactions with observation.
+2012,Knowledge-Based Distributed Conflict Resolution for Multiparty Interactions and Priorities.
+2012,Trustworthy Computing Systems.
+2012,Rigorous design of cyber-physical systems.
+2012,Trustworthy Computing Systems.
+2012,Modeling Dynamic Architectures Using Dy-BIP.
+2012,Rigorous Component-Based System Design - (Invited Paper).
+2011,A vision for computer science - the system perspective.
+2011,Priority scheduling of distributed systems based on model checking.
+2011,Rigorous Component-Based System Design Using the BIP Framework.
+2011,Methods and tools for component-based system design.
+2011,Time-predictable and composable architectures for dependable embedded systems.
+2011,Component Assemblies in the Context of Manycore.
+2011,Rigorous System Design: The BIP Approach.
+2011,Rigorous system level modeling and analysis of mixed HW/SW systems.
+2011,D-Finder 2: Towards Efficient Correctness of Incremental Design.
+2011,Synthesizing Glue Operators from Glue Constraints for the Construction of Component-Based Systems.
+2010,Causal semantics for the algebra of connectors.
+2010,2009 CAV award announcement.
+2010,Compositional verification for component-based systems and application.
+2010,Source-to-Source Architecture Transformation for Performance Optimization in BIP.
+2010,Knowledge Based Scheduling of Distributed Systems.
+2010,Component-based Construction of Heterogeneous Real-time Systems in BIP.
+2010,From high-level component-based models to distributed implementations.
+2010,Model-based implementation of real-time applications.
+2010,Embedded systems design - Scientific challenges and work directions.
+2010,Incremental component-based construction and verification using invariants.
+2010,Automated Conflict-free distributed implementation of component-based models.
+2010,Compositional Translation of Simulink Models into Synchronous BIP.
+2010,Systematic Correct Construction of Self-stabilizing Systems: A Case Study.
+2010,Embedded Systems Design - Scientific Challenges and Work Directions.
+2010,Incremental Invariant Generation for Compositional Design.
+2009,Model checking: algorithmic verification and debugging.
+2009,Component-Based Construction of Heterogeneous Real-Time Systems in Bip.
+2009,Component-Based Construction of Real-Time Systems in BIP.
+2009,Priority Scheduling of Distributed Systems Based on Model Checking.
+2009,D-Finder: A Tool for Compositional Deadlock Detection and Verification.
+2009,Embedded systems design - Scientific challenges and work directions.
+2009,Modeling synchronous systems in BIP.
+2009,Source-to-source architecture transformation for performance optimization in BIP.
+2009,The Quest for Correctness-Beyond a Posteriori Verification.
+2009,"Brief Announcement: Incremental Component-Based Modeling, Verification, and Performance Evaluation of Distributed Reset."
+2008,Symbolic quality control for multimedia applications.
+2008,The Algebra of Connectors - Structuring Interaction in BIP.
+2008,Compositional Verification for Component-Based Systems and Application.
+2008,A Notion of Glue Expressiveness for Component-Based Systems.
+2008,Incremental Component-Based Construction and Verification of a Robotic System.
+2008,Distributed Semantics and Implementation for Systems with Interaction and Priority.
+2008,Translating AADL into BIP - Application to the Verification of Real-Time Systems.
+2008,Specification and Verification of Conurrent Systems in Cesar.
+2008,Modeling Heterogeneous Real-time Components in BIP.
+2007,The Discipline of Embedded Systems Design.
+2007,The algebra of connectors: structuring interaction in BIP.
+2007,Causal Semantics for the Algebra of Connectors.
+2007,Using Speed Diagrams for Symbolic Quality Management.
+2007,Using BIP for Modeling and Verification of Networked Systems -- A Case Study on TinyOS-based Networks.
+2007,An Approach to Modelling and Verification of Component Based Systems.
+2006,Ensuring Properties of Interaction Systems.
+2006,The Embedded Systems Design Challenge.
+2006,WPDRTS keynote: component-based construction of embedded systems.
+2006,A Methodology and Supporting Tools for the Development of Component-Based Embedded Systems.
+2006,Modeling Heterogeneous Real-time Components in BIP.
+2005,Embedded Systems Design: The ARTIST Roadmap for Research and Development.
+2005,Composition for component-based modeling.
+2005,Guidelines for a graduate curriculum on embedded software and systems.
+2005,Fine Grain QoS Control for Multimedia Application Software.
+2005,QoS control for optimality and safety.
+2005,A Framework for Component-based Construction Extended Abstract.
+2004,Embedded Systems - Challenges and Work Directions.
+2004,Modeling Real-Time Systems.
+2004,The IF Toolset.
+2003,Building models of real-time systems from application software.
+2003,Priority Systems.
+2003,Component-Based Construction of Deadlock-Free Systems: Extended Abstract.
+2002,Abstracts of Invited Talks.
+2002,Scheduler Modeling Based on the Controller Synthesis Paradigm.
+2002,Composition for Component-Based Modeling.
+2002,Scheduler Modeling Based on the Controller Synthesis Paradigm.
+2002,"Embedded Software, Second International Conference, EMSOFT 2002, Grenoble, France, October 7-9, 2002, Proceedings."
+2001,TAXYS: A Tool for the Development and Verification of Real-Time Embedded Systems.
+2001,Modeling Real-Time Systems-Challenges and Work Directions.
+2000,An Algebraic Framework for Urgency.
+2000,Towards validated real-time software.
+2000,A Methodology for the Construction of Scheduled Systems.
+2000,On the Construction of Live Timed Systems.
+1999,Decidable Integration Graphs.
+1999,The Compositional Specification of Timed Systems - A Tutorial.
+1999,"Integration, the Price of Success."
+1999,A Framework for Scheduler Synthesis.
+1999,IF: An intermediate representation for SDL and its applications.
+1998,A General Framework for the Composition of Timed Systems Extended Abstract.
+1998,On the Composition of Hybrid Systems.
+1997,On the Composition of Timed Systems.
+1997,Modeling Urgency in Timed Systems.
+1997,Relating Time Progress and Deadlines in Hybrid Systems.
+1996,Research Directions for Concurrency.
+1996,Research Directions for Formal Methods.
+1996,Formal Methods for the Validation of Fault Tolerance in Autonomous Spacecraft.
+1996,Compositional Specification of Timed Systems (Extended Abstract).
+1995,Property Preserving Abstractions for the Verification of Concurrent Systems.
+1995,The Algorithmic Analysis of Hybrid Systems.
+1995,Specification and Verification of Timed Systems.
+1995,Real-time systems specification and verification.
+1995,On the Synthesis of Discrete Controllers for Timed Systems (An Extended Abstract).
+1994,Symbolic Model Checking for Real-Time Systems.
+1994,"The Algebra of Timed Processes, ATP: Theory and Application."
+1994,Using Abstractions for the Verification of Linear Hybrid Systems.
+1994,Model-Based Verification Methods and Tools (Abstract).
+1993,From ATP to Timed Graphs and Hybrid Systems.
+1993,On Model Checking for Real-Time Properties with Durations.
+1992,Compiling Real-Time Specifications into Extended Automata.
+1992,Property Preserving Simulations.
+1992,An Approach to the Description and Analysis of Hybrid Systems.
+1992,Integration Graphs: A Class of Decidable Hybrid Systems.
+1992,A Toolbox for the Verification of LOTOS Programs.
+1992,Symbolic Model Checking for Real-time Systems.
+1991,An Overview and Synthesis on Timed Process Algebras.
+1991,An Algebra of Boolean Processes.
+1991,Safety for Branching Time Semantics.
+1991,An Overview and Synthesis on Timed Process Algebras.
+1991,From ATP to Timed Graphs and Hybrid Systems.
+1991,Verification for Finite Systems (Extended Abstract).
+1990,ATP: an Algebra for Timed Processes.
+1990,Compilation and verification of LOTOS specifications.
+1990,"Automatic Verification Methods for Finite State Systems, International Workshop, Grenoble, France, June 12-14, 1989, Proceedings."
+1988,A logig for the description of behaviours and properties of concurrent systems.
+1987,Readiness Semantics for Regular Processes with Silent Actions.
+1987,Verification in XESAR of the Sliding Window Protocol.
+1987,An Expressive Logic for a Process Algebra with Silent Actions.
+1986,A Logic for the Specification and Proof of Regular Controllable Processes of CCS.
+1986,A Modal Characterization of Observational Congruence on Finite Terms of CCS.
+1986,A Logic for the Description of Non-deterministic Programs and Their Properties.
+1986,Specification and Development of Reactive Systems - Response.
+1985,Frm Synchronization Tree Logic to Acceptance Model Logic.
+1984,A Modal Characterization of Observational Congruence on Finite Terms of CCS.
+1983,Fairness and Related Properties in Transition Systems - A Temporal Logic to Deal with Fairness.
+1983,An Example of Specification and Verification in Cesar.
+1983,Property Preserving Homomorphisms of Transition Systems.
+1982,Global and Local Invariants in Transition Systems.
+1982,A Unified Approach for Studying the Properties of Transition Systems.
+1982,A Temporal Logic to Deal with Fairness in Transition Systems.
+1982,Global and Local Invariants in Transition Systems.
+1982,Comments on Schiffers.
+1982,Specification and verification of concurrent systems in CESAR.
+1981,Iterative Methods for the Analysis of Petri Nets.
+1980,Deadlocks and Livelocks in Transition Systems.
+1979,"Le contrôle des systèmes asynchrones : concepts, propriétés, analyse statique. (The control of asynchronous systems: concepts, properties, static analysis)."
+1979,Use of Petri nets for performance evaluation.
+1979,Performance Evaluation of Systems Using Nets.
+1979,Survey of French Research and Applications Based on Petri Nets.
+1978,Synchronized Petri Nets: A Model for the Description of Non-Autonomous Systems.
+1978,Structural Properties of Petri Nets.
+1977,Use of Petri Nets for Performance Evaluation.
+1976,A Design Tool for the Multilevel Description and Simulation of Systems of Interconnected Modules.
+1974,Modèles temporels des systèmes logiques. (temporal Models of logic systems).

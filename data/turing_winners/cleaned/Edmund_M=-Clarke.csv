@@ -1,0 +1,314 @@
+2018,introduction model checking
+2018,handbook model checking
+2017,non-preemptive preemptive scheduling using synchronization synthesis
+2016,solving qbf counterexample guided refinement
+2016,cybercardia project modeling verification validation implantable cardiac device
+2016,bifurcation analysis cardiac alternans using \delta -decidability
+2016,formal modeling analysis pancreatic cancer microenvironment
+2016,high-level modeling verification cellular signaling
+2016,probabilistic reachability analysis tap withdrawal circuit caenorhabditis elegans
+2016,formal modeling biological system
+2016,smt-based analysis virtually synchronous distributed hybrid system
+2015,non-preemptive preemptive scheduling using synchronization synthesis
+2015,sreach probabilistic bounded delta-reachability analyzer stochastic hybrid system
+2015,formal analysis provides parameter guiding hyperoxidation bacteria using phototoxic protein
+2015,towards personalized prostate cancer therapy using delta-reachability analysis
+2015,dreach δ-reachability analysis hybrid system
+2015,non-preemptive preemptive scheduling using synchronization synthesis
+2015,optimizing solution quality synchronization synthesis
+2014,pathway-gene identification pancreatic cancer survival via doubly regularized cox regression
+2014,parameter synthesis cardiac cell hybrid model using δ-decisions
+2014,25 year model checking
+2014,compositional approximate quantitative reasoning medical cyber-physical system application patient-specific cardiac dynamic device
+2014,model checking hybrid system - invited talk
+2014,proof generation delta-decisions
+2014,revisiting complexity stability continuous hybrid system
+2014,delta-complete analysis bounded reachability hybrid system
+2014,sreach combining statistical test bounded model checking nonlinear hybrid system parametric uncertainty
+2014,parameter synthesis cardiac cell hybrid model using delta-decisions
+2014,proof generation delta-decisions
+2014,towards personalized cancer therapy using delta-reachability analysis
+2013,bayesian statistical model checking application stateflow/simulink verification
+2013,study biological network statistical model checking application immune system cell
+2013,dreal smt solver nonlinear theory real
+2013,automatic abstraction smt-based unbounded software model checking
+2013,solving qbf free variable
+2013,satisfiability modulo ode
+2013,finding error python program using dynamic symbolic execution
+2013,turing computable real number still important today
+2013,automatic abstraction smt-based unbounded software model checking
+2013,satisfiability modulo ode
+2012,computable real number still important today
+2012,δ-complete decision procedure satisfiability real
+2012,assume-guarantee abstraction refinement probabilistic system
+2012,assumption generation asynchronous system abstraction refinement
+2012,rare-event verification stochastic hybrid system
+2012,delta-decidability real
+2012,learning probabilistic system tree sample
+2012,statistical model checking markov decision process
+2012,solving qbf counterexample guided refinement
+2012,perspective system informatics - 8th international andrei ershov memorial conference psi 2011 novosibirsk russia june 27-july 1 2011 revised selected paper
+2012,delta-complete decision procedure satisfiability real
+2012,delta-decidability real
+2012,assume-guarantee abstraction refinement probabilistic system
+2012,learning probabilistic system tree sample
+2011,analog circuit verification statistical model checking
+2011,statistical model checking cyber-physical system
+2011,quantifier elimination finite field using gröbner base
+2011,formal analysis logical model pancreatic cancer
+2011,model checking state explosion problem
+2011,quantifier elimination finite field using gröbner base
+2010,analysis verification hmgb1 signaling pathway
+2010,simulation-based probabilistic model checking mixed-analog circuit
+2010,computational modeling verification signaling pathway cancer
+2010,localization reduction counterexample-guided abstraction refinement
+2010,automated assume-guarantee reasoning implicit learning
+2010,integrating icp lra solver deciding nonlinear real arithmetic problem
+2010,bayesian statistical model checking application simulink/stateflow verification
+2010,comparing learning algorithm automated assume-guarantee reasoning
+2010,non-prenex non-clausal qbf solver game-state learning
+2010,statistical verification probabilistic property unbounded
+2010,logic programming artificial intelligence reasoning - 16th international conference lpar-16 dakar senegal april 25-may 1 2010 revised selected paper
+2009,model checking algorithmic verification debugging
+2009,functional equivalence verification tool high-level synthesis flow
+2009,efficient craig interpolation linear diophantine disequations linear modular equation
+2009,computing differential invariant hybrid system fixedpoints
+2009,bayesian approach model checking biological system
+2009,efficient sat solving non-clausal formula using dpll graph watched cut
+2009,formal verification curved flight collision avoidance maneuver case study
+2009,27-year quest overcome state explosion problem
+2009,model checking - 27-year quest overcome state explosion problem
+2009,learning minimal separating dfas compositional verification
+2008,verification evolving software via component substitutability analysis
+2008,word-level predicate-abstraction refinement technique verifying rtl verilog
+2008,computing differential invariant hybrid system fixedpoints
+2008,efficient craig interpolation linear diophantine disequations linear modular equation
+2008,statistical model checking biolab application automated analysis t-cell receptor signaling pathway
+2008,statistical model checking mixed-analog circuit application third order delta-sigma modulator
+2008,verification supervisory control software using state proximity merging
+2008,model checking - 27-year quest overcome state explosion problem
+2008,birth model checking
+2008,design synthesis synchronization skeleton using branching time temporal logic
+2008,extending automated compositional verification full class omega-regular language
+2008,proving ptolemy right environment abstraction framework model checking concurrent system
+2007,verification specc using predicate abstraction
+2007,model checking software beyond
+2007,sat-based compositional verification using lazy learning
+2007,reachability linear hybrid automaton using iterative relaxation abstraction
+2007,image computation problem hybrid system model checking
+2007,arithmetic strengthening shape analysis
+2007,vcegar verilog counterexample guided abstraction refinement
+2006,ranking attack graph
+2006,satisfiability checking non-clausal formula using general mating
+2006,verifying concurrent message-passing c program recursive call
+2006,environment abstraction parameterized verification
+2006,verification infinite-state system application security proceeding nato advanced research workshop verification infinite state system application security vissas 2005 timisoara romania march 17-22 2005
+2005,concurrent software verification state event deadlock
+2005,iterative framework simulation conformance
+2005,computational challenge bounded model checking
+2005,automated assume-guarantee reasoning simulation conformance
+2005,word level predicate abstraction refinement verifying rtl verilog
+2005,dynamic component substitutability analysis
+2005,program compatibility approach
+2005,refining abstraction hybrid system using counterexample fragment
+2005,reconsidering cegar learning good abstraction without refinement
+2005,state/event software verification branching-time specification
+2005,satabs sat-based predicate abstraction ansi-c
+2005,grand challenge model check software
+2005,model checking back forth hardware software
+2005,temporal logic model checking
+2004,veriagent approach integrating uml formal verification tool
+2004,predicate abstraction ansi-c program using sat
+2004,efficient verification sequential concurrent c program
+2004,sat-based counterexample-guided abstraction refinement
+2004,modular verification software component c
+2004,verification network decomposition
+2004,sat-based algorithm reparameterization symbolic simulation
+2004,checking consistency c verilog using predicate abstraction induction
+2004,tutorial software model checking
+2004,counterexample guided abstraction refinement via program execution
+2004,state/event-based software model checking
+2004,verification specc using predicate abstraction
+2004,automated compositional iterative deadlock detection
+2004,tool checking ansi-c program
+2004,completeness complexity bounded model checking
+2003,bounded model checking
+2003,automated compositional abstraction refinement concurrent c program two-level approach
+2003,abstraction counterexample-guided refinement model checking hybrid system
+2003,counterexample-guided abstraction refinement symbolic model checking
+2003,efficient verification security protocol using partial-order reduction
+2003,hardware verification using ansi-c program reference
+2003,counterexample revisited principle algorithm application
+2003,sat-based counterexample guided abstraction refinement model checking
+2003,making predicate abstraction efficient eliminate redundant predicate
+2003,predicate abstraction minimum predicate
+2003,behavioral consistency c verilog program using bounded model checking
+2003,model checking dependable software-intensive system
+2003,specifying verifying system multiple clock
+2003,sat-based algorithm logic minimization
+2003,modular verification software component c
+2003,high level verification control intensive system using predicate abstraction
+2003,sat based predicate abstraction hardware verification
+2003,verification hybrid system based counterexample-guided abstraction refinement
+2003,counterexample-guided abstraction refinement
+2002,verification out-of-order processor design using model checking light-weight completion function
+2002,program slicing vhdl
+2002,sat based abstraction-refinement using ilp machine learning technique
+2002,nusmv 2 opensource tool symbolic model checking
+2002,automated abstraction refinement model checking large state space using sat based conflict analysis
+2002,tree-like counterexample model checking
+2002,sat-based counterexample guided abstraction refinement
+2001,model checking
+2001,bounded model checking using satisfiability solving
+2001,verus language representing time efficiently bdds
+2001,using combinatorial optimization method quantification scheduling
+2001,progress state explosion problem model checking
+2001,using cutwidth improve symbolic simulation boolean satisfiability
+2001,non-linear quantification scheduling image computation
+2001,efficient filtering publish-subscribe system using binary decision
+2001,model checking
+2000,selective quantitative analysis interval model checking verifying different facet system
+2000,verification safety-critical railway interlocking system real-time constraint
+2000,automatic verification hardware software system
+2000,nusmv new symbolic model checker
+2000,verifying security protocol brutus
+2000,model checking algorithm µ-calculus
+2000,combining decision diagram sat procedure efficient symbolic model checking
+2000,counterexample-guided abstraction refinement
+2000,efficient variable ordering using abdd based sampling
+2000,executable protocol specification esl
+2000,theory consistency modular synchronous system
+2000,partial order reduction security protocol verification
+1999,semantic foundation probabilistic synchronous reactive program
+1999,combining local global model checking
+1999,model checking semi-continuous time model using bdds
+1999,verifying srt division algorithm using theorem proving technique
+1999,analysis verification real-time system using quantitative symbolic algorithm
+1999,state space reduction using partial order technique
+1999,probverus probabilistic symbolic model checking
+1999,multiple state single state tableau combining local global model checking
+1999,verifiying safety property power pc microprocessor using symbolic model checking without bdds
+1999,nusmv new symbolic model verifier
+1999,abstract bdds technique using abstraction model checking
+1999,program slicing hardware description language
+1999,symbolic model checking using sat procedure instead bdds
+1999,symbolic model checking without bdds
+1998,analytica - experiment combining theorem proving symbolic computation
+1998,symmetry reduction inmodel checking
+1998,combining symbolic model checking uninterpreted function out-of-order processor verification
+1998,model checking vhdl cv
+1998,verification safety-critical railway interlocking system real-time constraint
+1998,using state space exploration natural deduction style message derivation engine verify security protocol
+1998,model checking historical perspective example extended abstract
+1997,editorial
+1997,another look ltl model checking
+1997,spectral transforms large boolean function application technology mapping
+1997,symbolic technique formally verifying industrial system
+1997,improved algorithm evaluation fixpoint expression
+1997,verifying parameterized network
+1997,verus language representing time efficiently bdds
+1997,verus tool quantitative approach formal verification real-time system
+1997,compositional reasoning model checking
+1997,model cheking
+1997,symbolic model checking probabilistic process
+1997,equivalence checking using abstract bdds
+1997,temporal logic model checking abstract
+1996,tool partial analysis
+1996,formal method state art future direction
+1996,exploiting symmetry temporal logic model checking
+1996,analytica - experiment combining theorem proving symbolic computation
+1996,verifying srt division algorithm using theorem proving technique
+1996,symbolic model checking
+1996,word level model checking - avoiding pentium fdiv error
+1996,verification circuit floating-point unit using word-level model checking
+1996,deadlock prevention flexible manufacturing system using symbolic model checking
+1996,word level model checking abstract
+1996,model checking
+1995,verification futurebus+ cache coherence protocol
+1995,temporal verification real-time system
+1995,veryfying parameterized network using abstraction regular language
+1995,efficient generation counterexample witness symbolic model checking
+1995,hybrid decision diagram
+1995,verifying performance pci local bus using symbolic technique
+1995,verus tool quantitative analysis finite-state real-time system
+1995,automatic verification industrial design
+1995,timing analysis industrial real-time system
+1995,symmetry induction model checking
+1994,symbolic model checking sequential circuit verification
+1994,model checking abstraction
+1994,automatic verification finite-state concurrent system
+1994,combining symbolic computation theorem proving problem ramanujan
+1994,improved algorithm evaluation fixpoint expression
+1994,another look ltl model checking
+1994,fast spectrum computation logic function using binary decision diagram
+1994,automatic verification finite-state concurrent system
+1994,computing quantitative characteristic finite-state real-time system
+1993,new used temporal model issue time
+1993,unified approch showing language inclusion equivalence various type omega-automata
+1993,efficient verification parallel real-time system
+1993,exploiting symmetry temporal logic model checking
+1993,verification futurebus+ cache coherence protocol
+1993,automatic verification sequential circuit design
+1993,spectral transforms large boolean function application technology mapping
+1993,verification tool finite-state concurrent system
+1992,symbolic model checking 10^20 state beyond
+1992,parthenon parallel theorem prover non-horn clause
+1992,synthesis two approach verifying finite state concurrent system
+1992,analytica - theorem prover mathematica
+1992,model checking abstraction
+1991,representing circuit efficiently symbolic model checking
+1991,symbolic model checking partitioned transistion relation
+1991,computer aided verification 2nd international workshop cav 90 new brunswick nj usa june 18-21 1990 proceeding
+1991,computer-aided verification proceeding dimacs workshop 1990 new brunswick new jersey usa june 18-21 1990
+1990,unified approach showing language containment equivalence various type omega-automata
+1990,temporal logic model checking two technique avoiding state explosion problem
+1990,sequential circuit verification using symbolic model checking
+1990,temporal logic model checking two technique avoiding state explosion problem
+1990,preface
+1990,parallel algorithm constructing binary decision diagram
+1990,symbolic model checking 10^20 state beyond
+1989,reasoning network many identical finite state process
+1989,reasoning procedure parameter language l4
+1989,synthesis two approach verifying finite state concurrent system
+1989,parthenon parallel theorem prover non-horn clause
+1989,compositional model checking
+1988,escher-a geometrical layout system recursively defined circuit
+1988,characterizing finite kripke structure propositional temporal logic
+1988,parthenon parallel theorem prover non-horn clause
+1988,expressibility result linear-time branching-time logic
+1987,avoiding state explosion problem temporal logic model checking
+1987,characterizing kripke structure temporal logic
+1987,model checking problem concurrent system many similar process
+1986,compiling path expression vlsi circuit
+1986,distributed computing issue hardware design
+1986,automatic verification sequential circuit using temporal logic
+1986,automatic verification finite-state concurrent system using temporal logic specification
+1986,escher - geometrical layout system recursively defined circuit
+1986,true relative completeness axiom system language l4 abridged
+1986,reasoning network many identical finite-state process
+1985,complexity propositional linear temporal logic
+1985,hierarchical verification asynchronous circuit using temporal logic
+1985,compiling path expression vlsi circuit
+1984,message buffer axiomatized linear temporal logic
+1984,logic program workshop carnegie mellon university pittsburgh pa usa june 6-8 1983 proceeding
+1983,effective axiomatizations hoare logic
+1983,automatic verification asynchronous circuit
+1983,reasoning procedure parameter
+1983,automatic verification finite state concurrent system using temporal logic specification practical approach
+1982,using branching time temporal logic synthesize synchronization skeleton
+1982,distributed reconfiguration strategy fault-tolerant multiprocessor system
+1982,message buffer characterized linear temporal logic
+1982,effective axiomatizations hoare logic
+1982,complexity propositional linear temporal logic
+1981,task management ada-a critical evaluation real-time multiprocessor
+1981,design synthesis synchronization skeleton using branching-time temporal logic
+1980,proving correctness coroutines without history variable
+1980,synthesis resource invariant concurrent program
+1980,characterizing correctness property parallel program using fixpoints
+1980,fast maintenance semantic integrity assertion using redundant aggregate data
+1979,program invariant fixedpoints
+1979,programming language construct impossible obtain good hoare axiom system
+1979,approximate algorithm optimization busy waiting parallel program preliminary report
+1979,synthesis resource invariant concurrent program
+1977,program invariant fixed point preliminary report
+1977,programming language construct impossible obtain good hoare-like axiom system

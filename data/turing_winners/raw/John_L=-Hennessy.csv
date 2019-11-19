@@ -1,0 +1,109 @@
+2019,A new golden age for computer architecture.
+2019,On the Spectre and Meltdown Processor Security Vulnerabilities.
+2016,"Common Bonds: MIPS, HPS, Two-Level Branch Prediction, and Compressed Code RISC Processor."
+2012,"Computer Architecture - A Quantitative Approach, 5th Edition."
+2012,Computer Organization and Design - The Hardware / Software Interface (Revised 4th Edition).
+2007,Computer organization and design - the hardware / software interface (3. ed.).
+2007,Computer Architecture - A Quantitative Approach (4. ed.).
+2005,Rechnerorganisation und -entwurf - die Hardware / Software-Schnittstelle (3. Aufl.).
+2003,"Computer architecture - a quantitative approach, 3rd Edition."
+2003,"Latency, Occupancy, and Bandwidth in DSM Multiprocessors: A Performance Evaluation."
+2000,Efficient performance prediction for modern microprocessors.
+1999,The Future of Systems Research.
+1999,A Quantitative Analysis of the Performance and Scalability of Distributed Shared Memory.
+1998,Retrospective: Evaluation of Directory Dchemes for Cache Coherence.
+1998,Flexible Use of Memory for Replication/Migration in Cache-Coherent DSM Multiprocessors.
+1998,An Evaluation of Directory Schemes for Cache Coherence.
+1998,Memory Consistency and Event Ordering in Scalable Shared-Memory Multiprocessors.
+1998,The DASH Prototype: Implementation and Performance.
+1998,The Stanford FLASH Multiprocessor.
+1997,"Computer Organization & Design: The Hardware/Software Interface, Second Edition."
+1997,A Nationwide Parallel Computing Environment.
+1997,An Evaluation of a Commercial CC-NUMA Architecture - The CONVEX Exemplar SPP1200.
+1996,"Computer Architecture: A Quantitative Approach, 2nd Edition."
+1996,SoftFLASH: Analyzing the Performance of Clustered Distributed Virtual Shared Memory.
+1996,Application and Architectural Bottlenecks in Large Scale Distributed Shared Memory Machines.
+1996,The computer architecture curriculum at Stanford: challenges and approaches.
+1995,Effectiveness of data dependence analysis.
+1995,"Load Balancing and Data locality in Adaptive Hierarchical N-Body Methods: Barnes-Hut, Fast Multipole, and Rasiosity."
+1995,Implications of Hierarchical N-Body Methods for Multiprocessor Architectures.
+1995,Position Paper.
+1994,"Rechnerarchitektur - Analyse, Entwurf, Implementierung, Bewertung."
+1994,Computer Organization & Design: The Hardware/Software Interface.
+1994,COOL: An Object-Based Language for Parallel Programming.
+1994,SUIF: An Infrastructure for Research on Parallelizing and Optimizing Compilers.
+1994,False Sharing ans Spatial Locality in Multiprocessor Caches.
+1994,The Performance Advantages of Integrating Block Data Trabsfer in Cache-Coherent Multiprocessors.
+1994,The Performance Impact of Flexibility in the Stanford FLASH Multiprocessor.
+1994,Evaluating the Memory Overhead Required for COMA Architectures.
+1994,The Stanford FLASH Multiprocessor.
+1993,Scaling Parallel Programs for Multiprocessors: Methodology and Examples.
+1993,Compile-time Copy Elimination.
+1993,Mtool: An Integrated System for Performance Debugging Shared Memory Multiprocessor Applications.
+1993,The DASH Prototype: Logic Overhead and Performance.
+1993,Data Locality and Load Balancing in COOL.
+1993,A parallel adaptive fast multipole method.
+1993,An empirical comparison of the Kendall Square Research KSR-1 and Stanford DASH multiprocessors.
+1993,The Accuracy of Trace-Driven Simulations of Multiprocessors.
+1992,The Stanford Dash Multiprocessor.
+1992,"Finding and Exploiting Parallelism in an Ocean Simulation Program: Experience, Results, and Implications."
+1992,Programming for Different Memory Consistency Models.
+1992,Characterizing the Caching and Synchronization Performance of a Multiprocessor Operating System.
+1992,Hiding Memory Latency using Dynamic Scheduling in Shared-Memory Multiprocessors.
+1992,The DASH Prototype: Implementation and Performance.
+1992,Sharlit - A Tool for Building Optimizers.
+1991,Computer Technology and Architecture: An Evolving Interaction.
+1991,Performance Evaluation of Memory Consistency Models for Shared Memory Multiprocessors.
+1991,Multiprocessor Simulation and Tracing Using Tango.
+1991,MTOOL: A Method for Isolating Memory Bottlenecks in Shared Memory Multiprocessor Programs.
+1991,Two Techniques to Enhance the Performance of Memory Consistency Models.
+1991,Comparative Evaluation of Latency Reducing and Tolerating Techniques.
+1991,Integrating Scalar Optimization and Parallelization.
+1991,Efficient and Exact Data Dependence Analysis.
+1991,Performance debugging shared memory multiprocessor programs with MTOOL.
+1991,MTOOL: A Method for Detecting Memory Bottlenecks.
+1990,Computer Architecture: A Quantitative Approach.
+1990,A Spectral Lower Bound Techniqye for the Size of Decision Trees and Two Level AND/OR Circuits.
+1990,The Priority-Based Coloring Approach to Register Allocation.
+1990,Design of scalable shared-memory multiprocessors: the DASH approach.
+1990,Estimating the Performance Advantages of Relaxing Consistency in a Shared Memory Multiprocessor.
+1990,Share Data Placement Optimizations to Reduce Multiprocessor Cache Miss Rates.
+1990,Memory Consistency and Event Ordering in Scalable Shared-Memory Multiprocessors.
+1990,The Directory-Based Cache Coherence Protocol for the DASH Multiprocessor.
+1990,Analysis of Critical Architectural and Program Parameters in a Hierarchical Shared Memory Multiprocessor.
+1989,An Analytical Cache Model.
+1989,A Simple Interprocedural Register Allocation Algorithm and Its Effectiveness for Lisp.
+1989,Characteristics of Performance-Optimal Multi-Level Cache Hierarchies.
+1989,Copy Elimination in Functional Languages.
+1989,"ASPLOS-III Proceedings - Third International Conference on Architectural Support for Programming Languages and Operating Systems, Boston, Massachusetts, USA, April 3-6, 1989."
+1988,Lisp on a Reduced-Instruction-Set Processor: Characterization and Optimization.
+1988,Measurement and Evaluation of the MIPS Architecture and Processor.
+1988,Cache Performance of Operating System and Multiprogramming Workloads.
+1988,An Evaluation of Directory Schemes for Cache Coherence.
+1988,Performance Tradeoffs in Cache Design.
+1988,A Simple and Efficient Implmentation Approach for Single Assignment Languages.
+1988,Characterizing the Synchronization Behavior of Parallel Programs.
+1987,Tags and Type Checking in Lisp: Hardware and Software Approaches.
+1986,Reducing the Cost of Branches.
+1986,LISP on a Reduced-Instruction-Set-Processor.
+1986,Partitioning Parallel Programs for Macro-Dataflow.
+1986,Compile-time partitioning and scheduling of parallel programs.
+1985,SWAMI: a flexible logic implementation system.
+1984,VLSI Processor Architecture.
+1984,Register allocation by priority-based coloring (with retrospective).
+1984,Register allocation by priority-based coloring.
+1983,Postpass Code Optimization of Pipeline Constraints.
+1982,Retargetable Compiler Code Generation.
+1982,The Design and Implementation of Parametric Types in Pascal.
+1982,Compilation of the Pascal Case Statement.
+1982,Symbolic Debugging of Optimized Code.
+1982,Hardware/Software Tradeoffs for Increased Performance.
+1982,The MIPS Machine.
+1982,MIPS: A microprocessor architecture.
+1982,Optimizing delayed branches.
+1982,Code Generation and Reorganization in the Presence of Pipeline Constraints.
+1981,The Formal Definition of a Real-Time Language.
+1981,Program Optimization and Exception Handling.
+1981,WSClock - A Simple and Effective Algorithm for Virtual Memory Management.
+1980,Parallelism and Representation Problems in Distributed Systems.
+1980,An Interactive Graphics System for custom design.

@@ -1,0 +1,171 @@
+2010,Wireless sensor networks for soil science.
+2008,The Catalog Archive Server Database Management System.
+2008,The sqlLoader Data-Loading Pipeline.
+2008,Distributed Computing Economics.
+2008,Flash Disk Opportunity for Server Applications.
+2007,Data Management in the Worldwide Sensor Web.
+2007,"Data Cube: A Relational Aggregation Operator Generalizing Group-By, Cross-Tab, and Sub-Totals."
+2007,"Data Management: Past, Present, and Future."
+2007,A Critique of ANSI SQL Isolation Levels.
+2007,Queues Are Databases.
+2007,"Supporting Finite Element Analysis with a Relational Database Backend, Part I: There is Life beyond Files."
+2007,"Supporting Finite Element Analysis with a Relational Database Backend, Part II: Database Design and Access."
+2007,Thousands of DebitCredit Transactions-Per-Second: Easy and Inexpensive.
+2007,A Measure of Transaction Processing 20 Years Later.
+2007,Using Table Valued Functions in SQL Server 2005 To Implement a Spatial Data Library.
+2007,Indexing the Sphere with the Hierarchical Triangular Mesh.
+2007,Petascale Computational Systems.
+2007,Empirical Measurements of Disk Failure Rates and Error Rates.
+2007,"Large-Scale Query and XMatch, Entering the Parallel Zone."
+2007,To BLOB or Not To BLOB: Large Object Storage in a Database or a Filesystem?
+2007,"Life Under Your Feet: An End-to-End Soil Ecology Sensor Network, Database, Web Server, and Analysis Service."
+2007,The Zones Algorithm for Finding Points-Near-a-Point or Cross-Matching Spatial Datasets.
+2007,Cross-Matching Multiple Spatial Observations and Dealing with Missing Data.
+2007,SkyServer Traffic Report - The First Five Years.
+2006,Petascale Computational Systems.
+2006,Designing and Building TerraService.
+2006,Consensus on transaction commit.
+2006,"Triumphs, Sins, and Challenges of Database Benchmarking."
+2006,Memory - A memory model for scientific algorithms on graphics processors.
+2006,Data analysis tools for sensor-based science.
+2006,GPUTeraSort: high performance graphics co-processor sorting for large database management.
+2006,Designing a Multi-petabyte Database for LSST.
+2005,The Lowell database research self-assessment.
+2005,"A ""Measure of Transaction Processing"" 20 Years Later."
+2005,A conversation with Tim Bray.
+2005,A call to arms.
+2005,Scientific data management in the coming decade.
+2005,When Database Systems Meet the Grid.
+2005,Greetings from a Filesystem User.
+2005,Scientific Data Management in the Coming Decade.
+2005,Performance Considerations for Gigabyte per Second Transcontinental Disk-to-Disk File Transfers.
+2005,TerraServer SAN-Cluster Architecture and Operations Experience.
+2005,Where the Rubber Meets the Sky: Bridging the Gap between Databases and Science.
+2005,Sequential File Programming Patterns and Performance with .NET.
+2005,When Database Systems Meet the Grid.
+2005,"Batch is back: CasJobs, serving multi-TB data on the Web."
+2004,Where the Rubber Meets the Sky: Bridging the Gap between Databases and Science.
+2004,The Revolution in Database System Architecture.
+2004,The Next Database Revolution.
+2004,Where the Rubber Meets the Sky: The Semantic Gap between Data Producers and Data Consumers.
+2004,Extending the SDSS Batch Query System to the National Virtual Observatory Grid.
+2004,The World Wide Telescope: An Archetype for Online Science.
+2004,The Sloan Digital Sky Survey Science Archive: Migrating a Multi-Terabyte Astronomical Archive from Object to Relational DBMS.
+2004,A Quick Look at SATA Disk Performance.
+2004,The Revolution In Database System Architecture.
+2004,There Goes the Neighborhood: Relational Algebra for Spatial Data Search.
+2004,Consensus on Transaction Commit.
+2004,Distributed Computing Economics.
+2003,Migrating a multiterabyte archive from object to relational databases.
+2003,What next?: A dozen information-technology research goals.
+2003,On-line science: the world-wide telescope as a prototype for the new computational science.
+2003,The Lowell Report.
+2003,The Lowell Database Research Self Assessment.
+2002,What's next in high-performance computing?
+2002,The world-wide telescope.
+2002,The SDSS skyserver: public access to the sloan digital sky server data.
+2002,Data Mining the SDSS SkyServer Database.
+2002,Data Mining the SDSS SkyServer Database.
+2002,Petabyte Scale Data Mining: Dream or Reality?
+2002,Spatial Clustering of Galaxies in Large Datasets.
+2002,Web Services for the Virtual Observatory.
+2002,The SDSS SkyServer: Public Access to the Sloan Digital Sky Server Data.
+2002,TerraService.NET: An Introduction to Web Services.
+2002,"Online Scientific Data Curation, Publication, and Archiving."
+2002,"TeraScale SneakerNet: Using Inexpensive Disks for Backup, Archiving, and Data Exchange."
+2001,Digital immortality.
+2001,Storage Service Providers: a Solution for Storage Management? (Panel).
+2001,"The SDSS SkyServer, Public Access to the Sloan Digital Sky Server Data."
+2000,"What Next? A Few Remaining Problems in Information Technlogy, SIGMOD Conference 1999, ACM Turing Award Lecture, Video."
+2000,Rules of Thumb in Data Engineering.
+2000,TerraServer: A Spatial Data Warehouse.
+2000,Designing and Mining Multi-Terabyte Astronomy Archives: The Sloan Digital Sky Survey.
+1999,System R: An Architectural Overview.
+1999,"Fcast Multicast File Distribution: ""Tune in, Download, and Drop Out""."
+1999,Panel Session: Do the DBMS SW Vendors Offer the Products Required by the Industrial User in the Communication Industry?
+1999,"Scalability Terminology: Farms, Clones, Partitions, Packs, RACS and RAPS."
+1999,Designing and Mining Multi-Terabyte Astronomy Archives: The Sloan Digital Sky Survey.
+1999,Microsoft TerraServer: A Spatial Data Warehouse.
+1999,What Next? A Dozen Information-Technology Research Goals.
+1999,Review - Benchmarking Database Systems A Systematic Approach.
+1998,The Asilomar Report on Database Research.
+1998,The Design and Architecture of the Microsoft Cluster Service - A Practical Approach to High-Availability and Scalability.
+1998,Locally Served Network Computers.
+1998,Performance / Price Sort.
+1998,"The Five-Minute Rule Ten Years Later, and Other Computer Storage Rules of Thumb."
+1998,Microsoft TerraServer.
+1998,The Asilomar Report on Database Research.
+1998,The Revolution Yet to Happen.
+1997,"Data Cube: A Relational Aggregation Operator Generalizing Group-by, Cross-Tab, and Sub Totals."
+1997,"The Five-Minute Rule Ten Years Later, and Other Computer Storage Rules of Thumb."
+1996,Evolution of Data Management.
+1996,"Data Cube: A Relational Aggregation Operator Generalizing Group-By, Cross-Tab, and Sub-Total."
+1996,"Database Research: Lead, Follow, or Get Out of the Way? - Panel Abstract."
+1996,The Dangers of Replication and a Solution.
+1995,AlphaSort: A Cache-Sensitive Parallel External Sort.
+1995,Super Servers: Commodity Computer Clusters Pose a Software Challenge.
+1995,A Critique of ANSI SQL Isolation Levels.
+1995,Parallel Database Systems 101.
+1995,Databases and Workflow Management: What is it All About? (Panel).
+1994,Loading Databases Using Dataflow Parallelism.
+1994,Desktop Batch Processing.
+1994,AlphaSort: A RISC Machine Sort.
+1994,Quickly Generating Billion-Record Synthetic Databases.
+1993,Transaction Processing: Concepts and Techniques.
+1993,Why TP-Lite will Dominate the TP Market.
+1993,Database and Transaction Processing Performance Handbook.
+1993,The Benchmark Handbook for Database and Transaction Systems (2nd Edition).
+1992,Parallel Database Systems: The Future of High Performance Database Systems.
+1992,Increasing the Effectiveness of OS Research.
+1992,Database and Transaction Processing Benchmarks.
+1991,High-Availability Computer Systems.
+1991,Introduction.
+1991,The Benchmark Handbook for Database and Transaction Systems (1st Edition).
+1990,Third-Generation Database System Manifesto - The Committee for Advanced DBMS Function.
+1990,Parallel Database Systems: The Future of Database Processing or a Passing Fad?
+1990,Third-Generation Database System Manifesto - The Committee for Advanced DBMS Function.
+1990,A Benchmark of NonStop SQL Release 2 Demonstrating Near-Linear Speedup and Scaleup on Large Databases.
+1990,FastSort: A Distributed Single-Input Single-Output External Sort.
+1990,"""The Committee for Advanced DBMS Function"": Third Generation Data Base System Manifesto."
+1990,Parity Striping of Disk Arrays: Low-Cost Reliable Storage with Acceptable Throughput.
+1990,An Adaptive Hash Join Algorithm for Multiuser Environments.
+1989,Future Directions in DBMS Research - The Laguna Beach Participants.
+1989,Database Performance Metrics.
+1988,The Cost of Messages.
+1988,Disk Shadowing.
+1987,A View of Database System Performance Measures.
+1987,Operating System Support for Data Management Systems.
+1987,The 5 Minute Rule for Trading Memory for Disk Accesses and The 10 Byte Rule for Trading Memory for CPU Time.
+1986,An Approach to Decentralized Computer Systems.
+1986,A Comparison of the Byzantine Agreement Problem and the Transaction Commit Problem.
+1986,Why Do Computers Stop and What Can Be Done About It?
+1985,Transaction Acceleration.
+1985,Why do Computer Stop and What Can be About it?
+1985,One Thousand Transactions per Second.
+1985,Fault Tolerance in Tandem Systems.
+1983,Practical Problems in Data Management - A Position Paper.
+1982,Transactions and Consistency in Distributed Database Systems.
+1981,A History and Evaluation of System R.
+1981,The Recovery Manager of the System R Database Manager.
+1981,System R: An Architectural Overview.
+1981,A Straw Man Analysis of the Probability of Waiting and Deadlock in a Database System.
+1981,An Approach to End-Users Application Design.
+1981,The Transaction Concept: Virtues and Limitations (Invited Paper).
+1980,A Transaction Model.
+1979,System R: A Relational Data Base Management System.
+1979,The Convoy Phenomenon.
+1979,Transactions and Consistency in Distributed Database Systems.
+1978,Notes on Data Base Operating Systems.
+1978,"Operating Systems, An Advanced Course."
+1976,The Notions of Consistency and Predicate Locks in a Database System.
+1976,System R: Relational Approach to Database Management.
+1976,Granularity of Locks and Degrees of Consistency in a Shared Data Base.
+1975,"Views, Authorization, and Locking in a Relational Data Base System."
+1975,Granularity of Locks in a Large Shared Data Base.
+1975,A Shared Segment and Interprocess Communication Facility for VM/370.
+1973,Canonical Precedence Schemes.
+1972,On the Covering and Reduction Problems for Context-Free Grammars.
+1969,Single Pass Precedence Analysis (Extended Abstract).
+1968,Infinite Linear Sequential Machines.
+1967,Two-Way Pushdown Automata.
+1966,The Theory of Sequential Relations.

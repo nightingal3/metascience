@@ -1,0 +1,322 @@
+2019,Randomized Concurrent Set Union and Generalized Wake-Up.
+2019,Simple Concurrent Labeling Algorithms for Connected Components.
+2019,A New Path from Splay to Dynamic Optimality.
+2019,Splaying Preorders and Postorders.
+2019,Zip Trees.
+2019,Splaying Preorders and Postorders.
+2019,New Paths from Splay to Dynamic Optimality.
+2018,Zip Trees.
+2018,Simple Concurrent Labeling Algorithms for Connected Components.
+2017,Minimum-Cost Flows in Unit-Capacity Networks.
+2017,Hollow Heaps.
+2016,Amortized rotation cost in AVL trees.
+2016,Dominator Tree Certification and Divergent Spanning Trees.
+2016,A New Approach to Incremental Cycle Detection and Related Problems.
+2016,"Addendum to ""Dominator Tree Certification and Divergent Spanning Trees""."
+2016,Deletion Without Rebalancing in Binary Search Trees.
+2016,A Randomized Concurrent Algorithm for Disjoint Set Union.
+2016,A Randomized Concurrent Algorithm for Disjoint Set Union.
+2015,Rank-Balanced Trees.
+2015,Faster and More Dynamic Maximum Flow by Incremental Breadth-First Search.
+2015,Hollow Heaps.
+2015,Minimum Cost Flows in Graphs with Unit Capacities.
+2015,Amortized Rotation Cost in AVL Trees.
+2015,Hollow Heaps.
+2015,A Note on Fault Tolerant Reachability for Directed Graphs.
+2014,Efficient maximum flow algorithms.
+2014,The CB tree: a practical concurrent self-adjusting search tree.
+2014,"Corrections to ""Finding dominators via disjoint set union"" [J. Discrete Algorithms 23 (2013) 2-20]."
+2014,Deletion without rebalancing in multiway search trees.
+2014,A Back-to-Basics Empirical Study of Priority Queues.
+2014,Nested Set Union.
+2014,Disjoint Set Union with Randomized Linking.
+2014,Better Approximation Algorithms for the Graph Diameter.
+2014,"Loop Nesting Forests, Dominators, and Applications."
+2014,A Back-to-Basics Empirical Study of Priority Queues.
+2014,Fibonacci Heaps Revisited.
+2013,Finding dominators via disjoint set union.
+2013,Soft Heaps Simplified.
+2013,Dominator Certification and Independent Spanning Trees: An Experimental Study.
+2013,Finding Dominators via Disjoint Set Union.
+2012,An Optimal Dynamic Data Structure for Stabbing-Semigroup Queries.
+2012,"Incremental Cycle Detection, Topological Ordering, and Strong Component Maintenance."
+2012,An Algorithmic View of the Universe.
+2012,A Weight-Scaling Algorithm for Min-Cost Imperfect Matchings in Bipartite Graphs.
+2012,"Dominators, Directed Bipolar Orders, and Independent Spanning Trees."
+2012,Strict fibonacci heaps.
+2012,CBTree: A Practical Concurrent Self-Adjusting Search Tree.
+2012,Dominator Tree Certification and Independent Spanning Trees.
+2011,Rank-Pairing Heaps.
+2011,Data structures for mergeable trees.
+2011,Maximum Flows by Incremental Breadth-First Search.
+2011,Theory vs. Practice in the Design and Analysis of Algorithms.
+2011,"Incremental Cycle Detection, Topological Ordering, and Strong Component Maintenance."
+2011,A New Approach to Incremental Cycle Detection and Related Problems.
+2010,Notes on Introductory Combinatorics (reprint of the 1983 edition).
+2010,HP Transforms Product Portfolio Management with Operations Research.
+2010,Deletion Without Rebalancing in Balanced Binary Trees.
+2009,Shortest-path feasibility algorithms: An experimental evaluation.
+2009,Dynamic trees in practice.
+2009,Efficiently Generating k-Best Solutions to Procurement Auctions.
+2009,An Experimental Study of Minimum Mean Cycle Algorithms.
+2009,Rank-Pairing Heaps.
+2009,Deletion without Rebalancing in Multiway Search Trees.
+2009,Rank-Balanced Trees.
+2009,Heaps Simplified.
+2008,Planarity Algorithms via PQ-Trees (Extended Abstract).
+2008,Finding Strongly Knit Clusters in Social Networks.
+2008,Finding a feasible flow in a strongly connected network.
+2008,Linear-Time Algorithms for Dominators and Other Path-Evaluation Problems.
+2008,"Thin heaps, thick heaps."
+2008,Shortest Path Feasibility Algorithms: An Experimental Evaluation.
+2008,Faster Algorithms for Incremental Topological Ordering.
+2008,Reachability Problems on Directed Graphs.
+2008,Fast exact and heuristic methods for role minimization problems.
+2008,Incremental Topological Ordering and Strong Component Maintenance.
+2007,Server Allocation Algorithms for Tiered Systems.
+2007,Clustering Social Networks.
+2007,Dynamic Trees in Practice.
+2007,Experimental Evaluation of Parametric Max-Flow Algorithms.
+2007,Data Structures for Mergeable Trees.
+2007,Finding a Feasible Flow in a Strongly Connected Network.
+2006,Finding Dominators in Practice.
+2006,Melding priority queues.
+2006,Balancing Applied to Maximum Network Flow Problems.
+2006,Design of data structures for mergeable trees.
+2006,Results and Problems on Self-adjusting Search Trees and Related Data Structures.
+2005,Server Allocation Algorithms for Tiered Systems.
+2005,Deadline scheduling for animation rendering.
+2005,Dominator tree verification and vertex-disjoint paths.
+2005,Self-adjusting top trees.
+2005,Value-maximizing deadline scheduling and its application to animation rendering.
+2004,Finding Dominators in Practice.
+2004,Finding dominators revisited: extended abstract.
+2004,Melding Priority Queues.
+2003,Graph Clustering and Minimum Cut Trees.
+2003,Dynamic rectangular intersection with priorities.
+2003,"If Piracy Is the Problem, Is DRM the Answer?"
+2002,Union-find with deletions.
+2002,Meldable heaps and boolean union-find.
+2002,Faster Parametric Shortest Path and Minimum Balance Algorithms.
+2001,Unique Maximum Matching Algorithms.
+2001,Dynamic Self-Checking Techniques for Improved Tamper Resistance.
+2001,Faster kinetic heaps and their use in broadcast scheduling.
+2000,Simple Confluently Persistent Catenable Lists.
+1999,"Tractability of Parameterized Completion Problems on Chordal, Strongly Chordal, and Proper Interval Graphs."
+1999,Tight Analyses of Two Local Load Balancing Algorithms.
+1999,A Faster and Simpler Algorithm for Sorting Signed Permutations by Reversals.
+1999,Unique Maximum Matching Algorithms.
+1999,"Proceedings of the Tenth Annual ACM-SIAM Symposium on Discrete Algorithms, 17-19 January 1999, Baltimore, Maryland, USA."
+1998,Culturally Induced Information Impactedness: A Prescription for Failure in Software Ventures.
+1998,Robustness and Security of Digital Watermarks.
+1998,Culturally-Induced Information Impactedness: A Prescription for Failure in Software Ventures.
+1998,Simple Confluently Persistent Catenable Lists (Extended Abstract).
+1997,Optimal Parallel Verification of Minimum Spanning Trees in Logarithmic Time.
+1997,Toward Efficient Unstructured Multigrid Preprocessing.
+1997,"Dynamic trees as search trees via Euler tours, applied to the network simplex algorithm."
+1997,Faster and simpler algorithm for sorting signed permutations by reversals.
+1997,Faster and Simpler Algorithm for Sorting Signed Permutations by Reversals.
+1996,Dominating Sets in Planar Graphs.
+1996,Parallelism in multigrid methods: How much is too much?
+1996,Analysis of Multigrid Algorithms on Massively Parallel Computers: Architectural Implications.
+1996,Toward Efficient Unstructured Multigrid Preprocessing (Extended Abstract).
+1996,Finding Minimum Spanning Forests in Logarithmic Time and Linear Work Using Random Sampling.
+1996,Purely Functional Representations of Catenable Sorted Lists.
+1995,Lazy Structure Sharing for Query Optimization.
+1995,A Randomized Linear-Time Algorithm to Find Minimum Spanning Trees.
+1995,Confluently Persistent Deques via Data-Structural Bootstrapping.
+1995,"Data-Structural Bootstrapping, Linear Path Compression, and Catenable Heap-Ordered Double-Ended Queues."
+1995,Computing Minimal Spanning Subgraphs in Linear Time.
+1995,Models of parallel computation: a survey and synthesis.
+1995,Persistent lists with catenation via recursive slow-down.
+1995,Tight analyses of two local load balancing algorithms.
+1994,Fully Persistent Lists with Catenation.
+1994,A Faster Deterministic Maximum Flow Algorithm.
+1994,Unique Binary-Search-Tree Representations and Equality Testing of Sets and Sequences.
+1994,Dynamic Perfect Hashing: Upper and Lower Bounds.
+1994,Improved Algorithms for Bipartite Network Flow.
+1994,Optimal Parallel Verification of Minimum Spanning Trees in Logarithmic Time.
+1994,Tractability of parameterized completion problems on chordal and interval graphs: Minimum Fill-in and Physical Mapping.
+1994,Unstructured Multigrid Strategies on Massively Parallel Computers: A Case for Integrated Design.
+1994,A randomized linear-time algorithm for finding minimum spanning trees.
+1993,Corrigendum: Maintenance of a Minimum Spanning Forest in a Dynamic Plane Graph.
+1993,Finding the Minimum-Cost Maximum Flow in a Series-Parallel Network.
+1993,An O(m log n)-Time Algorithm for the Maximal Planar Subgraph Problem.
+1993,Confluently Persistent Deques via Data Structural Bootstrapping.
+1992,Maintaining Bridge-Connected and Biconnected Components On-Line.
+1992,A Linear-Time Algorithm for Finding an Ambitus.
+1992,Polygon Triangulation in O (n log log n) Time with Simple Data Structures.
+1992,Randomized parallel algorithms for trapezoidal diagrams.
+1992,Erratum: Randomized parallel algorithms for trapezoidal diagrams.
+1992,Maintenance of a Minimum Spanning Forest in a Dynamic Plane Graph.
+1992,Finding minimum-cost flows by double scaling.
+1992,Verification and Sensitivity Analysis of Minimum Spanning Trees in Linear Time.
+1992,Short Encodings of Evolving Structures.
+1992,More Efficient Bottom-Up Multi-Pattern Matching in Trees.
+1992,"Data Structural Bootstrapping, Linear Path Compression, and Catenable Heap Ordered Double Ended Queues."
+1992,Computing Minimal Spanning Subgraphs in Linear Time.
+1992,A Faster Deterministic Maximum Flow Algorithm.
+1991,Faster Scaling Algorithms for General Graph-Matching Problems.
+1991,Transitive Compaction in Parallel via Branchings.
+1991,Efficiency of the Primal Network Simplex Algorithm for the Minimum-Cost Circulation Problem.
+1991,Use of dynamic trees in a network simplex algorithm for the maximum flow problem.
+1991,Faster parametric shortest path and minimum-balance algorithms.
+1991,Randomized Parallel Algorithms for Trapezoidal Diagrams.
+1991,Fully Persistent Lists with Catenation.
+1990,Simplified Linear-Time Jordan Sorting and Polygon Clipping.
+1990,Faster Algorithms for the Shortest Path Problem.
+1990,Finding Minimum-Cost Circulations by Successive Approximation.
+1990,More Efficient Bottom-Up Tree Pattern Matching.
+1990,Polygon Triangulation in O(n log log n) Time with Simple Data-Structures.
+1990,Maintenance of a Minimum Spanning Forest in a Dynamic Planar Graph.
+1990,Unique Binary Search Tree Representations and Equality-testing of Sets and Sequences.
+1989,A Fast Las Vegas Algorithm for Triangulating a Simple Polygon.
+1989,A Tight Amortized Bound for Path Reversal.
+1989,A Parallel Algorithm for Finding a Blocking Flow in an Acyclic Network.
+1989,Finding minimum-cost circulations by canceling negative cycles.
+1989,Making Data Structures Persistent.
+1989,Amortized Analysis of Algorithms for Set Union with Backtracking.
+1989,A Fast Parametric Maximum Flow Algorithm and Applications.
+1989,Improved Time Bounds for the Maximum Flow Problem.
+1989,Faster Scaling Algorithms for Network Problems.
+1988,Relaxed Heaps: An Alternative to Fibonacci Heaps with Applications to Parallel Computation.
+1988,A Linear-Time Algorithm for Finding a Minimum Spanning Pseudoforest.
+1988,A new approach to the maximum-flow problem.
+1988,Algorithms for Two Bottleneck Optimization Problems.
+1988,One-Processor Scheduling with Symmetric Earliness and Tardiness Penalties.
+1988,An O(n log log n)-Time Algorithm for Triangulating a Simple Polygon.
+1988,Erratum: An O(n log log n)-Time Algorithm for Triangulating a Simple Polygon.
+1988,A Fast Las Vegas Algorithm for Triangulating a Simple Polygon.
+1988,Dynamic Perfect Hashing: Upper and Lower Bounds.
+1988,Finding Minimum-Cost Circulations by Canceling Negative Cycles.
+1988,Almost-Optimum Speed-ups of Algorithms for Bipartite Matching and Related Problems.
+1987,Linear-Time Algorithms for Visibility and Shortest Path Problems Inside Triangulated Simple Polygons.
+1987,Algorithmic Design.
+1987,Fibonacci heaps and their uses in improved network optimization algorithms.
+1987,Three Partition Refinement Algorithms.
+1987,"Correction to ""A Linear-Time Algorithm for Triangulating Simple Polygons""."
+1987,Solving Minimum-Cost Flow Problems by Successive Approximation.
+1986,The Pairing Heap: A New Form of Self-Adjusting Heap.
+1986,A Locally Adaptive Data Compression Scheme.
+1986,Planar Point Location Using Persistent Search Trees.
+1986,Efficient algorithms for finding minimum spanning trees in undirected and directed graphs.
+1986,Rectilinear Planar Layouts and Bipolar Orientations of Planar Graphs.
+1986,Sorting Jordan Sequences in Linear Time Using Level-Linked Search Trees.
+1986,Deques with Heap Order.
+1986,Self-Adjusting Heaps.
+1986,Linear Time Algorithms for Visibility and Shortest Path Problems Inside Simple Polygons.
+1986,Making Data Structures Persistent.
+1986,"Rotation Distance, Triangulations, and Hyperbolic Geometry."
+1986,A New Approach to the Maximum Flow Problem.
+1986,A Linear-Time Algorithm for Triangulating Simple Polygons.
+1985,Amortized Efficiency of List Update and Paging Rules.
+1985,Sequential access in play trees takes linear time.
+1985,Decomposition by clique separators.
+1985,Self-Adjusting Binary Search Trees.
+1985,A Linear-Time Algorithm for a Special Case of Disjoint Set Union.
+1985,A Note on Finding Minimum-Cost Edge-Disjoint Spanning Trees.
+1985,Strongly connected orientations of mixed multigraphs.
+1985,"Addendum: Simple Linear-Time Algorithms to Test Chordality of Graphs, Test Acyclicity of Hypergraphs, and Selectively Reduce Acyclic Hypergraphs."
+1985,Biased Search Trees.
+1985,An Efficient Parallel Biconnectivity Algorithm.
+1985,A Linear Time Solution to the Single Function Coarsest Partition Problem.
+1985,Sorting Jordan sequences in linear time.
+1984,Worst-case Analysis of Set Union Algorithms.
+1984,Efficient Algorithms for a Family of Matroid Intersection Problems.
+1984,"Gauss Codes, Planar Hamiltonian Graphs, and Stack-Sortable Permutations."
+1984,A Separator Theorem for Graphs of Bounded Genus.
+1984,A quick method for finding shortest pairs of disjoint paths.
+1984,Fast Algorithms for Finding Nearest Common Ancestors.
+1984,"Simple Linear-Time Algorithms to Test Chordality of Graphs, Test Acyclicity of Hypergraphs, and Selectively Reduce Acyclic Hypergraphs."
+1984,Finding Biconnected Components and Computing Tree Functions in Logarithmic Parallel Time (Extended Summary).
+1984,Fibonacci Heaps and Their Uses in Improved Network Optimization Algorithms.
+1984,A Linear Time Algorithm to Solve the Single Function Coarsest Partition Problem.
+1984,Scaling and Related Techniques for Geometry Problems.
+1984,Amortized Efficiency of List Update Rules.
+1983,Notes on introductory combinatorics.
+1983,Data structures and network algorithms.
+1983,Updating a Balanced Search Tree in O(1) Rotations.
+1983,An Improved Algorithm for Hierarchical Clustering Using Strong Components.
+1983,A Data Structure for Dynamic Trees.
+1983,Space-Efficient Implementations of Graph Search Methods.
+1983,Self-Adjusting Binary Trees.
+1983,A Linear-Time Algorithm for a Special Case of Disjoint Set Union.
+1982,A Hierarchical Clustering Algorithm Using Strong Components.
+1982,Sensitivity Analysis of Minimum Spanning Trees and Shortest Path Trees.
+1982,Asymptotically tight bounds on time-space trade-offs in a pebble game.
+1982,Symbolic Program Analysis in Almost-Linear Time.
+1982,The Recognition of Series Parallel Digraphs.
+1981,A Unified Approach to Path Problems.
+1981,Fast Algorithms for Solving Path Problems.
+1981,Scheduling Unit-Time Tasks with Arbitrary Release Times and Deadlines.
+1981,On a Greedy Heuristic for Complete Matching.
+1981,A Data Structure for Dynamic Trees.
+1980,The Space Complexity of Pebble Games on Trees.
+1980,Variations on the Common Subexpression Problem.
+1980,Linear Expected-Time Algorithms for Connectivity Problems.
+1980,The Pebbling Problem is Complete in Polynomial Space.
+1980,Design and Analysis of a Data Structure for Representing Sorted Lists.
+1980,Applications of a Planar Separator Theorem.
+1980,Performance Bounds for Level-Oriented Two-Dimensional Packing Algorithms.
+1980,Biased 2-3 Trees.
+1980,Prime Subprogram Parsing of a Program.
+1980,Linear Expected-Time Algorithms for Connectivity Problems (Extended Abstract).
+1979,Storing a Sparse Table.
+1979,A Linear-Time Algorithm for Testing the Truth of Certain Quantified Boolean Formulas.
+1979,A Fast Merging Algorithm.
+1979,Applications of Path Compression on Balanced Trees.
+1979,A Class of Algorithms which Require Nonlinear Time to Maintain Disjoint Sets.
+1979,A Fast Algorithm for Finding Dominators in a Flowgraph.
+1979,Efficient Algorithms for Simple Matroid Intersection Problems.
+1979,The recognition of Series Parallel digraphs.
+1979,The Pebbling Problem is Complete in Polynomial Space.
+1979,Upper and Lower Bounds on Time-Space Tradeoffs.
+1978,Time-Space Trade-Offs in a Pebble Game.
+1978,Triangulating a Simple Polygon.
+1978,A Linear-Time Algorithm for Finding All Feedback Vertices.
+1978,A Representation for Linear Lists with Movable Fingers.
+1977,Space Bounds for a Game on Graphs.
+1977,Correction: Space Bounds for a Game on Graphs.
+1977,Finding optimum branchings.
+1977,Finding a Maximum Independent Set.
+1977,Corrigendum: Computing an st-Numbering. TCS 2(1976):339-344.
+1977,Application of a Planar Separator Theorem.
+1977,Time-Space Trade-Offs in a Pebble Game.
+1977,Reference Machines Require Non-linear Time to Maintain Disjoint Sets.
+1976,Edge-Disjoint Spanning Trees and Depth-First Search.
+1976,Lower bounds on the lengths of node sequences in directed graphs.
+1976,A Combinatorial Problem Which Is Complete in Polynomial Space.
+1976,Intersection graphs of curves in the plane.
+1976,b-Matchings in Trees.
+1976,Algorithmic Aspects of Vertex Elimination on Graphs.
+1976,Augmentation Problems.
+1976,The Planar Hamiltonian Circuit Problem is NP-Complete.
+1976,Finding Minimum Spanning Trees.
+1976,Computing an  st  -Numbering.
+1976,Space Bounds for a Game of Graphs.
+1975,Optimal Chain Partitions of Trees.
+1975,Efficiency of a Good But Not Linear Set Union Algorithm.
+1975,Network Flow and Testing Graph Connectivity.
+1975,a Combinatorial Problem which is Complete in Polynomial Space.
+1975,Algorithmic Aspects of Vertex Elimination.
+1974,A Note on Finding the Bridges of a Graph.
+1974,A New Algorithm for Finding Weak Components.
+1974,A Good Algorithm for Edge-Disjoint Branching.
+1974,Efficient Planarity Testing.
+1974,Testing Flow Graph Reducibility.
+1974,Finding Dominators in Directed Graphs.
+1974,Testing Graph Connectivity.
+1973,Efficient Algorithms for Graph Manipulation [H] (Algorithm 447).
+1973,A V log V Algorithm for Isomorphism of Triconnected Planar Graphs.
+1973,Time Bounds for Selection.
+1973,Dividing a Graph into Triconnected Components.
+1973,Enumeration of the Elementary Circuits of a Directed Graph.
+1973,Testing Flow Graph Reducibility.
+1972,Determining Whether a Groupoid is a Group.
+1972,Sorting Using Networks of Queues and Stacks.
+1972,Depth-First Search and Linear Graph Algorithms.
+1972,Isomorphism of Planar Graphs.
+1972,Linear Time Bounds for Median Computations.
+1971,A V² Algorithm for Determining Isomorphism of Planar Graphs.
+1971,Depth-First Search and Linear Graph Algorithms (Working Paper).
+1971,Planarity Testing in V log V Steps: Extended Abstract.

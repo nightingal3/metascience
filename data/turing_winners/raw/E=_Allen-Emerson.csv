@@ -1,0 +1,117 @@
+2014,Cost-Aware Automatic Program Repair.
+2013,Cost-Aware Automatic Program Repair.
+2012,"Systems Architecture, Design, Engineering, and Verification - The Practice in Research and Research in Practice."
+2012,Improved Binary Decision Diagram Constraint Propagation for Satisfiability Problems.
+2011,Symbolic modular deadlock analysis.
+2011,An Algorithmic Framework for Synthesis of Concurrent Programs.
+2011,A More Efficient BDD-Based QBF Solver.
+2010,Meanings of Model Checking.
+2010,Time of Time.
+2009,Model checking: algorithmic verification and debugging.
+2009,Verification of recursive methods on tree-like data structures.
+2009,Symbolic Deadlock Analysis in Concurrent Libraries and Their Clients.
+2009,Model Checking: Progress and Problems.
+2008,Automatic Generation of Local Repairs for Boolean Programs.
+2008,The Beginning of Model Checking: A Personal Perspective.
+2008,Design and Synthesis of Synchronization Skeletons Using Branching Time Temporal Logic.
+2008,SVISS: Symbolic Verification of Symmetric Systems.
+2007,Improved verification of hardware designs through antecedent conditioned slicing.
+2006,Under-approximation Heuristics for Grid-based Bounded Model Checking.
+2006,Molecular Model Checking.
+2006,On partitioning and symbolic model checking.
+2006,Reducing Model Checking of the Few to the One.
+2006,Automatic Verification of Parameterized Data Structures.
+2006,"Verification, Model Checking, and Abstract Interpretation, 7th International Conference, VMCAI 2006, Charleston, SC, USA, January 8-10, 2006, Proceedings."
+2005,Efficient Model Checking of Hardware Using Conditioned Slicing.
+2005,Efficient Reduction Techniques for Systems with Many Components.
+2005,Predictive Reachability Using a Sample-Based Approach.
+2005,Multi-threaded reachability.
+2005,On Partitioning and Symbolic Model Checking.
+2005,Dynamic Symmetry Reduction.
+2004,Synthesis of fault-tolerant concurrent programs.
+2004,Parameterized Model Checking of Ring-Based Message Passing Systems.
+2004,A Partitioning Methodology for BDD-Based Verification.
+2003,On Reasoning About Rings.
+2003,On Combining Symmetry Reduction and Symbolic Representation for Efficient Model Checking.
+2003,Exact and Efficient Verification of Parameterized Cache Coherence Protocols.
+2003,Abstract Patterns of Compositional Reasoning.
+2003,Model Checking Guarded Protocols.
+2003,Rapid Parameterized Model Checking of Snoopy Cache Coherence Protocols.
+2002,Visual Specifications for Modular Reasoning about Asynchronous Systems.
+2002,Model Checking Large-Scale and Parameterized Resource Allocation Systems.
+2001,On model checking for the µ-calculus and its fragments.
+2001,Synthesis of concurrent programs for an atomic read/write model of computation.
+2001,Rtdt: A Front-End for Efficient Model Checking of Synchronous Timing Diagrams.
+2001,Assume-Guarantee Based Compositional Reasoning for Synchronous Timing Diagrams.
+2000,Automated formal methods: model checking and beyond.
+2000,SMC: a symmetry-based model checker for verification of safety and liveness properties.
+2000,Reducing Model Checking of the Many to the Few.
+2000,Model Checking Synchronous Timing Diagrams.
+2000,Model Checking: Theory into Practice.
+2000,Virtual Symmetry Reduction.
+2000,"Computer Aided Verification, 12th International Conference, CAV 2000, Chicago, IL, USA, July 15-19, 2000, Proceedings."
+1999,The Complexity of Tree Automata and Logics of Programs.
+1999,Efficient Decompositional Model Checking for Regular Timing Diagrams.
+1999,From Asymmetry to Full Symmetry: New Techniques for Symmetry Reduction in Model Checking.
+1999,Parametric Quantitative Temporal Reasoning.
+1998,Synthesis of Concurrent Systems with Many Similar Processes.
+1998,Symmetry Reductions inModel Checking.
+1998,Verification of Parameterized Bus Arbitration Protocol.
+1998,On Model Checking for Non-Deterministic Infinite-State Systems.
+1998,Model Checking Real-Time Properties of Symmetric Systems.
+1998,Synthesis of Fault-Tolerant Concurrent Programs.
+1997,Utilizing Symmetry when Model-Checking under Fairness Assumptions: An Automata-Theoretic Approach.
+1997,Checking Formal Specifications under Simulation.
+1997,Combining Partial Order and Symmetry Reductions.
+1997,Generalized Quantitative Temporal Reasoning: An Automata Theoretic Approach.
+1996,Scheduling workflows by enforcing intertask dependencies.
+1996,Symmetry and Model Checking.
+1996,Automatic Verification of Parameterized Synchronous Systems (Extended Abstract).
+1996,Model Checking and the Mu-calculus.
+1996,Synthesis of Concurrent Systems for an Atomic Read / Atomic Write Model of Computation (Extended Abstract).
+1995,Modularity and Rule-Based Programming.
+1995,Automated Temporal Reasoning about Reactive Systems.
+1995,Methods for Mu-calculus Model Checking: A Tutorial (Abstract).
+1995,Utilizing Symmetry when Model Checking under Fairness Assumptions: An Automata-theoretic Approach.
+1995,Efficient Automation of Temporal Reasoning.
+1995,Reasoning about Rings.
+1994,A New Approach to Modularity in Rule-Based Programming.
+1993,Distributed Real-Time System Specification and Verification in APTL.
+1993,On Model-Checking for Fragments of µ-Calculus.
+1993,Symmetry and Model Checking.
+1993,Symbolic Model Checking for Distributed Real-Time Systems.
+1992,Efficient Temporal Satisfiability.
+1992,Quantitative Temporal Reasoning.
+1992,Formal Specification of Ssynchronous Distributed Real-Time Systems by APTL.
+1991,"Tree Automata, Mu-Calculus and Determinacy (Extended Abstract)."
+1991,Real-Time and the Mu-Calculus (Preliminary Report).
+1990,Quantitative Temporal Reasoning.
+1990,On the Limits of Efficient Temporal Decidability (Extended Abstract).
+1990,A Decidable Temporal Logic to Reason About Many Processes.
+1990,Temporal and Modal Logic.
+1989,An Automata Theoretic Decision Procedure for the Propositional Mu-Calculus.
+1989,On Simultaneously Determinizing and Complementing omega-Automata (Extended Abstract).
+1989,Efficient Temporal Reasoning.
+1989,Synthesis of Concurrent Systems with Many Similar Sequential Processes.
+1988,The Complexity of Tree Automata and Logics of Programs (Extended Abstract).
+1988,Branching time temporal logic.
+1987,Uniform Inevitability is Tree Automaton Ineffable.
+1987,Modalities for Model Checking: Branching Time Logic Strikes Back.
+1986,"""Sometimes"" and ""Not Never"" revisited: on branching versus linear time temporal logic."
+1986,Automatic Verification of Finite-State Concurrent Systems Using Temporal Logic Specifications.
+1986,Efficient Model Checking in Fragments of the Propositional Mu-Calculus (Extended Abstract).
+1986,Temporal Reasoning Under Generalized Fairness Constraints.
+1985,Decision Procedures and Expressiveness in the Temporal Logic of Branching Time.
+1985,"Automata, Tableaux and Temporal Logics (Extended Abstract)."
+1985,Modalities for Model Checking: Branching Time Strikes Back.
+1984,Deciding Full Branching Time Logic.
+1984,The Propositional Mu-Calculus is Elementary.
+1984,Deciding Branching Time Logic.
+1983,Alternative Semantics for Temporal Logics.
+1983,Deciding Branching Time Logic: A Triple Exponential Decision Procedure for CTL*.
+1983,Automatic Verification of Finite State Concurrent Systems Using Temporal Logic Specifications: A Practical Approach.
+1983,"""Sometimes"" and ""Not Never"" Revisited: On Branching Versus Linear Time."
+1982,Using Branching Time Temporal Logic to Synthesize Synchronization Skeletons.
+1982,Decision Procedures and Expressiveness in the Temporal Logic of Branching Time.
+1981,Design and Synthesis of Synchronization Skeletons Using Branching-Time Temporal Logic.
+1980,Characterizing Correctness Properties of Parallel Programs Using Fixpoints.

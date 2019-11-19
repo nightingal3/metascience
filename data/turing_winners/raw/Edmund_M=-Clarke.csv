@@ -1,0 +1,314 @@
+2018,Introduction to Model Checking.
+2018,Handbook of Model Checking.
+2017,From non-preemptive to preemptive scheduling using synchronization synthesis.
+2016,Solving QBF with counterexample guided refinement.
+2016,"CyberCardia project: Modeling, verification and validation of implantable cardiac devices."
+2016,Bifurcation Analysis of Cardiac Alternans Using \delta -Decidability.
+2016,Formal Modeling and Analysis of Pancreatic Cancer Microenvironment.
+2016,High-level modeling and verification of cellular signaling.
+2016,Probabilistic reachability analysis of the tap withdrawal circuit in caenorhabditis elegans.
+2016,Formal modeling of biological systems.
+2016,SMT-Based Analysis of Virtually Synchronous Distributed Hybrid Systems.
+2015,From Non-preemptive to Preemptive Scheduling Using Synchronization Synthesis.
+2015,SReach: A Probabilistic Bounded Delta-Reachability Analyzer for Stochastic Hybrid Systems.
+2015,Formal Analysis Provides Parameters for Guiding Hyperoxidation in Bacteria using Phototoxic Proteins.
+2015,Towards personalized prostate cancer therapy using delta-reachability analysis.
+2015,dReach: δ-Reachability Analysis for Hybrid Systems.
+2015,From Non-preemptive to Preemptive Scheduling using Synchronization Synthesis.
+2015,Optimizing Solution Quality in Synchronization Synthesis.
+2014,Pathway-gene identification for pancreatic cancer survival via doubly regularized Cox regression.
+2014,Parameter Synthesis for Cardiac Cell Hybrid Models Using δ-Decisions.
+2014,25 Years of Model Checking.
+2014,"Compositional, Approximate, and Quantitative Reasoning for Medical Cyber-Physical Systems with Application to Patient-Specific Cardiac Dynamics and Devices."
+2014,Model Checking Hybrid Systems - (Invited Talk).
+2014,Proof Generation from Delta-Decisions.
+2014,Revisiting the Complexity of Stability of Continuous and Hybrid Systems.
+2014,Delta-Complete Analysis for Bounded Reachability of Hybrid Systems.
+2014,SReach: Combining Statistical Tests and Bounded Model Checking for Nonlinear Hybrid Systems with Parametric Uncertainty.
+2014,Parameter Synthesis for Cardiac Cell Hybrid Models Using Delta-Decisions.
+2014,Proof Generation from Delta-Decisions.
+2014,Towards Personalized Cancer Therapy Using Delta-Reachability Analysis.
+2013,Bayesian statistical model checking with application to Stateflow/Simulink verification.
+2013,Studies of biological networks with statistical model checking: application to immune system cells.
+2013,dReal: An SMT Solver for Nonlinear Theories over the Reals.
+2013,Automatic Abstraction in SMT-Based Unbounded Software Model Checking.
+2013,Solving QBF with Free Variables.
+2013,Satisfiability modulo ODEs.
+2013,Finding Errors in Python Programs Using Dynamic Symbolic Execution.
+2013,Turing's Computable Real Numbers and Why They Are Still Important Today.
+2013,Automatic Abstraction in SMT-Based Unbounded Software Model Checking.
+2013,Satisfiability Modulo ODEs.
+2012,Computable Real Numbers and Why They Are Still Important Today.
+2012,δ-Complete Decision Procedures for Satisfiability over the Reals.
+2012,Assume-Guarantee Abstraction Refinement for Probabilistic Systems.
+2012,Assumption Generation for Asynchronous Systems by Abstraction Refinement.
+2012,Rare-event verification for stochastic hybrid systems.
+2012,Delta-Decidability over the Reals.
+2012,Learning Probabilistic Systems from Tree Samples.
+2012,Statistical Model Checking for Markov Decision Processes.
+2012,Solving QBF with Counterexample Guided Refinement.
+2012,"Perspectives of Systems Informatics - 8th International Andrei Ershov Memorial Conference, PSI 2011, Novosibirsk, Russia, June 27-July 1, 2011, Revised Selected Papers."
+2012,Delta-Complete Decision Procedures for Satisfiability over the Reals.
+2012,Delta-Decidability over the Reals.
+2012,Assume-Guarantee Abstraction Refinement for Probabilistic Systems.
+2012,Learning Probabilistic Systems from Tree Samples.
+2011,Analog circuit verification by statistical model checking.
+2011,Statistical Model Checking for Cyber-Physical Systems.
+2011,Quantifier Elimination over Finite Fields Using Gröbner Bases.
+2011,Formal analysis for logical models of pancreatic cancer.
+2011,Model Checking and the State Explosion Problem.
+2011,Quantifier Elimination over Finite Fields Using Gröbner Bases.
+2010,Analysis and verification of the HMGB1 signaling pathway.
+2010,On simulation-based probabilistic model checking of mixed-analog circuits.
+2010,Computational Modeling and Verification of Signaling Pathways in Cancer.
+2010,The Localization Reduction and Counterexample-Guided Abstraction Refinement.
+2010,Automated Assume-Guarantee Reasoning through Implicit Learning.
+2010,Integrating ICP and LRA solvers for deciding nonlinear real arithmetic problems.
+2010,Bayesian statistical model checking with application to Simulink/Stateflow verification.
+2010,Comparing Learning Algorithms in Automated Assume-Guarantee Reasoning.
+2010,"A Non-prenex, Non-clausal QBF Solver with Game-State Learning."
+2010,Statistical Verification of Probabilistic Properties with Unbounded Until.
+2010,"Logic for Programming, Artificial Intelligence, and Reasoning - 16th International Conference, LPAR-16, Dakar, Senegal, April 25-May 1, 2010, Revised Selected Papers."
+2009,Model checking: algorithmic verification and debugging.
+2009,Functional Equivalence Verification Tools in High-Level Synthesis Flows.
+2009,Efficient Craig interpolation for linear Diophantine (dis)equations and linear modular equations.
+2009,Computing differential invariants of hybrid systems as fixedpoints.
+2009,A Bayesian Approach to Model Checking Biological Systems.
+2009,"Efficient SAT solving for non-clausal formulas using DPLL, graphs, and watched cuts."
+2009,Formal Verification of Curved Flight Collision Avoidance Maneuvers: A Case Study.
+2009,My 27-year Quest to Overcome the State Explosion Problem.
+2009,Model Checking - My 27-year Quest to Overcome the State Explosion Problem.
+2009,Learning Minimal Separating DFA's for Compositional Verification.
+2008,Verification of evolving software via component substitutability analysis.
+2008,Word-Level Predicate-Abstraction and Refinement Techniques for Verifying RTL Verilog.
+2008,Computing Differential Invariants of Hybrid Systems as Fixedpoints.
+2008,Efficient Craig Interpolation for Linear Diophantine (Dis)Equations and Linear Modular Equations.
+2008,Statistical Model Checking in BioLab: Applications to the Automated Analysis of T-Cell Receptor Signaling Pathway.
+2008,Statistical Model Checking of Mixed-Analog Circuits with an Application to a Third Order Delta-Sigma Modulator.
+2008,Verification of Supervisory Control Software Using State Proximity and Merging.
+2008,Model Checking - My 27-Year Quest to Overcome the State Explosion Problem.
+2008,The Birth of Model Checking.
+2008,Design and Synthesis of Synchronization Skeletons Using Branching Time Temporal Logic.
+2008,Extending Automated Compositional Verification to the Full Class of Omega-Regular Languages.
+2008,Proving Ptolemy Right: The Environment Abstraction Framework for Model Checking Concurrent Systems.
+2007,Verification of SpecC using predicate abstraction.
+2007,Model Checking: Software and Beyond.
+2007,SAT-Based Compositional Verification Using Lazy Learning.
+2007,Reachability for Linear Hybrid Automata Using Iterative Relaxation Abstraction.
+2007,The Image Computation Problem in Hybrid Systems Model Checking.
+2007,Arithmetic Strengthening for Shape Analysis.
+2007,VCEGAR: Verilog CounterExample Guided Abstraction Refinement.
+2006,Ranking Attack Graphs.
+2006,Satisfiability Checking of Non-clausal Formulas Using General Matings.
+2006,Verifying Concurrent Message-Passing C Programs with Recursive Calls.
+2006,Environment Abstraction for Parameterized Verification.
+2006,"Verification of Infinite-State Systems with Applications to Security, Proceedings of the NATO Advanced Research Workshop ""Verification of Infinite State Systems with Applications to Security VISSAS 2005"", Timisoara, Romania, March 17-22, 2005."
+2005,"Concurrent software verification with states, events, and deadlocks."
+2005,An Iterative Framework for Simulation Conformance.
+2005,Computational challenges in bounded model checking.
+2005,Automated Assume-Guarantee Reasoning for Simulation Conformance.
+2005,Word level predicate abstraction and refinement for verifying RTL verilog.
+2005,Dynamic Component Substitutability Analysis.
+2005,Program Compatibility Approaches.
+2005,Refining Abstractions of Hybrid Systems Using Counterexample Fragments.
+2005,Reconsidering CEGAR: Learning Good Abstractions without Refinement.
+2005,State/Event Software Verification for Branching-Time Specifications.
+2005,SATABS: SAT-Based Predicate Abstraction for ANSI-C.
+2005,Grand Challenge: Model Check Software.
+2005,Model Checking: Back and Forth between Hardware and Software.
+2005,Temporal Logic Model Checking.
+2004,VeriAgent: an Approach to Integrating UML and Formal Verification Tools.
+2004,Predicate Abstraction of ANSI-C Programs Using SAT.
+2004,Efficient Verification of Sequential and Concurrent C Programs.
+2004,SAT-based counterexample-guided abstraction refinement.
+2004,Modular Verification of Software Components in C.
+2004,Verification by Network Decomposition.
+2004,A SAT-based algorithm for reparameterization in symbolic simulation.
+2004,Checking consistency of C and Verilog using predicate abstraction and induction.
+2004,Tutorial: Software Model Checking.
+2004,Counterexample Guided Abstraction Refinement Via Program Execution.
+2004,State/Event-Based Software Model Checking.
+2004,Verification of SpecC using predicate abstraction.
+2004,"Automated, compositional and iterative deadlock detection."
+2004,A Tool for Checking ANSI-C Programs.
+2004,Completeness and Complexity of Bounded Model Checking.
+2003,Bounded model checking.
+2003,Automated Compositional Abstraction Refinement for Concurrent C Programs: A Two-Level Approach.
+2003,Abstraction and Counterexample-Guided Refinement in Model Checking of Hybrid Systems.
+2003,Counterexample-guided abstraction refinement for symbolic model checking.
+2003,Efficient verification of security protocols using partial-order reductions.
+2003,Hardware verification using ANSI-C programs as a reference.
+2003,"Counterexamples Revisited: Principles, Algorithms, Applications."
+2003,SAT-Based Counterexample Guided Abstraction Refinement in Model Checking.
+2003,Making Predicate Abstraction Efficient: How to Eliminate Redundant Predicates.
+2003,Predicate Abstraction with Minimum Predicates.
+2003,Behavioral consistency of C and verilog programs using bounded model checking.
+2003,Model Checking for Dependable Software-Intensive Systems.
+2003,Specifying and Verifying Systems with Multiple Clocks.
+2003,SAT-Based Algorithms for Logic Minimization.
+2003,Modular Verification of Software Components in C.
+2003,High Level Verification of Control Intensive Systems Using Predicate Abstraction.
+2003,SAT Based Predicate Abstraction for Hardware Verification.
+2003,Verification of Hybrid Systems Based on Counterexample-Guided Abstraction Refinement.
+2003,Counterexample-Guided Abstraction Refinement.
+2002,Verification of Out-Of-Order Processor Designs Using Model Checking and a Light-Weight Completion Function.
+2002,Program slicing for VHDL.
+2002,SAT Based Abstraction-Refinement Using ILP and Machine Learning Techniques.
+2002,NuSMV 2: An OpenSource Tool for Symbolic Model Checking.
+2002,Automated Abstraction Refinement for Model Checking Large State Spaces Using SAT Based Conflict Analysis.
+2002,Tree-Like Counterexamples in Model Checking.
+2002,SAT-Based Counterexample Guided Abstraction Refinement.
+2001,Model checking.
+2001,Bounded Model Checking Using Satisfiability Solving.
+2001,The Verus language: representing time efficiently with BDDs.
+2001,Using Combinatorial Optimization Methods for Quantification Scheduling.
+2001,Progress on the State Explosion Problem in Model Checking.
+2001,Using cutwidth to improve symbolic simulation and Boolean satisfiability.
+2001,Non-linear Quantification Scheduling in Image Computation.
+2001,Efficient Filtering in Publish-Subscribe Systems Using Binary Decision.
+2001,Model Checking.
+2000,Selective Quantitative Analysis and Interval Model Checking: Verifying Different Facets of a System.
+2000,Verification of a safety-critical railway interlocking system with real-time constraints.
+2000,Automatic verification of hardware and software systems.
+2000,NUSMV: A New Symbolic Model Checker.
+2000,Verifying security protocols with Brutus.
+2000,Model checking algorithms for the µ-calculus.
+2000,Combining Decision Diagrams and SAT Procedures for Efficient Symbolic Model Checking.
+2000,Counterexample-Guided Abstraction Refinement.
+2000,Efficient variable ordering using aBDD based sampling.
+2000,Executable Protocol Specification in ESL.
+2000,A Theory of Consistency for Modular Synchronous Systems.
+2000,Partial Order Reductions for Security Protocol Verification.
+1999,On the Semantic Foundations of Probabilistic Synchronous Reactive Programs.
+1999,Combining Local and Global Model Checking.
+1999,Model Checking Semi-Continuous Time Models Using BDDs.
+1999,Verifying the SRT Division Algorithm Using Theorem Proving Techniques.
+1999,Analysis and Verification of Real-Time Systems Using Quantitative Symbolic Algorithms.
+1999,State Space Reduction Using Partial Order Techniques.
+1999,ProbVerus: Probabilistic Symbolic Model Checking.
+1999,Multiple State and Single State Tableaux for Combining Local and Global Model Checking.
+1999,Verifiying Safety Properties of a Power PC Microprocessor Using Symbolic Model Checking without BDDs.
+1999,NUSMV: A New Symbolic Model Verifier.
+1999,Abstract BDDs: A Technique for Using Abstraction in Model Checking.
+1999,Program Slicing of Hardware Description Languages.
+1999,Symbolic Model Checking Using SAT Procedures instead of BDDs.
+1999,Symbolic Model Checking without BDDs.
+1998,Analytica - An Experiment in Combining Theorem Proving and Symbolic Computation.
+1998,Symmetry Reductions inModel Checking.
+1998,Combining Symbolic Model Checking with Uninterpreted Functions for Out-of-Order Processor Verification.
+1998,Model Checking VHDL with CV.
+1998,Verification of a Safety-Critical Railway Interlocking System with Real-Time Constraints.
+1998,Using state space exploration and a natural deduction style message derivation engine to verify security protocols.
+1998,Model Checking: Historical Perspective and Example (Extended Abstract).
+1997,Editorial.
+1997,Another Look at LTL Model Checking.
+1997,Spectral Transforms for Large Boolean Functions with Applications to Technology Mapping.
+1997,Symbolic Techniques for Formally Verifying Industrial Systems.
+1997,An Improved Algorithm for the Evaluation of Fixpoint Expressions.
+1997,Verifying Parameterized Networks.
+1997,The Verus Language: Representing Time Efficiently with BDDs.
+1997,The Verus Tool: A Quantitative Approach to the Formal Verification of Real-Time Systems.
+1997,Compositional Reasoning in Model Checking.
+1997,Model Cheking.
+1997,Symbolic Model Checking for Probabilistic Processes.
+1997,Equivalence Checking Using Abstract BDDs.
+1997,Temporal Logic Model Checking (Abstract).
+1996,Tools and Partial Analysis.
+1996,Formal Methods: State of the Art and Future Directions.
+1996,Exploiting Symmetry in Temporal Logic Model Checking.
+1996,Analytica - An Experiment in Combining Theorem Proving and Symbolic Computation.
+1996,Verifying the SRT Division Algorithm Using Theorem Proving Techniques.
+1996,Symbolic Model Checking.
+1996,Word Level Model Checking - Avoiding the Pentium FDIV Error.
+1996,Verification of All Circuits in a Floating-Point Unit Using Word-Level Model Checking.
+1996,Deadlock prevention in flexible manufacturing systems using symbolic model checking.
+1996,Word Level Model Checking (Abstract).
+1996,Model checking.
+1995,Verification of the Futurebus+ Cache Coherence Protocol.
+1995,Temporal Verification of Real-Time Systems.
+1995,Veryfying Parameterized Networks using Abstraction and Regular Languages.
+1995,Efficient Generation of Counterexamples and Witnesses in Symbolic Model Checking.
+1995,Hybrid decision diagrams.
+1995,Verifying the performance of the PCI local bus using symbolic techniques.
+1995,Verus: A Tool for Quantitative Analysis of Finite-State Real-Time Systems.
+1995,Automatic verification of industrial designs.
+1995,Timing analysis of industrial real-time systems.
+1995,Symmetry and Induction in Model Checking.
+1994,Symbolic model checking for sequential circuit verification.
+1994,Model Checking and Abstraction.
+1994,Automatic Verification of Finite-state Concurrent Systems.
+1994,Combining Symbolic Computation and Theorem Proving: Some Problems of Ramanujan.
+1994,An Improved Algorithm for the Evaluation of Fixpoint Expressions.
+1994,Another Look at LTL Model Checking.
+1994,Fast Spectrum Computation for Logic Functions using Binary Decision Diagrams.
+1994,Automatic Verification of Finite-State Concurrent Systems.
+1994,Computing Quantitative Characteristics of Finite-State Real-Time Systems.
+1993,New and used temporal models: An issue of time.
+1993,A Unified Approch for Showing Language Inclusion and Equivalence Between Various Types of omega-Automata.
+1993,Efficient Verification of Parallel Real-Time Systems.
+1993,Exploiting Symmetry In Temporal Logic Model Checking.
+1993,Verification of the Futurebus+ Cache Coherence Protocol.
+1993,Automatic Verification of Sequential Circuit Designs.
+1993,Spectral Transforms for Large Boolean Functions with Applications to Technology Mapping.
+1993,Verification Tools for Finite-State Concurrent Systems.
+1992,Symbolic Model Checking: 10^20 States and Beyond.
+1992,PARTHENON: A Parallel Theorem Prover for Non-Horn Clauses.
+1992,A Synthesis of Two Approaches for Verifying Finite State Concurrent Systems.
+1992,Analytica - A Theorem Prover in Mathematica.
+1992,Model Checking and Abstraction.
+1991,Representing Circuits More Efficiently in Symbolic Model Checking.
+1991,Symbolic Model Checking with Partitioned Transistion Relations.
+1991,"Computer Aided Verification, 2nd International Workshop, CAV '90, New Brunswick, NJ, USA, June 18-21, 1990, Proceedings."
+1991,"Computer-Aided Verification, Proceedings of a DIMACS Workshop 1990, New Brunswick, New Jersey, USA, June 18-21, 1990."
+1990,A Unified Approach For Showing Language Containment And Equivalence Between Various Types Of Omega-Automata.
+1990,Temporal Logic Model Checking: Two Techniques for Avoiding the State Explosion Problem.
+1990,Sequential Circuit Verification Using Symbolic Model Checking.
+1990,Temporal Logic Model Checking: Two Techniques for Avoiding the State Explosion Problem.
+1990,Preface.
+1990,A parallel algorithm for constructing binary decision diagrams.
+1990,Symbolic Model Checking: 10^20 States and Beyond.
+1989,Reasoning about Networks with Many Identical Finite State Processes.
+1989,Reasoning about Procedures as Parameters in the Language L4.
+1989,A Synthesis of Two Approaches for Verifying Finite State Concurrent Systems.
+1989,PARTHENON: A Parallel Theorem Prover for Non-Horn Clauses.
+1989,Compositional Model Checking.
+1988,Escher-a geometrical layout system for recursively defined circuits.
+1988,Characterizing Finite Kripke Structures in Propositional Temporal Logic.
+1988,PARTHENON: A Parallel Theorem Prover for Non-Horn Clauses.
+1988,Expressibility results for linear-time and branching-time logics.
+1987,Avoiding The State Explosion Problem in Temporal Logic Model Checking.
+1987,Characterizing Kripke Structures in Temporal Logic.
+1987,The Model Checking Problem for Concurrent Systems with Many Similar Processes.
+1986,Compiling Path Expressions Into VLSI Circuits.
+1986,Distributed Computing Issues in Hardware Design.
+1986,Automatic Verification of Sequential Circuits Using Temporal Logic.
+1986,Automatic Verification of Finite-State Concurrent Systems Using Temporal Logic Specifications.
+1986,Escher - a geometrical layout system for recursively defined circuits.
+1986,True Relative Completeness of an Axiom System for the Language L4 (Abridged).
+1986,Reasoning About Networks With Many Identical Finite-State Processes.
+1985,The Complexity of Propositional Linear Temporal Logics.
+1985,Hierarchical Verification of Asynchronous Circuits Using Temporal Logic.
+1985,Compiling Path Expressions into VLSI Circuits.
+1984,Can Message Buffers Be Axiomatized in Linear Temporal Logic?
+1984,"Logics of Programs, Workshop, Carnegie Mellon University, Pittsburgh, PA, USA, June 6-8, 1983, Proceedings."
+1983,Effective Axiomatizations of Hoare Logics.
+1983,Automatic Verification of Asynchronous Circuits.
+1983,Reasoning About Procedures as Parameters.
+1983,Automatic Verification of Finite State Concurrent Systems Using Temporal Logic Specifications: A Practical Approach.
+1982,Using Branching Time Temporal Logic to Synthesize Synchronization Skeletons.
+1982,Distributed Reconfiguration Strategies for Fault-Tolerant Multiprocessor Systems.
+1982,Can Message Buffers be Characterized in Linear Temporal Logic?
+1982,On Effective Axiomatizations of Hoare Logics.
+1982,The Complexity of Propositional Linear Temporal Logics.
+1981,Task Management in Ada-A Critical Evaluation for Real-time Multiprocessors.
+1981,Design and Synthesis of Synchronization Skeletons Using Branching-Time Temporal Logic.
+1980,Proving Correctness of Coroutines Without History Variables.
+1980,Synthesis of Resource Invariants for Concurrent Programs.
+1980,Characterizing Correctness Properties of Parallel Programs Using Fixpoints.
+1980,Fast Maintenance of Semantic Integrity Assertions Using Redundant Aggregate Data.
+1979,Program invariants as fixedpoints.
+1979,Programming Language Constructs for Which It Is Impossible To Obtain Good Hoare Axiom Systems.
+1979,Approximate Algorithms for Optimization of Busy Waiting in Parallel Programs (Preliminary Report).
+1979,Synthesis of Resource Invariants for Concurrent Programs.
+1977,Program Invariants as Fixed Points (Preliminary Reports).
+1977,"Programming Language Constructs for Which it is Impossible to Obtain ""Good"" Hoare-Like Axiom Systems."

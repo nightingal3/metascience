@@ -1,0 +1,165 @@
+2019,Algorand: A secure and efficient distributed ledger.
+2019,Probabilistic encryption & how to play mental poker keeping secret all partial information.
+2019,The knowledge complexity of interactive proof-systems.
+2019,How to generate cryptographically strong sequences of pseudo random bits.
+2019,How to construct random functions.
+2019,"A ""paradoxical"" solution to the signature problem."
+2019,Proofs that yield nothing but their validity and a methodology of cryptographic protocol design.
+2019,"How to play any mental game, or a completeness theorem for protocols with honest majority."
+2019,Non-interactive zero-knowledge and its applications.
+2018,ALGORAND AGREEMENT: Super Fast and Partition Resilient Byzantine Agreement.
+2017,"Collusion, efficiency, and dominant strategies."
+2017,Very Simple and Efficient Byzantine Agreement.
+2017,Algorand: Scaling Byzantine Agreements for Cryptocurrencies.
+2017,Algorand: Scaling Byzantine Agreements for Cryptocurrencies.
+2016,Reconstructing Markov processes from independent and anonymous experiments.
+2016,Leveraging Possibilistic Beliefs in Unrestricted Combinatorial Auctions.
+2016,Mechanisms With Costly Knowledge.
+2016,Auction Revenue in the General Spiteful-Utility Model.
+2016,ALGORAND: The Efficient and Democratic Ledger.
+2015,What it means to receive the Turing award.
+2015,Mechanism design with possibilistic beliefs.
+2015,Better Outcomes from More Rationality.
+2015,Democoin: A Publicly Verifiable and Jointly Serviced Cryptocurrency.
+2014,"Cryptography miracles, secure auctions, matching problem verification."
+2014,The Query Complexity of Scoring Rules.
+2014,Rational and resilient protocols.
+2014,Knightian self uncertainty in the vcg mechanism for unrestricted combinatorial auctions.
+2014,Bridging Utility Maximization and Regret Minimization.
+2014,Knightian Robustness from Regret Minimization.
+2014,Knightian Analysis of the VCG Mechanism in Unrestricted Combinatorial Auctions.
+2014,Knightian Robustness of Single-Parameter Domains.
+2014,Knightian Robustness of the Vickrey Mechanism.
+2014,Johnson-Lindenstrauss Compression with Neuroscience-Based Constraints.
+2013,Parametric digital auctions.
+2013,Super-efficient rational proofs.
+2013,Optimal and Efficient Parametric Auctions.
+2012,Collusive dominant-strategy truthfulness.
+2012,Mechanism design with approximate valuations.
+2012,Crowdsourced Bayesian auctions.
+2012,Rational proofs.
+2011,Perfect implementation.
+2011,Crowdsourced Bayesian Auctions - (Abstract).
+2011,Mechanism Design with Set-Theoretic Beliefs.
+2011,Knightian Auctions.
+2010,Optimal Error Correction for Computationally Bounded Noise.
+2010,Perfect concrete implementation of arbitrary mechanisms: a quick summary of joint work with Sergei Izmalkov and Matt Lepinski.
+2010,Robustly Leveraging Collusion in Combinatorial Auctions.
+2010,Robust Perfect Revenue From Perfectly Informed Players.
+2009,A new approach to auctions and resilient mechanism design.
+2009,Purely Rational Secret Sharing (Extended Abstract).
+2008,Online-Untransferable Signatures.
+2008,Verifiably Secure Devices.
+2006,Input-Indistinguishable Computation.
+2006,Independent Zero-Knowledge Sets.
+2006,Local zero knowledge.
+2006,Independent Zero-Knowledge Sets.
+2005,Rational Secure Computation and Ideal Mechanism Design.
+2005,Collusion-free protocols.
+2005,Optimal Error Correction Against Computationally Bounded Noise.
+2005,Fair-Zero Knowledge.
+2004,Sequential Aggregate Signatures from Trapdoor Permutations.
+2004,Completely fair SFE and coalition-safe cheap talk.
+2004,Algorithmic Tamper-Proof (ATP) Security: Theoretical Foundations for Security against Hardware Tampering.
+2004,Physically Observable Cryptography (Extended Abstract).
+2003,Plaintext Awareness via Key Registration.
+2003,Fractal Merkle Tree Representation and Traversal.
+2003,Zero-Knowledge Sets.
+2003,Simple and fast optimistic protocols for fair electronic exchange.
+2003,Sequential Aggregate Signatures from Trapdoor Permutations.
+2003,Physically Observable Cryptography.
+2002,Improving the Exact Security of Digital Signature Schemes.
+2002,Micropayments Revisited.
+2002,Transitive Signature Schemes.
+2001,Mutually Independent Commitments.
+2001,Accountable-subgroup multisignatures: extended abstract.
+2001,Soundness in the Public-Key Model.
+2001,Min-round Resettable Zero-Knowledge in the Public-Key Model.
+2001,Identification Protocols Secure against Reset Attacks.
+2001,Amortized E-Cash.
+2000,Reducibility and Completeness in Private Computations.
+2000,Computationally Sound Proofs.
+2000,Parallel Reducibility for Information-Theoretically Secure Computation.
+2000,Public-Key Encryption in a Multi-user Setting: Security Proofs and Improvements.
+2000,Resettable zero-knowledge (extended abstract).
+2000,Identification Protocols Secure Against Reset Attacks.
+1999,Improving the Exact Security of Fiat-Shamir Signature Schemes.
+1999,The All-or-Nothing Nature of Two-Party Secure Computation.
+1999,Lower Bounds for Oblivious Transfer Reductions.
+1999,Computationally Private Information Retrieval with Polylogarithmic Communication.
+1999,Verifiable Random Functions.
+1999,Interleaved Zero-Knowledge in the Public-Key Model.
+1999,Resettable Zero-Knowledge.
+1999,Interleaved Zero-Knowledge in the Public-Key Model.
+1999,Improving the Exact Security of Digital Signature Schemes.
+1999,Resettable Zero-Knowledge.
+1998,Computationally-Sound Checkers.
+1998,More on Proofs of Knowledge.
+1997,An Optimal Probabilistic Protocol for Synchronous Byzantine Agreement.
+1996,On-Line/Off-Line Digital Signatures.
+1996,A Secure Protocol for the Oblivious Transfer (Extended Abstract).
+1996,Practical and Provably-Secure Commitment Schemes from Collision-Free Hashing.
+1995,"A Simple Method for Generating and Sharing Pseudo-Random Functions, with Applications to Clipper-like Escrow Systems."
+1995,Verifiable Secret Sharing as Secure Computation.
+1994,CS Proofs (Extended Abstracts).
+1994,Reducibility and Completeness in Multi-Party Private Computations.
+1993,Secret-Key Agreement without Public-Key Cryptography.
+1992,How to Sign Given Any Trapdoor Permutation.
+1992,Fair Public-Key Cryptosystems.
+1991,Proofs that Yield Nothing But Their Validity for All Languages in NP Have Zero-Knowledge Proof Systems.
+1991,"Efficient, Perfect Polynomial Random Number Generators."
+1991,Noninteractive Zero-Knowledge.
+1991,Secure Computation (Abstract).
+1990,A fair protocol for signing contracts.
+1990,Collective Coin Tossing Without Assumptions nor Broadcasting.
+1990,Perfect Zero-Knowledge in Constant Rounds.
+1990,The (True) Complexity of Statistical Zero Knowledge.
+1990,The Round Complexity of Secure Protocols (Extended Abstract).
+1989,The Knowledge Complexity of Interactive Proof Systems.
+1989,On-Line/Off-Line Digital Schemes.
+1989,Minimum Resource Zero-Knowledge Proofs (Extended Abstract).
+1989,Non-Interactive Oblivious Transfer and Spplications.
+1989,Minimum Resource Zero-Knowledge Proofs (Extended Abstract).
+1989,An Optimal Probabilistic Algorithm For Synchronous Byzantine Agreement.
+1989,"""Perfect"" Pseudo-Random Number Generation."
+1988,A Digital Signature Scheme Secure Against Adaptive Chosen-Message Attacks.
+1988,The Notion of Security for Probabilistic Cryptosystems.
+1988,Everything Provable is Provable in Zero-Knowledge.
+1988,"Efficient, Perfect Random Number Generators."
+1988,How To Sign Given Any Trapdoor Function.
+1988,An Improvement of the Fiat-Shamir Identification and Signature Scheme.
+1988,Proving Security Against Chosen Cyphertext Attacks.
+1988,Non-Interactive Zero-Knowledge with Preprocessing.
+1988,How to Sign Given Any Trapdoor Function (Extended Abstract).
+1988,Non-Interactive Zero-Knowledge and Its Applications (Extended Abstract).
+1988,Optimal Algorithms for Byzantine Agreement.
+1987,Non-Interactive Zero-Knowledge Proof Systems.
+1987,How to Play any Mental Game or A Completeness Theorem for Protocols with Honest Majority.
+1986,How to construct random functions.
+1986,An O(EV log V) Algorithm for Finding a Maximal Weighted Matching in General Graphs.
+1986,"How to Prove all NP-Statements in Zero-Knowledge, and a Methodology of Cryptographic Protocol Design."
+1986,The Notion of Security for Probabilistic Cryptosystems.
+1986,Proofs that Yield Nothing But their Validity and a Methodology of Cryptographic Protocol Design (Extended Abstract).
+1986,Dynamic deadlock resolution protocols (Extended Abstract).
+1986,Proofs that Release Minimum Knowledge.
+1986,Knowledge and Efficient Computation.
+1985,Byzantine Agreement in Constant Expected Time (and Trusting No One).
+1985,Verifiable Secret Sharing and Achieving Simultaneity in the Presence of Faults (Extended Abstract).
+1985,A Fair Protocol for Signing Contracts (Extended Abstract).
+1985,The Knowledge Complexity of Interactive Proof-Systems (Extended Abstract).
+1984,Probabilistic Encryption.
+1984,How to Generate Cryptographically Strong Sequences of Pseudo-Random Bits.
+1984,On the Cryptographic Applications of Random Functions.
+1984,"A ""Paradoxical'""Solution to the Signature Problem (Abstract)."
+1984,"A ""Paradoxical"" Solution to the Signature Problem (Extended Abstract)."
+1984,How to Construct Random Functions (Extended Abstract).
+1983,How to Simultaneously Exchange a Secret Bit by Flipping a Symmetrically-Biased Coin.
+1983,Strong Signature Schemes.
+1982,On Signatures and Authentication.
+1982,How to Generate Cryptographically Strong Sequences of Pseudo Random Bits.
+1982,Why and How to Establish a Private Code on a Public Network (Extended Abstract).
+1982,Priority Queues with Variable Priority and an O(EV log V) Algorithm for Finding a Maximal Weighted Matching in General Graphs.
+1982,Probabilistic Encryption and How to Play Mental Poker Keeping Secret All Partial Information.
+1981,Two-Way Deterministic Finite Automata are Exponentially More Succinct Than Sweeping Automata.
+1980,Minimal Forms in lambda-Calculus Computations.
+1980,An O(sqrt(|v|) |E|) Algorithm for Finding Maximum Matching in General Graphs.

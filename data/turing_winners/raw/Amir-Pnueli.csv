@@ -1,0 +1,272 @@
+2019,From Real-time Logic to Timed Automata.
+2018,Temporal Logic and Fair Discrete Systems.
+2012,"Low dimensional hybrid systems - decidable, undecidable, don't know."
+2012,Verification of multi-linked heaps.
+2012,Synthesis of Reactive(1) designs.
+2012,Once and for all.
+2012,Effective Synthesis of Asynchronous Systems from GR(1) Specifications.
+2010,Towards Component Based Design of Hybrid Systems: Safety and Stability.
+2010,Proving the Refuted: Symbolic Model Checkers as Proof Generators.
+2010,Temporal Verification of Reactive Systems: Response.
+2010,Jtlv: A Framework for Developing Verification Algorithms.
+2010,Revisiting Synthesis of GR(1) Specifications.
+2010,"Perspectives of Systems Informatics, 7th International Andrei Ershov Memorial Conference, PSI 2009, Novosibirsk, Russia, June 15-19, 2009. Revised Papers."
+2009,Controller Synthesis from LSC Requirements.
+2009,Synthesis of programs from temporal property specifications.
+2008,A Sound and Complete Deductive System for CTL* Verification.
+2008,Using Abstraction to Verify Arbitrary Temporal Properties.
+2008,"Checking Temporal Properties of Discrete, Timed and Continuous Behaviors."
+2008,Mechanical Verification of Transactional Memories with Non-transactional Memory Accesses.
+2008,Discriminative Model Checking.
+2008,CoVaC: Compiler Validation by Program Analysis of the Cross-Product.
+2008,Program analysis for compiler validation.
+2008,On the Merits of Temporal Testers.
+2008,All You Need Is Compassion.
+2007,"Specify, Compile, Run: Hardware from PSL."
+2007,Modular Ranking Abstraction.
+2007,On Synthesizing Controllers from Bounded-Response Properties.
+2007,Interactive presentation: Automatic hardware synthesis from specifications: a case study.
+2007,Verifying Correctness of Transactional Memories.
+2007,Synthesizing reactive systems from LSC requirements using the play-engine.
+2007,"""Don't Care"" Modeling: A Logical Framework for Developing Predictive System Models."
+2007,Shape Analysis of Single-Parent Heaps.
+2006,Reduced Functional Consistency of Uninterpreted Functions.
+2006,Monitoring Interfaces for Faults.
+2006,Model Checking with Strong Fairness.
+2006,Liveness with invisible ranking.
+2006,PSL Model Checking and Run-Time Verification Via Testers.
+2006,From MITL to Timed Automata.
+2006,Liveness by Invisible Invariants.
+2006,Invisible Safety of Distributed Protocols.
+2006,Faster Solutions of Rabin and Streett Games.
+2006,Ranking Abstraction of Recursive Programs.
+2006,Synthesis of Reactive(1) Designs.
+2005,Validating More Loop Optimizations.
+2005,Translation and Run-Time Validation of Loop Transformations.
+2005,Bridging the gap between fair simulation and trace inclusion.
+2005,A discrete-time UML semantics for concurrency and communication in safety-critical applications.
+2005,A compositional approach to CTL* verification.
+2005,"Ranking Abstraction as a Companion to Predicate Abstraction, ."
+2005,Synthesis Revisited: Generating Statechart Models from Scenario-Based Requirements.
+2005,Verification of Procedural Programs.
+2005,TVOC: A Translation Validator for Optimizing Compilers.
+2005,IIV: An Invisible Invariant Verifier.
+2005,"Real Time Temporal Logic: Past, Present, Future."
+2005,Ranking Abstraction as Companion to Predicate Abstraction.
+2005,Refining the Undecidability Frontier of Hybrid Automata.
+2005,Separating Fairness and Well-Foundedness for the Analysis of Fair Discrete Systems.
+2005,Temporal Logic for Scenario-Based Specifications.
+2005,Abstraction for Liveness.
+2005,Shape Analysis by Predicate Abstraction.
+2004,Model checking and abstraction to the aid of parameterized systems (a survey).
+2004,Validating the Translation of an Industrial Optimizing Compiler.
+2004,Range Allocation for Separation Logic.
+2004,On Recognizable Timed Languages.
+2004,Smart Play-Out Extended: Time and Forbidden Elements.
+2004,Liveness with Incomprehensible Ranking.
+2004,Deductive Verification of UML Models in TLPVS.
+2004,Liveness with Invisible Ranking.
+2003,"Erratum (""The small model property: how small can it be?"" Volume 178, Number 1 [2002], pages 279-293)."
+2003,VOC: A Methodology for the Translation Validation of OptimizingCompilers.
+2003,TLPVS: A PVS-Based LTL Verification System.
+2003,Bridging the Gap between Fair Simulation and Trace Inclusion.
+2003,The ROBDD Size of Simple CNF Formulas.
+2003,Formal Modeling of C. elegans Development: A Scenario-Based Approach.
+2003,Parameterized Verification by Probabilistic Abstraction.
+2003,Smart play-out.
+2003,Model-Checking and Abstraction to the Aid of Parameterized Systems.
+2003,"Hybrid Systems: Computation and Control, 6th International Workshop, HSCC 2003 Prague, Czech Republic, April 3-5, 2003, Proceedings."
+2002,TimeC: A Time Constraint Language for ILP Processor Compilation.
+2002,VOC: A Translation Validator for Optimizing Compilers.
+2002,Translation and Run-Time Validation of Optimized Code.
+2002,The Small Model Property: How Small Can It Be?
+2002,Complete Proof System for QPTL.
+2002,Validating software pipelining optimizations.
+2002,"Liveness with (0, 1, infty)-Counter Abstraction."
+2002,A Deductive Proof System for CTL.
+2002,Network Invariants in Action.
+2002,Embedded Systems: Challenges in Specification and Verification.
+2002,Smart Play-out of Behavioral Requirements.
+2002,Understanding UML: A Formal Semantics of Concurrency and Communication in Real-Time UML.
+2002,Applications of Formal Methods in Biology.
+2002,Automatic Verification of Probabilistic Free Choice.
+2001,Verification by Augmented Abstraction: The Automata-Theoretic View.
+2001,Symbolic model checking with rich assertional languages.
+2001,Scheduling time-constrained instructions on pipelined processors.
+2001,Parameterized Verification with Automatically Computed Inductive Assertions.
+2001,Beyond Regular Model Checking.
+2001,From Falsification to Verification.
+2001,Range Allocation for Equivalence Logic.
+2001,Sticks and stones: a coding scheme for parameterized verification.
+2001,Automatic Deductive Verification with Invisible Invariants.
+2000,Verification of Clocked and Hybrid Systems.
+2000,Verification by Augmented Finitary Abstraction.
+2000,Propositional Temporal Logics: Decidability and Completeness.
+2000,Control and Data Abstraction: The Cornerstones of Practical Formal Verification.
+2000,Rigorous development of embedded systems.
+2000,"Keynote Address: Abstraction, Composition, Symmetry, and a Little Deduction: The Remedies to State Explosion."
+2000,Liveness and Acceleration in Parameterized Verification.
+2000,Formal Verification of the Ricart-Agrawala Algorithm.
+2000,A Comparison of Two Verification Methods for Speculative Instruction Execution.
+1999,Proving Refinement Using Transduction.
+1999,Decidable Integration Graphs.
+1999,Translation Validation: From SIGNAL to C.
+1999,Deciding Equality Formulas by Small Domains Instantiations.
+1999,Verifying Liveness by Augmented Abstraction.
+1999,A Perfect Verification: Combining Model Checking with Deductive Analysis to Verify Real-Life Software.
+1999,Orthogonal Polyhedra: Representation and Computation.
+1999,A Framework for Scheduler Synthesis.
+1999,Verifying Tomasulo's Algoithm by Refinement.
+1998,The Code Validation Tool CVT: Automatic Verification of a Compilation Process.
+1998,A Fast Algorithm for Scheduling Time-Constrained Instructions on Processors with ILP.
+1998,Deductive vs. Model-Theoretic Approaches to Formal Verification (Abstract of Invited Talk).
+1998,Herbrand Automata for Hardware Verification.
+1998,On Discretization of Delays in Timed Automata and Digital Circuits.
+1998,Translation Validation: From DC+ to C*.
+1998,Verification of Data-Insensitive CIrcuits: An In-Order-Retirement Case Study.
+1998,Fair Synchronous Transition Systems and Their Liveness Proofs.
+1998,Algorithmic Verification of Linear Temporal Logic Specifications.
+1998,Translation Validation for Synchronous Languages.
+1998,Modularization and Abstraction: The Keys to Practical Formal Verification.
+1998,Translation Validation.
+1998,"Compositionality: The Significant Difference, International Symposium, COMPOS'97, Bad Malente, Germany, September 8-12, 1997. Revised Lectures."
+1997,Some Progress in the Symbolic Verification of Timed Automata.
+1997,Symbolic Model Checking with Rich ssertional Languages.
+1997,Verifying out-of-order executions.
+1997,A Compositional Real-Time Semantics of STATEMATE Designs.
+1997,Two Decades of Temporal Logic: Achievements and Challenges (Abstract).
+1997,Verifying Liveness Properties of Reactive Systems (Tutorial Abstract).
+1997,Data-Structures for the Verification of Timed Automata.
+1997,Verification Engineering: A Future Profession (A. M. Turing Award Lecture).
+1996,Using Ghost Variables to Prove Refinement.
+1996,A Platform for Combining Deductive with Algorithmic Verification.
+1996,Verification of Clocked and Hybrid Systems.
+1995,Temporal verification of reactive systems - safety.
+1995,On the Learnability of Infinitary Regular Sets.
+1995,Reachability Analysis of Dynamical Systems Having Piecewise-Constant Derivatives.
+1995,Timing analysis of asynchronous circuits using timed automata.
+1995,Verifying Clocked Transition Systems.
+1995,A Complete Proof Systems for QPTL.
+1995,Once and For All.
+1995,On the Synthesis of Discrete Controllers for Timed Systems (An Extended Abstract).
+1994,Temporal Proof Methodologies for Timed Transition Systems.
+1994,Proving Partial Order Properties.
+1994,Development of Hybrid Systems.
+1994,Prooving Safety Properties of Hybrid Systems.
+1994,Symbolic Controller Synthesis for Discrete and Timed Systems.
+1994,Compositional Verification of Real-Time Systems.
+1994,Temporal Verification Diagrams.
+1993,Models for Reactivity.
+1993,Probabilistic Verification.
+1993,A Decision Algorithm for Full Propositional Temporal Logic.
+1993,Reachability Analysis of Planar Multi-limear Systems.
+1993,In and Out of Temporal Logic.
+1993,Temporal Verification of Simulation and Refinement.
+1993,Verification of parameterized programs.
+1992,The temporal logic of reactive and concurrent systems - specification.
+1992,How Vital is Liveness? Verifying Timing Properties of Reactive and Hybrid Systems (Extended Abstract).
+1992,System Specification and Refinement in Temporal Logic.
+1992,Timed and Hybrid Statecharts and Their Textual Representation.
+1992,Verifying Hybrid Systems.
+1992,Towards Refining Temporal Specifications into Hybrid Systems.
+1992,Integration Graphs: A Class of Decidable Hybrid Systems.
+1992,Characterization of Temporal Property Classes.
+1992,What Good Are Digital Clocks?
+1992,Time for Concurrency.
+1992,A Temporal Proof Methodology for Reactive Systems.
+1991,Completing the Temporal Picture.
+1991,On the Learnability of Infinitary Regular Sets.
+1991,Specifying and Proving Serializability in Temporal Logic.
+1991,On the Faithfulness of Formal Models.
+1991,Communication with Directed Logic Variables.
+1991,Temporal Proof Methodologies for Real-time Systems.
+1991,Timed Transition Systems.
+1991,From Timed to Hybrid Systems.
+1991,What is in a Step: On the Semantics of Statecharts.
+1990,STATEMATE: A Working Environment for the Development of Complex Reactive Systems.
+1990,Tight Bounds on the Complexity of Cascaded Decomposition of Automata.
+1990,Distributed Reactive Systems Are Hard to Synthesize.
+1990,Proving Partial Order Liveness Properties.
+1990,An interleaving model for real-time.
+1990,A temporal proof methodology for reactive systems.
+1990,Explicit Clock Temporal Logic.
+1990,A Hierarchy of Temporal Properties.
+1989,Learning omega-Regular Languages from Queries and Counter-Examples (A Preliminary Report).
+1989,Completing the Temporal Picture.
+1989,On the Synthesis of an Asynchronous Reactive Module.
+1989,Specification and verification of VLSI systems.
+1989,On the Synthesis of a Reactive Module.
+1989,"Temporal Logic in Specification, Altrincham, UK, April 8-10, 1987, Proceedings."
+1988,The grammar of dimensions in machine drawings.
+1988,A Framework for the Synthesis of Reactive Modules.
+1988,Applications of Temporal Logic to the Specification of Real-time Systems.
+1988,STATEMATE; A Working Environment for the Development of Complex Reactive Systems.
+1988,The anchored version of the temporal framework.
+1987,Very High Level Concurrent Programming.
+1987,On the Formal Semantics of Statecharts (Extended Abstract).
+1987,A Hierarchy of Temporal Properties (Abstract).
+1987,Specification and Verification of Concurrent Programs By Forall-Automata.
+1987,Specification and Implementation of Concurrently Accessed Data Structures: An Abstract Data Type Approach.
+1987,Specification and Verification of Concurrent Programs by forall-Automata.
+1986,Verification of Multiprocess Probabilistic Protocols.
+1986,Specification and Development of Reactive Systems (Invited Paper).
+1986,A Choppy Logic.
+1986,Probabilistic Verification by Tableaux.
+1986,A Really Abstract Concurrent Model and its Temporal Logic.
+1986,Applications of Temporal Logic to the Specification and Verification of Reactive Systems: A Survey of Current Trends.
+1985,Linear and Branching Structures in the Semantics and Logics of Reactive Systems.
+1985,Proving Termination of Prolog Programs.
+1985,The Glory of the Past.
+1985,Checking That Finite State Concurrent Programs Satisfy Their Linear Specification.
+1984,Adequate Proof Principles for Invariance and Liveness Properties of Concurrent Programs.
+1984,Verification of Probabilistic Programs.
+1984,Is the Interesting Part of Process Logic Uninteresting? A Translation from PL to PDL.
+1984,A Linear-History Semantics for Languages for Distributed Programming.
+1984,Fair Termination Revisited-With Delay.
+1984,Symmetric and Economical Solutions to the Mutual Exclusion Problem in a Distributed System.
+1984,Automatic program generation in distributed cooperative computation.
+1984,On the scope of static checking in definitional languages.
+1984,A Hardware Implementation of the CSP Primitives and its Verification.
+1984,Verification of Multiprocess Probabilistic Protocols.
+1984,Temporal Verification of Carrier-Sense Local Area Network Protocols.
+1984,Now You May Compose Temporal Logic Specifications.
+1983,The Temporal Logic of Branching Time.
+1983,Propositional Dynamic Logic of Nonregular Programs.
+1983,Termination of Probabilistic Concurrent Program.
+1983,Compilation of Nonprocedural Specifications into Computer Programs.
+1983,Solutions to Problem No.2.
+1983,Symmetric and Economical Solutions to the Mutual Exclusion Problem in a Distributed System (Extended Abstract).
+1983,Proving Precedence Properties: The Temporal Way.
+1983,There Exit Decidable Context Free Propositional Dynamic Logics.
+1983,How to Cook a Temporal Proof System for Your Pet Language.
+1983,On the Extremely Fair Treatment of Probabilistic Algorithms.
+1982,"Deterministic Propositional Dynamic Logic: Finite Models, Complexity, and Completeness."
+1982,Termination of Probabilistic Concurrent Programs.
+1982,Is the Interesting Part of Process Logic Uninteresting - A Translation from PL to PDL.
+1981,Automatic Programming of Finite State Linear Programs.
+1981,The Temporal Semantics of Concurrent Programs.
+1981,Propositional Dynamic Logic of Context-Free Programs.
+1981,Finite Models for Deterministic Propositional Dynamic Logic.
+1981,"Impartiality, Justice and Fairness: The Ethics of Concurrent Termination."
+1981,Realizing an Equational Specification.
+1981,Further Results on Propositional Dynamic Logic of Nonregular Programs.
+1981,Verification of Concurrent Programs: Temporal Proof Principles.
+1981,The Temporal Logic of Branching Time.
+1980,A Linear History Semantics for Distributed Languages (Extended Abstract).
+1980,Synchronous Schemes and Their Decision Problems.
+1980,On the Temporal Basis of Fairness.
+1979,Use of a Nonprocedural Specification Language and Associated Program Generator in Software Development.
+1979,The Modal Logic of Programs.
+1979,The Temporal Semantics of Concurrent Programs.
+1978,A Proof Method for Cyclic Programs.
+1977,Backtracking in Recursive Computations.
+1977,A Direct Algorithm for Checking Equivalence of LL(k) Grammars.
+1977,The Temporal Logic of Programs.
+1977,Simple Programs and Their Decision Problems.
+1977,A Complete Axiomatic System for Proving Deductions about Recursive Programs.
+1974,Axiomatic Approach to Total Correctness of Programs.
+1973,Decidable Properties of Monadic Functional Schemas.
+1972,Permutation Graphs and Transitive Graphs.
+1971,Marked Directed Graphs.
+1970,Formalization of Properties of Functional Programs.
+1969,Formalization of Properties of Recursively Defined Functions.

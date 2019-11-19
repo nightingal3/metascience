@@ -1,0 +1,239 @@
+2019,A new golden age for computer architecture.
+2019,BROOM: An Open-Source Out-of-Order Processor With Resilient Low-Voltage Operation in 28-nm CMOS.
+2019,FPGA Accelerated INDEL Realignment in the Cloud.
+2019,Cloud Programming Simplified: A Berkeley View on Serverless Computing.
+2019,MLPerf Training Benchmark.
+2018,A domain-specific architecture for deep neural networks.
+2018,A New Golden Age in Computer Architecture: Empowering the Machine-Learning Revolution.
+2018,Motivation for and Evaluation of the First Tensor Processing Unit.
+2018,50 Years of computer architecture: From the mainframe CPU to the domain-specific tpu and the open RISC-V instruction set.
+2018,An Out-of-Order RISC-V Processor with Resilient Low-Voltage Operation in 28NM CMOS.
+2017,Attack of the killer microseconds.
+2017,Reduced Instruction Set Computers Then and Now.
+2017,Reducing Pagerank Communication via Propagation Blocking.
+2017,In-Datacenter Performance Analysis of a Tensor Processing Unit.
+2017,In-Datacenter Performance Analysis of a Tensor Processing Unit.
+2017,Distributed-Memory Breadth-First Search on Massive Graphs.
+2017,A Berkeley View of Systems Challenges for AI.
+2016,GenAp: a distributed SQL interface for genomic data.
+2016,An interview with Stanford University president John Hennessy.
+2016,An Agile Approach to Building RISC-V Microprocessors.
+2016,Proprietary versus Open Instruction Sets.
+2016,The Renewed Case for the Reduced Instruction Set Computer: Avoiding ISA Bloat with Macro-Op Fusion for RISC-V.
+2015,Do-it-yourself textbook publishing.
+2015,The NIH BD2K center for big data in translational genomics.
+2015,DIABLO: A Warehouse-Scale Computer Network Simulator using FPGAs.
+2015,Scientific computing meets big data technology: An astronomy use case.
+2015,MAGIC: Massive Automated Grading in the Cloud.
+2015,Locality Exists in Graph Processing: Workload Characterization on an Ivy Bridge Server.
+2015,GAIL: the graph algorithm iron law.
+2015,Rethinking Data-Intensive Science Using Scalable Analytics Systems.
+2015,Past and future of hardware and architecture.
+2015,Scientific Computing Meets Big Data Technology: An Astronomy Use Case.
+2015,The GAP Benchmark Suite.
+2015,Rack-scale Computing (Dagstuhl Seminar 15421).
+2014,SMaSH: a benchmarking toolkit for human genome variant calling.
+2014,How to build a bad research center.
+2014,Changepoint Analysis for Efficient Variant Calling.
+2013,Using clouds for MapReduce measurement assignments.
+2013,Is the New Software Engineering Curriculum Agile?
+2013,Direction-optimizing breadth-first search.
+2013,The RISC-V instruction set.
+2013,Distributed Memory Breadth-First Search Revisited: Enabling Bottom-Up Search.
+2013,A hardware evaluation of cache partitioning to improve utilization and energy-efficiency while preserving responsiveness.
+2013,Generalized scale independence through incremental precomputation.
+2012,"Computer Architecture - A Quantitative Approach, 5th Edition."
+2012,Computer Organization and Design - The Hardware / Software Interface (Revised 4th Edition).
+2012,Crossing the software education chasm.
+2012,"For better or worse, benchmarks shape a field: technical perspective."
+2012,Computer Architecture.
+2012,Diversity within the crowd.
+2012,Direction-optimizing breadth-first search.
+2012,Experiences teaching MapReduce in the cloud.
+2011,PIQL: Success-Tolerant Query Processing in the Cloud.
+2011,The SCADS Director: Scaling a Distributed Storage System Under Stringent Performance Requirements.
+2011,CUDA-level Performance with Python-level Productivity for Gaussian Mixture Model Applications.
+2011,Faster and More Accurate Sequence Alignment with SNAP.
+2011,PIQL: Success-Tolerant Query Processing in the Cloud.
+2010,A view of cloud computing.
+2010,Diverse connections.
+2010,"Ubiquitous Parallel Computing from Berkeley, Illinois, and Stanford."
+2010,The case for PIQL: a performance insightful query language.
+2010,"Characterizing, modeling, and generating workload spikes for stateful services."
+2010,RAMP gold: an FPGA-based architecture simulator for multiprocessors.
+2010,Statistics-driven workload modeling for the Cloud.
+2010,Detecting Large-Scale System Problems by Mining Console Logs.
+2010,A case for FAME: FPGA architecture model execution.
+2010,A Graphical Representation for Identifier Structure in Logs.
+2010,PIQL: a performance insightful query language.
+2010,The Parallel Revolution Has Started: Are You Part of the Solution or Part of the Problem? - An Overview of Research at the Berkeley Parallel Computing Laboratory.
+2010,Software knows best: portable parallelism requires standardized measurements of transparent hardware.
+2009,Viewpoint - Your students are your legacy.
+2009,Roofline: an insightful visual performance model for multicore architectures.
+2009,A view of the parallel computing landscape.
+2009,SCADS: Scale-Independent Storage for Social Computing Applications.
+2009,Statistical Machine Learning Makes Automatic Control Practical for Internet Datacenters.
+2009,Predicting Multiple Metrics for Queries: Better Decisions Enabled by Machine Learning.
+2009,Online System Problem Detection by Mining Patterns of Console Logs.
+2009,Detecting large-scale system problems by mining console logs.
+2009,SCADS: Scale-Independent Storage for Social Computing Applications.
+2008,Technical perspective: the data center is the computer.
+2008,Design and implementation trade-offs for wide-area resource discovery.
+2008,Mining Console Logs for Large-Scale System Problem Detection.
+2008,Stencil computation optimization and auto-tuning on state-of-the-art multicore architectures.
+2007,Computer organization and design - the hardware / software interface (3. ed.).
+2007,Computer Architecture - A Quantitative Approach (4. ed.).
+2007,Embracing and Extending 20th-Century Instruction Set Architectures.
+2007,RAMP: Research Accelerator for Multiple Processors.
+2007,The parallel computing landscape: a Berkeley view.
+2006,New Directions for CACM?
+2006,Offshoring: finally facts vs. folklore.
+2006,Computer science education in the 21st century.
+2006,Reviving your favorite CS books.
+2006,Seven reasons to shave your head and three reasons not to: the bald truth.
+2006,Revisiting my campaign statement.
+2006,Farewell address: the growing and graying of ACM.
+2006,RAMP: research accelerator for multiple processors - a community vision for a shared experimental parallel HW/SW platform.
+2006,The Berkeley View: A New Framework and a New Platform for Parallel Research.
+2006,Windows XP Kernel Crash Analysis.
+2006,Service Placement in a Shared Wide-Area Platform.
+2005,Rechnerorganisation und -entwurf - die Hardware / Software-Schnittstelle (3. Aufl.).
+2005,Minority-minority and minority-majority technology transfer.
+2005,Why join ACM?
+2005,20th century vs. 21st century C&C: the SPUR manifesto.
+2005,The state of funding for new initiatives in computer science and engineering.
+2005,Recognizing individual excellence helps us all.
+2005,Do you Queue?
+2005,Reflections on a programming Olympiad.
+2005,Does ACM support matter to conferences or journals?
+2005,Restoring the popularity of computer science.
+2005,"The new Professional Development Centre boasts 1, 000 courses, O'Reilly Books, and CS classics."
+2005,"Rescuing our families, our neighbors, and ourselves."
+2005,Robots in the desert: a research parable for our times.
+2005,Computing research: a looming crisis.
+2005,Guest Editors' Introduction: Approaches to Recovery-Oriented Computing.
+2005,Stop whining about outsourcing!
+2005,Crash Data Collection: A Windows Case Study.
+2005,Control Considerations for Scalable Event Processing.
+2005,Design and implementation tradeoffs for wide-area resource discovery.
+2005,Combining Visualization and Statistical Analysis to Improve Operator Confidence and Efficiency for Failure Detection and Localization.
+2005,Latency Lags Bandwidth.
+2004,Hot links.
+2004,Latency lags bandwith.
+2004,The health of research conferences and the dearth of big idea papers.
+2004,Recovery-Oriented Computing: Building Multitier Dependability.
+2004,Experience with Evaluating Human-Assisted Recovery Processes.
+2004,Path-Based Failure and Evolution Management.
+2004,Distributed Resource Discovery on PlanetLab with SWORD.
+2004,Combining statistical monitoring and predictable recovery for self-management.
+2004,"Monitoring, Analyzing, and Controlling Internet-scale Systems with ACME."
+2003,"Computer architecture - a quantitative approach, 3rd Edition."
+2003,A Linear Programming Approach to Discriminant Analysis with a Reserved-Judgment Region.
+2003,Scalable Vector Processors for Embedded Systems.
+2003,Overcoming the Limitations of Conventional Vector Processors.
+2003,Undo for Operators: Building an Undoable E-mail Store.
+2003,"Why Do Internet Services Fail, and What Can Be Done About It?"
+2002,Architecture and Dependability of Large-Scale Internet Services.
+2002,ROC-1: Hardware Support for Recovery-Oriented Computing.
+2002,An Introduction to Dependability.
+2002,SIGARCH Conference Guidelines.
+2002,Recovery Oriented Computing: A New Research Agenda for a New Century.
+2002,A Simple Way to Estimate the Cost of Downtime.
+2002,Vector vs. superscalar and VLIW architectures for embedded multimedia benchmarks.
+2002,"Rewind, repair, replay: three R's to dependability."
+2002,Studying and using failure data from large-scale internet services.
+2000,The Art of Massive Storage: A Web Image Archive.
+2000,Ideal bootstrap estimation of expected prediction error for k-nearest neighbor classifiers: Applications for classification and error assessment.
+2000,Exploiting On-Chip Memory Bandwidth in the VIRAM Compiler.
+2000,Towards Availability Benchmarks: A Case Study of Software RAID Systems.
+1999,"Hardware Technology Trends and Database Opportunities, SIGMOD Conference 1998 Keynote Speech, Video."
+1999,ISTORE: Introspective Storage for Data-Intensive Network Services.
+1999,Cluster I/O with River: Making the Fast Case Common.
+1999,A Retrospective on Twelve Years of LISA Proceedings.
+1999,Usage Patterns of a Web-Based Image Collection.
+1999,Designing a Self-Maintaining Storage System.
+1999,Virtual Log Based File Systems for a Programmable Disk.
+1998,A New Direction for Computer Architecture Research.
+1998,A Case for Intelligent Disks (IDISKs).
+1998,"The Architectural Costs of Streaming I/O: A Comparison of Workstations, Clusters, and SMPs."
+1998,Retrospective: A Retrospective on High-Level Language Computer Architecture.
+1998,Performance Characterization of a Quad Pentium Pro SMP using OLTP Workloads.
+1998,Retrospective: RISC I: A Reduced Instruction Set Computer.
+1998,Retrospective on High-Level Language Computer Architecture.
+1998,RISC I: A Reduced Instruction Set VLSI Computer.
+1997,"Computer Organization & Design: The Hardware/Software Interface, Second Edition."
+1997,Constrained discriminant analysis via 0/1 mixed integer programming.
+1997,Scalable Processors in the Billion-Transistor Era: IRAM.
+1997,A case for intelligent RAM.
+1997,A new voting based hardware data prefetch scheme.
+1997,"Intelligent RAM (IRAM): The Industrial Setting, Applications and Architectures."
+1997,The Energy Efficiency of IRAM Architectures.
+1997,"Extensible, Scalable Monitoring for Clusters of Computers."
+1997,High-Performance Sorting on Networks of Workstations.
+1996,"Computer Architecture: A Quantitative Approach, 2nd Edition."
+1996,LogP: A Practical Model of Parallel Computation.
+1996,A Microcelebration.
+1996,Serverless Network File Systems.
+1995,A Case for NOW (Networks Of Workstations).
+1995,Truth in SPEC benchmarks.
+1995,The Berkeley Networks of Workstations (NOW) Project.
+1995,Choosing the Best Storage System for Video Service.
+1995,Storage Systems for Movies-on-Demand Video Servers.
+1995,A Case for NOW (Networks of Workstations) - Abstract.
+1995,The Interaction of Parallel and Sequential Workloads on a Network of Workstations.
+1995,Serverless Network File Systems.
+1995,"Proceedings of the 22nd Annual International Symposium on Computer Architecture, ISCA '95, Santa Margherita Ligure, Italy, June 22-24, 1995."
+1994,"Rechnerarchitektur - Analyse, Entwurf, Implementierung, Bewertung."
+1994,Computer Organization & Design: The Hardware/Software Interface.
+1994,Coding Techniques for Handling Failures in Large Disk Arrays.
+1994,"RAID: High-Performance, Reliable Secondary Storage."
+1994,Performance and Design Evaluation of the RAID-II Storage Server.
+1994,"A New Approach to I/O Performance Evaluation - Self-Scaling I/O Benchmarks, Predicted I/O Performance."
+1994,Terabytes >> Teraflops or Why Work on Processors When I/O is Where the Action is? (Abstract).
+1994,A case for NOW (networks-of-workstations).
+1994,RAID-II: A High-Bandwidth Network File Server.
+1994,Storage alternatives for video service.
+1994,Cooperative Caching: Using Remote Client Memory to Improve File System Performance.
+1994,A Quantitative Analysis of Cache Policies for Scalable Network File Systems.
+1994,Toward Workload Characterization of Video Server and Digital Library Applications.
+1994,"Proceedings of the 21st Annual International Symposium on Computer Architecture. Chicago, IL, USA, April 1994."
+1993,Designing Disk Arrays for High Data Reliability.
+1993,Massive Parallelism and Massive Storage: Trends and Predictions for 1995 to 2000.
+1993,LogP: Towards a Realistic Model of Parallel Computation.
+1993,"A New Approach to I/O Performance Evaluation - Self-Scaling I/O Benchmarks, Predicted I/O Performance."
+1992,Tradeoffs in Supporting Two Page Sizes.
+1991,Towards guidelines for SIGARCH sponsored conferences.
+1991,"ASPLOS-IV Proceedings - Forth International Conference on Architectural Support for Programming Languages and Operating Systems, Santa Clara, California, USA, April 8-11, 1991."
+1990,Computer Architecture: A Quantitative Approach.
+1990,Maximizing Performance in a Striped Disk Array.
+1990,An Evaluation of Redundant Arrays of Disks Using an Amdahl 5890.
+1989,Failure Correction Techniques for Large Disk Arrays.
+1989,Introduction to redundant arrays of inexpensive disks (RAID).
+1989,How reliable is a RAID?
+1988,A Project on High Performance I/O Subsystems.
+1988,The Scalable Processor Architecture (SPARC).
+1988,A Case for Redundant Arrays of Inexpensive Disks (RAID).
+1988,The Design of XPRS.
+1987,What Price Smalltalk?
+1987,Fast multiply and divide for a VLSI floating-point unit.
+1986,An In-Cache Address Translation Mechanism.
+1986,Evaluation of the SPUR Lisp Architecture.
+1985,Reduced Instruction Set Computers.
+1984,Architecture of SOAR: Smalltalk on a RISC.
+1983,Architecture of a VLSI Instruction Cache for a RISC.
+1982,A VLSI RISC.
+1982,Assessing RJSCs In High-Level Language Support.
+1982,A RISCy Approach to Computer Design.
+1982,RISC assessment: A high-level language experiment.
+1981,An Experiment in High Level Language Microprogramming and Verification.
+1981,V-Compiler: a next-generation tool for microprogramming.
+1981,VAX hardware for the proposed IEEE floating-point standard.
+1981,RISC I: A Reduced Instruction Set VLSI Computer.
+1980,Design Considerations for Single-Chip Computers of the Future.
+1980,Retrospective on High-Level Language Computer Architecture.
+1979,Design Considerations for the VLSI Processor of X-tree.
+1979,"Towards an efficient, machine-independent language for microprogramming."
+1978,"Communication In X-TREE, A Modular Multiprocessor System."
+1978,An approach to firmware engineering.
+1978,X-Tree: A Tree Structured Multi-Processor Computer Architecture.
+1976,Strum: Structured Microprogram Development System for Correct Firmware.

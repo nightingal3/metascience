@@ -1,0 +1,143 @@
+2019,Cross-chain Deals and Adversarial Commerce.
+2019,Keynote: Multicore Programming.
+2019,Cross-chain Deals and Adversarial Commerce.
+2018,The Impact of Timestamp Granularity in Optimistic Concurrency Control.
+2016,Type-aware transactions for faster concurrent code.
+2016,Accepting blame for safe tunneled exceptions.
+2015,"Lightweight, flexible object-oriented generics."
+2015,Perspectives on system languages and abstraction.
+2014,Fast Databases with Fast Durability and Recovery Through Multicore Parallelism.
+2014,A Modular and Efficient Past State System for Berkeley DB.
+2013,IFDB: decentralized information flow control for databases.
+2013,Speedy transactions in multicore in-memory databases.
+2012,Automatic Reconfiguration for Large-Scale Reliable Storage Systems.
+2012,Programming Languages - Past Achievements and Future Challenges.
+2012,Keynote presentation: Programming the turing machine.
+2012,Abstractions for Usable Information Flow Control in Aeolus.
+2012,Granola: Low-Overhead Distributed Transaction Coordination.
+2010,MPSS: Mobile Proactive Secret Sharing.
+2010,Transactional Consistency and Automatic Management in an Application Data Cache.
+2010,From Viewstamped Replication to Byzantine Fault Tolerance.
+2010,The Power of Abstraction - (Invited Lecture Abstract).
+2009,Full-Information Lookups for Peer-to-Peer Overlays.
+2009,Tolerating Latency in Replicated State Machines Through Client Speculation.
+2009,Census: Location-Aware Membership Management for Large-Scale Distributed Systems.
+2008,Mobile proactive secret sharing.
+2007,Greedy Virtual Coordinates for Geographic Routing.
+2007,Tolerating byzantine faults in transaction processing systems using commit barrier scheduling.
+2007,MapJAX: Data Structure Abstractions for Asynchronous Web Applications.
+2006,EpiChord: Parallelizing the Chord lookup algorithm with reactive routing state management.
+2006,Modular Software Upgrades for Distributed Systems.
+2006,Tolerating Byzantine Faulty Clients in a Quorum System.
+2006,Geographic Routing Without Planarization.
+2006,HQ Replication: A Hybrid Quorum Protocol for Byzantine Fault Tolerance.
+2005,Path Vector Face Routing: Geographic Routing with Local Face Information.
+2005,High Availability in DHTs: Erasure Coding vs. Replication.
+2005,Byzantine Clients Rendered Harmless.
+2004,EpiChord: parallelizing the chord lookup algorithm with reactive routing state management.
+2004,Efficient Routing for Peer-to-Peer Overlays.
+2004,TimeLine: A High Performance Archive for a Distributed Object Store.
+2004,Brief announcement: reconfigurable byzantine-fault-tolerant atomic memory.
+2004,Transactional file systems can be fast.
+2003,BASE: Using abstraction to improve fault tolerance.
+2003,One Hop Lookups for Peer-to-Peer Overlays.
+2003,Scheduling and Simulation: How to Upgrade Distributed Systems.
+2003,Lazy modular upgrades in persistent object stores.
+2003,Ownership types for object encapsulation.
+2002,Practical byzantine fault tolerance and proactive recovery.
+2002,The design of a robust peer-to-peer system.
+2001,"Program Development in Java - Abstraction, Specification, and Object-Oriented Design."
+2001,Byzantine Fault Tolerance Can Be Fast.
+2001,Using Abstraction To Improve Fault Tolerance.
+2001,BASE: Using Abstraction to Improve Fault Tolerance.
+2000,Protecting privacy using the decentralized label model.
+2000,Generalized Isolation Level Definitions.
+2000,Proactive Recovery in a Byzantine-Fault-Tolerant System.
+1999,Providing Persistent Objects in Distributed Systems.
+1999,Practical Byzantine Fault Tolerance.
+1998,"Complete, Safe Information Flow with Decentralized Labels."
+1997,Collecting Cyclic Distributed Garbage by Controlled Migration.
+1997,Fragment Reconstruction: Providing Global Cache Coherence in a Transactional Storage System.
+1997,Lazy Consistency Using Loosely Synchronized Clocks.
+1997,Collecting Distributed Garbage Cycles by Back Tracing.
+1997,Parameterized Types for Java.
+1997,Partitioned Garbage Collection of Large Object Store.
+1997,HAC: Hybrid Adaptive Caching for Distributed Storage Systems.
+1997,A Decentralized Model for Information Flow Control.
+1996,Type-Safe Heterogeneous Sharing can be Fast.
+1996,Fragment Reconstruction: A New Cache Coherence Scheme for Split Caching Storage Systems.
+1996,Safe and Efficient Sharing of Persistent Objects in Thor.
+1996,How to scale transactional storage systems.
+1995,Subtypes vs. Where Clauses: Constraining Parametric Polymorphism.
+1995,Collecting Cyclic Distributed Garbage Using Heuristics to Control Migration.
+1995,Efficient Optimistic Concurrency Control Using Loosely Synchronized Clocks.
+1995,Using a Modified Object Buffer to Improve the Write Performance of an Object-Oriented Database.
+1995,Specifications and Their Use in Defining Subtypes.
+1994,A Behavioral Notion of Subtyping.
+1994,Reducing Cross Domain Call Overhead using Batched Futures.
+1994,Fault-Tolerant Distributed Garbage Collection in a Client-Server Object-Oriented Database.
+1994,Disconnected Operation in the Thor Object-Oriented Database System.
+1993,Practical Uses of Synchronized Clocks in Distributed Systems.
+1993,References to Remote Mobile Objects in Thor.
+1993,A New Definition of the Subtype Relation.
+1993,A History of CLU.
+1993,Specifications and Their Use in Defining Subtypes.
+1993,"Proceedings of the Fourteenth ACM Symposium on Operating System Principles, SOSP 1993, The Grove Park Inn and Country Club, Asheville, North Carolina, USA, December 5-8, 1993."
+1992,Providing High Availability Using Lazy Replication.
+1992,Garbage Collection of a Distributed Heap.
+1992,Distributed Object Management in Thor.
+1992,Efficient Recovery in Harp.
+1991,Lazy Replication: Exploiting the Semantics of Distributed Services (Extended Abstract).
+1991,A Replicated Unic File System.
+1991,Efficient At-Most-Once Messages Based on Synchronized Clocks.
+1991,Practical Uses of Synchronized Clocks in Distributed Systems.
+1991,Replication in the Harp File System.
+1990,Lazy Replication: Exploiting the Semantics of Distributed Services.
+1990,System Implementation I - Introduction.
+1990,A Highly Available Object Repository for Use in a Heterogeneous Distributed System.
+1990,Efficient At-Most-Once Messages Based on Synchronized Clocks.
+1990,Lazy replication: exploiting the semantics of distributed services.
+1990,A replicated Unix file system.
+1990,A Replicated Unix File System.
+1990,Lazy Replication: Exploiting the Semantics of Distributed Services.
+1989,"A design for a fault-tolerant, distributed implementation of Linda."
+1989,Efficient at-most-once messages based on synchronized clocks.
+1989,Atomic Garbage Collection: Managing a Stable Heap.
+1988,A Technique for Constructing Highly Available Services.
+1988,Distributed Programming in Argus.
+1988,Promises: Linguistic Support for Efficient Asynchronous Procedure Calls in Distributed Systems.
+1988,Viewstamped Replication: A General Primary Copy.
+1987,Implementation of Argus.
+1986,Specifications of Distributed Programs.
+1986,Argus.
+1986,Highly-Available Distributed Service and Fault-Tolerant Distributed Garbage Collection.
+1986,Limitations of Synchronous Communication with Static Process Structure in Languages for Distributed Computing.
+1985,"Implementation of Resilient, Atomic Data Types."
+1985,Reliable Object Storage to Support Atomic Actions.
+1985,"Distributed Systems: Methods and Tools for Specification, An Advanced Course, April 3-12, 1984 and April 16-25, 1985, Munich, Germany."
+1984,Programming language issues for the 1980's: SIGPLAN '83: symposium on programming languages issues in software systems.
+1984,The Argus Language and System.
+1983,"Specification and implementation of resilient, atomic data types."
+1983,"Guardians and Actions: Linguistic Support for Robust, Distributed Programs."
+1983,Issues Process and Communication Structure for Distributed Programs.
+1982,A Value Transmission Method for Abstract Data Types.
+1982,On Linguistic Support for Distributed Programs.
+1982,"Guardians and Actions: Linguistic Support for Robust, Distributed Programs."
+1981,CLU Reference Manual.
+1981,"Report on the Workshop on Fundamental Issues in Distributed Computing, Fallbrook, California, December 1980."
+1979,Exception Handling in CLU.
+1979,Modular Program Construction Using Abstractions.
+1979,Primitives for Distributed Computing.
+1978,A Language Extension for Expressing Constraints on Data Access.
+1978,Aspects Of Implementing CLU.
+1978,Crossfertilization Of DBMS Research With Other Disciplines Of Computer Science (Panel Discussion).
+1978,Practical benefits of research in programming methodology (Abstract of presentation).
+1977,Abstraction Mechanisms in CLU.
+1976,A Language Extension for Controlling Access to Shared Data.
+1976,A Language Extension for Controlling Access to Shared Data (Abstract).
+1975,Specification Techniques for Data Abstractions.
+1975,Data types and program correctness.
+1974,Programming with Abstract Data Types.
+1972,The Design of the Venus Operating System.
+1972,A design methodology for reliable software systems.
+1971,The Design of the Venus Operating System.
