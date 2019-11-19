@@ -5,7 +5,9 @@ import ast
 import csv
 from functools import reduce
 import io
+import os
 from typing import Dict
+import pdb
 
 import nltk
 nltk.download("stopwords")
@@ -32,12 +34,14 @@ def preproc_pubs(filename: str, stop_words: list, lemmatizer: WordNetLemmatizer,
 
 
 def load_vectors(fname: str) -> Dict:
+    print("loading...")
     fin = io.open(fname, 'r', encoding='utf-8', newline='\n', errors='ignore')
     n, d = map(int, fin.readline().split())
     data = {}
     for line in fin:
         tokens = line.rstrip().split(' ')
         data[tokens[0]] = map(float, tokens[1:])
+    print("done loading")
     return data
 
 
@@ -48,18 +52,26 @@ def make_pubs_vectors(in_filename: str, vectors: Dict, out_filename: str) -> Non
         for row in reader:
             year, title = row
             title = title.split(" ")
+            print(title)
             sum_vec = np.zeros(300)
             valid_words = 0
             for word in title:
                 if word in vectors:
-                    vec = vectors[word]
-                    sum_vec += vec
+                    vec = np.asarray(list(vectors[word]))      
+                    #pdb.set_trace()
+                    try:           
+                        sum_vec = np.add(sum_vec, vec)
+                    except:
+                        continue
                     valid_words += 1
-            avg_vec = [float(val) / valid_words for val in sum_vec]
-            print(avg_vec)
-            vec_rows.append([year, avg_vec])
+            if valid_words > 0:
+                avg_vec = [float(val) / valid_words for val in sum_vec]
+                print(avg_vec)
+                vec_rows.append([year, avg_vec, " ".join(title)])
+            else:
+                continue
 
-    with open(out_filename, "w") as out_file:
+    with open(out_filename, "w+") as out_file:
         writer = csv.writer(out_file)
         for row in vec_rows:
             writer.writerow(row)
@@ -86,14 +98,35 @@ def make_tsv_files(in_metadata_filename: str, in_vecs_filename: str, out_vecs_fi
             writer_v.writerow(vec_row)
 
 
+def clean_all_in_dir(dirname: str, out_dir: str, stopwords: list, lemmatizer: WordNetLemmatizer) -> None:
+    for filename in os.listdir(dirname):
+        if filename.endswith(".csv"):
+            full_path = os.path.join(dirname, filename)
+            new_path = os.path.join(out_dir, filename)
+            preproc_pubs(full_path, stopwords, lemmatizer, new_path)
+
+
+def make_pubs_vectors_in_dir(dirname: str, out_dir: str, vecs: Dict) -> None:
+    for filename in os.listdir(dirname):
+        if filename.endswith(".csv"):
+            full_path = os.path.join(dirname, filename)
+            new_path = os.path.join(out_dir, filename)
+            make_pubs_vectors(full_path, vecs, new_path)
+
 if __name__ == "__main__":
-    vecs = load_vectors("./data/wiki-news-300d-1M.vec")
+    lemmatizer = WordNetLemmatizer()
+    stopwords = stopwords.words("english")
+    vecs = load_vectors("./data/external/wiki-news-300d-1M.vec")
+
+    #clean_all_in_dir("./data/turing_winners/raw", "./data/turing_winners/cleaned", stopwords, lemmatizer)
+    make_pubs_vectors_in_dir("./data/turing_winners/cleaned", "./data/turing_winners/vecs", vecs)
     """make_pubs_vectors(
-        "./data/hinton_papers_cleaned.csv",
+        "./data/turing_winners/cleaned/Adi-Shamir.csv",
         vecs,
-        "./data/hinton_paper_vectors.csv")"""
-    make_tsv_files(
+        "./data/turing_winners/vecs/Adi-Shamir.csv")"""
+
+    """make_tsv_files(
         "./data/hinton_titles_selected.csv",
         "./data/hinton_vecs_selected.csv",
         "./data/hinton_vecs_selected.tsv",
-        "./data/hinton_titles_selected.tsv")
+        "./data/hinton_titles_selected.tsv")"""

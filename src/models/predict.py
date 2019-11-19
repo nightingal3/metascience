@@ -5,7 +5,7 @@ from functools import reduce, lru_cache
 import heapq
 import random
 from statistics import stdev
-from typing import List, Callable
+from typing import List, Callable, Generic
 
 import numpy as np
 from sklearn import preprocessing, neighbors, metrics
@@ -122,14 +122,15 @@ def predict_seq(
     emergence_order: dict,
     ranking_func: Callable,
     error_func: Callable,
+    ranking_model: Generic = None,
     ranking_type: str = "global"
-) -> int:
+) -> tuple:
     num_timesteps = max(emergence_order.keys())
     emerged_papers = []
     cumulative_err = 0
     rank_diff_per_timestep = []
 
-    # Assume a single starting point in the space for now
+    # Assume a single starting point in the space for no
     for t in range(num_timesteps):
         prev_papers = None
         curr_papers = emergence_order[t]
@@ -143,15 +144,14 @@ def predict_seq(
             last_papers = prev_papers
 
         available_papers = all_vecs[:]
-        for paper in emerged_papers:
-            available_papers.remove(
-                list(paper)
-            )  # Not using list comprehension so duplicates are preserved
-
+        
         rank_err = 0
 
         for paper_vec in curr_papers:
-            predicted_order = ranking_func(last_papers, available_papers)
+            if ranking_type == "CRP":
+                predicted_order = ranking_model.rank_on_clusters(last_papers, available_papers)
+            else:
+                predicted_order = ranking_func(last_papers, available_papers)
             prediction_error = error_func(predicted_order, next_papers)
             rank_err += prediction_error
            
@@ -165,6 +165,13 @@ def predict_seq(
         cumulative_err += rank_err
 
         prev_papers = curr_papers
+        for paper in emerged_papers:
+            available_papers.remove(
+                list(paper)
+            )  # Not using list comprehension so duplicates are preserved
+
+        if ranking_type == "CRP":
+            ranking_model.update_clusters(prev_papers, len(prev_papers))
 
     return cumulative_err / len(all_vecs), rank_diff_per_timestep
 
@@ -194,7 +201,7 @@ def get_rank_score_worst(predicted: np.ndarray, actual: List) -> int:
 
 
 # Returns (p value, upper 95% confidence interval, lower confidence interval)
-def shuffle_test(n_iter: int, target_val: int, emergence_order: dict, return_raw_counts: bool = False) -> tuple:
+def shuffle_test(n_iter: int, target_val: int, emergence_order: dict, vecs_filename: str, order_filename: str, return_raw_counts: bool = False) -> tuple:
     higher = 0
     lower = 0
     cumulative_rank_diffs = []
@@ -202,8 +209,8 @@ def shuffle_test(n_iter: int, target_val: int, emergence_order: dict, return_raw
 
     for i in range(n_iter):
         print(i)
-        attested_order = get_attested_order("data/hinton_paper_vectors.csv")
-        emergence_order = get_emergence_order("data/ordered_by_date.csv")
+        attested_order = get_attested_order(vecs_filename)
+        emergence_order = get_emergence_order(order_filename)
 
         random.seed()
         rand_val, rank_diff_at_timestep = predict_seq(
@@ -217,7 +224,7 @@ def shuffle_test(n_iter: int, target_val: int, emergence_order: dict, return_raw
         else:
             trial_timestep_rank_diff = [sum(x) for x in zip(trial_timestep_rank_diff, rank_diff_at_timestep)]
 
-        if rand_val > target_val:
+        if rand_val > target_val: # I reversed the p value by mistake. The p value returned is actually 1 - p
             higher += 1
         else:
             lower += 1
@@ -232,7 +239,7 @@ def shuffle_test(n_iter: int, target_val: int, emergence_order: dict, return_raw
         return [lower, higher]
     else:
         return (
-            float(lower) / n_iter,
+            float(lower) / n_iter, # I reversed the p value by mistake. The p value returned is actually 1 - p
             avg_rank_diff,
             upper_conf_interval,
             lower_conf_interval,
