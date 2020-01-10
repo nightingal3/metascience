@@ -1,0 +1,162 @@
+2012,An Algorithmic View of the Universe.,"In the years since Alan Turing, and following his lead, computer scientists advanced their understanding of computational phenomena by developing a very specialized, original and penetrating way of rigorous thinking. Now it turns out that this ""algorithmic"" way of thinking can be applied productively to the study of important phenomena outside computation proper (examples: the cell, the brain, the market, the universe, indeed mathematical truth itself). This development is an exquisite unintended consequence of the fact that there is latent computation underlying each of these phenomena, or the ways in which science studies them."
+2012,Satisfiability and The Art of Computer Programming.,"Abstract
+The speaker will describe his adventures during the past eight months when he has been intensively studying as many aspects of SAT solvers as possible, in the course of preparing about 100 pages of new material for Volume 4B of The Art of Computer Programming."
+2009,"Reversal by Swaps: 11264 [2007, 77].",n/a
+2009,"Sums and Powers, Set Counting, and Coefficient Tracking: 11274 [2007, 165].",n/a
+2009,Problem 11452.,n/a
+2009,"Solving a Recurrence by Binary Expansion: 11320 [2007, 835].",n/a
+2009,"Near-deBruijn Cycles: 11336 [2008, 71].",n/a
+2008,Problem 11336.,n/a
+2008,Problem 11369.,n/a
+2008,Perfect Parity Patterns: 11243.,n/a
+2007,Problem 11264.,n/a
+2007,Problem 11274.,n/a
+2007,Partitions of a Circular Set: 11151.,n/a
+2007,A Combinatorial Maximum: 11142.,n/a
+2007,Problem 11320.,n/a
+2006,Cube-Free Sums: 11078.,n/a
+2006,Problem 11243.,n/a
+2005,Problem 11142.,n/a
+2005,A Modular Triple: 11021.,n/a
+2005,Problem 11151.,n/a
+2004,Fibonacci in Complex Camouflage: 10858.,n/a
+2004,Problem 11078.,n/a
+2004,Some Bernstein Polynomials: 10985.,n/a
+2004,Efficient Coroutine Generation of Constrained Gray Sequences.,"Abstract
+We study an interesting family of cooperating coroutines, which is able to generate all patterns of bits that satisfy certain fairly general ordering constraints, changing only one bit at a time. (More precisely, the directed graph of constraints is required to be cycle-free when it is regarded as an undirected graph.) If the coroutines are implemented carefully, they yield an algorithm that needs only a bounded amount of computation per bit change, thereby solving an open problem in the field of combinatorial pattern generation."
+2003,"Robert W Floyd, In Memoriam.",
+2003,Problem 10985.,n/a
+2003,Highly Variable Lists: 10691.,n/a
+2003,Exploring All Binary Mazes: 10720.,n/a
+2003,Balanced Neighborhood Squares: 10871.,n/a
+2003,Animals in a Cage: 10875.,n/a
+2003,"Recounting the Rationals, Continued: 10906.",n/a
+2003,Products of Transpositions: 10913.,n/a
+2003,Bottom-up education.,"People who discover the power and beauty of high-level, abstract ideas often make the mistake of believing that concrete ideas at lower levels are relatively worthless and might as well be forgotten. The speaker will argue that, on the contrary, the best computer scientists are thoroughly grounded in basic concepts of how computers actually work, and indeed that the essence of computer science is an ability to understand many levels of abstraction simultaneously. Therefore he has put considerable effort into the design of a RISC machine called MMIX, as an aid to computer science educators. MMIX is intended to be simple and clean yet realistic. Many tools have been built to simulate the MMIX architecture, and more are under development."
+2002,Min-Plus Matrix Multiplication: 10834.,n/a
+2002,A Fibonacci-Lucas Extremum: 10825.,n/a
+2002,Min-Plus Matrix Multiplication: 10834.,n/a
+2001,Problem 10858.,n/a
+2001,Problem 10871.,n/a
+2001,Problem 10875.,n/a
+2001,Problem 10906.,n/a
+2001,Leaves of Ordered Trees: 10757.,n/a
+2001,A Stirling Series: 10832.,n/a
+2001,Problem 10913.,n/a
+2001,The Joys of the Asymptotics.,n/a
+2000,The Probability of Being in a State: 10726.,n/a
+2000,"The Real Numbers, Algebraically: 10689.",n/a
+2000,Problem 10832.,n/a
+1998,Linear Probing and Graphs.,"Abstract.
+Mallows and Riordan showed in 1968 that labeled trees with a small number of inversions are related to labeled graphs that are connected and sparse. Wright enumerated sparse connected graphs in 1977, and Kreweras related the inversions of trees to the so-called ``parking problem'' in 1980. A combination of these three results leads to a surprisingly simple analysis of the behavior of hashing by linear probing, including higher moments of the cost of successful search."
+1997,Shellsort with three increments.,n/a
+1997,A Sequence of Series for the Lambert W Function.,n/a
+1996,On the LambertW function.,"Abstract
+The LambertW function is defined to be the multivalued inverse of the functionw →we w . It has many applications in pure and applied mathematics, some of which are briefly described here. We present a new discussion of the complex branches ofW, an asymptotic expansion valid for all branches, an efficient numerical procedure for evaluating the function to arbitrary precision, and a method for the symbolic integration of expressions containingW."
+1996,Overlapping Pfaffians.,n/a
+1996,An Exact Analysis of Stable Allocation.,n/a
+1996,The Knowlton-Graham Partition Problem.,n/a
+1996,Irredundant Intervals.,"This expository note presents simplifications of a theorem due to Győri and an algorithm due to Franzblau and Kleitman: Given a family F of m intervals on a linearly ordered set of n elements, we can construct in O(m+n)2 steps an irredundant subfamily having maximum cardinality, as well as a generating family having minimum cardinality. The algorithm is of special interest because it solves a problem analogous to finding a maximum independent set, but on a class of objects that is more general than a matroid. This note is also a complete, runnable computer program, which can be used for experiments in conjunction with the public-domain software of The Stanford GraphBase."
+1995,Two-Way Rounding.,n/a
+1994,The Sandwich Theorem.,n/a
+1994,Mini-Indexes for Literate Programs.,n/a
+1993,The Birth of the Giant Component.,n/a
+1993,The Stanford GraphBase: A Platform for Combinatorial Algorithms.,
+1992,Randomized Incremental Construction of Delaunay and Voronoi Diagrams.,"Abstract
+In this paper we give a new randomized incremental algorithm for the construction of planar Voronoi diagrams and Delaunay triangulations. The new algorithm is more “on-line” than earlier similar methods, takes expected timeO(nℝgn) and spaceO(n), and is eminently practical to implement. The analysis of the algorithm is also interesting in its own right and can serve as a model for many similar questions in both two and three dimensions. Finally we demonstrate how this approach for constructing Voronoi diagrams obviates the need for building a separate point-location structure for nearest-neighbor queries."
+1992,The Problem of Compatible Representatives.,n/a
+1992,Context-Free Multilanguages.,n/a
+1991,Efficient representation of perm groups.,n/a
+1991,Theory and Practice.,n/a
+1991,Textbook Examples of Recursion.,n/a
+1990,Nested Satisfiability.,"Summary
+A special case of the satisfiability problem, in which the clauses have a hierarchical structure, is shown to be solvable in linear time, assuming that the clauses have been represented in a convenient way."
+1990,A Note on Digitized Angles.,n/a
+1990,A bijection for ordered factorizations.,n/a
+1990,Stable Husbands.,n/a
+1990,Addition Machines.,n/a
+1990,Randomized Incremental Construction of Delaunay and Voronoi Diagrams.,"Abstract
+In this paper we give a new randomized incremental algorithm for the construction of planar Voronoi diagrams and Delaunay triangulations. The new algorithm is more “online” than earlier similar methods, takes expected time O(n log n) and space O(n), and is eminently practical to implement. The analysis of the algorithm is also interesting in its own right and can serve as a model for many similar questions in both two and three dimensions. Finally we demonstrate how this approach for constructing Voronoi diagrams obviates the need for building a separate point-location structure for nearest-neighbor queries."
+1990,Stable Husbands.,
+1990,The Genesis of Attribute Grammars.,n/a
+1989,The first cycles in an evolving graph.,n/a
+1989,The Errors of TEX.,n/a
+1987,Digital Halftones by Dot Diffusion.,"This paper describes a technique for approximating real-valued pixels by two-valued pixels. The new method, called dot diffusion, appears to avoid some deficiencies of other commonly used techniques. It requires approximately the same total number of arithmetic operations as the Floyd-Steinberg method of adaptive grayscale, and it is well suited to parallel computation; but it requires more buffers and more complex program logic than other methods when implemented sequentially. A “smooth” variant of the method may prove to be useful in high-resolution printing."
+1986,The IBM 650: An Appreciation from the Field.,
+1986,Efficient balanced codes.,"Abstract:
+Coding schemes in which each codeword contains equally many zeros and ones are constructed in such a way that they can be efficiently encoded and decoded."
+1985,Dynamic Huffman Coding.,n/a
+1985,An Analysis of Optimum Caching.,n/a
+1985,Deciphering a linear congruential encryption.,"Abstract:
+It is shown that the multiplier, the increment, and the seed value of a linear congruential random number generator on a binary computer can be deduced from the leading bits of the ""random"" numbers that are generated."
+1985,Optimal Prepaging and Font Caching.,"An efficient algorithm for communicating letter-shape information from a high-speed computer with a large memory to a typesetting device that has a limited memory is presented. The encoding is optimum, in the sense that the total time for typesetting is minimized, using a model that generalizes well-known “demand paging” strategies to the case where changes to the cache are allowed before the associated information is actually needed. Extensive empirical data show that good results are obtained even when difficult technical material is being typeset on a machine that can store information concerning only 100 characters. The methods of this paper are also applicable to other hardware and software caching applications with restricted lookahead."
+1984,The Complexity of Songs (April 1984 Special Section).,n/a
+1984,Literate Programming.,n/a
+1984,An algorithm for Brownian zeroes.,"Abstract
+An efficient binary technique is presented for determining, to prescribed accuracy, the location of the zeros of a stochastic functionB(x) that is a classical one-dimension Brownian motion."
+1982,Huffman's Algorithm via Algebra.,n/a
+1981,Verification of Link-Level Protocols.,n/a
+1981,Breaking Paragraphs into Lines.,n/a
+1979,Lexicographic permutations with restrictions.,n/a
+1979,Inhomogeneous sorting.,"Abstract
+The purpose of this paper is to consider a special kind of sorting problem in which a sequencea1 ...an is to be rearranged into an optimal order by interchanging pairs of adjacent elements, where certain pairs of elements are not allowed to commute with each other. Section 1 presents an informal example intended to clarify the nature of the problem, while Secs. 2 and 3 give some formal definitions and characterizations. Section 4 shows that the problem we are considering is equivalent to finding the lexicographically smallest topological sorting in a partial order."
+1979,Algorithms in modern mathematics and computer science.,n/a
+1978,A Trivial Algorithm Whose Analysis Isn't.,n/a
+1978,The Expected Linearity of a Simple Equivalence Algorithm.,n/a
+1977,A Generalization of Dijkstra's Algorithm.,n/a
+1977,Fast Pattern Matching in Strings.,n/a
+1977,Deletions That Preserve Randomness.,"Abstract:
+This paper discusses dynamic properties of data structures under insertions and deletions It is shown that, in certain circumstances, the result of n random insertions and m random deletions will be equivalent to n-m random insertions, under various interpretations of the world ""random"" and under various constraints on the order of insertions and deletions."
+1976,Analysis of the subtractive algorithm for greatest common divisors.,"The sum of all partial quotients in the regular continued fraction expansions of m/n, for 1 ≤m≤n, is shown to be 6Π-2 n(ln n)2+ O(n log n(log log n)2). This result is applied to the analysis of what is perhaps the oldest nontrivial algorithm for number-theoretic computations."
+1976,Analysis of a Simple Factorization Algorithm.,n/a
+1975,An Analysis of Alpha-Beta Pruning.,n/a
+1975,Son of seminumerical algorithms.,"During the last fifteen months or so, I have been preparing the second edition of my book, <u>Seminumerical Algorithms</u> (<u>The Art of Computer Programming</u>, vol. 2, published by Addison-Wesley), and Prof. Loos has kindly suggested that the readers of SIGSAM Bulletin may want to know something about this new version."
+1975,Random matroids.,n/a
+1975,Evading the Drift in Floating-Point Addition.,n/a
+1975,Erratum: Evading the Drift in Floating-Point Addition.,n/a
+1975,Activity in an Interleaved Memory.,"Abstract:
+A complicated expression for the average number of active modules, in a published model for interleaved memory, is shown to be a function well studied in other contexts."
+1974,Computer Programming as an Art.,"When Communications of the ACM began publication in 1959, the members of ACM's Editorial Board made the following remark as they described the purposes of ACM's periodicals [2]: “If computer programming is to become an important part of computer research and development, a transition of programming from an art to a disciplined science must be effected.” Such a goal has been a continually recurring theme during the ensuing years; for example, we read in 1970 of the “first steps toward transforming the art of programming into a science” [26]. Meanwhile we have actually succeeded in making our discipline a science, and in a remarkably simple way: merely by deciding to call it “computer science.”"
+1974,Ordered Hash Tables.,n/a
+1974,Structured Programming with go to Statements.,
+1974,A Structured Program to Generate all Topological Sorting Arrangements.,n/a
+1974,Erratum: A Structured Program to Generate all Topological Sorting Arrangements.,n/a
+1974,The Asymptotic Number of Geometries.,n/a
+1973,Permutations with nonnegative partial sums.,n/a
+1972,Ancient Babylonian Algorithms.,"The early origins of mathematics are discussed, emphasizing those aspects which seem to be of greatest interest from the standpoint of computer science. A number of old Babylonian tablets, many of which have never before been translated into English, are quoted."
+1972,George Forsythe and the Development of Computer Science.,
+1972,Complements and transitive closures.,n/a
+1972,An Experiment in Optimal Sorting.,n/a
+1972,"Errata: Notes on Avoiding ""go to"" Statements.",n/a
+1972,Enumeration of Plane Partitions.,n/a
+1971,Optimum Binary Search Trees.,n/a
+1971,Top-Down Syntax Analysis.,n/a
+1971,"Notes on Avoiding ""go to"" Statements.",n/a
+1971,Correction: Semantics of Context-Free Languages.,n/a
+1971,An Empirical Study of FORTRAN Programs.,n/a
+1971,"Review of 'Introduction to Combinatorial Mathematics' (Liu, C. L.; 1968).",
+1971,Mathematical Analysis of Algorithms.,n/a
+1970,Von Neumann's First Computer Program.,
+1968,Semantics of Context-Free Languages.,n/a
+1967,The remaining trouble spots in ALGOL 60.,
+1967,A Characterization of Parenthesis Languages.,n/a
+1967,Programming Language for Automata.,"The techniques of automatic programming are useful for constructive proofs in automata theory. A formal definition of an elementary programming language for a stack automaton is given, and it is shown how this may be readily adapted to other classes of automata. The second part of this paper shows how this programming language can be applied to automata theory, as we prove there are non-context-sensitive languages accepted by a stack automaton."
+1966,Additional comments on a problem in concurrent programming control.,
+1965,On the Translation of Languages from Left to Right.,n/a
+1964,A proposal for input-output conventions in ALGOL 60.,"The ALGOL 60 language as first defined made no explicit reference to input and output processes. Such processes appeared to be quite dependent on the computer used, and so it was difficult to obtain agreement on those matters. As time has passed, a great many ALGOL compilers have come into use, and each compiler has incorporated some input-output facilities. Experience has shown that such facilities can be introduced in a manner which is compatible and consistent with the ALGOL language, and which (more importantly) is almost completely machine-independent. However, the existing implementations have taken many different approaches to the subject, and this has hampered the interchange of programs between installations. The ACM ALGOL committee has carefully studied the various proposals in an attempt to define a set of conventions for doing input and output which would be suitable for use on most computers. The present report constitutes the recommendations of that committee."
+1964,backus normal form vs. Backus Naur form.,
+1964,SOLߞA Symbolic Language for General-Purpose Systems Simulation.,"Abstract:
+This paper illustrates the use of SOL, a general-purpose algorithmic language useful for describing and simulating complex systems. Such a system is described as a number of individual processes which simultaneously enact a program very much like a computer program. (Some features of the SOL language are directly applicable to programming languages for parallel computers, as well as for simulation.) Once a system has been described in the language, the program can be translated by the SOL compiler into an interpretive code, and the execution of this code produces statistical information about the model. A detailed example of a SOL model for a multiple on-line console system is exhibited, indicating the notational simplicity and intuitive nature of the language."
+1964,A Formal Definition of SOL.,"Abstract:
+This paper gives a formal definition of SOL, a general-purpose algorithmic language useful for describing and simulating complex systems. SOL is described using meta-linguistic formulas as used in the definition of ALGOL 60. The principal differences between SOL and problem-oriented languages such as ALGOL or FORTRAN is that SOL includes capabilities for expressing parallel computation, convenient notations for embedding random quantities within arithmetic expressions and automatic means for gathering statistics about the elements involved. SOL differs from other simulation languages such as SIMSCRIPT primarily in simplicity of use and in readability since it is capable of describing models without including computer-oriented characteristics."
+1963,Computer-drawn flowcharts.,"To meet the need for improved documentation of written computer programs, a simple system for effective communication is presented, which has shown great promise. The programmer describes his program in a simple format, and the computer prepares flow charts and other cross-referenced listings from this input. The description can be kept up-to-date easily, and the final output clearly explains the original program. The system has also proved to be a valuable debugging and coding aid."
+1963,Letters to the editor: three letters on merging.,
+1963,Length of strings for a merge sort.,"Detailed statistics are given on the length of maximal sorted strings which result from the first (internal sort) phase of a merge sort onto tapes. It is shown that the strings produced by an alternating method (i.e. one which produces ascending and descending strings alternately) tend to be only three-fourths as long as those in a method which produces only ascending strings, contrary to statements which have appeared previously in the literature. A slight modification of the read-backward polyphase merge algorithm is therefore suggested."
+1962,Backus' language.,
+1962,The calculation of Easter.,
+1962,Evaluation of polynomials by computer.,
+1961,ALGOL 60 confidential.,"The ALGOL 60 Report,* when first encountered, seems to describe a very complex language which will be difficult to learn. The “metalinguistic formulae” admirably serve the purpose of precisely specifying a language, but they are certainly not very readable for a beginner. However, experience has shown that once the report is explained it is in fact easy to learn ALGOL and to write algorithms in it. The language is so general and powerful it can handle an enormous class of problems. It is not hard to learn those parts of ALGOL present in other compiler languages: how to write assignment and go to and for statements, etc. Indeed, a lot of the unnecessary restrictions imposed by other compiling languages have finally been lifted. But ALGOL also allows many unobvious things to be written, as we will see later, and herein lies a problem: ALGOL seems to have become too general. So many restrictions have been lifted that a lot of technical details crop up which are hard to learn and to use correctly. In this paper some of the more obscure features of the language are considered and their usefulness is discussed. Remarks are based on the authors' interpretations of the ALGOL 60 Report."
+1961,SMALGOL-61.,
+1961,Minimizing Drum Latency Time.,
+1960,An Imaginary Number System.,"For centuries the decimal number system reigned supreme, except, perhaps, among the Mayan Indians, until the advent of digital computers brought the binary and octal systems into the limelight. This paper introduces another number system which may prove useful for manipulating complex numbers on machines."
+1959,RUNCIBLE-Algebraic Translation on a Limited Computer.,
