@@ -1,0 +1,144 @@
+2012,algorithmic view universe,year since alan turing following lead computer scientist advanced understanding computational phenomenon developing specialized original penetrating way rigorous thinking turn algorithmic way thinking applied productively study important phenomenon outside computation proper  development exquisite unintended consequence fact latent computation underlying phenomenon way science study
+2012,satisfiability art computer programming,speaker describe adventure past eight month intensively studying many aspect sat solver possible course preparing  page new material volume b art computer programming
+2009,reversal swap 11264 2007 77,n/a
+2009,sum power set counting coefficient tracking 11274 2007 165,n/a
+2009,problem 11452,n/a
+2009,solving recurrence binary expansion 11320 2007 835,n/a
+2009,near-debruijn cycle 11336 2008 71,n/a
+2008,problem 11336,n/a
+2008,problem 11369,n/a
+2008,perfect parity pattern 11243,n/a
+2007,problem 11264,n/a
+2007,problem 11274,n/a
+2007,partition circular set 11151,n/a
+2007,combinatorial maximum 11142,n/a
+2007,problem 11320,n/a
+2006,cube-free sum 11078,n/a
+2006,problem 11243,n/a
+2005,problem 11142,n/a
+2005,modular triple 11021,n/a
+2005,problem 11151,n/a
+2004,fibonacci complex camouflage 10858,n/a
+2004,problem 11078,n/a
+2004,bernstein polynomial 10985,n/a
+2004,efficient coroutine generation constrained gray sequence,study interesting family cooperating coroutines able generate pattern bit satisfy certain fairly general ordering constraint changing one bit time  coroutines implemented carefully yield algorithm need bounded amount computation per bit change thereby solving open problem field combinatorial pattern generation
+2003,robert w floyd memoriam
+2003,problem 10985,n/a
+2003,highly variable list 10691,n/a
+2003,exploring binary maze 10720,n/a
+2003,balanced neighborhood square 10871,n/a
+2003,animal cage 10875,n/a
+2003,recounting rational continued 10906,n/a
+2003,product transposition 10913,n/a
+2003,bottom-up education,people discover power beauty high-level abstract idea often make mistake believing concrete idea lower level relatively worthless might well forgotten speaker argue contrary best computer scientist thoroughly grounded basic concept computer actually work indeed essence computer science ability understand many level abstraction simultaneously therefore put considerable effort design risc machine called mmix aid computer science educator mmix intended simple clean yet realistic many tool built simulate mmix architecture development
+2002,min-plus matrix multiplication 10834,n/a
+2002,fibonacci-lucas extremum 10825,n/a
+2001,problem 10858,n/a
+2001,problem 10871,n/a
+2001,problem 10875,n/a
+2001,problem 10906,n/a
+2001,leaf ordered tree 10757,n/a
+2001,stirling series 10832,n/a
+2001,problem 10913,n/a
+2001,joy asymptotics,n/a
+2000,probability state 10726,n/a
+2000,real number algebraically 10689,n/a
+2000,problem 10832,n/a
+1998,linear probing graph,mallow riordan showed  labeled tree small number inversion related labeled graph connected sparse wright enumerated sparse connected graph  kreweras related inversion tree so-called ``parking problem  combination three  lead surprisingly simple analysis behavior hashing linear probing including higher moment cost successful search
+1997,shellsort three increment,n/a
+1997,sequence series lambert w function,n/a
+1996,lambertw function,lambertw function defined multivalued inverse functionw →we w  many application pure applied mathematics briefly described present new discussion complex branch ofw asymptotic expansion valid branch efficient numerical procedure evaluating function arbitrary precision method symbolic integration expression containingw
+1996,overlapping pfaffians,n/a
+1996,exact analysis stable allocation,n/a
+1996,knowlton-graham partition problem,n/a
+1996,irredundant interval,expository note present simplification theorem due győri algorithm due franzblau kleitman given family f interval linearly ordered set n element construct step irredundant subfamily maximum cardinality well generating family minimum cardinality algorithm special interest solves problem analogous finding maximum independent set class object general matroid note also complete runnable computer program used experiment conjunction public-domain software stanford graphbase
+1995,two-way rounding,n/a
+1994,sandwich theorem,n/a
+1994,mini-indexes literate program,n/a
+1993,birth giant component,n/a
+1993,stanford graphbase platform combinatorial algorithm
+1992,randomized incremental construction delaunay voronoi diagram,paper give new randomized incremental algorithm construction planar voronoi diagram delaunay triangulation new algorithm “on-line” earlier similar method take expected timeo spaceo eminently practical implement analysis algorithm also interesting right serve model many similar question two three dimension finally demonstrate approach constructing voronoi diagram obviates need building separate point-location structure nearest-neighbor query
+1992,problem compatible representative,n/a
+1992,context-free multilanguages,n/a
+1991,efficient representation perm group,n/a
+1991,theory practice,n/a
+1991,textbook example recursion,n/a
+1990,nested satisfiability,summarya special case satisfiability problem clause hierarchical structure shown solvable linear time assuming clause represented convenient way
+1990,note digitized angle,n/a
+1990,bijection ordered factorization,n/a
+1990,stable husband,n/a
+1990,addition machine,n/a
+1990,genesis attribute grammar,n/a
+1989,first cycle evolving graph,n/a
+1989,error tex,n/a
+1987,digital halftone dot diffusion,paper describes technique approximating real-valued pixel two-valued pixel new method called dot diffusion appears avoid deficiency commonly used technique requires approximately total number arithmetic operation floyd-steinberg method adaptive grayscale well suited parallel computation requires buffer complex program logic method implemented sequentially “smooth” variant method may prove useful high-resolution printing
+1986,ibm 650 appreciation field
+1986,efficient balanced code,coding scheme codeword contains equally many zero one constructed way efficiently encoded decoded
+1985,dynamic huffman coding,n/a
+1985,analysis optimum caching,n/a
+1985,deciphering linear congruential encryption,shown multiplier increment seed value linear congruential random number generator binary computer deduced leading bit random number generated
+1985,optimal prepaging font caching,efficient algorithm communicating letter-shape information high-speed computer large memory typesetting device limited memory presented encoding optimum sense total time typesetting minimized using model generalizes well-known “demand paging” strategy case change cache allowed associated information actually needed extensive empirical data show good  obtained even difficult technical material typeset machine store information concerning  character method paper also applicable hardware software caching application restricted lookahead
+1984,complexity song april 1984 special section,n/a
+1984,literate programming,n/a
+1984,algorithm brownian zero,efficient binary technique presented determining prescribed accuracy location zero stochastic functionb classical one-dimension brownian motion
+1982,huffmans algorithm via algebra,n/a
+1981,verification link-level protocol,n/a
+1981,breaking paragraph line,n/a
+1979,lexicographic permutation restriction,n/a
+1979,inhomogeneous sorting,purpose paper consider special kind sorting problem sequencea rearranged optimal order interchanging pair adjacent element certain pair element allowed commute section  present informal example intended clarify nature problem sec   give formal definition characterization section  show problem considering equivalent finding lexicographically smallest topological sorting partial order
+1979,algorithm modern mathematics computer science,n/a
+1978,trivial algorithm whose analysis isnt,n/a
+1978,expected linearity simple equivalence algorithm,n/a
+1977,generalization dijkstras algorithm,n/a
+1977,fast pattern matching string,n/a
+1977,deletion preserve randomness,paper discus dynamic property data structure insertion deletion shown certain circumstance result n random insertion random deletion equivalent n-m random insertion various interpretation world random various constraint order insertion deletion
+1976,analysis subtractive algorithm greatest common divisor,sum partial quotient regular continued fraction expansion m/n  ≤m≤n shown π- n+ result applied analysis perhaps oldest nontrivial algorithm number-theoretic computation
+1976,analysis simple factorization algorithm,n/a
+1975,analysis alpha-beta pruning,n/a
+1975,son seminumerical algorithm,last fifteen month preparing second edition book <u>seminumerical algorithms</u>  prof loo kindly suggested reader sigsam bulletin may want know something new version
+1975,random matroids,n/a
+1975,evading drift floating-point addition,n/a
+1975,erratum evading drift floating-point addition,n/a
+1975,activity interleaved memory,complicated expression average number active module published model interleaved memory shown function well studied context
+1974,computer programming art,communication acm began publication  member acms editorial board made following remark described purpose acms periodical  “if computer programming become important part computer research development transition programming art disciplined science must effected” goal continually recurring theme ensuing year example read  “first step toward transforming art programming science”  meanwhile actually succeeded making discipline science remarkably simple way merely deciding call “computer science”
+1974,ordered hash table,n/a
+1974,structured programming go statement
+1974,structured program generate topological sorting arrangement,n/a
+1974,erratum structured program generate topological sorting arrangement,n/a
+1974,asymptotic number geometry,n/a
+1973,permutation nonnegative partial sum,n/a
+1972,ancient babylonian algorithm,early origin mathematics discussed emphasizing aspect seem greatest interest standpoint computer science number old babylonian tablet many never translated english quoted
+1972,george forsythe development computer science
+1972,complement transitive closure,n/a
+1972,experiment optimal sorting,n/a
+1972,erratum note avoiding go statement,n/a
+1972,enumeration plane partition,n/a
+1971,optimum binary search tree,n/a
+1971,top-down syntax analysis,n/a
+1971,note avoiding go statement,n/a
+1971,correction semantics context-free language,n/a
+1971,empirical study fortran program,n/a
+1971,review introduction combinatorial mathematics liu c l 1968
+1971,mathematical analysis algorithm,n/a
+1970,von neumann first computer program
+1968,semantics context-free language,n/a
+1967,remaining trouble spot algol 60
+1967,characterization parenthesis language,n/a
+1967,programming language automaton,technique automatic programming useful constructive proof automaton theory formal definition elementary programming language stack automaton given shown may readily adapted class automaton second part paper show programming language applied automaton theory prove non-context-sensitive language accepted stack automaton
+1966,additional comment problem concurrent programming control
+1965,translation language left right,n/a
+1964,proposal input-output convention algol 60,algol  language first defined made explicit reference input output process process appeared quite dependent computer used difficult obtain agreement matter time passed great many algol compiler come use compiler incorporated input-output facility experience shown facility introduced manner compatible consistent algol language  almost completely machine-independent however existing implementation taken many different approach subject hampered interchange program installation acm algol committee carefully studied various proposal attempt define set convention input output would suitable use computer present report constitutes recommendation committee
+1964,backus normal form v backus naur form
+1964,solߞa symbolic language general-purpose system simulation,paper illustrates use sol general-purpose algorithmic language useful describing simulating complex system system described number individual process simultaneously enact program much like computer program  system described language program translated sol compiler interpretive code execution code produce statistical information model detailed example sol model multiple on-line console system exhibited indicating notational simplicity intuitive nature language
+1964,formal definition sol,paper give formal definition sol general-purpose algorithmic language useful describing simulating complex system sol described using meta-linguistic formula used definition algol  principal difference sol problem-oriented language algol fortran sol includes capability expressing parallel computation convenient notation embedding random quantity within arithmetic expression automatic mean gathering statistic element involved sol differs simulation language simscript primarily simplicity use readability since capable describing model without including computer-oriented characteristic
+1963,computer-drawn flowchart,meet need improved documentation written computer program simple system effective communication presented shown great promise programmer describes program simple format computer prepares flow chart cross-referenced listing input description kept up-to-date easily final output clearly explains original program system also proved valuable debugging coding aid
+1963,letter editor three letter merging
+1963,length string merge sort,detailed statistic given length maximal sorted string result first  phase merge sort onto tape shown string produced alternating method  tend three-fourths long method produce ascending string contrary statement appeared previously literature slight modification read-backward polyphase merge algorithm therefore suggested
+1962,backus language
+1962,calculation easter
+1962,evaluation polynomial computer
+1961,algol 60 confidential,algol  report* first encountered seems describe complex language difficult learn “metalinguistic formulae” admirably serve purpose precisely specifying language certainly readable beginner however experience shown report explained fact easy learn algol write algorithm language general powerful handle enormous class problem hard learn part algol present compiler language write assignment go statement etc indeed lot unnecessary restriction imposed compiling language finally lifted algol also allows many unobvious thing written see later herein lie problem algol seems become general many restriction lifted lot technical detail crop hard learn use correctly paper obscure feature language considered usefulness discussed remark based author interpretation algol  report
+1961,smalgol-61
+1961,minimizing drum latency time
+1960,imaginary number system,century decimal number system reigned supreme except perhaps among mayan indian advent digital computer brought binary octal system limelight paper introduces another number system may prove useful manipulating complex number machine
+1959,runcible-algebraic translation limited computer

@@ -1,0 +1,63 @@
+2005,recollection operating system design,n/a
+2002,ewd1300 notational convention adopted,given moment concept polite mathematics emerged underlying idea even  reader pay spend hour save average reader minute inventing idealized average reader could translate lofty human goal politeness le formal criterion could apply text note devoted resulting notational stylistic convention adopted year went dont want baffle puzzle reader particular clear done check argument possible without pencil paper dictate small explicit step hand well known brevity leading characteristic mathematical elegance fear ideal excludes small explicit step one joy professional life discovery fear unfounded brevity achieved without committing sin omission point ideal crisp clarity universally shared consider puzzle created omission spicy challenge without text would boring others shun clarity lest work considered trivial
+2001,end computing science,would therefore like posit computing central challenge make mess met contrary system much complicated considered healthy messy chaotic used comfort confidence average customer computing industry served poorly expects system crash time witness massive worldwide distribution bug-ridden software deeply ashamed u scientist tempting blame lack education average engineer shortsightedness manager malice entrepreneur sorry state affair wont see know unmastered complexity root misery know degree simplicity obtained extent intrinsic complexity whole design show interface simply know yet limit disentanglement know yet whether intrinsic intricacy distinguished accidental intricacy know yet whether trade-off possible know yet whether invent meaningful concept intracacy prove theorem help put bluntly simply know yet talking worry u illustrates meant intangible goal uncertain reward example moral whether computing science finished primarily depend courage imagination
+2001,spell leibniz dream,n/a
+2001,designing calculational proof cantor theorem,n/a
+2000,transitive closure wellfounded relation,n/a
+1996,fibonacci greatest common divisor,n/a
+1996,balance coin,n/a
+1996,bultermans theorem shortest tree,n/a
+1996,prime 1 way sum 2 square,n/a
+1996,bagatelle euclid algorithm,n/a
+1996,two equation extreme solution,n/a
+1996,alternative etac ewd1163,n/a
+1996,argument arithmetic mean geometric mean heuristic included,n/a
+1995,heuristic calculational proof,using small yet sufficiently sophisticated example show heuristic lead compact clear solution implicit message calculational style advantage formalism used provides major heuristic guidance design proof
+1992,economy mathematics,n/a
+1992,unification three calculus,purpose note show much predicate calculus relational calculus regularity calculus common precisely much commonality design predicate calculus emerge subcalculus two calculus discus predicate calculus first
+1990,making fair roulette possibly biased coin,given biased coin showswhen flipped head tail probability p q respectivelywith p+q= necessarily p=qthe value p q unknownwe know coin remains sameiethat p q constant timethe problem design experiment  different outcome equal probability 
+1989,linear search revisited,n/a
+1988,binary operator derived relation,n/a
+1987,heuristic explanation batchers baffler,batchers baffler - named david gries - sorting algorithm interested many comparison swap executed concurrently also interest used hard explain note explains batchers baffler designing besides including heuristic two distinguishing feature contributing clarity brevity   theory algorithm relies upon dealt isolation  suitable abstraction case analysis removed argument
+1986,simple fixpoint argument without restriction continuity,summaryin programming language semantics introduction unbounded nondeterminacy amount introduction noncontinuous predicate transformer needed dealing concept fair interleaving semantics repetition given strongest solution fixpoint equation weakest precondition expressed closed form would require transfinite ordinal however shown even case unbounded nondeterminacy fundamental theorem repetition proved simple quite elementary argument
+1986,belated proof self-stabilization,n/a
+1983,solution problem concurrent programming control reprint,number mainly independent sequential-cyclic process restricted mean communication made way moment one one engaged “critical section” cycle
+1983,structure the-multiprogramming system reprint,multiprogramming system described activity divided number sequential process sequential process placed various hierarchical level one independent abstraction implemented hierarchical structure proved vital verification logical soundness design correctness implementation
+1983,derivation termination detection algorithm distributed computation,n/a
+1983,fruit misunderstanding,n/a
+1982,introduction three algorithm sorting situ,purpose paper give crisp introduction three algorithm sorting situ viz insertion sort heapsort smoothsort complicated algorithm elaborate justification design decision embodied passing offer style presentation non-trivial algorithm seems merit
+1982,smoothsort alternative sorting situ,like heapsort - inspired - smoothsort algorithm sorting situ order n  log n worst case order n best case smooth transition two 
+1982,tell truth might hurt,n/a
+1980,beautiful argument using mathematical induction,elegant proof efficient algorithm derived derivation evolve smoothly choice apply mathematical induction pattern reasoning chosen leitmotif small collection last proof by-product algorithm
+1980,termination detection diffusing computation,activity finite computation may propagate network machine machine may delegate  subtasks neighbour computation fixed single machine call diffusing computation present signalling scheme - superimposed diffusing computation - enabling machine fired detect termination signalling scheme perfectly general sense independently topology network applicable diffusing computation
+1979,software engineering ,n/a
+1978,on-the-fly garbage collection exercise cooperation,example cooperation sequential process little mutual interference despite frequent manipulation large shared data space technique developed allows nearly activity needed garbage detection collection performed additional processor operating concurrently processor devoted computation proper exclusion synchronization constraint kept weak could achieved severe complexity engendered illustrated
+1978,finding correctness proof concurrent program,n/a
+1978,formal treatment le simple example,n/a
+1978,stationary behaviour ternary network,n/a
+1978,interplay mathematics programming,n/a
+1978,theorem odd power odd integer,n/a
+1978,honour fibonacci,n/a
+1978,foolishness natural language programming,n/a
+1978,program inversion,n/a
+1977,programming craft scientific discipline,response software crisis lack clear guidance design programming language programming methodology emerged second half sixty avowed purpose discovering would involved design sizeable high-quality program recognition high-quality implied correctness correctness could proved theory might provable practice became major driving force proper role intuition formal discipline reassessed thereby reshaping nature programmer task way working general survey development indication significance consequence discussed certain great impact upon educational practice computing science software engineering constitution work force division intellectual labour management software development project
+1976,gauntlet thrown david gries,summaryit requested design program generate n! permutation value  n —  order transition one permutation next always performed exactly one swap two neighbour
+1976,formal technique sizeable program,n/a
+1976,effective arrangement logical system,n/a
+1975,guarded command nondeterminacy formal derivation program,so-called guarded command introduced building block alternative repetitive construct allow nondeterministic program component least activity evoked possibly even final state necessarily uniquely determined initial state formal derivation program expressed term construct calculus shown
+1975,teaching programming e teaching thinking,n/a
+1975,guarded command non-determinancy calculus derivation program,so-called guarded command introduced building block alternative repetitive construct allow non-deterministic program component least activity evoked possibly even final state necessarily uniquely determined initial state formal derivation program expressed term construct calculus shown
+1975,time-wise hierarchy imposed upon use two-level store,following general design principle paging system developed aimed high efficiency strong separation store management processor scheduling minimal influence program mix upon system performance furthermore described dedicated hardware expected contribute effectivel memory management prevention thrashing finally property system mismatch configuration workload give clear indication reconfigurations seem indicated
+1975,craftsman scientist,n/a
+1974,self-stabilizing system spite distributed control,synchronization task loosely coupled cyclic sequential process  viewed keeping relation “the system legitimate state” invariant result individual process step could possibly cause violation relation preceded test deciding whether process question allowed proceed delayed resulting design readily—and quite systematically—implemented different process granted mutually exclusive access common store “the current system state” recorded
+1972,humble programmer
+1972,information stream sharing finite buffer,n/a
+1972,class allocation strategy inducing bounded delay,consider finite set person say numbered  whose never ending life consists alternation eating thinking ie  behave according program cycle begin eat think end
+1971,hierarchical ordering sequential process,summaryone primary function operating system rebuild machine must regarded non-deterministic  le deterministic automaton taming degree indeterminacy step lead layered operating system bottom layer discussed adequacy interface present analysis requirement correctness proof give u insight logical issue hand “director-secretary” relationship introduced reflect possible discipline use sequencing primitive
+1968,structure the-multiprogramming system,multiprogramming system described activity divided number sequential process sequential process placed various hierarchical level one independent abstraction implemented hierarchical structure proved vital verification logical soundness design correctness implementation
+1965,solution problem concurrent programming control,number mainly independent sequential-cyclic process restricted mean communication made way moment one one engaged critical section cycle
+1964,comment aim mirfac
+1962,operating experience algol 60,n/a
+1962,meditation advanced programming,n/a
+1959,algol sub-committee report - extension,n/a
+1959,note two problem connexion graph,n/a

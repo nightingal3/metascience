@@ -1,0 +1,122 @@
+Year	Title
+2019	simple concurrent labeling algorithm connected component
+2019	new path splay dynamic optimality
+2019	splaying preorders postorders
+2019	zip tree
+2017	minimum-cost flow unit-capacity network
+2017	hollow heap
+2016	deletion without rebalancing binary search tree
+2016	randomized concurrent algorithm disjoint set union
+2015	minimum cost flow graph unit capacity
+2014	cb tree practical concurrent self-adjusting search tree
+2014	deletion without rebalancing multiway search tree
+2014	back-to-basics empirical study priority queue
+2014	disjoint set union randomized linking
+2014	better approximation algorithm graph diameter
+2014	loop nesting forest dominators application
+2013	finding dominators via disjoint set union
+2013	soft heap simplified
+2012	optimal dynamic data structure stabbing-semigroup query
+2012	incremental cycle detection topological ordering strong component maintenance
+2012	weight-scaling algorithm min-cost imperfect matchings bipartite graph
+2012	dominators directed bipolar order independent spanning tree
+2012	strict fibonacci heap
+2011	data structure mergeable tree
+2011	maximum flow incremental breadth-first search
+2011	theory v practice design analysis algorithm
+2010	hp transforms product portfolio management operation research
+2009	efficiently generating k-best solution procurement auction
+2009	experimental study minimum mean cycle algorithm
+2008	planarity algorithm via pq-trees extended abstract
+2008	finding strongly knit cluster social network
+2008	linear-time algorithm dominators path-evaluation problem
+2008	faster algorithm incremental topological ordering
+2008	fast exact heuristic method role minimization problem
+2007	server allocation algorithm tiered system
+2007	clustering social network
+2007	experimental evaluation parametric max-flow algorithm
+2006	finding dominators practice
+2005	self-adjusting top tree
+2005	value-maximizing deadline scheduling application animation rendering
+2003	graph clustering minimum cut tree
+2003	dynamic rectangular intersection priority
+2002	union-find deletion
+2002	meldable heap boolean union-find
+2001	unique maximum matching algorithm
+2001	dynamic self-checking technique improved tamper resistance
+2000	simple confluently persistent catenable list
+1999	tractability parameterized completion problem chordal strongly chordal proper interval graph
+1998	culturally induced information impactedness prescription failure software venture
+1998	robustness security digital watermark
+1998	culturally-induced information impactedness prescription failure software venture
+1997	optimal parallel verification minimum spanning tree logarithmic time
+1997	toward efficient unstructured multigrid preprocessing
+1996	parallelism multigrid method much much
+1996	analysis multigrid algorithm massively parallel computer architectural implication
+1996	toward efficient unstructured multigrid preprocessing extended abstract
+1996	finding minimum spanning forest logarithmic time linear work using random sampling
+1996	purely functional representation catenable sorted list
+1995	randomized linear-time algorithm find minimum spanning tree
+1995	computing minimal spanning subgraphs linear time
+1995	model parallel computation survey synthesis
+1995	persistent list catenation via recursive slow-down
+1994	fully persistent list catenation
+1994	unique binary-search-tree representation equality testing set sequence
+1994	improved algorithm bipartite network flow
+1994	unstructured multigrid strategy massively parallel computer case integrated design
+1992	linear-time algorithm finding ambitus
+1992	polygon triangulation n log log n time simple data structure
+1992	finding minimum-cost flow double scaling
+1992	short encoding evolving structure
+1992	efficient bottom-up multi-pattern matching tree
+1992	data structural bootstrapping linear path compression catenable heap ordered double ended queue
+1991	faster scaling algorithm general graph-matching problem
+1991	efficiency primal network simplex algorithm minimum-cost circulation problem
+1991	use dynamic tree network simplex algorithm maximum flow problem
+1990	simplified linear-time jordan sorting polygon clipping
+1990	faster algorithm shortest path problem
+1990	finding minimum-cost circulation successive approximation
+1989	fast la vega algorithm triangulating simple polygon
+1989	finding minimum-cost circulation canceling negative cycle
+1989	making data structure persistent
+1989	amortized analysis algorithm set union backtracking
+1989	improved time bound maximum flow problem
+1988	one-processor scheduling symmetric earliness tardiness penalty
+1987	linear-time algorithm visibility shortest path problem inside triangulated simple polygon
+1987	fibonacci heap us improved network optimization algorithm
+1987	three partition refinement algorithm
+1987	correction linear-time algorithm triangulating simple polygon
+1986	locally adaptive data compression scheme
+1986	rectilinear planar layout bipolar orientation planar graph
+1986	sorting jordan sequence linear time using level-linked search tree
+1986	self-adjusting heap
+1986	new approach maximum flow problem
+1986	linear-time algorithm triangulating simple polygon
+1985	amortized efficiency list update paging rule
+1985	decomposition clique separator
+1985	strongly connected orientation mixed multigraphs
+1985	linear time solution single function coarsest partition problem
+1984	worst-case analysis set union algorithm
+1984	efficient algorithm family matroid intersection problem
+1984	gauss code planar hamiltonian graph stack-sortable permutation
+1984	separator theorem graph bounded genus
+1984	fast algorithm finding nearest common ancestor
+1984	finding biconnected component computing tree function logarithmic parallel time extended summary
+1984	scaling related technique geometry problem
+1984	amortized efficiency list update rule
+1983	updating balanced search tree o1 rotation
+1983	data structure dynamic tree
+1981	scheduling unit-time task arbitrary release time deadline
+1981	greedy heuristic complete matching
+1980	pebbling problem complete polynomial space
+1980	design analysis data structure representing sorted list
+1979	fast merging algorithm
+1979	application path compression balanced tree
+1979	efficient algorithm simple matroid intersection problem
+1978	time-space trade-off pebble game
+1977	space bound game graph
+1977	finding optimum branching
+1976	lower bound length node sequence directed graph
+1976	combinatorial problem complete polynomial space
+1976	computing  st  -numbering
+1971	depth-first search linear graph algorithm working paper

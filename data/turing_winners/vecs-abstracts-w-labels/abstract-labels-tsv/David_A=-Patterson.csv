@@ -1,0 +1,163 @@
+Year	Title
+2019	broom open-source out-of-order processor resilient low-voltage operation 28-nm cmos
+2019	fpga accelerated indel realignment cloud
+2018	new golden age computer architecture empowering machine-learning revolution
+2018	motivation evaluation first tensor processing unit
+2018	50 year computer architecture mainframe cpu domain-specific tpu open risc-v instruction set
+2018	out-of-order risc-v processor resilient low-voltage operation 28nm cmos
+2017	reduced instruction set computer
+2017	reducing pagerank communication via propagation blocking
+2017	in-datacenter performance analysis tensor processing unit
+2016	genap distributed sql interface genomic data
+2016	agile approach building risc-v microprocessor
+2016	proprietary versus open instruction set
+2015	do-it-yourself textbook publishing
+2015	nih bd2k center big data translational genomics
+2015	diablo warehouse-scale computer network simulator using fpgas
+2015	scientific computing meet big data technology astronomy use case
+2015	magic massive automated grading cloud
+2015	locality exists graph processing workload characterization ivy bridge server
+2015	gail graph algorithm iron law
+2015	rethinking data-intensive science using scalable analytics system
+2015	past future hardware architecture
+2014	smash benchmarking toolkit human genome variant calling
+2014	changepoint analysis efficient variant calling
+2013	using cloud mapreduce measurement assignment
+2013	new software engineering curriculum agile
+2013	direction-optimizing breadth-first search
+2013	distributed memory breadth-first search revisited enabling bottom-up search
+2013	hardware evaluation cache partitioning improve utilization energy-efficiency preserving responsiveness
+2013	generalized scale independence incremental precomputation
+2012	diversity within crowd
+2012	experience teaching mapreduce cloud
+2011	piql success-tolerant query processing cloud
+2011	scad director scaling distributed storage system stringent performance requirement
+2011	cuda-level performance python-level productivity gaussian mixture model application
+2010	view cloud computing
+2010	ubiquitous parallel computing berkeley illinois stanford
+2010	case piql performance insightful query language
+2010	characterizing modeling generating workload spike stateful service
+2010	ramp gold fpga-based architecture simulator multiprocessor
+2010	statistics-driven workload modeling cloud
+2010	detecting large-scale system problem mining console log
+2010	case fame fpga architecture model execution
+2010	graphical representation identifier structure log
+2010	parallel revolution started part solution part problem - overview research berkeley parallel computing laboratory
+2010	software know best portable parallelism requires standardized measurement transparent hardware
+2009	viewpoint - student legacy
+2009	scad scale-independent storage social computing application
+2009	statistical machine learning make automatic control practical internet datacenters
+2009	predicting multiple metric query better decision enabled machine learning
+2009	online system problem detection mining pattern console log
+2008	technical perspective data center computer
+2008	design implementation trade-off wide-area resource discovery
+2008	mining console log large-scale system problem detection
+2008	stencil computation optimization auto-tuning state-of-the-art multicore architecture
+2007	embracing extending 20th-century instruction set architecture
+2007	ramp research accelerator multiple processor
+2006	offshoring finally fact v folklore
+2006	computer science education 21st century
+2006	ramp research accelerator multiple processor - community vision shared experimental parallel hw/sw platform
+2006	berkeley view new framework new platform parallel research
+2006	window xp kernel crash analysis
+2006	service placement shared wide-area platform
+2005	minority-minority minority-majority technology transfer
+2005	20th century v 21st century c&c spur manifesto
+2005	state funding new initiative computer science engineering
+2005	recognizing individual excellence help u
+2005	reflection programming olympiad
+2005	acm support matter conference journal
+2005	restoring popularity computer science
+2005	new professional development centre boast 1 000 course oreilly book c classic
+2005	rescuing family neighbor
+2005	robot desert research parable time
+2005	computing research looming crisis
+2005	stop whining outsourcing!
+2005	crash data collection window case study
+2005	control consideration scalable event processing
+2005	combining visualization statistical analysis improve operator confidence efficiency failure detection localization
+2005	latency lag bandwidth
+2004	recovery-oriented computing building multitier dependability
+2004	experience evaluating human-assisted recovery process
+2004	path-based failure evolution management
+2004	distributed resource discovery planetlab sword
+2004	combining statistical monitoring predictable recovery self-management
+2003	linear programming approach discriminant analysis reserved-judgment region
+2003	scalable vector processor embedded system
+2003	overcoming limitation conventional vector processor
+2003	undo operator building undoable e-mail store
+2003	internet service fail done
+2002	architecture dependability large-scale internet service
+2002	roc-1 hardware support recovery-oriented computing
+2002	recovery oriented computing new research agenda new century
+2002	simple way estimate cost downtime
+2002	vector v superscalar vliw architecture embedded multimedia benchmark
+2002	rewind repair replay three r dependability
+2002	studying using failure data large-scale internet service
+2000	art massive storage web image archive
+2000	ideal bootstrap estimation expected prediction error k-nearest neighbor classifier application classification error assessment
+2000	exploiting on-chip memory bandwidth viram compiler
+2000	towards availability benchmark case study software raid system
+1999	istore introspective storage data-intensive network service
+1999	cluster i/o river making fast case common
+1999	retrospective twelve year lisa proceeding
+1999	usage pattern web-based image collection
+1999	designing self-maintaining storage system
+1999	virtual log based file system programmable disk
+1998	new direction computer architecture research
+1998	case intelligent disk idisks
+1998	architectural cost streaming i/o comparison workstation cluster smps
+1998	performance characterization quad pentium pro smp using oltp workload
+1998	retrospective high-level language computer architecture
+1998	risc reduced instruction set vlsi computer
+1997	constrained discriminant analysis via 0/1 mixed integer programming
+1997	scalable processor billion-transistor era iram
+1997	case intelligent ram
+1997	new voting based hardware data prefetch scheme
+1997	energy efficiency iram architecture
+1997	extensible scalable monitoring cluster computer
+1997	high-performance sorting network workstation
+1996	serverless network file system
+1995	case network workstation
+1995	truth spec benchmark
+1995	storage system movies-on-demand video server
+1995	case network workstation - abstract
+1995	interaction parallel sequential workload network workstation
+1994	coding technique handling failure large disk array
+1994	raid high-performance reliable secondary storage
+1994	performance design evaluation raid-ii storage server
+1994	new approach i/o performance evaluation - self-scaling i/o benchmark predicted i/o performance
+1994	raid-ii high-bandwidth network file server
+1994	storage alternative video service
+1994	cooperative caching using remote client memory improve file system performance
+1994	quantitative analysis cache policy scalable network file system
+1994	toward workload characterization video server digital library application
+1993	designing disk array high data reliability
+1993	massive parallelism massive storage trend prediction 1995 2000
+1993	logp towards realistic model parallel computation
+1992	tradeoff supporting two page size
+1991	towards guideline sigarch sponsored conference
+1990	maximizing performance striped disk array
+1990	evaluation redundant array disk using amdahl 5890
+1989	failure correction technique large disk array
+1989	introduction redundant array inexpensive disk raid
+1989	reliable raid
+1988	scalable processor architecture sparc
+1988	case redundant array inexpensive disk raid
+1988	design xprs
+1987	price smalltalk
+1987	fast multiply divide vlsi floating-point unit
+1986	in-cache address translation mechanism
+1986	evaluation spur lisp architecture
+1985	reduced instruction set computer
+1984	architecture soar smalltalk risc
+1983	architecture vlsi instruction cache risc
+1982	risc assessment high-level language experiment
+1981	experiment high level language microprogramming verification
+1981	v-compiler next-generation tool microprogramming
+1981	vax hardware proposed ieee floating-point standard
+1980	design consideration single-chip computer future
+1979	design consideration vlsi processor x-tree
+1979	towards efficient machine-independent language microprogramming
+1978	communication x-tree modular multiprocessor system
+1978	x-tree tree structured multi-processor computer architecture
