@@ -1,9 +1,13 @@
+import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 from typing import Callable, List
 import pdb
 from scipy.spatial import distance
 from sklearn.manifold import TSNE
+import seaborn as sns
+
+from adjustText import adjust_text
 
 from src.models.predict import rank_on_1NN, rank_on_exemplar, rank_on_progenitor, rank_on_prototype, make_rank_on_knn, get_prototype, get_emergence_order, get_attested_order, get_probability_score
 
@@ -89,23 +93,67 @@ def plot_links(data: np.ndarray, order: List, tails: List, model_type: str, file
     plt.gcf().clear()
 
 if __name__ == "__main__":
-    """all_vecs = get_attested_order("data/turing_winners/abstracts/geoff/Geoff-Hinton-abstract-vecs-final.csv", vecs_col=2)
-    tsne = TSNE(
-        n_components=2,
-        perplexity=10,
-        learning_rate=200,
-        n_iter=10000,
-        n_iter_without_progress=1000,
-    )
+    #vecs_path = "data/turing_winners/sbert-abstracts/Geoffrey_E=-Hinton.csv"
+    vecs_path = "data/nobel_winners/physics/abstracts-sbert/Albert Einstein.csv"
+    all_vecs = get_attested_order(vecs_path, vecs_col=2, multicols=True)
+    years = get_attested_order(vecs_path, vecs_col=0, label=True)
+    titles = get_attested_order(vecs_path, vecs_col=1, label=True)
+    selected_titles = {"Visualizing Data using t-SNE": "Visualizing Data using t-SNE",
+    "analyzing improving representation soft nearest neighbour loss": "Analyzing and Improving Representations with the Soft Nearest Neighbour Loss",
+    "ImageNet classification with deep convolutional neural networks.": "ImageNet classification with deep convolutional neural networks",
+    "Using Relaxation to find a Puppet.": "Using Relaxation to find a Puppet",
+    "Some Demonstrations of the Effects of Structural Descriptions in Mental Imagery.": "Some Demonstrations of the Effects of Structural Descriptions in Mental Imagery",
+    "dynamic routing capsule": "Dynamic Routing Between Capsules",
+    "Dropout: a simple way to prevent neural networks from overfitting.": "Dropout: a simple way to prevent neural networks from overfitting",
+    "A Fast Learning Algorithm for Deep Belief Nets.": "A Fast Learning Algorithm for Deep Belief Nets",
+    "A Learning Algorithm for Boltzmann Machines.": "A Learning Algorithm for Boltzmann Machines",
+    "discovering viewpoint-invariant relationship characterize object": "Discovering Viewpoint-Invariant Relationships That Characterize Objects",
+    "modelling human motion using binary latent variable": "Modeling Human Motion Using Binary Latent Variables",
+    "traffic recognizing object using hierarchical reference frame transformation": "TRAFFIC: Recognizing Objects Using Hierarchical Reference Frame Transformations"}
+
+    """selected_titles = {"Visualizing Data using t-SNE": "1",
+    "analyzing improving representation soft nearest neighbour loss": "2",
+    "ImageNet classification with deep convolutional neural networks.": "3",
+    "Using Relaxation to find a Puppet.": "4",
+    "Some Demonstrations of the Effects of Structural Descriptions in Mental Imagery.": "5",
+    "dynamic routing capsule": "6",
+    "Dropout: a simple way to prevent neural networks from overfitting.": "7",
+    "A Fast Learning Algorithm for Deep Belief Nets.": "8",
+    "A Learning Algorithm for Boltzmann Machines.": "9",
+    "modelling human motion using binary latent variable": "10",
+    "traffic recognizing object using hierarchical reference frame transformation": "11"
+    }"""
+
+    years = [int(year) for year in years]
+
+    all_vecs = np.asarray(all_vecs)
+    tsne = TSNE(n_components=2, perplexity=10, learning_rate=200, n_iter=20000, n_iter_without_progress=1000)
     
     tsne_res = tsne.fit_transform(all_vecs)
+    #sns.scatterplot(x=tsne_res[:, 0], y=tsne_res[:, 1], hue=years, palette="coolwarm", alpha=0.75)
+    colormap = plt.cm.coolwarm
+    normalize = matplotlib.colors.Normalize(vmin=min(years), vmax=max(years))
+    sc = plt.scatter(x=tsne_res[:, 0], y=tsne_res[:, 1], cmap=colormap, norm=normalize, c=years, linewidths=1, alpha=0.75)
+    """texts = []
+    for i, title in enumerate(titles):
+        #if title in selected_titles:
+            #plt.annotate(selected_titles[title], (tsne_res[i, 0], tsne_res[i, 1]), fontsize=8)
+        if i % 2 == 0:
+            texts.append(plt.text(tsne_res[i, 0], tsne_res[i, 1], title, fontsize=5))
+    adjust_text(texts)"""
+    plt.colorbar(sc, pad=0.3)
+    plt.axis("off")
+    plt.savefig("einstein-vis.png", dpi=500)
+    plt.savefig("einstein-vis.eps", dpi=500)
+
+    assert False
 
     labels = get_attested_order("data/turing_winners/abstracts/geoff/Geoff-Hinton-abstract-vecs-final.csv", vecs_col=1, label=True)
     emergence_order = get_emergence_order("data/turing_winners/abstracts/geoff/Geoff-Hinton-abstract-vecs-final-ordered.csv", vecs_col=2)
     _, ranks, tails = get_probability_score(emergence_order, all_vecs, labels, rank_on_1NN, ranking_type="global", carry_error=True)
     inds = [all_vecs.index(list(vec)) for vec in ranks]
     plot_links(tsne_res, np.asarray(inds), np.asarray(tails), "1NN-geoff", "1NN-geoff")
-    assert False"""
+    assert False
     data = gen_random_2d_data(10)
     #data = get_attested_order("data/turing_winners/abstracts/geoff/Geoff-Hinton-abstract-vecs-final.csv", vecs_col=2)
 

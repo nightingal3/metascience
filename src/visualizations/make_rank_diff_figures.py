@@ -73,12 +73,29 @@ def get_model_cumulative_rank_diff_multi(
         return p_vals, rank_diff_avgs, yerrs
 
 
+def get_model_expected_rank_diff_multi(
+    all_vecs: List,
+    emergence_order: dict,
+    model_dict: dict, 
+    model_order: dict,
+    vecs_filename: str, 
+    order_filename: str) -> tuple:
+        p_vals, expected_ratios, yerrs, tvals = shuffle_test_expected_vals(
+            n_iter=10000, ranking_funcs=model_dict, model_order=model_order, vecs_filename=vecs_filename, order_filename=order_filename
+        )
+
+        return p_vals, expected_ratios, yerrs, tvals
+
+
 def get_rank_diff_and_err(models: dict, avg: bool = True) -> dict:
     out_models = {}
     for model in models:
         rank_diffs = []
         for scientist in models[model]:
-            rank_diffs.append(models[model][scientist])
+            if isinstance(models[model][scientist], tuple):
+                rank_diffs.append(models[model][scientist][0])
+            else:
+                rank_diffs.append(models[model][scientist])
         if avg: 
             avg_rank_diff = sum(rank_diffs) / len(rank_diffs)
         ci = 1.96 * (statistics.stdev(rank_diffs) / np.sqrt(len(rank_diffs)))
@@ -91,7 +108,7 @@ def get_rank_diff_and_err(models: dict, avg: bool = True) -> dict:
     return out_models
 
 
-def plot_cumulative_rank_diff(models: dict, out_name: str) -> None:
+def plot_cumulative_rank_diff(models: dict, out_name: str, error_bars: bool = True) -> None:
     order = {
         "1NN": 0,
         "2NN": 1,
@@ -101,16 +118,26 @@ def plot_cumulative_rank_diff(models: dict, out_name: str) -> None:
         "Progenitor": 5,
         "Prototype": 6,
         "Exemplar": 7,
-        "Local": 8,
-        "Null": 9
+        "Exemplar (s=1)": 8,
+        "Local": 9,
+        "Null": 10
     }
+    xlabels = []
+
     for i, (name, (rank_diff, err)) in enumerate(models.items()):
-        plt.bar(x=i, height=rank_diff, yerr=err, label=name, facecolor=cm.Set3.colors[order[name]])
-    plt.legend(loc='upper center', bbox_to_anchor=(1.4, 0.9), fontsize=14)
-    plt.xticks([])
-    plt.ylabel("Log-likelihood difference ratio\nagainst null", fontsize=18)
-    plt.yticks(fontsize=16)
+        if error_bars:
+            plt.bar(x=i, height=rank_diff, yerr=err, label=name, facecolor=cm.Set3.colors[order[name]])
+        else:
+            plt.bar(x=i, height=rank_diff, label=name, facecolor=cm.Set3.colors[order[name]])
+        xlabels.append(name)
+
+    #plt.legend(loc='upper center', bbox_to_anchor=(1.62, 0.9), fontsize=10)
+    #plt.legend(loc="best", fontsize=12)
+    plt.xticks([i for i in range(len(order))], xlabels, rotation=45, fontsize=12)
+    plt.ylabel("Log-likelihood difference ratio\nagainst null", fontsize=16)
+    plt.yticks(fontsize=12)
     plt.tight_layout()
+    plt.plot()
     plt.savefig(out_name + "_rank_diff.png")
     plt.savefig(out_name + "_rank_diff.eps")
     plt.gcf().clear()
@@ -125,8 +152,9 @@ def violin_plot(models: dict, out_name: str) -> None:
         "5NN": 4, 
         "Progenitor": 5,
         "Prototype": 6,
-        "Exemplar": 7,
-        "Local": 8,
+        "Exemplar (s=1)": 7,
+        "Exemplar": 8,
+        "Local": 9,
     }
 
     rank_diffs = [model_info[1][0] for model_info in models.items()]
@@ -263,38 +291,30 @@ def run_all(vecs_path: str, order_path: str) -> None:
 
 
 if __name__ == "__main__":
-    models = get_rank_diff_and_err(pickle.load(open("model-LL.p", "rb")), avg=True)
-    plot_cumulative_rank_diff(models, "models-LL-bar")
+    models = get_rank_diff_and_err(pickle.load(open("results/summary/turing-award-final.p", "rb")), avg=True)
+    plot_cumulative_rank_diff(models, "results/summary/turing_bar", error_bars=False)
     assert False
     vecs_path = "data/turing_winners/vecs-abstracts-ordered"
     for filename in os.listdir(vecs_path):
         if filename.endswith(".csv"):
-            if "Frederick" not in filename:
-                continue
             vecs_filename = f"{vecs_path}/{filename}"
             order_filename = f"{vecs_path}/{filename}"
             all_vecs_abs = get_attested_order(vecs_filename)
             emergence_order_abs = get_emergence_order(order_filename)
-            if "Frederick" in filename:
-                name_to_func = {
-                            "1NN": rank_on_1NN,
-                            "2NN": make_rank_on_knn(2),
-                            "3NN": make_rank_on_knn(3),
-                            "4NN": make_rank_on_knn(4),
-                            "5NN": make_rank_on_knn(5),
-                            "Prototype": rank_on_prototype,
-                            "Progenitor": rank_on_progenitor(all_vecs_abs[0]),
-                            "Exemplar": rank_on_exemplar,
+            
+            name_to_func = {
+                            #"1NN": rank_on_1NN,
+                            #"2NN": make_rank_on_knn(2),
+                            #"3NN": make_rank_on_knn(3),
+                            #"4NN": make_rank_on_knn(4),
+                            #"5NN": make_rank_on_knn(5),
+                            #"Prototype": rank_on_prototype,
+                            #"Progenitor": rank_on_progenitor(all_vecs_abs[0]),
+                            #"Exemplar": rank_on_exemplar,
                             "Local": rank_on_1NN
                             #"CRP": crp_model.rank_on_clusters
                         }
-            else:
-                name_to_func = {
-                    "2NN": make_rank_on_knn(2),
-                    "3NN": make_rank_on_knn(3),
-                    "4NN": make_rank_on_knn(4),
-                    "5NN": make_rank_on_knn(5)
-                }
+
             models = {}
             models_full_info = {}
             rank_errs = []
@@ -302,31 +322,30 @@ if __name__ == "__main__":
             model_order = {}
 
             for i, model in enumerate(name_to_func):
-                model_type = "local" if model == "Local" else "global"
-                error, rank_diff_per_timestep = predict_seq(
+                """model_type = "local" if model == "Local" else "global"
+                error, rank_diff_per_timestep, win_ratio = predict_seq(
                     all_vecs_abs,
                     emergence_order_abs,
                     name_to_func[model],
                     get_rank_score_avg,
                     ranking_type=model_type,
                 )
-                avg_cumulative_errs.append(error)
+                avg_cumulative_errs.append(error)"""
                 model_order[i] = model
 
-            pvals, rank_diff_avgs, yerrs = get_model_cumulative_rank_diff_multi(all_vecs_abs, emergence_order_abs, avg_cumulative_errs, vecs_filename, order_filename)
-            for i in range(len(avg_cumulative_errs)):
-                models[model_order[i]] = (rank_diff_avgs[i], yerrs[i])
-                models_full_info[model_order[i]] = (rank_diff_avgs[i], yerrs[i], pvals[i])
-            if "Adi-Shamir" in filename:
-                old_models = {}
-            else:
-                with open(f"data/pickled/abstracts/avg/{filename[:-4]}-avg-abs.p", "rb") as p_file:
-                    old_models = pickle.load(p_file)
+            pvals, win_ratios, yerrs, tvals = get_model_expected_rank_diff_multi(all_vecs_abs, emergence_order_abs, name_to_func, model_order, vecs_filename, order_filename)
+            print(win_ratios)
+            for i in range(len(win_ratios)):
+                models[model_order[i]] = (win_ratios[i], yerrs[i])
+                models_full_info[model_order[i]] = (win_ratios[i], yerrs[i], pvals[i], tvals[i])
+            
+            with open(f"data/pickled/abstracts/final/{filename[:-4]}.p", "rb") as p_file:
+                old_models = pickle.load(p_file)
             old_models.update(models_full_info)
-            with open(f"data/pickled/abstracts/avg/{filename[:-4]}-avg-abs.p", "wb") as p_file:
+            with open(f"data/pickled/abstracts/final/{filename[:-4]}.p", "wb") as p_file:
                 pickle.dump(old_models, p_file)
             
-            plot_cumulative_rank_diff(models, out_name=f"results/{filename[:-4]}-abstract-avg-NN")
+            plot_cumulative_rank_diff(models, out_name=f"results/{filename[:-4]}-final")
     assert False
 
     vecs_path = "data/turing_winners/vecs/"

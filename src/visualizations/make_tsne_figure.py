@@ -8,10 +8,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn
 from sklearn.manifold import TSNE
-#from torch.utils.tensorboard import SummaryWriter
+#from torch.utils.tensoPrboard import SummaryWriter
 #from torchvision import dat
 from mpl_toolkits.mplot3d import Axes3D
 import pandas as pd
+import json
+from pprint import pprint
 
 def select_subset(
     vecs_filepath: str,
@@ -42,6 +44,10 @@ def select_subset(
                 vecs_writer.writerow(vec_row)
                 labels_writer.writerow(label_row)
 
+def get_tsne_from_json(filepath: str) -> np.ndarray:
+    with open(filepath, "r") as f:
+        data = json.load(f)
+        pprint(data) 
 
 def plot_tsne(
     vecs: np.ndarray, years: np.ndarray, labels: np.ndarray, out_filename: str = "papers_tsne"
@@ -77,6 +83,8 @@ def plot_tsne(
     return tsne_res
 
 if __name__ == "__main__":
+    get_tsne_from_json("./results/tsne/tsne-res.txt")
+    assert False
     """select_subset(
         "hinton_paper_vectors.csv",
         "hinton_papers.csv",
@@ -91,4 +99,5 @@ if __name__ == "__main__":
         "./data/turing_winners/abstracts/geoff/Geoff-Hinton-abstract-labels-final.tsv", dtype="str", delimiter="\t", skip_header=1, usecols=(1)
     )
     print(data, years, labels)
-    plot_tsne(data, years, labels)
+    tsne_res = plot_tsne(data, years, labels)
+
