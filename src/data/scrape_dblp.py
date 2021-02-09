@@ -16,20 +16,19 @@ link_xpath = "//div[@class='box'][img[@title='Journal Articles' or @title='Confe
 timeout = 8
 scroll_pause_time = 0.25
 
-def scrape(affix: str, filename: str, get_abstracts: bool = False) -> None:
+def scrape(affix: str, filename: str, get_abstracts: bool = False, get_authorship: bool = False) -> None:
     req = requests.get(url + affix)
     data = req.text
     if get_abstracts:
         driver = webdriver.Chrome(executable_path="./chromedriver.exe")
         driver.get(url + affix)
-
-    driver.set_page_load_timeout(timeout)
+        driver.set_page_load_timeout(timeout)
 
     soup = BeautifulSoup(data, features="html.parser")
     entries = [e.find("cite", {"class": "data"}) for e in soup.findAll("li", {"class": ["article", "inproceedings"]})]
     papers = []
     abstracts = []
-   
+
     if get_abstracts:
         # Get the abstracts from a variety of third party websites
         footer = WebDriverWait(driver, timeout).until(
@@ -121,12 +120,22 @@ def scrape(affix: str, filename: str, get_abstracts: bool = False) -> None:
     for i, e in enumerate(entries):
         title = e.find("span", {"class": "title"}).text
         year = e.find("span", {"itemprop": "datePublished"}).text
+        if get_authorship:
+            coauthors = e.findAll("span", {"itemprop": "author"})
+            num_coauthors = len(coauthors)
+            for i, author in enumerate(coauthors):
+                if len(author.findAll("span", {"class": "this-person"})) > 0:
+                    author_index = i
+            primary_author = 1 if author_index == 0 or author_index == len(coauthors) - 1 else 0
+
         if year == []:
             year = driver.find_element_by_xpath(f"//span[contains(string(), {title})]/ancestor:li[contains(@class, 'entry')]/preceding-sibling::li[@class='year']").text
         if title == [] or year == []:
             continue
         if get_abstracts:
             papers.append((year, title, abstracts[i]))
+        elif get_authorship:
+            papers.append((year, title, num_coauthors, primary_author))
         else:
             papers.append((year, title))
     with open(filename, "w") as out:
@@ -134,7 +143,7 @@ def scrape(affix: str, filename: str, get_abstracts: bool = False) -> None:
         for row in papers:
             csv_out.writerow(row)
 
-def scrape_names(filename: str, out_path: str, get_abstracts=False) -> None:
+def scrape_names(filename: str, out_path: str, get_abstracts=False, get_authorship=False) -> None:
     with open(filename, "r") as name_file:
         reader = csv.reader(name_file)
         for line in reader:
@@ -146,8 +155,8 @@ def scrape_names(filename: str, out_path: str, get_abstracts=False) -> None:
             if os.path.exists(filename):
                 continue
 
-            scrape(affix, filename, get_abstracts)
+            scrape(affix, filename, get_abstracts, get_authorship)
 
 if __name__ == "__main__":
-    #scrape_names("data/turing_winners/turing_winners.txt", "data/turing_winners/abstracts", get_abstracts=True)
-    scrape("/b/Brooks_Jr=:Frederick_P=", "Frederick-P-Brooks-Jr-abstracts.csv", get_abstracts=True)
+    #scrape_names("data/turing_winners/turing_winners.txt", "data/turing_winners/authorship", get_abstracts=False, get_authorship=True)
+    scrape("/b/Brooks_Jr=:Frederick_P=", "data/turing_winners/authorship/Frederick-P-Brooks-Jr.csv", get_abstracts=False, get_authorship=True)
