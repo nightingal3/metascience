@@ -40,7 +40,8 @@ def get_scientist_papers(in_filename: str, out_dir: str, authorship_dir: str, au
         reader = csv.reader(in_file)
         for row in reader:
             if len(row) == 2:
-                scientist_id, name = row
+                name, scientist_id = row
+                #scientist_id, name = row
             else:
                 scientist_id = row[0]
 
@@ -54,11 +55,33 @@ def get_scientist_papers(in_filename: str, out_dir: str, authorship_dir: str, au
                     continue
                 get_all_papers(scientist_id, f"{out_dir}/{name}.csv", f"{authorship_dir}/{name}.csv", authorship_only)
             else:
-                if os.path.isfile(f"{authorship_dir}/{name}.csv"):
+                if os.path.isfile(f"{authorship_dir}/{scientist_id}.csv"):
                     print("Already done")
                     continue
-                get_all_papers(scientist_id, f"{out_dir}/{name}.csv", f"{authorship_dir}/{name}.csv", authorship_only)         
-           
+                get_all_papers(scientist_id, f"{out_dir}/{scientist_id}.csv", f"{authorship_dir}/{scientist_id}.csv", authorship_only)     
+
+def get_selected_scientist_papers(sbert_dir: str, out_dir: str) -> None:
+    done_files = list(os.listdir(out_dir))
+    for filename in os.listdir(sbert_dir):
+        if filename.endswith(".csv"):
+            scientist_id = filename[:-4]
+            print(scientist_id)
+
+            if filename in done_files:
+                print("Already done")
+                continue
+
+            get_all_papers(scientist_id, f"{out_dir}/abstracts/{scientist_id}.csv", f"{out_dir}/{scientist_id}.csv", authorship_only=True)
+
+
+def delete_nonselected_papers(sbert_dir: str, out_dir: str) -> None:
+    selected_files = list(os.listdir(sbert_dir))
+    for filename in os.listdir(out_dir):
+        if filename.endswith(".csv"):
+            full_path = os.path.join(out_dir, filename)
+            if filename not in selected_files:
+                os.remove(full_path)
+
 
 def get_all_papers(scientist_id: str, filename: str, authorship_filename: str, authorship_only: bool = False) -> None:
     author_url = "https://api.semanticscholar.org/v1/author/" + scientist_id
@@ -116,6 +139,8 @@ def get_paper_info(paper_id: str, author_id: str) -> List:
     try:
         req = requests.get(paper_url).json()
         if "message" in req:
+            if req["message"] == "Internal server error" or req["message"] == "Endpoint request timed out":
+                return ["", 0, 0]
             time.sleep(30)
             abstract = get_paper_info(paper_id, author_id)
         if "abstract" not in req or req["abstract"] is None:
@@ -143,11 +168,16 @@ def criterion(paper_list: List) -> bool:
 
 
 if __name__ == "__main__":
-    #et_scientist_papers("./data/nobel_winners/random_biologists.txt", "./data/nobel_winners/medicine/random-sample/abstracts", "./data/nobel_winners/medicine/random-sample/authorship")
-    #
-    # 
-    get_scientist_papers("./data/nobel_winners/chemistry/name_to_id.csv", "./data/nobel_winners/chemistry/authorship/abstracts", "./data/nobel_winners/chemistry/authorship")
-    #get_all_papers("1783659", "data/nobel_winners/chemistry/authorship/abstracts/Aaron Ciechanover.csv", "data/nobel_winners/chemistry/authorship/Aaron Ciechanover.csv")
+    field = "physics"
+    #delete_nonselected_papers(f"data/nobel_winners/chemistry/random-sample/sbert-abstracts-ordered", f"data/nobel_winners/chemistry/random-sample/authorship")
+
+    #delete_nonselected_papers(f"data/nobel_winners/{field}/random-sample/sbert-abstracts-ordered", f"data/nobel_winners/{field}/random-sample/authorship")
+    #get_scientist_papers("./data/nobel_winners/random_biologists.txt", "./data/nobel_winners/physics/random-sample/abstracts", "./data/nobel_winners/physics/random-sample/authorship")
+    #get_selected_scientist_papers(f"data/nobel_winners/{field}/random-sample/sbert-abstracts-ordered", f"data/nobel_winners/{field}/random-sample/authorship")
+    #get_selected_scientist_papers(f"data/nobel_winners/chemistry/random-sample/sbert-abstracts-ordered", f"data/nobel_winners/chemistry/random-sample/authorship")
+
+    get_scientist_papers("./data/nobel_winners/medicine/name_to_id.csv", "./data/nobel_winners/medicine/abstracts-fixed", "./data/nobel_winners/medicine/authorship-fixed")
+    #get_all_papers("50702974", "data/nobel_winners/physics/authorship/abstracts/Albert Einstein 2.csv", "data/nobel_winners/chemistry/authorship/Albert Einstein 2.csv")
 
 
     

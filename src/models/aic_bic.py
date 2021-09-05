@@ -11,13 +11,20 @@ def calc_bic(N: int, log_L: float, num_params: int) -> float:
     return -2 * log_L + np.log(N) * num_params
 
 def calc_aic_bic_individuals(model_data: dict) -> tuple:
-    del model_data["2NN"]
-    del model_data["3NN"]
-    del model_data["4NN"]
-    del model_data["5NN"]
-    del model_data["Exemplar (s=0.001)"]
-    del model_data["Exemplar (s=0.1)"]
-    del model_data["Exemplar (s=1)"]
+    if "2NN" in model_data:
+        del model_data["2NN"]
+    if "3NN" in model_data:
+        del model_data["3NN"]
+    if "4NN" in model_data:
+        del model_data["4NN"]
+    if "5NN" in model_data:
+        del model_data["5NN"]
+    if "Exemplar (s=0.001)" in model_data:
+        del model_data["Exemplar (s=0.001)"]
+    if "Exemplar (s=0.1)" in model_data:
+        del model_data["Exemplar (s=0.1)"]
+    if "Exemplar (s=1)" in model_data:
+        del model_data["Exemplar (s=1)"]
 
     individual_aic = {}
     individual_bic = {}
@@ -25,9 +32,13 @@ def calc_aic_bic_individuals(model_data: dict) -> tuple:
         null_LL = model_data["Null"][name]
         num_papers = model_data["1NN"][name][1]
 
+        if num_papers < 5:
+            continue
+
         model_LL = {model_name: model_data[model_name][name][0] + null_LL for model_name in model_data if model_name != "Null"}
         aic = {model_name: calc_aic(num_papers, LL, 0) for model_name, LL in model_LL.items() if "Exemplar" not in model_name}
         aic["Exemplar"] = calc_aic(num_papers, model_LL["Exemplar"], 1)
+        aic["Null"] = calc_aic(num_papers, null_LL, 0)
         #aic["Exemplar (s=0.001)"] = calc_aic(num_papers, model_LL["Exemplar (s=0.001)"], 1)
         #aic["Exemplar (s=0.1)"] = calc_aic(num_papers, model_LL["Exemplar (s=0.1)"], 1)
         #aic["Exemplar (s=1)"] = calc_aic(num_papers, model_LL["Exemplar (s=1)"], 1)
@@ -35,6 +46,8 @@ def calc_aic_bic_individuals(model_data: dict) -> tuple:
 
         bic = {model_name: calc_bic(num_papers, LL, 0) for model_name, LL in model_LL.items() if "Exemplar" not in model_name}
         bic["Exemplar"] = calc_bic(num_papers, model_LL["Exemplar"], 1)
+        bic["Null"] = calc_bic(num_papers, null_LL, 0)
+
         #bic["Exemplar (s=0.001)"] = calc_bic(num_papers, model_LL["Exemplar (s=0.001)"], 1)
         #bic["Exemplar (s=0.1)"] = calc_bic(num_papers, model_LL["Exemplar (s=0.1)"], 1)
         #bic["Exemplar (s=1)"] = calc_bic(num_papers, model_LL["Exemplar (s=1)"], 1)
@@ -58,10 +71,14 @@ def get_best_model_individual(individual_data: dict) -> dict:
 
 
 def calc_aic_bic_overall(model_data: dict) -> dict:
-    del model_data["2NN"]
-    del model_data["3NN"]
-    del model_data["4NN"]
-    del model_data["5NN"]
+    if "2NN" in model_data:
+        del model_data["2NN"]
+    if "3NN" in model_data:
+        del model_data["3NN"]
+    if "4NN" in model_data:
+        del model_data["4NN"]
+    if "5NN" in model_data:
+        del model_data["5NN"]
 
     aic = {}
     bic = {}
@@ -87,13 +104,17 @@ def calc_aic_bic_overall(model_data: dict) -> dict:
     return aic, bic
 
 if __name__ == "__main__":
-    field = "chemistry"
-    model_data = pickle.load(open(f"results/full-2/{field}.p", "rb"))
+    field = "medicine"
+    num_authors = 2
+    #model_data = pickle.load(open(f"results/full-2/{field}.p", "rb"))
+    model_data = pickle.load(open(f"results/summary/k-author/authorship-{field}-{num_authors}.p", "rb"))
+    #model_data = pickle.load(open(f"results/summary/k-author/authorship-{field}-{num_authors}.p", "rb"))
     aic, bic = calc_aic_bic_individuals(model_data)
     aic_individual = get_best_model_individual(aic)
     bic_individual = get_best_model_individual(bic)
-    make_pie_chart(aic_individual, include_null=False, len_included=False, filename=f"aic-{field}-2")
-    make_pie_chart(bic_individual, include_null=False, len_included=False, filename=f"bic-{field}-2")
+
+    make_pie_chart(aic_individual, include_null=True, len_included=False, filename=f"aic-{field}-{num_authors}")
+    make_pie_chart(bic_individual, include_null=True, len_included=False, filename=f"bic-{field}-{num_authors}")
     #print(aic)
     #print(bic)
     #print(get_best_model_individual(bic))

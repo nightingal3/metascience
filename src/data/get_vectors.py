@@ -59,7 +59,6 @@ def preproc_pubs(filename: str, stop_words: list, lemmatizer: WordNetLemmatizer,
             else:
                 if authorship:
                     title_ch, rest = row[0], row[1:]
-                    pdb.set_trace()
                 else:
                     year, title_ch, rest = row[0], row[1], row[2:]
                 try:
@@ -118,17 +117,15 @@ def get_author_labels(titles_filename: str, authorship_filename: str, out_filena
 
     merged = pd.merge(titles, authors, left_on=1, right_on=0, how="left")
     #merged = merged[[0, 1, "2_y", "3_y"]]
-    #pdb.set_trace()
     merged = merged[["0_x", 1, "1_y", "2_y", "2_x"]]
 
-    merged = merged.dropna(subset=["0_x", "1_y", "2_y"])
-    merged = merged[merged["1_y"] != 0] # 0 authors = couldn't find info
-    merged["1_y"] = merged["1_y"].dropna()
+    merged = merged.dropna(subset=["0_x", 1, "1_y", "2_y", "2_x"])
+    merged = merged[merged["2_y"] != 0] # 0 authors = couldn't find info
     merged["2_y"] = merged["2_y"].dropna()
 
     merged["0_x"] = merged["0_x"].astype(int)
-    merged["1_y"] = merged["1_y"].astype(int)
     merged["2_y"] = merged["2_y"].astype(int)
+    merged["1_y"] = merged["1_y"].astype(int)
 
     merged.to_csv(out_filename, header=False, index_label=False, index=False)
 
@@ -349,7 +346,10 @@ def get_author_labels_in_dir(titles_dir: str, authors_dir: str, out_dir: str) ->
             authors = os.path.join(authors_dir, filename)
             out = os.path.join(out_dir, filename)
             if os.path.isfile(titles) and os.path.isfile(authors):
-                get_author_labels(titles, authors, out)
+                try:
+                    get_author_labels(titles, authors, out)
+                except:
+                    continue
 
 def join_csv_cols_in_dir(dir1: str, dir2: str, out_dir: str) -> None:
     for filename in os.listdir(dir1):
@@ -360,23 +360,23 @@ def join_csv_cols_in_dir(dir1: str, dir2: str, out_dir: str) -> None:
             join_csv_cols(file1, file2, 2, 2, out)
 
 if __name__ == "__main__":
-    #join_csv_cols("data/others/sbert-abstracts/Yang-Xu.csv", "data/others/vecs-titles-w-labels/Yang-Xu.csv", 2, 1, "data/others/sbert-abstracts-vs-fasttext-titles/Yang-Xu.csv")
-    #assert False
     """join_csv_cols_in_dir("data/turing_winners/sbert-titles/", "data/turing_winners/sbert-abstracts", "data/turing_winners/sbert-titles-and-abstracts/")
     assert False
     split_in_dir("data/turing_winners/sbert-abstracts", "data/turing_winners/sbert-labels", "data/turing_winners/sbert-vecs-only", multicols=True)
     make_tsv_files_in_dir("data/turing_winners/sbert-labels", "data/turing_winners/sbert-vecs-only", "data/turing_winners/sbert-labels-tsv", "data/turing_winners/sbert-vecs-tsv")
     assert False"""
     
-    #join_cells_in_dir("./data/nobel_winners/chemistry/sbert-abstracts/", "./data/nobel_winners/chemistry/sbert-abstracts-2")
+    join_cells_in_dir("./data/nobel_winners/chemistry/sbert-abstracts/", "./data/nobel_winners/chemistry/sbert-abstracts-2")
+    #join_cells("data/nobel_winners/physics/einstein/sbert-vecs-ordered.csv", "data/nobel_winners/physics/einstein/sbert-vecs-ordered-2.csv")
+    #assert False
     #rename_files("data/nobel_winners/physics/name_to_id.csv", "data/nobel_winners/physics/authorship")
-    get_author_labels_in_dir("data/nobel_winners/chemistry/sbert-abstracts-2", "data/nobel_winners/chemistry/authorship", "data/nobel_winners/chemistry/sbert-labels-and-authors")
+    get_author_labels_in_dir("data/nobel_winners/chemistry/sbert-abstracts-2", "data/nobel_winners/chemistry/authorship-fixed", "data/nobel_winners/chemistry/sbert-labels-and-authors")
     assert False
     #get_author_labels("data/turing_winners/vecs-abstracts-w-labels/abstract-labels/Adi-Shamir.csv", "data/turing_winners/authorship/Adi-Shamir.csv", "data/turing_winners/vecs-abstracts-w-labels/labels-and-authors/Adi-Shamir.csv")
     #split_file("./data/turing_winners/abstracts/geoff/Geoff-Hinton-abstract-vecs-final.csv", "./data/turing_winners/abstracts/geoff/Geoff-Hinton-abstract-vecs-labels-final.csv", "./data/turing_winners/abstracts/geoff/Geoff-Hinton-abstract-vecs-300-final.csv")
     lemmatizer = WordNetLemmatizer()
     stopwords = stopwords.words("english")
     #vecs = load_vectors("./data/external/wiki-news-300d-1M.vec")
-    clean_all_in_dir("./data/nobel_winners/chemistry/authorship", "./data/nobel_winners/chemistry/authorship-cleaned", stopwords, lemmatizer, get_abstract=False, authorship=True)
+    clean_all_in_dir("./data/nobel_winners/medicine/abstracts_filtered_year", "./data/nobel_winners/medicine/abstracts-cleaned", stopwords, lemmatizer, get_abstract=True, authorship=False)
     #make_pubs_vectors("./data/others/abstracts/geoff/Geoff-Hinton-cleaned.csv", vecs, "./data/turing_winners/abstracts/geoff/Geoff-Hinton-abstract-vecs-final.csv", has_abstract=True, abstract_only=True)
-    #smake_pubs_vectors_in_dir("./data/others/abstracts-cleaned", "./data/others/vecs-titles-w-labels", vecs, has_abstract=True, abstract_only=False)
+    #make_pubs_vectors_in_dir("./data/nobel_winners/physics/abstracts-cleaned", "./data/nobel_winners/physics/vecs-titles-w-labels", vecs, has_abstract=True, abstract_only=False)

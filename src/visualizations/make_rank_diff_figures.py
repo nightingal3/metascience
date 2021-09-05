@@ -16,7 +16,6 @@ import matplotlib.patches as mpatches
 
 from src.models.predict import *
 from src.models.ranking_functions import *
-from src.models.chinese_restaurant import *
 
 def get_model_cumulative_rank_diff(
     all_vecs: List,
@@ -89,38 +88,60 @@ def get_model_expected_rank_diff_multi(
 
 def get_rank_diff_and_err(models: dict, avg: bool = True) -> dict:
     out_models = {}
+    models_rank_diff = {}
     for model in models:
+        if model.lower() == "null":
+            continue
         rank_diffs = []
         for scientist in models[model]:
             if isinstance(models[model][scientist], tuple):
                 rank_diffs.append(models[model][scientist][0])
             else:
                 rank_diffs.append(models[model][scientist])
+        
+        models_rank_diff[model] = rank_diffs
         if avg: 
             avg_rank_diff = sum(rank_diffs) / len(rank_diffs)
-        ci = 1.96 * (statistics.stdev(rank_diffs) / np.sqrt(len(rank_diffs)))
+        ci = statistics.stdev(rank_diffs) / np.sqrt(len(rank_diffs))
         if avg:
-            out_models[model] = (avg_rank_diff, 2 * ci)
+            out_models[model] = (avg_rank_diff, ci)
         else:
-            out_models[model] = (rank_diffs, 2 * ci)
+            out_models[model] = (rank_diffs, ci)
         t_stat, p_val = st.ttest_1samp(rank_diffs, 0)
-        print(f"{model}: ({t_stat}, {p_val})")
-    return out_models
+        print(f"{model}: avg rank diff, {avg_rank_diff} ({t_stat}, {p_val})")
 
+    return out_models, models_rank_diff
+
+def mannwhitneyu_test(models_rank_diff: dict) -> dict:
+    res = {}
+    for model in models_rank_diff:
+        if model == "exemplar":
+            continue
+        res[model] = st.mannwhitneyu(models_rank_diff["exemplar"], models_rank_diff[model])
+
+    return res
+        
 
 def plot_cumulative_rank_diff(models: dict, out_name: str, error_bars: bool = True) -> None:
+    # order = {
+    #     "1NN": 0,
+    #     "2NN": 1,
+    #     "3NN": 2,
+    #     "4NN": 3,
+    #     "5NN": 4, 
+    #     "Progenitor": 5,
+    #     "Prototype": 6,
+    #     "Exemplar": 7,
+    #     "Exemplar (s=1)": 8,
+    #     "Local": 9,
+    #     "Null": 10
+    # }
     order = {
-        "1NN": 0,
-        "2NN": 1,
-        "3NN": 2,
-        "4NN": 3,
-        "5NN": 4, 
-        "Progenitor": 5,
-        "Prototype": 6,
-        "Exemplar": 7,
-        "Exemplar (s=1)": 8,
-        "Local": 9,
-        "Null": 10
+        "kNN": 0,
+        "prototype": 1, 
+        "progenitor": 2,
+        "exemplar": 3,
+        "local": 4
     }
     xlabels = []
 
@@ -133,13 +154,13 @@ def plot_cumulative_rank_diff(models: dict, out_name: str, error_bars: bool = Tr
 
     #plt.legend(loc='upper center', bbox_to_anchor=(1.62, 0.9), fontsize=10)
     #plt.legend(loc="best", fontsize=12)
-    plt.xticks([i for i in range(len(order))], xlabels, rotation=45, fontsize=12)
-    plt.ylabel("Log-likelihood difference ratio\nagainst null", fontsize=16)
-    plt.yticks(fontsize=12)
+    plt.xticks([i for i in range(len(order))], xlabels, rotation=45, fontsize=20)
+    plt.ylabel("Log-likelihood difference\nratio against null", fontsize=20)
+    plt.yticks(fontsize=18)
     plt.tight_layout()
     plt.plot()
-    plt.savefig(out_name + "_rank_diff.png")
-    plt.savefig(out_name + "_rank_diff.eps")
+    plt.savefig(out_name + "_rank_diff.png", dpi=400)
+    plt.savefig(out_name + "_rank_diff.eps", dpi=400)
     plt.gcf().clear()
 
 
@@ -291,8 +312,10 @@ def run_all(vecs_path: str, order_path: str) -> None:
 
 
 if __name__ == "__main__":
-    models = get_rank_diff_and_err(pickle.load(open("results/summary/turing-award-final.p", "rb")), avg=True)
-    plot_cumulative_rank_diff(models, "results/summary/turing_bar", error_bars=False)
+    models, model_results = get_rank_diff_and_err(pickle.load(open("results/full-fixed/physics-random.p", "rb")), avg=True)
+    print(mannwhitneyu_test(model_results))
+    assert False
+    plot_cumulative_rank_diff(models, "phys-bar-fixed", error_bars=True)
     assert False
     vecs_path = "data/turing_winners/vecs-abstracts-ordered"
     for filename in os.listdir(vecs_path):

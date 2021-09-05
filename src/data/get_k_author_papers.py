@@ -19,7 +19,8 @@ def get_k_author_papers(k: int, authors_filename, vectors_filename, out_filename
 
     k_author_vecs.to_csv(out_filename, header=False, index=False)
 
-def get_k_author_papers_same_file(k: int, filename: str, out_filename: str) -> None:
+def get_k_author_papers_same_fi
+le(k: int, filename: str, out_filename: str) -> None:
     df = pd.read_csv()
 
 def get_all_first_author_papers_dir(authors_dir: str, vecs_dir: str, out_dir: str) -> None:

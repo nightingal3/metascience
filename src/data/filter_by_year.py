@@ -74,7 +74,10 @@ def filter_all_names(paper_dir: str, names_filename: str, out_dir: str) -> None:
         out_filename = f"{out_dir}/{name}.csv"
 
         if os.path.isfile(scientist_filename):
-            df = pd.read_csv(scientist_filename, header=None)
+            try:
+                df = pd.read_csv(scientist_filename, header=None)
+            except pd.errors.EmptyDataError:
+                continue
             df.columns = [i for i in range(len(df.columns))]
             filtered_df = filter_by_year(df, birth_year, death_year, 0)
             if filtered_df.empty:
@@ -88,6 +91,6 @@ def filter_by_year(df: pd.DataFrame, filter_start_year: int, filter_end_year: in
 
 
 if __name__ == "__main__":
-    url = "https://en.wikipedia.org/wiki/List_of_Nobel_Memorial_Prize_laureates_in_Economics"
-    filter_all_names("./data/nobel_winners/cogsci/abstracts", "./data/nobel_winners/cogsci/birth_death_dates.csv", "./data/nobel_winners/cogsci/abstracts_filtered_year")
+    #url = "https://en.wikipedia.org/wiki/List_of_Nobel_Memorial_Prize_laureates_in_Economics"
+    filter_all_names("./data/nobel_winners/physics/abstracts-fixed", "./data/nobel_winners/physics/birth_death_dates.csv", "./data/nobel_winners/physics/abstracts_filtered_year")
     #scrape_birth_death_years(url, "./data/nobel_winners/economics/birth_death_dates.csv")

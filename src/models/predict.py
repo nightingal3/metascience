@@ -40,30 +40,32 @@ def get_attested_order(vecs_filename: str, vecs_col: int = 1, label: bool = Fals
                     else:
                         rev_order.append(row[vecs_col])
         return rev_order[::-1]        
+        
+def make_rank_on_1NN(s: float) -> Callable:
+    def rank_on_1NN(emerged: List, unemerged: List, keep_sim: bool = False, dist="nbhd") -> List:
+        closest = {tuple(vec): 0 for vec in unemerged}
 
-def rank_on_1NN(emerged: List, unemerged: List, keep_sim: bool = False, dist="nbhd") -> List:
-    closest = {tuple(vec): 0 for vec in unemerged}
+        for emerged_vec in emerged:
+            for candidate_vec in unemerged:
+                sim = get_sim(emerged_vec, candidate_vec, dist=dist)
+                if sim > closest[tuple(candidate_vec)]:
+                    closest[tuple(candidate_vec)] = sim[0][0]
 
-    for emerged_vec in emerged:
-        for candidate_vec in unemerged:
-            sim = get_sim(emerged_vec, candidate_vec, dist=dist)
-            if sim > closest[tuple(candidate_vec)]:
-                closest[tuple(candidate_vec)] = sim[0][0]
-
-    if keep_sim:
-        return [
-            list(item)
-            for item in sorted(
-                [item for item in closest.items()], key=lambda x: x[1], reverse=True
-            )
-        ]
-    else:
-        return [
-            list(item[0])
-            for item in sorted(
-                [item for item in closest.items()], key=lambda x: x[1], reverse=True
-            )
-        ]
+        if keep_sim:
+            return [
+                list(item)
+                for item in sorted(
+                    [item for item in closest.items()], key=lambda x: x[1], reverse=True
+                )
+            ]
+        else:
+            return [
+                list(item[0])
+                for item in sorted(
+                    [item for item in closest.items()], key=lambda x: x[1], reverse=True
+                )
+            ]
+    return rank_on_1NN
 
 def make_rank_on_knn(k: int) -> Callable:
     curr_iter = 0
@@ -77,16 +79,16 @@ def make_rank_on_knn(k: int) -> Callable:
             curr_iter += 1
 
         closest = {tuple(vec): 0 for vec in unemerged}
-        curr_k = min(k, curr_iter)
+        curr_k = min(k, curr_iter - 1)
 
         for candidate_vec in unemerged:
             sim_sum = 0
             if dist == "nbhd":
                 #dist_func = lambda u, v: -np.exp(-(distance.euclidean(u, v) ** 2))
                 dist_func = lambda u, v: -np.exp(-(distance.euclidean(u, v)))
-                closest_vecs = np.argpartition(distance.cdist(np.array([candidate_vec]), np.asarray(emerged), metric=dist_func), curr_k - 1)[0][:curr_k]
+                closest_vecs = np.argpartition(distance.cdist(np.array([candidate_vec]), np.asarray(emerged), metric=dist_func), curr_k)[0][:curr_k]
             else:
-                closest_vecs = np.argpartition(distance.cdist(np.array([candidate_vec]), np.asarray(emerged), metric=dist), curr_k - 1)[0][:curr_k]
+                closest_vecs = np.argpartition(distance.cdist(np.array([candidate_vec]), np.asarray(emerged), metric=dist), curr_k)[0][:curr_k]
 
             #print("closest: ", closest_vecs)
             for vec_ind in closest_vecs:
@@ -114,41 +116,41 @@ def make_rank_on_knn(k: int) -> Callable:
     return rank_on_knn
 
 
-# Rank on local is implemented by limiting the emerged list to points that emerged at the last timestep
-def rank_on_prototype(emerged: List, unemerged: List, keep_sim: bool = False, dist="nbhd") -> List:
-    closest = {tuple(vec): 0 for vec in unemerged}
+def make_rank_on_prototype(s: float) -> Callable: 
+    def rank_on_prototype(emerged: List, unemerged: List, keep_sim: bool = False, dist="nbhd", s: float = 1.0) -> List:
+        closest = {tuple(vec): 0 for vec in unemerged}
 
-    proto_vec = get_prototype(emerged)
-    for candidate_vec in unemerged:
-        sim = get_sim(candidate_vec, proto_vec, dist=dist)
-        closest[tuple(candidate_vec)] = sim[0][0]
+        proto_vec = get_prototype(emerged)
+        for candidate_vec in unemerged:
+            sim = get_sim(candidate_vec, proto_vec, dist=dist, s=s)
+            closest[tuple(candidate_vec)] = sim[0][0]
 
-    if keep_sim: 
+        if keep_sim: 
+            return [
+                list(item)
+                for item in sorted(
+                    [item for item in closest.items()], key=lambda x: x[1], reverse=True
+                )
+            ]
         return [
-            list(item)
+            list(item[0])
             for item in sorted(
                 [item for item in closest.items()], key=lambda x: x[1], reverse=True
             )
         ]
-    return [
-        list(item[0])
-        for item in sorted(
-            [item for item in closest.items()], key=lambda x: x[1], reverse=True
-        )
-    ]
-
+    return rank_on_prototype
 
 def get_prototype(vecs: List) -> List:
     sum_vec = reduce(np.add, vecs)
     return np.divide(sum_vec, len(vecs))
 
 
-def rank_on_progenitor(progenitor_list: List) -> Callable:
+def rank_on_progenitor(progenitor_list: List, s: float = 1.0) -> Callable:
     def rank(emerged: List, unemerged: List, keep_sim: bool = False, dist="nbhd") -> List:
         closest = {tuple(vec): 0 for vec in unemerged}
         for vec in unemerged:
             for progenitor in progenitor_list:
-                sim = get_sim(progenitor, vec, dist=dist)
+                sim = get_sim(progenitor, vec, dist=dist, s=s)
                 closest[tuple(vec)] = sim[0][0]
 
         if keep_sim:
@@ -224,8 +226,6 @@ def get_sim(vec_1: List, vec_2: List, dist="nbhd", s=1.0) -> float:
     vec_1 = np.asarray(vec_1).reshape(1, -1)
     vec_2 = np.asarray(vec_2).reshape(1, -1)
     if dist == "cosine":
-        #if metrics.pairwise.cosine_similarity(np.asarray(vec_1).reshape(1, -1), np.asarray(vec_2).reshape(1, -1)) > 10:
-            #pdb.set_trace()
         return metrics.pairwise.cosine_similarity(
             vec_1, vec_2
         )
@@ -591,6 +591,54 @@ def get_probability_score(emergence_order: dict, all_vecs: dict, ranking_func: C
 
     return log_L, emerged_papers, tails
 
+def get_probability_score_crp(emergence_order: dict, all_vecs: dict, crp_model: Generic, return_log_L_only: bool = False, suppress_print: bool = False) -> tuple:
+    last_timestep = max(emergence_order.keys())
+    log_L = 0
+    emerged_papers = []
+
+    if not suppress_print:
+        print("TOTAL PAPERS: ", len(all_vecs))
+    for t in range(last_timestep):
+        #print("TIMESTEP: ", t)
+        curr_papers = emergence_order[t]
+        if t != 0:
+            crp_model.update_clusters(curr_papers, len(curr_papers))
+
+        #print("curr papers: ", len(curr_papers))
+        next_papers = emergence_order[t + 1]
+        emerged_papers.extend(curr_papers)
+        last_papers = emerged_papers
+      
+        available_papers = all_vecs[:]
+        for paper in emerged_papers:
+            available_papers.remove(
+                list(paper)
+            )  # Not using list comprehension so duplicates are preserved
+
+        pred_and_sim = crp_model.rank_on_clusters_custom(available_papers)
+        pred, sim = zip(*pred_and_sim)
+
+        #sim_softmax = [prob / sum(sim) for prob in sim]
+        sim_softmax = softmax(sim)
+
+        for vec in next_papers:
+            #pdb.set_trace()
+            next_indices = [pred.index(v) for v in next_papers]
+            found_index = pred.index(vec)
+
+            next_indices = [i for i in next_indices if i != found_index]
+            sim_others_excluded = [prob if i not in next_indices else 0 for i, prob in enumerate(sim_softmax)]
+            sim_others_excluded = [prob/sum(sim_others_excluded) for prob in sim_others_excluded]
+            #print(f"{found_index}: {sim_others_excluded[found_index]}, len: {len([i for i in sim_others_excluded if i != 0])}") 
+            #if sim_others_excluded[found_index] == 0:
+                #pdb.set_trace()
+            log_L += np.log(sim_others_excluded[found_index])
+
+    if return_log_L_only:
+        return log_L
+
+    return log_L, emerged_papers, tails
+
 def get_probability_rand(emergence_order: dict) -> float:
     """ Returns a fixed probability for a predicted sequence based on the number
     papers emerging at each timestep. 
@@ -599,9 +647,12 @@ def get_probability_rand(emergence_order: dict) -> float:
     timesteps = make_timesteps(emergence_order)
     log_L = 0
     denom = sum(timesteps[1:])
-    for timestep in timesteps[1:]:
+    for ii, timestep in enumerate(timesteps[1:]):
+        #print(f"TIMESTEP: {ii}, available papers: {denom}, papers to predict: {timestep}")
+        #print("len others excluded: ", denom - timestep + 1)
         for i in range(timestep):
-            log_L += np.log(1 / (denom - timestep + timesteps[0]))
+            #print("prob: ", 1 / (denom - timestep + 1))
+            log_L += np.log(1 / (denom - timestep + 1))
             #print("val: ", 1/(denom - timestep + 1) , " denom: ", denom - timestep + 1)
         denom -= timestep
     return log_L
@@ -896,7 +947,7 @@ def main(domain: str, field: str, measure: str, cv: bool, shuffle: bool, shuffle
     if shuffle_emergence_order == False:
         num_shuffle = 1
     else:
-        num_shuffle = 3
+        num_shuffle = 100
 
     if domain == "turing":
         vecs_path = f"data/turing_winners/sbert-abstracts-ordered"
@@ -967,76 +1018,107 @@ def main(domain: str, field: str, measure: str, cv: bool, shuffle: bool, shuffle
                 fold_train_inds[i].extend(train_inds)
 
     elif use_individual and not shuffle:
-        out_path = f"results/full/{field}.p"
+        #vecs_path = "data/turing_winners/sbert-first-author-only-ordered"
+        #order_path = vecs_path
+        out_path = f"results/summary/full/{field}.p"
 
+       
         models = {
-            "1NN": {},
-            "2NN": {},
-            "3NN": {},
-            "4NN": {},
-            "5NN": {},
-            "Prototype": {},
-            "Progenitor": {},
-            "Exemplar": {},
-            #"Exemplar (s=1)": {},
-            #"Exemplar (s=0.001)": {},
-            #"Exemplar (s=0.1)": {},
-            "Local": {},
+            "kNN": {},
+            "prototype": {},
+            "progenitor": {},
+            "exemplar": {},
+            "local": {},
             "Null": {}
         }
+            
         if field == "cs":
             individual_s_val_path = "data/turing_winners/individual-s-vals"
             individual_out_path = "data/turing_winners/pickled-full"
         else:
             individual_s_val_path = f"data/nobel_winners/{field}/individual-s-vals"
             individual_out_path = f"data/nobel_winners/{field}/pickled-full"
-            
-        for i, filename in enumerate(os.listdir(individual_s_val_path)):
+
+        if "random" in field:
+            vecs_path = f"data/nobel_winners/{field}/sbert-abstracts-ordered"
+            order_path = vecs_path
+        
+        for i, filename in enumerate(os.listdir(f"{individual_s_val_path}/exemplar")):
             if filename.endswith(".p"):
-                print(filename)
+                if field == "cs":
+                    print(filename[:-2])
+                else:
+                    print(filename[:-11])
+
 
             res = {}
-            scientist_name = filename[:-2]
+            
+            if field == "cs":
+                scientist_name = filename[:-2]
+            else:
+                scientist_name = filename[:-11]
             csv_name = f"{scientist_name}.csv"
             vecs_filename = os.path.join(vecs_path, csv_name)
             order_filename = os.path.join(order_path, csv_name)
             out_filename = os.path.join(individual_out_path, filename)
-                        
+            
+            if not os.path.exists(vecs_filename):
+                continue
 
             all_vecs = get_attested_order(vecs_filename, vecs_col=2, multicols=True)
             emergence_order = get_emergence_order(order_filename, vecs_col=2, multicols=True)
 
-            if os.path.exists(out_filename):
-                with open(out_filename, "rb") as done_f:
-                    done_models = pickle.load(done_f)
-                    for model in done_models:
-                        models[model][scientist_name] = done_models[model]
-                ll_rand = get_probability_rand(emergence_order)
-                models["Null"][scientist_name] = ll_rand
-                print("Already done this scientist")
+            if len(all_vecs) < 5:
                 continue
 
-            scientist_s_val_path = os.path.join(individual_s_val_path, filename)
-            with open(scientist_s_val_path, "rb") as s_file:
-                try:
-                    s_val = float(pickle.load(s_file)["s"])
-                except:
-                    print("Could not read s-val file")
+            # if os.path.exists(out_filename):
+            #     with open(out_filename, "rb") as done_f:
+            #         done_models = pickle.load(done_f)
+            #         for model in done_models:
+            #             models[model][scientist_name] = done_models[model]
+            #     ll_rand = get_probability_rand(emergence_order)
+            #     models["Null"][scientist_name] = ll_rand
+            #     print("Already done this scientist")
+            #     continue
+            model_s_vals = {}
+            unreadable = False
+            
+            for model_name in models:
+                if model_name == "Null":
                     continue
-
+                if model_name != "exemplar":
+                    scientist_s_val_path = os.path.join(individual_s_val_path, f"{model_name}/{scientist_name}-{model_name}.p")
+                else:
+                    scientist_s_val_path = os.path.join(individual_s_val_path, f"{model_name}/{filename}")
+                if not os.path.exists(scientist_s_val_path):
+                    continue
+                with open(scientist_s_val_path, "rb") as s_file:
+                    try:
+                        if model_name != "kNN":
+                            s_val = float(pickle.load(s_file)["s"])
+                        else:
+                            s_val = int(pickle.load(s_file)["s"])
+                        model_s_vals[model_name] = s_val
+                    except:
+                        print("Could not read s-val file")
+                        unreadable = True
+            
+            if unreadable: 
+                continue
+            
             name_to_model = {
-                "1NN": rank_on_1NN,
-                "2NN": make_rank_on_knn(2),
-                "3NN": make_rank_on_knn(3),
-                "4NN": make_rank_on_knn(4),
-                "5NN": make_rank_on_knn(5),
-                "Prototype": rank_on_prototype,
-                "Progenitor": rank_on_progenitor(emergence_order[0]),
-                "Exemplar": make_rank_on_exemplar(s_val),
+                "kNN": make_rank_on_knn(model_s_vals["kNN"]),
+                #"2NN": make_rank_on_knn(2),
+                #"3NN": make_rank_on_knn(3),
+                #"4NN": make_rank_on_knn(4),
+                #"5NN": make_rank_on_knn(5),
+                "prototype": make_rank_on_prototype(model_s_vals["prototype"]),
+                "progenitor": rank_on_progenitor(emergence_order[0], s=model_s_vals["progenitor"]),
+                "exemplar": make_rank_on_exemplar(model_s_vals["exemplar"]),
                 #"Exemplar (s=0.001)": make_rank_on_exemplar(0.001),
                 #"Exemplar (s=0.1)": make_rank_on_exemplar(0.1),
                 #"Exemplar (s=1)": make_rank_on_exemplar(1),
-                "Local": rank_on_1NN
+                "local": make_rank_on_1NN(model_s_vals["local"])
             }
 
             res = {}
@@ -1047,7 +1129,7 @@ def main(domain: str, field: str, measure: str, cv: bool, shuffle: bool, shuffle
                 models["Null"][scientist_name] = ll_rand
                 print("RANDOM SCORE: ", ll_rand)
 
-            ranking_types = ["global" if name != "Local" else "local" for name in name_to_model]
+            ranking_types = ["global" if name != "local" and name != "local-crp" else "local" for name in models]
 
             if measure == "ll":
                 ll_models, model_order = get_probability_score_multi(emergence_order, all_vecs, name_to_model, ranking_types)
@@ -1146,20 +1228,34 @@ def main(domain: str, field: str, measure: str, cv: bool, shuffle: bool, shuffle
 
 
     elif shuffle and measure == "ll":
-        models["Null"] = {}
+        models = {
+            "kNN": {},
+            "prototype": {},
+            "progenitor": {},
+            "exemplar": {},
+            #"Exemplar (s=1)": {},
+            #"Exemplar (s=0.001)": {},
+            #"Exemplar (s=0.1)": {},
+            "local": {},
+            "Null": {}
+        }
+
+        if "random" in field:
+            vecs_path = f"data/nobel_winners/{field}/sbert-abstracts-ordered"
+            order_path = vecs_path
+
         for s_n in range(num_shuffle):
             if field == "cs":
                 individual_path = "data/turing_winners/pickled-shuffle"
-                out_path = f"results/summary/shuffle-ll/cs/cs-{s_n}.p"
+                out_path = f"results/summary/shuffle-ll-new/cs/cs-{s_n}.p"
                 individual_s_val_path = "data/turing_winners/individual-s-vals"
             else:
                 individual_path = f"data/nobel_winners/{field}/pickled-shuffle"
-                out_path = f"results/summary/shuffle-ll/{field}/{field}-{s_n}.p"
+                out_path = f"results/summary/shuffle-ll-new/{field}/{field}-{s_n}.p"
                 individual_s_val_path = f"data/nobel_winners/{field}/individual-s-vals"
 
-            for i, filename in enumerate(all_filenames): 
-                if filename.endswith(".csv"):
-                    print(filename)
+           
+            for i, filename in enumerate(os.listdir(vecs_path)): 
                 if train_test_split and i in train_inds:
                     continue
                 vecs_filename = os.path.join(vecs_path, filename)
@@ -1167,33 +1263,53 @@ def main(domain: str, field: str, measure: str, cv: bool, shuffle: bool, shuffle
                 all_vecs = get_attested_order(vecs_filename, vecs_col=2, multicols=True)
                 emergence_order = get_emergence_order(order_filename, vecs_col=2, multicols=True)
                 all_vecs, emergence_order = shuffle_emergence_years(all_vecs, emergence_order)
+                scientist_name = filename[:-4]
+                print(scientist_name)
+
+               
+                model_s_vals = {}
+                unreadable = False
                 
-                if use_individual:
-                    scientist_s_val_path = os.path.join(individual_s_val_path, f"{filename[:-4]}.p")
+                for model_name in models:
+                    if model_name == "Null":
+                        continue
+                    #if model_name != "exemplar":
+                    scientist_s_val_path = os.path.join(individual_s_val_path, f"{model_name}/{scientist_name}-{model_name}.p")
+                    #else:
+                        #scientist_s_val_path = os.path.join(individual_s_val_path, f"{model_name}/{scientist_name}.p")
                     if not os.path.exists(scientist_s_val_path):
-                        s_val = field_to_s_val[field]
-                    else:
-                        with open(scientist_s_val_path, "rb") as s_file:
-                            try:
+                        continue
+                    with open(scientist_s_val_path, "rb") as s_file:
+                        try:
+                            if model_name != "kNN":
                                 s_val = float(pickle.load(s_file)["s"])
-                            except:
-                                print("Could not read s-val file")
-                                continue
-                else:
-                    s_val = field_to_s_val[field]
+                            else:
+                                s_val = int(pickle.load(s_file)["s"])
+                            model_s_vals[model_name] = s_val
+                        except:
+                            print("Could not read s-val file")
+                            unreadable = True
+                
+                if unreadable or len(model_s_vals) == 0: 
+                    continue
+                
+                print(model_s_vals)
 
                 name_to_model = {
-                    "1NN": rank_on_1NN,
-                    #"2NN": make_rank_on_knn(2),
-                    #"3NN": make_rank_on_knn(3),
-                    #"4NN": make_rank_on_knn(4),
-                    #"5NN": make_rank_on_knn(5),
-                    "Prototype": rank_on_prototype,
-                    "Progenitor": rank_on_progenitor(emergence_order[0]),
-                    #"Exemplar (s=1)": rank_on_exemplar,
-                    "Exemplar": make_rank_on_exemplar(field_to_s_val[field]),
-                    "Local": rank_on_1NN
+                "kNN": make_rank_on_knn(model_s_vals["kNN"]),
+                #"2NN": make_rank_on_knn(2),
+                #"3NN": make_rank_on_knn(3),
+                #"4NN": make_rank_on_knn(4),
+                #"5NN": make_rank_on_knn(5),
+                "prototype": make_rank_on_prototype(model_s_vals["prototype"]),
+                "progenitor": rank_on_progenitor(emergence_order[0], s=model_s_vals["progenitor"]),
+                "exemplar": make_rank_on_exemplar(model_s_vals["exemplar"]),
+                #"Exemplar (s=0.001)": make_rank_on_exemplar(0.001),
+                #"Exemplar (s=0.1)": make_rank_on_exemplar(0.1),
+                #"Exemplar (s=1)": make_rank_on_exemplar(1),
+                "local": make_rank_on_1NN(model_s_vals["local"])
                 }
+
 
                 res = {}
                 ll_rand = get_probability_rand(emergence_order)
@@ -1251,7 +1367,7 @@ def main(domain: str, field: str, measure: str, cv: bool, shuffle: bool, shuffle
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--type", help="'turing' for turing winners and 'nobel' for others", choices=["turing", "nobel"], required=True)
-    parser.add_argument("--field", help="which field to process (physics/chem/medicine/econ/cogsci", choices=["physics", "chemistry", "medicine", "economics", "cogsci"])
+    parser.add_argument("--field", help="which field to process (physics/chem/medicine/econ/cogsci", choices=["physics", "physics-random", "chemistry", "chemistry-random", "medicine", "medicine-random", "economics", "economics-random", "cs-random"])
     parser.add_argument("--measure", help="use rank-based measure or log-likelihood based measure", choices=["rank", "ll"], required=True)
     parser.add_argument("-c", help="use 5-fold cross-validated inputs or not", action="store_true")
     parser.add_argument("-s", help="shuffle or not", action="store_true")

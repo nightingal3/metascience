@@ -9,6 +9,7 @@ def rank_by_date(in_filename: str, out_filename: str = "../../data/ordered_by_da
         df = read_csv(in_filename, header=None)
         if sort_by_date:
             df = df.sort_values(by=0, ascending=False)
+
         all_years = sorted(df.groupby(df.columns[0]).groups.keys())
         timesteps = {all_years[i]: i for i in range(len(all_years))}
         df = df.replace(timesteps)
@@ -44,5 +45,6 @@ if __name__ == "__main__":
     #     if filename[:-4] in winner_ids:
     #         print(filename)
     # assert False
-    emergence_order_all_in_dir("data/nobel_winners/chemistry/sbert-labels-and-authors/", "data/nobel_winners/chemistry/sbert-labels-and-authors-ordered/", sort_by_date=True)
+    #rank_by_date("data/nobel_winners/physics/einstein/sbert-vecs.csv", "data/nobel_winners/physics/einstein/sbert-vecs-ordered.csv", sort_by_date=True)
+    emergence_order_all_in_dir("data/nobel_winners/physics/sbert-labels-and-authors/", "data/nobel_winners/physics/sbert-labels-and-authors-ordered/", sort_by_date=True)
 

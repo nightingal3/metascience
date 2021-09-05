@@ -1,3 +1,4 @@
+import csv
 import matplotlib.pyplot as plt
 import pickle
 import matplotlib.cm as cm
@@ -8,52 +9,75 @@ import pdb
 import operator
 
 order = OrderedDict({
-    "1NN": 0,
+    "kNN": 0,
     #"2NN": 1,
     #"3NN": 2,
     #"4NN": 3,
     #"5NN": 4, 
-    "Exemplar": 5,
-    "Exemplar (s=0.001)": 6,
-    "Exemplar (s=0.1)": 7,
-    "Exemplar (s=1)": 8,
-    "Exemplar":9,
-    "Progenitor": 10,
-    "Prototype": 11,
+    "exemplar": 5,
+    #"Exemplar (s=0.001)": 6,
+    #"Exemplar (s=0.1)": 7,
     #"Exemplar (s=1)": 8,
-    "Local": 12,
+    #"Exemplar":9,
+    "progenitor": 10,
+    "prototype": 11,
+    #"Exemplar (s=1)": 8,
+    "local": 12,
     "Null": 13
 })
 
 colours = dict(zip(order.keys(), plt.cm.Set3.colors[:len(order)]))
 
-def get_winners(model_dict: dict, p_vals=True, len_included=False, include_null=False) -> dict:
-    del model_dict["Exemplar (s=1)"] # no longer including base exemplar
-    del model_dict["Exemplar (s=0.1)"]
-    del model_dict["Exemplar (s=0.001)"]
-    del model_dict["2NN"]
-    del model_dict["3NN"]
-    del model_dict["4NN"]
-    del model_dict["5NN"]
-    #if not include_null:
-        #del model_dict["Null"]
+def get_winners(model_dict: dict, p_vals=True, len_included=False, include_null=False, dict_format=False) -> dict:
+    if "Exemplar (s=1)" in model_dict:
+        del model_dict["Exemplar (s=1)"] # no longer including base exemplar
+    if "Exemplar (s=0.1)" in model_dict:
+        del model_dict["Exemplar (s=0.1)"]
+    if "Exemplar (s=0.001)" in model_dict:
+        del model_dict["Exemplar (s=0.001)"]
+    if "2NN" in model_dict:
+        del model_dict["2NN"]
+    if "3NN" in model_dict:
+        del model_dict["3NN"]
+    if "4NN" in model_dict:
+        del model_dict["4NN"]
+    if "5NN" in model_dict:
+        del model_dict["5NN"]
+    if not include_null:
+        del model_dict["Null"]
     scientists_to_models = {k: (-float("inf"), None) for k in model_dict[list(model_dict.keys())[0]]}
 
     if len_included:
         for model in model_dict:
             for scientist in model_dict[model]:
-                if p_vals and model_dict[model][scientist][1] * len(scientists_to_models) > 0.05:
-                    continue
-                if p_vals:
-                    val = model_dict[model][scientist][0]
-                else:
-                    if model_dict[model][scientist][1] < 5:
+                if not dict_format:
+                    if p_vals and model_dict[model][scientist][1] * len(scientists_to_models) > 0.05:
                         continue
-                    val = model_dict[model][scientist][0]
-                if val > scientists_to_models[scientist][0]:
-                    scientists_to_models[scientist] = (val, [model])
-                elif val == scientists_to_models[scientist][0]:
-                    scientists_to_models[scientist][1].append(model)
+                    if p_vals:
+                        val = model_dict[model][scientist][0]
+                    else:
+                        if model == "Null":
+                            continue
+                        if model_dict[model][scientist][1] < 5:
+                            if scientist in scientists_to_models:
+                                del scientists_to_models[scientist]
+                            continue
+                        val = model_dict[model][scientist][0]
+                    if val > scientists_to_models[scientist][0]:
+                        scientists_to_models[scientist] = (val, [model])
+                    elif val == scientists_to_models[scientist][0]:
+                        scientists_to_models[scientist][1].append(model)
+                else:
+                    if p_vals and model_dict[model][scientist]["p-val"] > 0.05:
+                        continue
+                    if model_dict[model][scientist]["num_papers"] < 5:
+                        continue
+                    win_ratio = model_dict[model][scientist]["win_ratio"] 
+                    if win_ratio > scientists_to_models[scientist][0]:
+                        scientists_to_models[scientist] = (win_ratio, [model])
+                    if win_ratio == scientists_to_models[scientist][0]:
+                        scientists_to_models[scientist][1].append(model)
+
         if include_null:
             scientists_to_models = {k: v if v[0] > 0 else (0, ["Null"]) for k, v in scientists_to_models.items()}
     else:
@@ -66,6 +90,7 @@ def get_winners(model_dict: dict, p_vals=True, len_included=False, include_null=
                     scientists_to_models[scientist][1].append(model)
         if include_null:
             scientists_to_models = {k: v if v[0] > 0 else (0, ["Null"]) for k, v in scientists_to_models.items()}
+
     return scientists_to_models
 
 def get_pairwise_differences(model_dict: dict, p_vals=True, include_null=True) -> dict:
@@ -129,6 +154,7 @@ def make_pie_chart(scientists_to_models, include_null=True, len_included=False, 
 
     
     num_not_null = len(scientists_to_models)
+    print(num_not_null)
     if not include_null:
         num_not_null = len([v for k, v in scientists_to_models.items() if  v[1] is not None and v[1][0] != "Null"])
 
@@ -150,7 +176,8 @@ def make_pie_chart(scientists_to_models, include_null=True, len_included=False, 
     return percentages
 
 if __name__ == "__main__":
-    models = pickle.load(open("results/cv5/chemistry-4.p", "rb"))
+    models = pickle.load(open("results/summary/full/medicine-crp.p", "rb"))
+    
     # models_2 = pickle.load(open("results/full-2/medicine.p", "rb"))
     # models_3 = pickle.load(open("results/full-2/economics.p", "rb"))
     # models_4 = pickle.load(open("results/full-2/chemistry.p", "rb"))
@@ -163,7 +190,8 @@ if __name__ == "__main__":
     #      models[key].update(models_5[key])
 
     # set len_included=False for authorship analysis
-    percent = make_pie_chart(get_winners(models, p_vals=False, include_null=False, len_included=True), include_null=False, filename="chem-fold-4")
+
+    percent = make_pie_chart(get_winners(models, p_vals=False, include_null=True, len_included=True, dict_format=False), include_null=True, filename="cs-random")
     assert False
     get_pairwise_differences(models, include_null=False)
     #make_pie_chart(models)

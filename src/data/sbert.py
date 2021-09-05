@@ -66,5 +66,5 @@ def make_pubs_vectors_in_dir(dirname: str, out_dir: str, model: SentenceTransfor
 
 if __name__ == "__main__":
     model = SentenceTransformer('bert-base-nli-mean-tokens')
-    #make_pubs_vectors("./data/turing_winners/abstracts/geoff/Geoff-Hinton-cleaned.csv", model, "./data/turing_winners/abstracts/geoff/Geoff-Hinton-sbert.csv", has_abstract=True, abstract_only=True, abs_by_sent=False)
-    make_pubs_vectors_in_dir("./data/nobel_winners/medicine/random-sample/abstracts-cleaned", "./data/nobel_winners/medicine/random-sample/sbert-abstracts", model, has_abstract=True, abstract_only=True, abs_by_sent=False)
+    #make_pubs_vectors("./data/nobel_winners/physics/abstracts-cleaned/Albert Einstein.csv", model, "./data/nobel_winners/physics/einstein/sbert-vecs.csv", has_abstract=True, abstract_only=True, abs_by_sent=False)
+    make_pubs_vectors_in_dir("./data/nobel_winners/medicine/abstracts-cleaned", "./data/nobel_winners/medicine/sbert-abstracts", model, has_abstract=True, abstract_only=True, abs_by_sent=False)

@@ -14,19 +14,20 @@ import statistics
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-c", help="run comparison (across all fields)", action="store_true")
-    parser.add_argument("--field", help="which field to process (physics/chem/medicine/econ/cogsci", choices=["cs", "physics", "chemistry", "medicine", "economics", "cogsci"])
+    parser.add_argument("--field", help="which field to process (physics/chem/medicine/econ/cogsci)", choices=["cs", "physics", "chemistry", "medicine", "economics", "cogsci"])
+    parser.add_argument("--model", help="which model type to optimize", choices=["exemplar", "kNN", "progenitor", "prototype", "local"])
     args = parser.parse_args()
 
-    field, do_comparison = args.field, args.c
+    field, do_comparison, model_type = args.field, args.c, args.model
     fields = ["cs", "physics", "chemistry", "medicine", "economics"]
 
     if do_comparison:
         comparison = []
         for field in fields:
             if field == "cs":
-                s_vals_path = "data/turing_winners/individual-s-vals"
+                s_vals_path = f"data/turing_winners/individual-s-vals-{model_type}/"
             else:
-                s_vals_path = f"data/nobel_winners/{field}/individual-s-vals"
+                s_vals_path = f"data/nobel_winners/{field}/individual-s-vals-{model_type}"
 
             s_vals = []
             for filename in os.listdir(s_vals_path):
@@ -44,9 +45,9 @@ if __name__ == "__main__":
 
     else:
         if field == "cs":
-            s_vals_path = "data/turing_winners/individual-s-vals"
+            s_vals_path = f"data/turing_winners/individual-s-vals-{model_type}"
         else:
-            s_vals_path = f"data/nobel_winners/{field}/individual-s-vals"
+            s_vals_path = f"data/nobel_winners/{field}/individual-s-vals-{model_type}"
 
         s_vals = []
         for filename in os.listdir(s_vals_path):
