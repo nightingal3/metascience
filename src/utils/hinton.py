@@ -14,7 +14,7 @@ Redistributable under the terms of the 3-clause BSD license
 *I have modified this code slightly to adjust the visualization. Credit
 is mainly to original authors.
 """
-
+from math import isnan
 import numpy as np
 import matplotlib.transforms
 import matplotlib.colorbar
@@ -22,6 +22,8 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from matplotlib.colors import Normalize
+
+import pdb
 
 def _blob(x, y, area, colour, val, textcolor="black"):
     """
@@ -35,7 +37,7 @@ def _blob(x, y, area, colour, val, textcolor="black"):
     if val < 0.05:
         plt.text(x - 0.25, y - 0.2, "⁎", fontsize=5, color=textcolor, fontweight="bold")
 
-def hinton(W, scale, xlabels, ylabels, maxscale=None, filename="testing-hinton-diagram.png"):
+def hinton(W, scale, xlabels, ylabels, maxscale=None, minscale=None, filename="testing-hinton-diagram.png", include_scientist_names=True):
     """
     Draws a Hinton diagram for visualizing a weight matrix. 
     Temporarily disables matplotlib interactive mode if it is on, 
@@ -47,8 +49,9 @@ def hinton(W, scale, xlabels, ylabels, maxscale=None, filename="testing-hinton-d
     """
     plt.clf()
     height, width = W.shape
-    if not maxscale:
-        maxscale = 2**np.ceil(np.log(np.max(np.abs(W)))/np.log(2))
+    ylabels = ylabels[::-1]
+    #if not maxscale:
+        #maxscale = 2**np.ceil(np.log(np.max(np.abs(W)))/np.log(2))
         
     plt.fill(np.array([0, width, width, 0]), 
              np.array([0, 0, height, height]),
@@ -74,11 +77,30 @@ def hinton(W, scale, xlabels, ylabels, maxscale=None, filename="testing-hinton-d
     xticks = set()
     yticks = set()
     for x in range(width):
+        col_max = maxscale[x]
+        col_min = minscale[x]
         for y in range(height):
             _x = x+1
             _y = y+1
             w = W[y, x]
             s = scale[y, x]
+            if s <= 0 and col_min < 0:
+                inter_percent = s/col_min
+            elif s >= 0 and col_max > 0:
+                inter_percent = s/col_max
+            elif s >= 0 and col_min > 0:
+                inter_percent = (s - col_min)/(col_max - col_min)
+            elif s <= 0 and col_max < 0:
+                inter_percent = -(s - col_min)/(col_max - col_min)
+            else:
+                inter_percent = 0
+                
+            if isnan(inter_percent):
+                inter_percent = 0
+            
+            #if s == col_max:
+                #w = 0.0
+
             if s  < 0:
                 color = matplotlib.colors.to_hex(cmap(norm_r(w)))
             else:
@@ -88,27 +110,36 @@ def hinton(W, scale, xlabels, ylabels, maxscale=None, filename="testing-hinton-d
             if s > 0:
                 _blob(_x - 0.5,
                       height - _y + 0.5,
-                      min(1, s/maxscale),
+                      max(0.05, inter_percent),
                       "#FFA69E",
                       w,
                        textcolor="#381D2A")
             elif s <= 0:
                 _blob(_x - 0.5,
                       height - _y + 0.5, 
-                      min(1, -s/maxscale), 
+                      max(0.05, inter_percent), 
                       "#7FD1B9",
                       w,
                       textcolor="#381D2A")
-    plt.xticks(list(xticks), xlabels, fontsize=4, rotation='vertical')
+    if include_scientist_names:
+        plt.xticks(list(xticks), xlabels, fontsize=4.75, rotation='vertical')
+    else:
+        plt.xticks([])
     #plt.xlabel(xlabels, labelpad=-1000)
-    dx = 0.; dy = 1.9
+    dx = 0.; dy = 1.63
     offset = matplotlib.transforms.ScaledTranslation(dx, dy, plt.gcf().dpi_scale_trans)
     for label in cur_axes.xaxis.get_majorticklabels():
         label.set_transform(label.get_transform() + offset)
-    plt.yticks(list(yticks), ylabels, fontsize=6)
+
+    plt.yticks(list(yticks), ylabels, fontsize=4)
+
+    dx = 0.25; dy = 0.
+    offset = matplotlib.transforms.ScaledTranslation(dx, dy, plt.gcf().dpi_scale_trans)
+    for label in cur_axes.yaxis.get_majorticklabels():
+        label.set_transform(label.get_transform() + offset)
 
     plt.tight_layout()
-
+    plt.plot()
     plt.savefig(filename + ".png", dpi=1000)
     plt.savefig(filename + ".eps", dpi=1000)
 
