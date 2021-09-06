@@ -1,4 +1,4 @@
-# General Algorithms in the Emergence of Scientific Ideas
+# Chaining algorithms predict the emergence of scientific ideas
 
 To reproduce the figures and analysis in this paper:
 
