@@ -23,7 +23,7 @@ google-auth-oauthlib==0.4.1
 grpcio==1.26.0
 idna==2.9
 jmespath==0.9.5
-joblib==0.14.1
+joblib==1.2.0
 kiwisolver==1.1.0
 Markdown==3.1.1
 matplotlib==3.1.1
